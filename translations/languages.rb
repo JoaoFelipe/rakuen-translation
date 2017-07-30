@@ -96,7 +96,7 @@ if ($DEBUG || $TEST) and (ENV["LOADED_RAKUEN"].nil?)
   # Set the title of the console debug window'
   Win32API.new('kernel32','SetConsoleTitleA','P','S').call("#{title} :  Debug Console")
   # Draw the header, displaying current time.
-  puts ('=' * 75, Time.now, '=' * 75, "\n")
+  puts('=' * 75, Time.now, '=' * 75, "\n")
   # ...
 
   class Game_Map

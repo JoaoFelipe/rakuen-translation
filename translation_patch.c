@@ -27,7 +27,7 @@
 
 #define MIN(x, y) (((x) < (y)) ? (x) : (y))
 
-#ifdef __unix__         
+#if defined(__unix__) || defined(__APPLE__)         
 
 #define OS_SEP_CH '/'
 #define OS_SEP "/"
