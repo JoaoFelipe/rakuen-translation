@@ -26,6 +26,27 @@
 require 'fileutils'
 require 'digest'
 
+def convert(text)
+  #return text.inspect
+  if text.is_a?(Array)
+    joined = text.collect {|x| convert(x)}.join(", ")
+    "[#{joined}]"
+  elsif text.is_a?(String)
+    replaced = (text
+      .gsub(/\\/, '\\\\\\')
+      .gsub(/\n/, '\\\\n')
+      .gsub(/\r/, '\\\\r')
+      .gsub(/\t/, '\\\\t')
+      .gsub(/\f/, '\\\\f')
+      .gsub(/"/, '\\\\"')
+    )
+    "\"#{replaced}\""
+  else
+    text.inspect
+  end
+end
+
+
 class Class
  
   def initializer(params, defaults)
@@ -481,12 +502,12 @@ def process_page(result, page_id, list)
       temp.push("        #{last_index} =>")
       temp.push("          ##{semibar}")
       message_text.split("\n").each do |line|
-        temp.push("          #{(line + "\n").inspect}\\")
+        temp.push("          #{convert(line + "\n")}\\")
       end
       temp[-1][-1] = ","
     elsif command.code == 102
       added = true
-      temp.push("        #{last_index} => #{command.parameters.inspect},")  
+      temp.push("        #{last_index} => #{convert(command.parameters)},")  
     end
   end
   temp.push("      },")
@@ -569,13 +590,13 @@ end
   
 def process_name(result, instance_id, instance)
   return false if instance.nil?
-  result.push("  #{instance_id} => #{instance.name.inspect},")
+  result.push("  #{instance_id} => #{convert(instance.name)},")
   true
 end
 
 def process_name_description(result, instance_id, instance)
   return false if instance.nil?
-  result.push("  #{instance_id} => #{[instance.name, instance.description].inspect},")
+  result.push("  #{instance_id} => #{convert([instance.name, instance.description])},")
   true
 end
 
@@ -672,12 +693,12 @@ def process_system(result, base=".")
     ]
     result.push("$system_words = {")
     words.each do |attr|
-      result.push("  :#{attr} => #{sys.words.send(attr).inspect},")
+      result.push("  :#{attr} => #{convert(sys.words.send(attr))},")
     end
     $singleton_digest << Digest::SHA256.file(fname).hexdigest
     result.push("}")
     result.push("")
-    result.push("$system_elements = #{sys.elements.inspect}")
+    result.push("$system_elements = #{convert(sys.elements)}")
   end
   true
 end

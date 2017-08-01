@@ -48,7 +48,7 @@ It will create a `dec` directory with the decrypted file.
 Then, you will need to [install ruby](https://rubyinstaller.org/) and run:
 ```
 cd translations
-ruby extractor ../dec ../dec
+ruby extractor.rb ../dec ../dec
 ```
 The new lang.rb file will on `Rakuen\\dec\\en\\lang.rb`.
 
