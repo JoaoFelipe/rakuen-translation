@@ -48,7 +48,7 @@ $MOM = {
     "\\ignr\\nm[]\\face[]\\fr\n"\
     "There is no one to talk to right now.",
   1 =>
-    "\\ignr\\nm[Mom]\\face[Mom]\\fr\\n"\
+    "\\ignr\\nm[Mom]\\face[Mom]\\fr\n"\
     "Did you notice the envelope on the floor \n"\
     "in your room? Maybe someone left \n"\
     "you a letter...",
@@ -65,7 +65,7 @@ $MOM = {
 }
 $MOMHINT = {
   1 =>
-    "\\ignr\\nm[Mom]\\face[Mom]\\fr\\n"\
+    "\\ignr\\nm[Mom]\\face[Mom]\\fr\n"\
     "I love you!",
 }
 
