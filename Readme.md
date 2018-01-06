@@ -57,3 +57,14 @@ Unfortunataly, there is no way to update your translation automatically, by now.
 diff ../dec/en/lang.rb en/lang.rb
 ```
 
+## Collaborative translation
+
+It is possible to convert the lang.rb into csv files that can by shared at google drive by running
+```
+python3 lang_to_csv.py translations/<lang>/lang.rb csvfolder -o translations/en/lang.rb
+```
+
+After working on the translation, it is possible to convert back to lang.rb by running
+```
+python3 csv_to_lang.py csvfolder translations/<lang>/lang.rb
+```
