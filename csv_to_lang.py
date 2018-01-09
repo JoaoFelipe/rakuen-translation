@@ -76,13 +76,13 @@ def eventfn(value, indent):
 
 def to_vars(fil, inputp, name, prefix="", desc=""):
     """Write vars to fil"""
-    with open(inputp / (name + ".csv"), "r") as csvf:
+    with open(inputp / (name + ".csv"), "r", encoding="utf-8") as csvf:
         reader = csv.reader(csvf)
         next(reader, None)
         if desc:
             fil.write("# {}\n".format(desc))
         for row in reader:
-            extra = " # {}".format(row[2]) if row[2] else ""
+            extra = " # {}".format(row[2].replace("\n", " ")) if row[2] else ""
             fil.write('{}{} = {}{}\n'.format(
                 prefix, row[0], to_str(row[1], 0), extra)
             )
@@ -90,7 +90,7 @@ def to_vars(fil, inputp, name, prefix="", desc=""):
 
 def to_dict(fil, inputp, name, desc="", keyfn=to_str, valuefn=singleline, default=""):
     """Write dict to fil"""
-    with open(inputp / (name + ".csv"), "r") as csvf:
+    with open(inputp / (name + ".csv"), "r", encoding="utf-8") as csvf:
         reader = csv.reader(csvf)
         next(reader, None)
         if desc:
@@ -99,7 +99,7 @@ def to_dict(fil, inputp, name, desc="", keyfn=to_str, valuefn=singleline, defaul
         written = False
         for row in reader:
             written = True
-            extra = " # {}".format(row[2]) if row[2] else ""
+            extra = " # {}".format(row[2].replace("\n", " ")) if row[2] else ""
             fil.write('  {} =>{},{}\n'.format(
                 keyfn(row[0], 2), valuefn(row[1], 2), extra)
             )
@@ -110,7 +110,7 @@ def to_dict(fil, inputp, name, desc="", keyfn=to_str, valuefn=singleline, defaul
         
 def to_list(fil, inputp, name, desc="", valuefn=to_str, default=""):
     """Write list to fil"""
-    with open(inputp / (name + ".csv"), "r") as csvf:
+    with open(inputp / (name + ".csv"), "r", encoding="utf-8") as csvf:
         reader = csv.reader(csvf)
         next(reader, None)
         if desc:
@@ -119,7 +119,7 @@ def to_list(fil, inputp, name, desc="", valuefn=to_str, default=""):
         written = False
         for row in reader:
             written = True
-            extra = " # {}".format(row[2]) if row[2] else ""
+            extra = " # {}".format(row[2].replace("\n", " ")) if row[2] else ""
             fil.write('  {},{}\n'.format(
                 valuefn(row[1], 2), extra)
             )
@@ -132,7 +132,7 @@ def to_events(fil, inputp):
     """Write events_lang to fil"""
     desc = "Events"
     name = "events_lang"
-    with open(inputp / (name + ".csv"), "r") as csvf:
+    with open(inputp / (name + ".csv"), "r", encoding="utf-8") as csvf:
         reader = csv.reader(csvf)
         next(reader, None)
         events_lang = defaultdict(lambda: defaultdict(lambda: defaultdict(
@@ -145,7 +145,11 @@ def to_events(fil, inputp):
                 index = int(row[4])
                 if clist is None:
                     clist = [""] * index
-                    events_lang[row[0]][row[1]][row[2]][row[3]] = [[clist, int(row[5])], row[6]]
+                    try:
+                        events_lang[row[0]][row[1]][row[2]][row[3]] = [[clist, int(row[5])], row[6]]
+                    except:
+                        print(row)
+                        raise
                 else:
                     clist[index] = row[5]
                     if index == len(clist) - 1:
@@ -170,7 +174,7 @@ def to_events(fil, inputp):
                         to_int(pageid, 6),
                     ))
                     for position, msg in positions.items():
-                        extra = " # {}".format(msg[1]) if msg[1] else ""
+                        extra = " # {}".format(msg[1].replace("\n", " ")) if msg[1] else ""
                         fil.write('        {} =>{},{}\n'.format(
                             to_int(position, 8), eventfn(msg[0], 8), extra
                         ))
@@ -181,7 +185,7 @@ def to_events(fil, inputp):
         
 def to_listdict(fil, inputp, name, desc="", keyfn=to_str, default=""):
     """Write dict of list to fil"""
-    with open(inputp / (name + ".csv"), "r") as csvf:
+    with open(inputp / (name + ".csv"), "r", encoding="utf-8") as csvf:
         reader = csv.reader(csvf)
         next(reader, None)
         result = defaultdict(list)
@@ -196,7 +200,7 @@ def to_listdict(fil, inputp, name, desc="", keyfn=to_str, default=""):
         written = False
         for key, value in result.items():
             written = True
-            comment = [x[1] for x in value]
+            comment = [x[1].replace("\n", " ") for x in value]
             extra = " # {}".format(";".join(comment)) if any(comment) else ""
             fil.write('  {} => {},{}\n'.format(
                 keyfn(key, 2), list_str([x[0] for x in value], 2), extra)
@@ -218,9 +222,11 @@ def main():
     inputp = Path(args.input)
     output = Path(args.output)
     
-    with open(output, "w") as fil:
-        with open(inputp / "header.txt", "r") as inp:
+    with open(output, "w", encoding="utf-8") as fil:
+        with open(inputp / "header.txt", "r", encoding="utf-8") as inp:
             fil.write(inp.read().replace("\n\n", "\n"))
+            fil.write("\n")
+            
         to_vars(fil, inputp, "variables", "", "")
         to_dict(fil, inputp, "override_fonts_lang", "Override font names",
                 default='  # "5yearsoldfont" => "MS PGothic",\n')
