@@ -1,5 +1,8 @@
 # Rakuen Translation System
 
+Download link: https://github.com/JoaoFelipe/rakuen-translation/archive/master.zip
+
+
 This patch adds a translation menu to Rakuen and loads custom translations from a directory.
 
 ## Applying the patch
@@ -20,9 +23,9 @@ If you have already decrypted your Scripts.rxdata, just put these files on your 
 
 #### I don't want to lose my Scripts.rxdata
 
-In this case, put the `translation` folder in you Rakuen directory, and add the following line to the top of the `Main` script, inside RPG Maker:
+In this case, put the `mods` folder in you Rakuen directory, and add the following line to the top of the `Main` script, inside RPG Maker:
 ```ruby
-load "#{Dir.getwd}/translations/languages.rb"
+load "#{Dir.getwd}/mods.rb"
 ```
 
 ## Creating translations
@@ -31,11 +34,11 @@ To create a new translation, just copy the "en" folder and create a new one for 
 
 Please, do not change the version hash on the top of your `lang.rb`. This hash allows you to check if your translation corresponds to the current game version.
 
-For debugging your translation, I suggest setting:
+For debugging your translation, I suggest uncommenting the following line from `mods/translation/init.rb`:
 ```ruby
-$DEBUG = true
+load("#{path}/debug.rb")
 ```
-On your `languages.rb`, but avoid clicking on the middle of the console screen, as it can crash the game.
+Avoid clicking on the middle of the console screen, as it can crash the game.
 
 ## Updating translations
 
@@ -47,14 +50,14 @@ It will create a `dec` directory with the decrypted file.
 
 Then, you will need to [install ruby](https://rubyinstaller.org/) and run:
 ```
-cd translations
+cd tools
 ruby extractor.rb ../dec ../dec
 ```
 The new lang.rb file will on `Rakuen\\dec\\en\\lang.rb`.
 
 Unfortunataly, there is no way to update your translation automatically, by now. Thus, you will have to diff the new `en\\lang.rb` with the original `en\\lang.rb` that you based your translation on, and apply the changes manually in your version:
 ```
-diff ../dec/en/lang.rb en/lang.rb
+diff ../dec/en/lang.rb ../mods/translation/en/lang.rb
 ```
 
 ## Collaborative translation

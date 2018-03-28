@@ -1,0 +1,4 @@
+HappyZcool-2016 font that is used for displaying Chinese text.
+
+Happy-Zcool2016 is a free font taken from:
+http://www.zcool.com.cn/special/happyfont/

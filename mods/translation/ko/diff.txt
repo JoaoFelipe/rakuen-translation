@@ -1,0 +1,47 @@
+Changed: Scene_Menu!
+Changed: Scene_End!
+Changed: Utility [Autosave]!
+Changed: UMS!
+Changed: Scene integrations!
+Changed: Scene_Map!
+Changed: [Mouse Setup]!
+Removed: Dialog system!
+Removed: Sprite_SimpleFade!
+Removed: Morizora's cave map!
+Changed: Steam API!
+Changed: Steam Achievements Base!
+Changed: Steam polling!
+Changed: Steam integration achievements!
+Changed: [Steam configuration]!
+Changed: Main!
+Added: Font override!
+
+
+Changes
+Font override/UMS/Main -> Load Korean fonts instead of 5yearsoldfont.
+Main -> Does not shutdown Steam API
+Scene_End -> Translations (same as we extracted from overrides)
+Scene_Menu-> Translations (same as we extracted from overrides)
+Steam Achievements Base! -> Blank lines
+Steam integration achievements -> Blank lines
+Steam polling -> Blank lines
+SteamAPI -> Blank lines
+Steam configuration -> Blank lines
+Utility [Autosave] -> Blank spaces
+
+[Mouse Setup] -> Change add_goto(201, 8,4, 8,5) to add_goto(201, 8,4, 8,3) # Final Hunt
+
+Scene integrations ->
+ - game_temp.cave_map_calling = true
+ + $game_switches[302] = true
+Scene_Map ->
+ - #<Z>
+ - elsif $game_temp.cave_map_calling
+ -   call_cave_map #</Z>
+Sprite_SimpleFade
+ - cave_map_calling
+ - sprite fading
+Dialog system
+ - Dialog system
+Morizora's cave map
+ -
