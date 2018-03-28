@@ -1,9 +1,0 @@
-Link: https://github.com/JoaoFelipe/rakuen-translation/archive/master.zip
-
-Windows:
-Extract this patch into your rakuen directory and execute:
-translation_patch.exe
-
-Linux:
-Extract this patch into your rakuen directory and execute:
-translation_patch.elf
