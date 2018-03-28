@@ -34,7 +34,7 @@ To create a new translation, just copy the "en" folder and create a new one for 
 
 Please, do not change the version hash on the top of your `lang.rb`. This hash allows you to check if your translation corresponds to the current game version.
 
-For debugging your translation, I suggest uncommenting the following line from `mods/translation/init.rb`:
+For debugging your translation, I suggest uncommenting the following line from `Data/mods/translation/init.rb`:
 ```ruby
 load("#{path}/debug.rb")
 ```
@@ -57,17 +57,17 @@ The new lang.rb file will on `Rakuen\\dec\\en\\lang.rb`.
 
 Unfortunataly, there is no way to update your translation automatically, by now. Thus, you will have to diff the new `en\\lang.rb` with the original `en\\lang.rb` that you based your translation on, and apply the changes manually in your version:
 ```
-diff ../dec/en/lang.rb ../mods/translation/en/lang.rb
+diff ../dec/en/lang.rb ../Data/mods/translation/en/lang.rb
 ```
 
 ## Collaborative translation
 
 It is possible to convert the lang.rb into csv files that can by shared at google drive by running
 ```
-python3 lang_to_csv.py translations/<lang>/lang.rb csvfolder -o translations/en/lang.rb
+python3 lang_to_csv.py Data/mods/translation/<lang>/lang.rb csvfolder -o translations/en/lang.rb
 ```
 
 After working on the translation, it is possible to convert back to lang.rb by running
 ```
-python3 csv_to_lang.py csvfolder translations/<lang>/lang.rb
+python3 csv_to_lang.py csvfolder Data/mods/translation/<lang>/lang.rb
 ```

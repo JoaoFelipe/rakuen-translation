@@ -109,7 +109,7 @@ def main():
     parser = argparse.ArgumentParser(description='Download ptbr translation from Google Drive')
     parser.add_argument('-t', '--temp', type=str, default="temp",
                         help='temporary directory')
-    parser.add_argument('-o', '--output', type=str, default="../mods/translation/ptbr",
+    parser.add_argument('-o', '--output', type=str, default="../Data/mods/translation/ptbr",
                         help='output ptbr directory')
 
     args = parser.parse_args()
