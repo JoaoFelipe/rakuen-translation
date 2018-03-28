@@ -28,8 +28,16 @@ class Translation_System
     "#{$EXE_PATH}/mods/translation"
   end
 
+  def data_path
+    "Data/mods/translation"
+  end
+
   def lang_path
     "#{path}/#{$I18N_LANGUAGE}"
+  end
+
+  def data_lang_path
+    "Data/mods/translation/#{$I18N_LANGUAGE}"
   end
 
   def load_scripts

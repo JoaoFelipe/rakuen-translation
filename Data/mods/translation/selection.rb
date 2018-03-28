@@ -74,7 +74,7 @@ class Scene_TranslationMenu
     # Make sprite set
     # Make title graphic
     @sprite = Sprite.new
-    @sprite.bitmap = Bitmap.new("#{$translation_system.path}/Rakuen.png")
+    @sprite.bitmap = Bitmap.new("#{$translation_system.data_path}/Rakuen")
     # Make command window
     @available = $translation_system.list_lang
     @language = []

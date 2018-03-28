@@ -24,7 +24,7 @@
 # load "#{Dir.getwd}/mods.rb"
 # on top of Data/Scripts.rxdata/Main
 
-$EXE_PATH = Dir.getwd
+$EXE_PATH = "#{Dir.getwd}/Data"
 
 class Mod_System
 

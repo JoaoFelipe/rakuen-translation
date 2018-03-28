@@ -308,11 +308,11 @@ class Bitmap
     if args.size == 1
       result = args[0]
       if args[0] == "Graphics/Pictures/Ending Credits 8"
-        result = "#{$translation_system.path}/Ending Credits 8.png"
+        result = "#{$translation_system.data_path}/Ending Credits 8"
       end
       override = $override_images_lang[args[0]]
       unless override.nil?
-        result = "#{$translation_system.lang_path}/#{override}"
+        result = "#{$translation_system.data_lang_path}/#{override}"
       end
       args[0] = result
     end

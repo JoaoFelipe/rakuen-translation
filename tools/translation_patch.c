@@ -29,6 +29,7 @@
 
 #if defined(__unix__) || defined(__APPLE__)         
 
+#include <ctype.h>
 #define OS_SEP_CH '/'
 #define OS_SEP "/"
 #define OTHER_OS_SEP_CH '\\'
