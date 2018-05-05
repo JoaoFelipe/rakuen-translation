@@ -3378,7 +3378,7 @@ $events_lang = {
           "caixas, e mais lama...\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Doutora]\\face[]\n"\
-          "\\e[22]Uh... PORQUÊ?! \\iNão tenho\n"\
+          "\\e[22]Uh... POR QUÊ?! \\iNão tenho\n"\
           "tempo para isto agora!\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Doutor]\\face[]\n"\
@@ -3628,7 +3628,7 @@ $events_lang = {
           "...\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Tony]\\face[TonySmile]\\fr\n"\
-          "Mas eu costumava a gostar de bolinhos de\n"\
+          "Mas eu costumava gostar de bolinhos de\n"\
           "caranguejo. Com pedaços de caranguejo\n"\
           "de verdade, não aqueles de mentira.\n",
         27 =>
@@ -3692,7 +3692,7 @@ $events_lang = {
           "...\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Tony]\\face[TonySmile]\\fr\n"\
-          "Mas eu costumava a gostar de bolinhos de\n"\
+          "Mas eu costumava gostar de bolinhos de\n"\
           "caranguejo. Com pedaços de caranguejo\n"\
           "de verdade, não aqueles de mentira.\n",
         26 =>
@@ -3929,7 +3929,7 @@ $events_lang = {
           "\\ignr\\nm[Christina]\\face[]\n"\
           "Uau, você fez um ótimo trabalho.\n"\
           "------------------------------------------\n"\
-          "Eu costumava a saber como dobrar algumas\n"\
+          "Eu costumava saber como dobrar algumas\n"\
           "coisas a partir de papel... Mas não me\n"\
           "lembro mais nem um pouco!\n",
         13 =>
@@ -10060,7 +10060,7 @@ $events_lang = {
           "por nós. Ele é o Leeble em pé ao lado\n"\
           "da tenda.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Se ele pudesse fazer um barco\n"\
           "pra você, talvez nós poderíamos\n"\
           "falar com aquele urso, o Tony!\n",
@@ -10072,7 +10072,7 @@ $events_lang = {
           "\\e[3]Uau, você realmente o convenceu\n"\
           "a construir o barco, incrível!\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Meus nabos estão finalmente\n"\
           "a salvo!\n",
       },
@@ -10311,7 +10311,7 @@ $events_lang = {
           "por nós. Ele é o Leeble em pé ao lado\n"\
           "da tenda.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Se ele pudesse fazer um barco\n"\
           "pra você, talvez nós poderíamos\n"\
           "falar com aquele urso, o Tony!\n",
@@ -10319,7 +10319,7 @@ $events_lang = {
       2 => {
         3 =>
           #------------------------------------------
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Alice, devo me pintar\n"\
           "de roxo?\n"\
           "------------------------------------------\n"\
@@ -10327,7 +10327,7 @@ $events_lang = {
           "\\e[3]O que? Não.\n"\
           "Por que?\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Eu só acordei hoje de manhã e\n"\
           "pensei \"eu ficaria bem de roxo.\"\n",
         14 =>
@@ -10337,67 +10337,67 @@ $events_lang = {
         18 =>
           #------------------------------------------
           "\\ignr\\nm[Alice]\\face[]\n"\
-          "\\e[3]Você é muito impulsiva, Reitora.\n"\
+          "\\e[3]Você é muito impulsivo, Dean.\n"\
           "Espere um dia e veja se você ainda\n"\
-          "quer ser roxa amanhã.\n"\
+          "quer ser roxo amanhã.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Ah, está bem...\n"\
           "\n",
         32 =>
           #------------------------------------------
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Alice, ALICE!!!\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Alice]\\face[]\n"\
           "\\e[3]O que foi? Você não precisa\n"\
           "gritar, estou bem aqui.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Desculpe... Tá, eu ouvi dizer que os\n"\
           "fazendeiros Korshal estão vendendo um\n"\
           "Korshal com 3 chifres. 3 CHIFRES!\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Eu vou comprar!\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Alice]\\face[]\n"\
           "\\e[3]Pra que?\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Para eu ter um Korshal\n"\
           "com 3 CHIFRES!\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Alice]\\face[]\n"\
           "\\e[3]Quanto ele custa?\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]1000G.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Alice]\\face[]\n"\
           "\\e[3]Você ao menos tem 1000G?\n"\
           "\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Sim. Eu tenho 1001G.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Alice]\\face[]\n"\
           "\\e[3]Então você vai gastar todas as\n"\
           "suas economias em um Korshal com 3 chifres.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
-          "\\e[7]SIM, ESTOU TÃO ANIMADA!\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
+          "\\e[7]SIM, ESTOU TÃO ANIMADO!\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Alice]\\face[]\n"\
-          "\\e[3]Reitora, você é muito impulsiva!\n"\
+          "\\e[3]Dean, você é muito impulsivo!\n"\
           "Espere um dia, e veja se você ainda\n"\
           "vai querer, está bem?\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Ah, está bem...\n"\
           "\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]\\iEu aposto que ainda vou querer...\n",
       },
     },
@@ -10569,7 +10569,7 @@ $events_lang = {
           "\\ignr\\nm[Alice]\\face[]\n"\
           "\\e[3]O que diabos, Tony!\\w[25]\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Saia da nossa plantação!\\w[25]\n",
         31 =>
           #------------------------------------------
@@ -10586,7 +10586,7 @@ $events_lang = {
           "\\ignr\\nm[Alice]\\face[]\n"\
           "\\e[3]Consegue acreditar nesse Tony?\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Meus pobres nabos...\n",
         91 =>
           #------------------------------------------
@@ -10597,7 +10597,7 @@ $events_lang = {
           "\\e[3]Alguém precisa falar com aquele\n"\
           "urso. Ele tem uma atitude tão ruim.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Essa é a 3ª vez essa semana...\n"\
           "Estou começando a ficar preocupado.\n"\
           "------------------------------------------\n"\
@@ -10606,11 +10606,11 @@ $events_lang = {
           "o Winston ali não nos faz um barco\n"\
           "para ir até a Ilha do Tony.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Ei, vocês são novos\n"\
           "por aqui...\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Talvez o Winston estaria\n"\
           "disposto a ajudar vocês!\n"\
           "------------------------------------------\n"\
@@ -10630,13 +10630,13 @@ $events_lang = {
           "\\e[3]Ele é aquele cara em pé\n"\
           "ali ao lado da tenda.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Por favor, fale com ele por nós!\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]É uma questão de vida ou morte!\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]\\iBom... Vida e morte dos nabos,\n"\
           "de qualquer maneira...\n",
         132 =>
@@ -10645,7 +10645,7 @@ $events_lang = {
           "Tudo bem, tudo bem!\n",
         148 =>
           #------------------------------------------
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Obrigado!!\n",
       },
     },
@@ -11021,7 +11021,7 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Sair a Ilha do Tony?\n",
+          "Sair da Ilha do Tony?\n",
         2 => [["Sim", "Não"], 2],
       },
     },
@@ -11309,21 +11309,21 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Subir o Pé de Feijão?\n",
+          "Descer o Pé de Feijão?\n",
         2 => [["Sim", "Não"], 2],
       },
       1 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Subir o Pé de Feijão?\n",
+          "Descer o Pé de Feijão?\n",
         2 => [["Sim", "Não"], 2],
       },
       2 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Subir o Pé de Feijão?\n",
+          "Descer o Pé de Feijão?\n",
         2 => [["Sim", "Não"], 2],
       },
     },
@@ -14267,28 +14267,28 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Subir o Pé de Feijão?\n",
+          "Descer o Pé de Feijão?\n",
         2 => [["Sim", "Não"], 2],
       },
       1 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Subir o Pé de Feijão?\n",
+          "Descer o Pé de Feijão?\n",
         2 => [["Sim", "Não"], 2],
       },
       2 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Subir o Pé de Feijão?\n",
+          "Descer o Pé de Feijão?\n",
         2 => [["Sim", "Não"], 2],
       },
       3 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Subir o Pé de Feijão?\n",
+          "Descer o Pé de Feijão?\n",
         2 => [["Sim", "Não"], 2],
       },
     },
@@ -19476,7 +19476,7 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[Ferreiro Jacky]\\face[Blacksmith]\\fr\n"\
-          "Esppeeere!!!\n",
+          "Esppeeerem!!!\n",
         33 =>
           #------------------------------------------
           "\\ignr\\nm[Ferreiro Jacky]\\face[Blacksmith]\\fr\n"\
@@ -21938,9 +21938,9 @@ $events_lang = {
         2 =>
           #------------------------------------------
           "\\ignr\\nm[Criança Golem]\\face[]\n"\
-          "Se o Irmãozão se esquece de comer, ele fica\n"\
-          "tão cansado que só fica sentado e espera\n"\
-          "alguém trazer comida.\n",
+          "Quando o Irmãozão se esquece de comer, ele\n"\
+          "fica tão cansado que só consegue ficar sentado,\n"\
+          "esperando alguém trazer comida.\n",
         9 =>
           #------------------------------------------
           "\\ignr\\nm[Criança Golem]\\face[]\n"\
@@ -23060,8 +23060,9 @@ $events_lang = {
         33 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Um dia, o Garoto voltou para casa de uma caçada\n"\
-          "e descobriu que todo mundo em sua tribo...\\w[80]\n",
+          "Um dia, o Garoto voltou para casa de\n"\
+          "uma caçada e descobriu que todo\n"\
+          "mundo em sua tribo...\\w[80]\n",
         38 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
@@ -23091,8 +23092,8 @@ $events_lang = {
           "\\ignr\\nm[]\\face[]\n"\
           "Assim, o Garoto partiu em uma grande jornada.\\w[30]\n"\
           "------------------------------------------\n"\
-          "Ele batalhou espíritos malignos... Visitou muitas\n"\
-          "terras...\\w[30]\n",
+          "Ele lutou contra espíritos malignos...\n"\
+          "Visitou muitas terras...\\w[30]\n",
         64 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
@@ -23101,14 +23102,14 @@ $events_lang = {
         69 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "E finalmente, Morizora concedeu ao Garoto\n"\
-          "seu desejo:\\w[40]\n"\
+          "E finalmente, Morizora concedeu ao\n"\
+          "Garoto seu desejo:\\w[40]\n"\
           "------------------------------------------\n"\
           "Um passeio em seu barco mágico.\\w[40]\n"\
           "------------------------------------------\n"\
-          "O Garoto agora era capaz de navegar, finalmente\n"\
-          "se reunindo a sua tribo e a todos aqueles que\n"\
-          "ele amava...\\w[40]\n"\
+          "O Garoto agora era capaz de navegar,\n"\
+          "finalmente se reunindo a sua tribo e a\n"\
+          "todos aqueles que ele amava...\\w[40]\n"\
           "------------------------------------------\n"\
           "No belo mundo...\\w[10]\n",
         79 =>
@@ -25571,7 +25572,7 @@ $events_lang = {
           "------------------------------------------\n"\
           "\\ignr\\nm[Bonnie]\\face[]\n"\
           "Por que você não volta e termina\n"\
-          "sua janta.\n"\
+          "sua janta?\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Christina]\\face[ChristySad]\\fr\n"\
           "Tá bom, Mãe.\n",
@@ -34973,7 +34974,7 @@ $events_lang = {
       0 => {
         6 =>
           #------------------------------------------
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]Alice, Alice, você quer\n"\
           "saber o que eu comi hoje à\n"\
           "noite??\n"\
@@ -34982,7 +34983,7 @@ $events_lang = {
           "\\e[23]Por favor, me diz que você\n"\
           "não vai passar mal mais tarde...\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]Eu comi uma bomba, uma torta\n"\
           "de frutas com chantilly, um sanduíche,\n"\
           "outro sanduíche, uma torta, uma---\n"\
@@ -34991,7 +34992,7 @@ $events_lang = {
           "\\e[23]Eu pensei que você disse\n"\
           "que iria se acalmar!\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]Espera, \"se acalmar\" não\n"\
           "significa comer até doer o\n"\
           "estômago?\n"\
@@ -34999,7 +35000,7 @@ $events_lang = {
           "\\ignr\\nm[Alice]\\face[]\n"\
           "\\e[23]Ai meu Deus, não!\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]Ah, então não, eu não\n"\
           "vou me acalmar.\n"\
           "------------------------------------------\n"\
@@ -35008,27 +35009,26 @@ $events_lang = {
         34 =>
           #------------------------------------------
           "\\ignr\\nm[Alice]\\face[]\n"\
-          "\\e[23]Então Reitora, me conte sobre\n"\
+          "\\e[23]Então Dean, me conte sobre\n"\
           "o trabalho hoje.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]Bem, o trabalho foi bem\n"\
           "bom, eu tive que---\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]OOH OLHA ALICE É UMA TORTA!\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Alice]\\face[]\n"\
           "\\e[23]Sim, tem Torta de Sila ali.\n"\
-          "Você já comeu um,\n"\
-          "lembra?\n"\
+          "Você já comeu, lembra?\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]Uh, desculpa... Ok, então no\n"\
           "trabalho hoje, eu estava ajudando a\n"\
           "consertar---\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]OLHA TEM UM\n"\
           "VAGA-LUME!!!\n"\
           "------------------------------------------\n"\
@@ -35037,12 +35037,12 @@ $events_lang = {
           "Continue... Você tava contando\n"\
           "do trabalho...\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]Minha nossa, desculpas! Ok, então\n"\
           "eu tava ajudando um cliente hoje no\n"\
           "trabalho e---\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]ALICE VOCÊ TEM\n"\
           "ORELHAS!\n"\
           "------------------------------------------\n"\
@@ -35056,7 +35056,7 @@ $events_lang = {
       0 => {
         3 =>
           #------------------------------------------
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]Alice, Alice, você quer\n"\
           "saber o que eu comi hoje à\n"\
           "noite??\n"\
@@ -35065,7 +35065,7 @@ $events_lang = {
           "\\e[23]Por favor, me diz que você\n"\
           "não vai passar mal mais tarde...\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]Eu comi uma bomba, uma torta\n"\
           "de frutas com chantilly, um sanduíche,\n"\
           "outro sanduíche, uma torta, uma---\n"\
@@ -35074,7 +35074,7 @@ $events_lang = {
           "\\e[23]Eu pensei que você disse\n"\
           "que iria se acalmar!\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]Espera, \"se acalmar\" não\n"\
           "significa comer até doer o\n"\
           "estômago?\n"\
@@ -35082,7 +35082,7 @@ $events_lang = {
           "\\ignr\\nm[Alice]\\face[]\n"\
           "\\e[23]Ai meu Deus, não!\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]Ah, então não, eu não\n"\
           "vou me acalmar.\n"\
           "------------------------------------------\n"\
@@ -35091,26 +35091,26 @@ $events_lang = {
         31 =>
           #------------------------------------------
           "\\ignr\\nm[Alice]\\face[]\n"\
-          "\\e[23]Então Reitora, me conte sobre\n"\
+          "\\e[23]Então Dean, me conte sobre\n"\
           "o trabalho hoje.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
-          "\\e[24]Bem, o trabalho for bem\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
+          "\\e[24]Bem, o trabalho foi bem\n"\
           "bom, eu tive que---\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]OOH OLHA ALICE É UMA TORTA!\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Alice]\\face[]\n"\
           "\\e[23]Sim, tem Torta de Sila ali.\n"\
           "Você já comeu, lembra?\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]Uh, desculpa... Ok, então no\n"\
           "trabalho hoje, eu estava ajudando a\n"\
           "consertar---\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]OLHA TEM UM\n"\
           "VAGA-LUME!!!\n"\
           "------------------------------------------\n"\
@@ -35119,12 +35119,12 @@ $events_lang = {
           "Continue... Você tava contando\n"\
           "do trabalho...\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]Minha nossa, desculpas! Ok, então\n"\
           "eu tava ajudando um cliente hoje no\n"\
           "trabalho e---\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]ALICE VOCÊ TEM\n"\
           "ORELHAS!\n"\
           "------------------------------------------\n"\
@@ -40413,7 +40413,7 @@ $events_lang = {
           #------------------------------------------
           "\\ignr\\nm[Joe]\\face[]\n"\
           "Amo tartarugas! Amo \\btodos\\b os animais, na\n"\
-          "verdade. Muito mais do que gente como Reitora\n"\
+          "verdade. Muito mais do que gente como Dean\n"\
           "ou Poku.\n",
       },
     },
@@ -40604,21 +40604,21 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Subir o Pé de Feijão?\n",
+          "Descer o Pé de Feijão?\n",
         2 => [["Sim", "Não"], 2],
       },
       1 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Subir o Pé de Feijão?\n",
+          "Descer o Pé de Feijão?\n",
         2 => [["Sim", "Não"], 2],
       },
       2 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Subir o Pé de Feijão?\n",
+          "Descer o Pé de Feijão?\n",
         2 => [["Sim", "Não"], 2],
       },
     },
