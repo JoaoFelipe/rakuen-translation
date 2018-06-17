@@ -3,8 +3,12 @@
 # Authors:
 #   Ricardo Fernandes de Souza (xTerminatus)
 #   João Felipe Pimentel (unneon)
-#   Benjamin Stauffer
+#   Benjamin Stauffer (kcowolf)
 #   Juliana Cardoso (Starlight)
+# Revisors:
+#   Mariana Ribeiro (Zexia)
+
+
 
 
 class Translation_System
@@ -92,7 +96,7 @@ $lyrics_config = {
 
     [175.6, 183.3, 320, 130, "Você me seguraria firme para que eu nunca fique com medo"],
     [183.3, 190.9, 320, 130, "Enquanto o céu desaba em nós agora"],
-    [190.9, 198.6, 320, 130, "Se você me dizer que tudo vai ficar bem"],
+    [190.9, 198.6, 320, 130, "Se você me disser que tudo vai ficar bem"],
     [198.6, 203.3, 320, 130, "Eu acreditarei em você, você não precisa me dizer como"],
 
 
@@ -194,7 +198,7 @@ $save_lang = "Em que arquivo você deseja salvar?"
 $load_lang = "Qual arquivo você deseja carregar?"
 $time_lang = "Tempo de Jogo"
 $file_lang = "Arquivo%s"
-$autosave_lang = "Salvo Automático"
+$autosave_lang = "Salvo Automaticamente"
 
 $end_lang = [
   "Para o Menu",
@@ -378,9 +382,9 @@ $events_lang = {
         77 =>
           #------------------------------------------
           "\\ignr\\nm[Mãe]\\face[Mom]\\fr\n"\
-          "Sei que você acha matemática chata, mas\n"\
+          "Sei que você acha matemática chato, mas\n"\
           "se pensar nos problemas como\n"\
-          "desafios, fica mais divertida.\n"\
+          "desafios, fica mais divertido.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Mãe]\\face[Mom]\\fr\n"\
           "Quando eu era menina, eu fazia isso e\n"\
@@ -865,7 +869,7 @@ $events_lang = {
           #------------------------------------------
           "\\ignr\\nm[Mãe]\\face[Mom]\\fr\n"\
           "É tão legal poder ir de verdade em um festival\n"\
-          "Leeble da \"Noite Estrelada\" \\ireal\\i\n"\
+          "Leeble \\ireal\\i da \"Noite Estrelada\"!\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Mãe]\\face[Mom]\\fr\n"\
           "Deveríamos ver se tem alguém que precisamos\n"\
@@ -927,7 +931,7 @@ $events_lang = {
           "------------------------------------------\n"\
           "\\ignr\\nm[Jacky]\\face[JackyStern]\\fr\n"\
           "Até agora, apenas as famílias do Ornitorrinco e\n"\
-          "do Equidna se juntaram a turma dos ovíparos.\n"\
+          "da Equidna se juntaram a turma dos ovíparos.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Jacky]\\face[JackyNerdMode]\\fr\n"\
           "Por que será? Se eu pudesse botar ovos,\n"\
@@ -1014,7 +1018,7 @@ $events_lang = {
           #------------------------------------------
           "\\ignr\\nm[Jacky]\\face[JackyStern]\\fr\n"\
           "Eu conheci o Kisaburo muito antes\n"\
-          "de sua mente começar a desaparecer...\n"\
+          "de seu juízo começar a desaparecer...\n"\
           "Conversávamos sempre.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Jacky]\\face[JackySad]\\fr\n"\
@@ -1092,7 +1096,7 @@ $events_lang = {
           "------------------------------------------\n"\
           "\\ignr\\nm[Jacky]\\face[JackyStern]\\fr\n"\
           "Até agora, apenas as famílias do Ornitorrinco e\n"\
-          "do Equidna se juntaram a turma dos ovíparos.\n"\
+          "da Equidna se juntaram a turma dos ovíparos.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Jacky]\\face[JackyNerdMode]\\fr\n"\
           "Por que será? Se eu pudesse botar ovos,\n"\
@@ -1257,7 +1261,7 @@ $events_lang = {
           "------------------------------------------\n"\
           "Meu nome é Cora. Provavelmente é bem fácil\n"\
           "de lembrar já que eu sou a única garota da\n"\
-          "minha idade com cabelo espetado e rosa!\n"\
+          "minha idade com moicano rosa!\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Garoto]\\face[BoyHappy1]\\fr\n"\
           "Nossa, legal!\n"\
@@ -1291,7 +1295,7 @@ $events_lang = {
           "Ok!\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Cora]\\face[CoraConfused]\\fr\n"\
-          "Sei que muitas pessoas se sentem sem poder\n"\
+          "Sei que muitas pessoas se sentem impotentes\n"\
           "quando elas têm de ficar aqui...\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Cora]\\face[CoraTalk]\\fr\n"\
@@ -1427,7 +1431,7 @@ $events_lang = {
         7 =>
           #------------------------------------------
           "\\i\"O Café Quente será reabastecido assim que\n"\
-          "nosso carregamento chegar!\" ~Líder do Turno\n",
+          "nosso carregamento chegar!\" ~Chefe do Turno\n",
         12 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
@@ -1501,7 +1505,7 @@ $events_lang = {
           "Formulários de Entrada do Hospital A-F\n",
         7 =>
           #------------------------------------------
-          "\\ignr\\nm[Líder do Turno]\\face[]\n"\
+          "\\ignr\\nm[Chefe do Turno]\\face[]\n"\
           "\\e[16]Ei, não encoste nisso! Não consegue\n"\
           "ver que estou trabalhando aqui?\n",
       },
@@ -1510,12 +1514,12 @@ $events_lang = {
       0 => {
         1 =>
           #------------------------------------------
-          "\\ignr\\nm[Doutor]\\face[]\n"\
+          "\\ignr\\nm[Doutora]\\face[]\n"\
           "Mas que surpresa, parece que você recuperou\n"\
           "um pouco de suas energias!\n",
         7 =>
           #------------------------------------------
-          "\\ignr\\nm[Doutor]\\face[]\n"\
+          "\\ignr\\nm[Doutora]\\face[]\n"\
           "Apesar de você estar se sentindo melhor, fique\n"\
           "atento para não se cansar muito correndo por\n"\
           "todos os lados.\n",
@@ -1523,7 +1527,7 @@ $events_lang = {
       1 => {
         0 =>
           #------------------------------------------
-          "\\ignr\\nm[Doutor]\\face[]\n"\
+          "\\ignr\\nm[Doutora]\\face[]\n"\
           "Fiquei sabendo que você teve um dia bem\n"\
           "cheio hoje. Aguente firme, tudo bem?\n"\
           "Você está se saindo muito bem.\n",
@@ -1533,7 +1537,7 @@ $events_lang = {
       0 => {
         1 =>
           #------------------------------------------
-          "\\ignr\\nm[Líder do Turno]\\face[]\n"\
+          "\\ignr\\nm[Chefe do Turno]\\face[]\n"\
           "Pare de me perturbar, garoto. Eu estou cheia\n"\
           "de coisas para fazer agora.\n"\
           "------------------------------------------\n"\
@@ -1542,7 +1546,7 @@ $events_lang = {
         6 => [["Oferecer uma Barra de Amendoim", "Ir Embora"], 2],
         9 =>
           #------------------------------------------
-          "\\ignr\\nm[Líder do Turno]\\face[]\n"\
+          "\\ignr\\nm[Chefe do Turno]\\face[]\n"\
           "Espera... Você está \\idando \\iisto para mim?\n"\
           "------------------------------------------\n"\
           "Nossa... Muito obrigada. Não tenho comido\n"\
@@ -1552,11 +1556,11 @@ $events_lang = {
           "eu der uma pausa rapidinho.\n",
         42 =>
           #------------------------------------------
-          "\\ignr\\nm[Líder do Turno]\\face[]\n"\
+          "\\ignr\\nm[Chefe do Turno]\\face[]\n"\
           "Pare de me perturbar, garoto. Eu estou cheia\n"\
           "de coisas para fazer agora.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Líder do Turno]\\face[]\n"\
+          "\\ignr\\nm[Chefe do Turno]\\face[]\n"\
           "\\iE meu estômago está rosnando! O que\n"\
           "eu não daria por uma Barra de Amendoim!\n",
       },
@@ -1575,7 +1579,7 @@ $events_lang = {
         7 =>
           #------------------------------------------
           "\\i\"O Café Quente será reabastecido assim que\n"\
-          "nosso carregamento chegar!\" ~Líder do Turno\n",
+          "nosso carregamento chegar!\" ~Chefe do Turno\n",
         12 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
@@ -1663,7 +1667,7 @@ $events_lang = {
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
           "A porta está trancada.\n",
-        7 => [["Olhar para a placa", "Olhar para a maçaneta", "Deixar pra lá"], 3],
+        7 => [["Olhar a placa", "Olhar a maçaneta", "Deixar pra lá"], 3],
         9 =>
           #------------------------------------------
           "NÃO ENTRE: Apenas funcionários autorizados\n"\
@@ -1922,7 +1926,7 @@ $events_lang = {
         3 => [["Sim", "Não"], 2],
         5 =>
           #------------------------------------------
-          "\\i*Heróis Capa de Toalha*\n"\
+          "\\i*Heróis da Capa de Toalha*\n"\
           "Um grupo de felizes e gentis voluntários e\n"\
           "pacientes trabalhando juntos para fazer do\n"\
           "hospital um lugar melhor para todos!\n",
@@ -2007,160 +2011,160 @@ $events_lang = {
         2 =>
           #------------------------------------------
           "\\ignr\\nm[Recepcionista]\\face[]\n"\
-          "\\e[16]Aparentemente, o banheiro no\n"\
+          "\\e[16]Aparentemente, o banheiro do\n"\
           "quarto da Sue está quebrado agora.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Recepcionista]\\face[]\n"\
           "\\e[16]Será que você poderia\n"\
           "fazer algo a respeito?\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Enfermeira]\\face[]\n"\
-          "\\e[44]Eu sou uma enfermeira, não um encanador.\n"\
+          "\\ignr\\nm[Enfermeiro]\\face[]\n"\
+          "\\e[44]Eu sou um enfermeiro, não um encanador.\n"\
           "Eu sequer sei COMO arrumar uma privada.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Recepcionista]\\face[]\n"\
           "\\e[16]Bem, \\ialguém \\item que\n"\
-          "tomar conta disto!\n"\
+          "resolver isto!\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Enfermeira]\\face[]\n"\
+          "\\ignr\\nm[Enfermeiro]\\face[]\n"\
           "\\e[44]Tá bom. Vou ver se consigo achar\n"\
-          "alguns suprimentos.\n",
+          "alguns materiais.\n",
       },
     },
     45 => {
       0 => {
         6 =>
           #------------------------------------------
-          "\\ignr\\nm[Enfermeira]\\face[]\n"\
-          "\\e[44]Você me ligou?\n"\
+          "\\ignr\\nm[Enfermeiro]\\face[]\n"\
+          "\\e[44]Você me chamou?\n"\
           "\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Líder do Turno]\\face[]\n"\
+          "\\ignr\\nm[Chefe do Turno]\\face[]\n"\
           "\\e[16]Sim.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Líder do Turno]\\face[]\n"\
-          "\\e[16]Aparentemente, o banheiro no\n"\
+          "\\ignr\\nm[Chefe do Turno]\\face[]\n"\
+          "\\e[16]Aparentemente, o banheiro do\n"\
           "quarto da Sue está quebrado agora.\n"\
           "------------------------------------------\n"\
           "\\e[16]Será que você poderia\n"\
           "fazer algo a respeito?\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Enfermeira]\\face[]\n"\
-          "\\e[44]Eu sou uma enfermeira, não um encanador.\n"\
+          "\\ignr\\nm[Enfermeiro]\\face[]\n"\
+          "\\e[44]Eu sou um enfermeiro, não um encanador.\n"\
           "Eu sequer sei COMO arrumar uma privada.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Líder do Turno]\\face[]\n"\
+          "\\ignr\\nm[Chefe do Turno]\\face[]\n"\
           "\\e[16]Bem, \\ialguém \\item que\n"\
-          "tomar conta disto!\n"\
+          "resolver isto!\n"\
           "------------------------------------------\n"\
           "\\e[16]Você sabe que estamos\n"\
           "com poucos funcionários.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Enfermeira]\\face[]\n"\
+          "\\ignr\\nm[Enfermeiro]\\face[]\n"\
           "\\e[44]Tá bom. Vou ver se consigo achar\n"\
-          "alguns suprimentos.\n",
+          "alguns materiais.\n",
       },
     },
     46 => {
       0 => {
         6 =>
           #------------------------------------------
-          "\\ignr\\nm[Enfermeira]\\face[]\n"\
-          "\\e[44]Você me ligou?\n"\
+          "\\ignr\\nm[Enfermeiro]\\face[]\n"\
+          "\\e[44]Você me chamou?\n"\
           "\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Líder do Turno]\\face[]\n"\
+          "\\ignr\\nm[Chefe do Turno]\\face[]\n"\
           "\\e[16]Sim.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Líder do Turno]\\face[]\n"\
-          "\\e[16]Aparentemente, o banheiro no\n"\
+          "\\ignr\\nm[Chefe do Turno]\\face[]\n"\
+          "\\e[16]Aparentemente, o banheiro do\n"\
           "quarto da Sue está quebrado agora.\n"\
           "------------------------------------------\n"\
           "\\e[16]Será que você poderia\n"\
           "fazer algo a respeito?\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Enfermeira]\\face[]\n"\
-          "\\e[44]Eu sou uma enfermeira, não um encanador.\n"\
+          "\\ignr\\nm[Enfermeiro]\\face[]\n"\
+          "\\e[44]Eu sou um enfermeiro, não um encanador.\n"\
           "Eu sequer sei COMO arrumar uma privada.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Líder do Turno]\\face[]\n"\
+          "\\ignr\\nm[Chefe do Turno]\\face[]\n"\
           "\\e[16]Bem, \\ialguém \\item que\n"\
-          "tomar conta disto!\n"\
+          "resolver isto!\n"\
           "------------------------------------------\n"\
           "\\e[16]Você sabe que estamos\n"\
           "com poucos funcionários.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Enfermeira]\\face[]\n"\
+          "\\ignr\\nm[Enfermeiro]\\face[]\n"\
           "\\e[44]Tá bom. Vou ver se consigo achar\n"\
-          "alguns suprimentos.\n",
+          "alguns materiais.\n",
       },
     },
     47 => {
       0 => {
         8 =>
           #------------------------------------------
-          "\\ignr\\nm[Enfermeira]\\face[]\n"\
-          "\\e[44]Você me ligou?\n"\
+          "\\ignr\\nm[Enfermeiro]\\face[]\n"\
+          "\\e[44]Você me chamou?\n"\
           "\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Líder do Turno]\\face[]\n"\
+          "\\ignr\\nm[Chefe do Turno]\\face[]\n"\
           "\\e[16]Sim.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Líder do Turno]\\face[]\n"\
-          "\\e[16]Aparentemente, o banheiro no\n"\
+          "\\ignr\\nm[Chefe do Turno]\\face[]\n"\
+          "\\e[16]Aparentemente, o banheiro do\n"\
           "quarto da Sue está quebrado agora.\n"\
           "------------------------------------------\n"\
           "\\e[16]Será que você poderia\n"\
           "fazer algo a respeito?\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Enfermeira]\\face[]\n"\
-          "\\e[44]Eu sou uma enfermeira, não um encanador.\n"\
+          "\\ignr\\nm[Enfermeiro]\\face[]\n"\
+          "\\e[44]Eu sou um enfermeiro, não um encanador.\n"\
           "Eu sequer sei COMO arrumar uma privada.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Líder do Turno]\\face[]\n"\
+          "\\ignr\\nm[Chefe do Turno]\\face[]\n"\
           "\\e[16]Bem, \\ialguém \\item que\n"\
-          "tomar conta disto!\n"\
+          "resolver isto!\n"\
           "------------------------------------------\n"\
           "\\e[16]Você sabe que estamos\n"\
           "com poucos funcionários.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Enfermeira]\\face[]\n"\
+          "\\ignr\\nm[Enfermeiro]\\face[]\n"\
           "\\e[44]Tá bom. Vou ver se consigo achar\n"\
-          "alguns suprimentos.\n",
+          "alguns materiais.\n",
       },
     },
     48 => {
       0 => {
         8 =>
           #------------------------------------------
-          "\\ignr\\nm[Enfermeira]\\face[]\n"\
-          "\\e[44]Você me ligou?\n"\
+          "\\ignr\\nm[Enfermeiro]\\face[]\n"\
+          "\\e[44]Você me chamou?\n"\
           "\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Líder do Turno]\\face[]\n"\
+          "\\ignr\\nm[Chefe do Turno]\\face[]\n"\
           "\\e[16]Sim.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Líder do Turno]\\face[]\n"\
-          "\\e[16]Aparentemente, o banheiro no\n"\
+          "\\ignr\\nm[Chefe do Turno]\\face[]\n"\
+          "\\e[16]Aparentemente, o banheiro do\n"\
           "quarto da Sue está quebrado agora.\n"\
           "------------------------------------------\n"\
           "\\e[16]Será que você poderia\n"\
           "fazer algo a respeito?\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Enfermeira]\\face[]\n"\
-          "\\e[44]Eu sou uma enfermeira, não um encanador.\n"\
+          "\\ignr\\nm[Enfermeiro]\\face[]\n"\
+          "\\e[44]Eu sou um enfermeiro, não um encanador.\n"\
           "Eu sequer sei COMO arrumar uma privada.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Líder do Turno]\\face[]\n"\
+          "\\ignr\\nm[Chefe do Turno]\\face[]\n"\
           "\\e[16]Bem, \\ialguém \\item que\n"\
-          "tomar conta disto!\n"\
+          "resolver isto!\n"\
           "------------------------------------------\n"\
           "\\e[16]Você sabe que estamos\n"\
           "com poucos funcionários.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Enfermeira]\\face[]\n"\
+          "\\ignr\\nm[Enfermeiro]\\face[]\n"\
           "\\e[44]Tá bom. Vou ver se consigo achar\n"\
-          "alguns suprimentos.\n",
+          "alguns materiais.\n",
       },
     },
     51 => {
@@ -2280,7 +2284,7 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[Doutora]\\face[DoctorWorried]\\fr\n"\
-          "Tem sido um longo dia, em?\n"\
+          "Tem sido um longo dia, hein?\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Doutora]\\face[Doctor]\\fr\n"\
           "Vou ao seu quarto mais tarde para verificar\n"\
@@ -2370,7 +2374,7 @@ $events_lang = {
           #------------------------------------------
           "\\ignr\\nm[Tan]\\face[]\n"\
           "Obrigado mesmo assim! Minha nossa, eu estou\n"\
-          "cansada... Tenho que comer um pouco de cereal\n"\
+          "cansado... Tenho que comer um pouco de cereal\n"\
           "para recuperar minhas energias!\n",
       },
     },
@@ -2496,7 +2500,7 @@ $events_lang = {
           "E se você puder disponibilizar alguns lençóis\n"\
           "extras, isto seria muito bem apreciado...\n"\
           "------------------------------------------\n"\
-          "Sei que taparam o buraco do muro\n"\
+          "Sei que taparam o buraco da parede\n"\
           "do banheiro, mas ainda há um vento\n"\
           "gelado passando através dele.\n"\
           "------------------------------------------\n"\
@@ -2516,7 +2520,7 @@ $events_lang = {
       1 => {
         1 =>
           #------------------------------------------
-          "\\ignr\\nm[Enfermeira]\\face[]\n"\
+          "\\ignr\\nm[Enfermeiro]\\face[]\n"\
           "Eu estava no quarto do Tony mais cedo, e\n"\
           "ele me pareceu \\idiferente.\n"\
           "------------------------------------------\n"\
@@ -2525,7 +2529,7 @@ $events_lang = {
           "...Feliz.\n",
         9 =>
           #------------------------------------------
-          "\\ignr\\nm[Enfermeira]\\face[]\n"\
+          "\\ignr\\nm[Enfermeiro]\\face[]\n"\
           "Sabia que estavam pensando em transformar\n"\
           "a sala ao oeste da lanchonete em uma sala de\n"\
           "atividades e descanso para os pacientes?\n"\
@@ -2562,7 +2566,7 @@ $events_lang = {
           "------------------------------------------\n"\
           "Meu nome é Cora. Provavelmente é bem fácil\n"\
           "de lembrar já que eu sou a única garota da\n"\
-          "minha idade com cabelo espetado e rosa!\n"\
+          "minha idade com moicano rosa!\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Garoto]\\face[BoyHappy1]\\fr\n"\
           "Nossa, legal!\n"\
@@ -2585,8 +2589,8 @@ $events_lang = {
           "do nosso andar aqui no hospital!\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Cora]\\face[CoraGrin]\\fr\n"\
-          "Nós nos chamamos de: os \\iHeróis Capa de\n"\
-          "Toalha\\i... E estamos em uma missão!\n"\
+          "Nós nos chamamos de: os \\iHeróis da Capa\n"\
+          "de Toalha\\i... E estamos em uma missão!\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Garoto]\\face[Boy]\\fr\n"\
           "Uma missão?\n"\
@@ -2626,7 +2630,7 @@ $events_lang = {
         58 =>
           #------------------------------------------
           "\\ignr\\nm[Cora]\\face[CoraConfused]\\fr\n"\
-          "Sei que muitas pessoas se sentem sem poder\n"\
+          "Sei que muitas pessoas se sentem impotentes\n"\
           "quando elas têm de ficar aqui...\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Cora]\\face[CoraTalk]\\fr\n"\
@@ -2667,8 +2671,8 @@ $events_lang = {
           "do nosso andar aqui no hospital!\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Cora]\\face[CoraGrin]\\fr\n"\
-          "Nós nos chamamos de: os \\iHeróis Capa de\n"\
-          "Toalha\\i... E estamos em uma missão!\n"\
+          "Nós nos chamamos de: os \\iHeróis da Capa\n"\
+          "de Toalha\\i... E estamos em uma missão!\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Garoto]\\face[Boy]\\fr\n"\
           "Uma missão?\n"\
@@ -2831,7 +2835,7 @@ $events_lang = {
           "E se você puder disponibilizar alguns lençóis\n"\
           "extras, isto seria muito bem apreciado...\n"\
           "------------------------------------------\n"\
-          "Sei que taparam o buraco do muro\n"\
+          "Sei que taparam o buraco da parede\n"\
           "do banheiro, mas ainda há um vento\n"\
           "gelado passando através dele.\n"\
           "------------------------------------------\n"\
@@ -2872,9 +2876,9 @@ $events_lang = {
           "\\ignr\\nm[]\\face[]\n"\
           "Paciente #237\n"\
           "------------------------------------------\n"\
-          "Pemetrexede | 800mg | Dose única | 21-11 16:02:31\n"\
-          "Carboplatina | 360mg | Dose única | 21-11 16:03:16\n"\
-          "Carboplatina | 376mg | Dose única | 12-12 16:04:00\n",
+          "Pemetrexede | 800mg | Dose única | 21/11 16:02:31\n"\
+          "Carboplatina | 360mg | Dose única | 21/11 16:03:16\n"\
+          "Carboplatina | 376mg | Dose única | 12/12 16:04:00\n",
       },
     },
     4 => {
@@ -2965,11 +2969,11 @@ $events_lang = {
           "Ele parece bem velho...\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Garoto]\\face[BoyThinking]\\fr\n"\
-          "E possui um fecho feito de prata\n"\
+          "E possui uma fivela feita de prata\n"\
           "com um buraco para uma chave.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Doutora]\\face[DoctorAngry]\\fr\n"\
-          "Fecho de prata, é?\n"\
+          "Fivela de prata, é?\n"\
           "------------------------------------------\n"\
           "\\iEu acho que isto explica por que levariam\n"\
           "um livro de histórias de uma criança...\n"\
@@ -3083,7 +3087,7 @@ $events_lang = {
           "está se saindo muito bem.\n"\
           "------------------------------------------\n"\
           "De verdade, acredito que está tudo bem\n"\
-          "para você andar pelos corredores um\n"\
+          "você andar pelos corredores um\n"\
           "pouquinho por hoje.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Garoto]\\face[BoyThinking]\\fr\n"\
@@ -3128,7 +3132,7 @@ $events_lang = {
           #------------------------------------------
           "\\ignr\\nm[Central]\\face[]\n"\
           "Olá, como posso ajudar?\n",
-        14 => [["Desculpe, eu liguei por engano...", "A lanchonete está aberta?", "Poderia enviar a enfermeira?"], 4],
+        14 => [["Desculpe, eu liguei por engano...", "A lanchonete está aberta?", "Poderia enviar um enfermeiro?"], 4],
         16 =>
           #------------------------------------------
           "\\ignr\\nm[Central]\\face[]\n"\
@@ -3265,8 +3269,8 @@ $events_lang = {
           "As portas?\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Mãe]\\face[MomTalking]\\fr\n"\
-          "Minha mãe me contou que quando você tem\n"\
-          "ambos o livro e as chaves, portas secretas\n"\
+          "Minha mãe me contou que quando se tem\n"\
+          "ambos o livro e a chave, portas secretas\n"\
           "irão começar a aparecer a sua volta...\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Mãe]\\face[Mom]\\fr\n"\
@@ -3299,7 +3303,7 @@ $events_lang = {
           "------------------------------------------\n"\
           "\\ignr\\nm[Mãe]\\face[Mom]\\fr\n"\
           "Mas você tem que me prometer que você irá\n"\
-          "tomar muito cuidado dela.\n"\
+          "cuidar muito bem dela.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Garoto]\\face[BoyHappy1]\\fr\n"\
           "Ah eu prometo! Vou cuidar muito bem\n"\
@@ -3378,7 +3382,7 @@ $events_lang = {
           "caixas, e mais lama...\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Doutora]\\face[]\n"\
-          "\\e[22]Uh... PORQUÊ?! \\iNão tenho\n"\
+          "\\e[22]Uh... POR QUÊ?! \\iNão tenho\n"\
           "tempo para isto agora!\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Doutor]\\face[]\n"\
@@ -3450,8 +3454,8 @@ $events_lang = {
           "Há algo louco onde eu moro.\n"\
           "------------------------------------------\n"\
           "Eu escondi algo para te ajudar a chegar lá.\n"\
-          "Reflita naquilo por um tempo, e talvez você\n"\
-          "possa achar.\n"\
+          "Reflita sobre isso por um tempo, e talvez \n"\
+          "você possa achar.\n"\
           "---Uma\n",
       },
     },
@@ -3613,7 +3617,7 @@ $events_lang = {
           "------------------------------------------\n"\
           "\\ignr\\nm[Tony]\\face[Tony]\\fr\n"\
           "Sou um piloto aposentado. Eu tinha um\n"\
-          "negócio de venda de partes para aviões.\n"\
+          "negócio de venda de peças para aviões.\n"\
           "------------------------------------------\n"\
           "Até cheguei a construir meu próprio avião.\n"\
           "------------------------------------------\n"\
@@ -3628,7 +3632,7 @@ $events_lang = {
           "...\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Tony]\\face[TonySmile]\\fr\n"\
-          "Mas eu costumava a gostar de bolinhos de\n"\
+          "Mas eu costumava gostar de bolinhos de\n"\
           "caranguejo. Com pedaços de caranguejo\n"\
           "de verdade, não aqueles de mentira.\n",
         27 =>
@@ -3677,7 +3681,7 @@ $events_lang = {
           "------------------------------------------\n"\
           "\\ignr\\nm[Tony]\\face[Tony]\\fr\n"\
           "Sou um piloto aposentado. Eu tinha um\n"\
-          "negócio de venda de partes para aviões.\n"\
+          "negócio de venda de peças para aviões.\n"\
           "------------------------------------------\n"\
           "Até cheguei a construir meu próprio avião.\n"\
           "------------------------------------------\n"\
@@ -3692,7 +3696,7 @@ $events_lang = {
           "...\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Tony]\\face[TonySmile]\\fr\n"\
-          "Mas eu costumava a gostar de bolinhos de\n"\
+          "Mas eu costumava gostar de bolinhos de\n"\
           "caranguejo. Com pedaços de caranguejo\n"\
           "de verdade, não aqueles de mentira.\n",
         26 =>
@@ -3863,7 +3867,7 @@ $events_lang = {
       0 => {
         1 =>
           #------------------------------------------
-          "\\ignr\\nm[Enfermeira]\\face[]\n"\
+          "\\ignr\\nm[Enfermeiro]\\face[]\n"\
           "Não faz sentido tentar falar com o Tony\n"\
           "antes que ele tenha tomado o seu café.\n"\
           "------------------------------------------\n"\
@@ -3871,13 +3875,13 @@ $events_lang = {
           "grande urso bravo.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Tony]\\face[TonyAngry]\\fr\n"\
-          "Eu escutei isto sua pestinha!\n"\
+          "Eu escutei isto, seu pestinha!\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Enfermeira]\\face[]\n"\
+          "\\ignr\\nm[Enfermeiro]\\face[]\n"\
           "\\iViu o que eu quis dizer...\n",
         13 =>
           #------------------------------------------
-          "\\ignr\\nm[Enfermeira]\\face[]\n"\
+          "\\ignr\\nm[Enfermeiro]\\face[]\n"\
           "\\iQue dia...\n",
       },
     },
@@ -3898,7 +3902,7 @@ $events_lang = {
         26 =>
           #------------------------------------------
           "\\ignr\\nm[Tony]\\face[TonyAngry]\\fr\n"\
-          "Achei que tinha avisado a vocês, enfermeiras\n"\
+          "Achei que tinha avisado a vocês, enfermeiros\n"\
           "idiotas, para ME DEIXAR EM PA---\n",
         31 =>
           #------------------------------------------
@@ -3929,7 +3933,7 @@ $events_lang = {
           "\\ignr\\nm[Christina]\\face[]\n"\
           "Uau, você fez um ótimo trabalho.\n"\
           "------------------------------------------\n"\
-          "Eu costumava a saber como dobrar algumas\n"\
+          "Eu costumava saber como dobrar algumas\n"\
           "coisas a partir de papel... Mas não me\n"\
           "lembro mais nem um pouco!\n",
         13 =>
@@ -4207,7 +4211,7 @@ $events_lang = {
       1 => {
         1 =>
           #------------------------------------------
-          "\\ignr\\nm[Líder do Turno]\\face[]\n"\
+          "\\ignr\\nm[Chefe do Turno]\\face[]\n"\
           "Não sei como eles esperam que eu conserte\n"\
           "isto... \\iEu não sou uma carpinteira!\n"\
           "------------------------------------------\n"\
@@ -4223,7 +4227,7 @@ $events_lang = {
           "\\e[2]Não sei do que você\n"\
           "está falando.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Líder do Turno]\\face[]\n"\
+          "\\ignr\\nm[Chefe do Turno]\\face[]\n"\
           "\\e[1]Nada de sair para fora de\n"\
           "novo! É perigoso!\n"\
           "------------------------------------------\n"\
@@ -4231,7 +4235,7 @@ $events_lang = {
           "\\e[2]Pfft.\n",
         28 =>
           #------------------------------------------
-          "\\ignr\\nm[Líder do Turno]\\face[]\n"\
+          "\\ignr\\nm[Chefe do Turno]\\face[]\n"\
           "Acho melhor este homem parar de\n"\
           "quebrar as tábuas...\n"\
           "------------------------------------------\n"\
@@ -4244,7 +4248,7 @@ $events_lang = {
         37 => [["Oferecer uma Barra de Amendoim", "Ir embora"], 2],
         40 =>
           #------------------------------------------
-          "\\ignr\\nm[Líder do Turno]\\face[]\n"\
+          "\\ignr\\nm[Chefe do Turno]\\face[]\n"\
           "Como que você sempre aparece na hora certa\n"\
           "que eu estou desesperada por uma dessas?\n"\
           "------------------------------------------\n"\
@@ -4300,8 +4304,8 @@ $events_lang = {
           "de chá que eu venho experimentando.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Kisaburo]\\face[KisaburoOpenEyes]\\fr\n"\
-          "As enfermeiras não me parecem tão\n"\
-          "entusiasmadas comigo bebendo \"coisas\n"\
+          "Os enfermeiros não me parecem tão\n"\
+          "entusiasmados comigo bebendo \"coisas\n"\
           "experimentais\"...\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Kisaburo]\\face[KisaburoSmile]\\fr\n"\
@@ -4316,7 +4320,7 @@ $events_lang = {
         57 =>
           #------------------------------------------
           "\\ignr\\nm[Kisaburo]\\face[Kisaburo]\\fr\n"\
-          "Tenho falado para as enfermeiras há um bom\n"\
+          "Tenho falado para os enfermeiros há um bom\n"\
           "tempo que tem alguém se esgueirando por\n"\
           "aqui depois do horário.\n"\
           "------------------------------------------\n"\
@@ -4389,8 +4393,8 @@ $events_lang = {
           "de chá que eu venho experimentando.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Kisaburo]\\face[KisaburoOpenEyes]\\fr\n"\
-          "As enfermeiras não me parecem tão\n"\
-          "entusiasmadas comigo bebendo \"coisas\n"\
+          "Os enfermeiros não me parecem tão\n"\
+          "entusiasmados comigo bebendo \"coisas\n"\
           "experimentais\"...\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Kisaburo]\\face[KisaburoSmile]\\fr\n"\
@@ -4621,15 +4625,15 @@ $events_lang = {
           "veja a lista de alucinações e delírios.\n",
         13 =>
           #------------------------------------------
-          "21-10: Encontrado subindo a escada na zona\n"\
+          "21/10: Encontrado subindo a escada na zona\n"\
           "de construção 5b. Quando indagado, respondeu\n"\
           "que estava tentando abrir um buraco no teto.\n"\
           "------------------------------------------\n"\
-          "28-10: Encontrado no jardim cavando na lama.\n"\
+          "28/10: Encontrado no jardim cavando na lama.\n"\
           "Sem resposta quando indagado. Pareceu estar\n"\
           "desconexo de onde estava e do tempo.\n"\
           "------------------------------------------\n"\
-          "02-11: Carregando sacolas de--\n",
+          "02/11: Carregando sacolas de--\n",
       },
     },
     15 => {
@@ -4638,7 +4642,7 @@ $events_lang = {
           #------------------------------------------
           "\\ignr\\nm[Doutor]\\face[]\n"\
           "Às vezes quando o corpo de um paciente não\n"\
-          "está bem, isto pode afetar as suas mentes.\n"\
+          "está bem, isto pode afetar a sua mente.\n"\
           "------------------------------------------\n"\
           "Este tipo de coisa nunca é fácil.\n",
         8 =>
@@ -4984,7 +4988,7 @@ $events_lang = {
         47 =>
           #------------------------------------------
           "\\ignr\\nm[Sue]\\face[Sue]\\fr\n"\
-          "A mulher do Winston esteve em coma por\n"\
+          "A mulher do Winston está em coma há\n"\
           "um bom tempo. Os médicos não sabem quando\n"\
           "ou se ela vai acordar...\n"\
           "------------------------------------------\n"\
@@ -5202,7 +5206,7 @@ $events_lang = {
           "Tenho.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Sue]\\face[SueSurprised]\\fr\n"\
-          "\\iHum... Bom, a Líder do Turno está\n"\
+          "\\iHum... Bom, a Chefe do Turno está\n"\
           "no banheiro agora.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Sue]\\face[SueThink]\\fr\n"\
@@ -5423,7 +5427,7 @@ $events_lang = {
           "meu último pedaço de doce.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Sue]\\face[SueSadSmile]\\fr\n"\
-          "Ouvi dizer que a Líder do Turno está\n"\
+          "Ouvi dizer que a Chefe do Turno está\n"\
           "tentando consertar a parede no quarto do\n"\
           "Kisaburo (quarto que fica em cima do meu).\n"\
           "------------------------------------------\n"\
@@ -5551,7 +5555,7 @@ $events_lang = {
         282 =>
           #------------------------------------------
           "\\ignr\\nm[Sue]\\face[Sue]\\fr\n"\
-          "A mulher do Winston esteve em coma por\n"\
+          "A mulher do Winston está em coma há\n"\
           "um bom tempo. Os médicos não sabem quando\n"\
           "ou se ela vai acordar...\n"\
           "------------------------------------------\n"\
@@ -6243,11 +6247,11 @@ $events_lang = {
           "\\ignr\\nm[Winston]\\face[Winston]\\fr\n"\
           "Ouvi dizer que Cora e seus amigos estão\n"\
           "trabalhando em um projeto especial para\n"\
-          "melhorar a moral do hospital.\n"\
+          "melhorar o moral do hospital.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Winston]\\face[WinstonAmazed]\\fr\n"\
           "Da última vez que ouvi, eles estavam se\n"\
-          "chamando de \"Heróis Capa de Toalha.\"\n",
+          "chamando de \"Heróis da Capa de Toalha.\"\n",
       },
       1 => {
         2 =>
@@ -6324,11 +6328,11 @@ $events_lang = {
           "\\ignr\\nm[Winston]\\face[Winston]\\fr\n"\
           "Ouvi dizer que Cora e seus amigos estão\n"\
           "trabalhando em um projeto especial para\n"\
-          "melhorar a moral do hospital.\n"\
+          "melhorar o moral do hospital.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Winston]\\face[WinstonAmazed]\\fr\n"\
           "Da última vez que ouvi, eles estavam se\n"\
-          "chamando de \"Heróis Capa de Toalha.\"\n",
+          "chamando de \"Heróis da Capa de Toalha.\"\n",
       },
       2 => {
         2 =>
@@ -6399,11 +6403,11 @@ $events_lang = {
           "\\ignr\\nm[Winston]\\face[Winston]\\fr\n"\
           "Ouvi dizer que Cora e seus amigos estão\n"\
           "trabalhando em um projeto especial para\n"\
-          "melhorar a moral do hospital.\n"\
+          "melhorar o moral do hospital.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Winston]\\face[WinstonAmazed]\\fr\n"\
           "Da última vez que ouvi, eles estavam se\n"\
-          "chamando de \"Heróis Capa de Toalha.\"\n",
+          "chamando de \"Heróis da Capa de Toalha.\"\n",
       },
       3 => {
         3 =>
@@ -6467,11 +6471,11 @@ $events_lang = {
           "\\ignr\\nm[Winston]\\face[Winston]\\fr\n"\
           "Ouvi dizer que Cora e seus amigos estão\n"\
           "trabalhando em um projeto especial para\n"\
-          "melhorar a moral do hospital.\n"\
+          "melhorar o moral do hospital.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Winston]\\face[WinstonAmazed]\\fr\n"\
           "Da última vez que ouvi, eles estavam se\n"\
-          "chamando de \"Heróis Capa de Toalha.\"\n",
+          "chamando de \"Heróis da Capa de Toalha.\"\n",
       },
       4 => {
         3 =>
@@ -6530,11 +6534,11 @@ $events_lang = {
           "\\ignr\\nm[Winston]\\face[Winston]\\fr\n"\
           "Ouvi dizer que Cora e seus amigos estão\n"\
           "trabalhando em um projeto especial para\n"\
-          "melhorar a moral do hospital.\n"\
+          "melhorar o moral do hospital.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Winston]\\face[WinstonAmazed]\\fr\n"\
           "Da última vez que ouvi, eles estavam se\n"\
-          "chamando de \"Heróis Capa de Toalha.\"\n",
+          "chamando de \"Heróis da Capa de Toalha.\"\n",
       },
       5 => {
         3 =>
@@ -6599,7 +6603,7 @@ $events_lang = {
           "Paciente #138\n"\
           "------------------------------------------\n"\
           "Lesão Cerebral Anóxica | Estágio 1 Coma\n"\
-          "Sessão de Terapia Respiratória | 21-11\n",
+          "Sessão de Terapia Respiratória | 21/11\n",
       },
     },
     6 => {
@@ -6631,7 +6635,7 @@ $events_lang = {
           "Uau, tantas bolinhas de gude diferentes!\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Sue]\\face[Sue]\\fr\n"\
-          "Sim, eu tenho coletados elas por um bom tempo.\n",
+          "Sim, faz um bom tempo que eu coleciono elas.\n",
       },
       1 => {
         0 =>
@@ -6770,7 +6774,7 @@ $events_lang = {
       0 => {
         1 =>
           #------------------------------------------
-          "\\ignr\\nm[Enfermeira]\\face[]\n"\
+          "\\ignr\\nm[Enfermeiro]\\face[]\n"\
           "O vaso sanitário daqui está quebrado, tem\n"\
           "alguma coisa de metal presa dentro.\n"\
           "------------------------------------------\n"\
@@ -6778,21 +6782,21 @@ $events_lang = {
           "um banheiro diferente.\n",
         9 =>
           #------------------------------------------
-          "\\ignr\\nm[Enfermeira]\\face[]\n"\
+          "\\ignr\\nm[Enfermeiro]\\face[]\n"\
           "\\iQue pena que consertar banheiros não\n"\
-          "estava no currículo de enfermagem...\n",
+          "estava na grade de enfermagem...\n",
       },
       1 => {
         1 =>
           #------------------------------------------
-          "\\ignr\\nm[Enfermeira]\\face[]\n"\
+          "\\ignr\\nm[Enfermeiro]\\face[]\n"\
           "Espere, VOCÊ consertou a privada?\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Enfermeira]\\face[]\n"\
-          "Obrigada, garoto.\n",
+          "\\ignr\\nm[Enfermeiro]\\face[]\n"\
+          "Obrigado, garoto.\n",
         8 =>
           #------------------------------------------
-          "\\ignr\\nm[Enfermeira]\\face[]\n"\
+          "\\ignr\\nm[Enfermeiro]\\face[]\n"\
           "\\iTô te dizendo... As coisas que eu acabo\n"\
           "fazendo aqui não foram ensinadas na escola\n"\
           "de enfermagem...\n",
@@ -6800,7 +6804,7 @@ $events_lang = {
       3 => {
         1 =>
           #------------------------------------------
-          "\\ignr\\nm[Enfermeira]\\face[]\n"\
+          "\\ignr\\nm[Enfermeiro]\\face[]\n"\
           "Este hospital foi muito danificado, mas acho\n"\
           "que estamos indo bem, considerando tudo.\n"\
           "------------------------------------------\n"\
@@ -6808,7 +6812,7 @@ $events_lang = {
           "mais recursos para usar...\n",
         14 =>
           #------------------------------------------
-          "\\ignr\\nm[Enfermeira]\\face[]\n"\
+          "\\ignr\\nm[Enfermeiro]\\face[]\n"\
           "\\iTô te dizendo... As coisas que eu acabo\n"\
           "fazendo aqui não foram ensinadas na escola\n"\
           "de enfermagem...\n",
@@ -6917,7 +6921,7 @@ $events_lang = {
       1 => {
         3 =>
           #------------------------------------------
-          "\\ignr\\nm[Líder do Turno]\\face[]\n"\
+          "\\ignr\\nm[Chefe do Turno]\\face[]\n"\
           "Pare de me perturbar, garoto. Tenho que\n"\
           "descobrir como consertar esta parede.\n"\
           "------------------------------------------\n"\
@@ -6930,7 +6934,7 @@ $events_lang = {
         11 => [["Oferecer uma Barra de Amendoim", "Ir embora"], 2],
         14 =>
           #------------------------------------------
-          "\\ignr\\nm[Líder do Turno]\\face[]\n"\
+          "\\ignr\\nm[Chefe do Turno]\\face[]\n"\
           "Ah cara, você não tem ideia do quanto eu\n"\
           "estava querendo uma dessas!\n"\
           "------------------------------------------\n"\
@@ -6982,7 +6986,7 @@ $events_lang = {
           "máquina de vendas no salão do hospital\n"\
           "com Barras de Amendoim.\n"\
           "------------------------------------------\n"\
-          "A Líder do Turno estava aqui\n"\
+          "A Chefe do Turno estava aqui\n"\
           "outro dia implorando por isso!\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Chef Panky]\\face[PankyHappy]\\fr\n"\
@@ -7062,7 +7066,7 @@ $events_lang = {
           "sopa! E pra que? Cavar lama lá fora\n"\
           "procurando por \"tesouro enterrado.\"\n"\
           "------------------------------------------\n"\
-          "Mas eu sinto mal por ele... Não deve\n"\
+          "Mas eu me sinto mal por ele... Não deve\n"\
           "ser fácil começar a perder a cabeça\n"\
           "assim...\n"\
           "------------------------------------------\n"\
@@ -8056,8 +8060,8 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "ATEN Funcionários: Uma representante da\n"\
-          "Construtora Koide vem amanhã para\n"\
+          "ATENÇÃO Funcionários: Uma representante\n"\
+          "da Construtora Koide vem amanhã para\n"\
           "avaliar os danos.\n"\
           "------------------------------------------\n"\
           "Favor verificar se todos materiais pessoais\n"\
@@ -8748,7 +8752,7 @@ $events_lang = {
           "------------------------------------------\n"\
           "Isso significa que viajar daqui até as\n"\
           "Terras do Céu não é possível até\n"\
-          "crescermos novos.\n"\
+          "cultivarmos novos.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Aldeão Leeble]\\face[Leeble]\\fr\n"\
           "Metade da vila vive naquelas grandes\n"\
@@ -8779,7 +8783,7 @@ $events_lang = {
           #------------------------------------------
           "\\ignr\\nm[Aldeão Leeble]\\face[Leeble]\\fr\n"\
           "Um dia eu quero entrar na Agência de\n"\
-          "Proteção Leeble...\n"\
+          "Proteção ao Leeble...\n"\
           "------------------------------------------\n"\
           "Não conte isso a ninguém, mas...\n"\
           "------------------------------------------\n"\
@@ -8805,7 +8809,7 @@ $events_lang = {
           #------------------------------------------
           "\\ignr\\nm[Aldeão Leeble]\\face[Leeble]\\fr\n"\
           "Um dia eu quero entrar na Agência de\n"\
-          "Proteção Leeble...\n"\
+          "Proteção ao Leeble...\n"\
           "------------------------------------------\n"\
           "Não conte isso a ninguém, mas...\n"\
           "------------------------------------------\n"\
@@ -8833,7 +8837,7 @@ $events_lang = {
           #------------------------------------------
           "\\ignr\\nm[Aldeão Leeble]\\face[Leeble]\\fr\n"\
           "Um dia eu quero entrar na Agência de\n"\
-          "Proteção Leeble...\n"\
+          "Proteção ao Leeble...\n"\
           "------------------------------------------\n"\
           "Não conte isso a ninguém, mas...\n"\
           "------------------------------------------\n"\
@@ -9164,8 +9168,8 @@ $events_lang = {
           "\\ignr\\nm[Aldeão Leeble]\\face[]\n"\
           "Nós dividimos essa floresta com os Enviados.\n"\
           "------------------------------------------\n"\
-          "O Winston me disse que você pode\n"\
-          "dizer quando os espíritos dos Enviados\n"\
+          "O Winston me disse que dá para perceber\n"\
+          "quando os espíritos dos Enviados\n"\
           "passam, porque fica muito frio.\n",
         9 =>
           #------------------------------------------
@@ -9193,8 +9197,8 @@ $events_lang = {
           "\\ignr\\nm[Aldeão Leeble]\\face[]\n"\
           "Nós dividimos essa floresta com os Enviados.\n"\
           "------------------------------------------\n"\
-          "O Winston me disse que você pode\n"\
-          "dizer quando os espíritos dos Enviados\n"\
+          "O Winston me disse que dá para perceber\n"\
+          "quando os espíritos dos Enviados\n"\
           "passam, porque fica muito frio.\n",
       },
     },
@@ -10060,7 +10064,7 @@ $events_lang = {
           "por nós. Ele é o Leeble em pé ao lado\n"\
           "da tenda.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Se ele pudesse fazer um barco\n"\
           "pra você, talvez nós poderíamos\n"\
           "falar com aquele urso, o Tony!\n",
@@ -10072,7 +10076,7 @@ $events_lang = {
           "\\e[3]Uau, você realmente o convenceu\n"\
           "a construir o barco, incrível!\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Meus nabos estão finalmente\n"\
           "a salvo!\n",
       },
@@ -10311,7 +10315,7 @@ $events_lang = {
           "por nós. Ele é o Leeble em pé ao lado\n"\
           "da tenda.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Se ele pudesse fazer um barco\n"\
           "pra você, talvez nós poderíamos\n"\
           "falar com aquele urso, o Tony!\n",
@@ -10319,7 +10323,7 @@ $events_lang = {
       2 => {
         3 =>
           #------------------------------------------
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Alice, devo me pintar\n"\
           "de roxo?\n"\
           "------------------------------------------\n"\
@@ -10327,7 +10331,7 @@ $events_lang = {
           "\\e[3]O que? Não.\n"\
           "Por que?\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Eu só acordei hoje de manhã e\n"\
           "pensei \"eu ficaria bem de roxo.\"\n",
         14 =>
@@ -10337,67 +10341,67 @@ $events_lang = {
         18 =>
           #------------------------------------------
           "\\ignr\\nm[Alice]\\face[]\n"\
-          "\\e[3]Você é muito impulsiva, Reitora.\n"\
+          "\\e[3]Você é muito impulsivo, Dean.\n"\
           "Espere um dia e veja se você ainda\n"\
-          "quer ser roxa amanhã.\n"\
+          "quer ser roxo amanhã.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Ah, está bem...\n"\
           "\n",
         32 =>
           #------------------------------------------
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Alice, ALICE!!!\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Alice]\\face[]\n"\
           "\\e[3]O que foi? Você não precisa\n"\
           "gritar, estou bem aqui.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Desculpe... Tá, eu ouvi dizer que os\n"\
           "fazendeiros Korshal estão vendendo um\n"\
           "Korshal com 3 chifres. 3 CHIFRES!\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Eu vou comprar!\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Alice]\\face[]\n"\
           "\\e[3]Pra que?\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Para eu ter um Korshal\n"\
           "com 3 CHIFRES!\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Alice]\\face[]\n"\
           "\\e[3]Quanto ele custa?\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]1000G.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Alice]\\face[]\n"\
           "\\e[3]Você ao menos tem 1000G?\n"\
           "\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Sim. Eu tenho 1001G.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Alice]\\face[]\n"\
           "\\e[3]Então você vai gastar todas as\n"\
           "suas economias em um Korshal com 3 chifres.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
-          "\\e[7]SIM, ESTOU TÃO ANIMADA!\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
+          "\\e[7]SIM, ESTOU TÃO ANIMADO!\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Alice]\\face[]\n"\
-          "\\e[3]Reitora, você é muito impulsiva!\n"\
+          "\\e[3]Dean, você é muito impulsivo!\n"\
           "Espere um dia, e veja se você ainda\n"\
           "vai querer, está bem?\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Ah, está bem...\n"\
           "\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]\\iEu aposto que ainda vou querer...\n",
       },
     },
@@ -10569,7 +10573,7 @@ $events_lang = {
           "\\ignr\\nm[Alice]\\face[]\n"\
           "\\e[3]O que diabos, Tony!\\w[25]\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Saia da nossa plantação!\\w[25]\n",
         31 =>
           #------------------------------------------
@@ -10586,7 +10590,7 @@ $events_lang = {
           "\\ignr\\nm[Alice]\\face[]\n"\
           "\\e[3]Consegue acreditar nesse Tony?\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Meus pobres nabos...\n",
         91 =>
           #------------------------------------------
@@ -10597,20 +10601,20 @@ $events_lang = {
           "\\e[3]Alguém precisa falar com aquele\n"\
           "urso. Ele tem uma atitude tão ruim.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Essa é a 3ª vez essa semana...\n"\
           "Estou começando a ficar preocupado.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Alice]\\face[]\n"\
-          "\\e[3]Me voluntaria para falar com ele, mas\n"\
-          "o Winston ali não nos faz um barco\n"\
-          "para ir até a Ilha do Tony.\n"\
+          "\\e[3]Me voluntariaria para falar com ele,\n"\
+          "mas o Winston ali não nos faz um\n"\
+          "barco para ir até a Ilha do Tony.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Ei, vocês são novos\n"\
           "por aqui...\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Talvez o Winston estaria\n"\
           "disposto a ajudar vocês!\n"\
           "------------------------------------------\n"\
@@ -10630,13 +10634,13 @@ $events_lang = {
           "\\e[3]Ele é aquele cara em pé\n"\
           "ali ao lado da tenda.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Por favor, fale com ele por nós!\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]É uma questão de vida ou morte!\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]\\iBom... Vida e morte dos nabos,\n"\
           "de qualquer maneira...\n",
         132 =>
@@ -10645,7 +10649,7 @@ $events_lang = {
           "Tudo bem, tudo bem!\n",
         148 =>
           #------------------------------------------
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[7]Obrigado!!\n",
       },
     },
@@ -11021,7 +11025,7 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Sair a Ilha do Tony?\n",
+          "Sair da Ilha do Tony?\n",
         2 => [["Sim", "Não"], 2],
       },
     },
@@ -11309,21 +11313,21 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Subir o Pé de Feijão?\n",
+          "Descer o Pé de Feijão?\n",
         2 => [["Sim", "Não"], 2],
       },
       1 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Subir o Pé de Feijão?\n",
+          "Descer o Pé de Feijão?\n",
         2 => [["Sim", "Não"], 2],
       },
       2 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Subir o Pé de Feijão?\n",
+          "Descer o Pé de Feijão?\n",
         2 => [["Sim", "Não"], 2],
       },
     },
@@ -13138,12 +13142,12 @@ $events_lang = {
           "antes da Noite Estrelada.\n"\
           "------------------------------------------\n"\
           "Esta é a plantação de chá onde Kazuko\n"\
-          "cresce todas as suas plantas. Ela tem um\n"\
+          "cultiva todas as suas plantas. Ela tem um\n"\
           "incrível dom para plantas, de verdade!\n"\
           "------------------------------------------\n"\
           "Sempre que ela visita uma nova terra, ela\n"\
-          "traz uma nova planta, ou semente, e cresce\n"\
-          "ela aqui!",
+          "traz uma nova planta, ou semente, e\n"\
+          "cultiva ela aqui!",
       },
       1 => {
         1 =>
@@ -13193,12 +13197,12 @@ $events_lang = {
           "antes da Noite Estrelada.\n"\
           "------------------------------------------\n"\
           "Esta é a plantação de chá onde Kazuko\n"\
-          "cresce todas as suas plantas. Ela tem um\n"\
+          "cultiva todas as suas plantas. Ela tem um\n"\
           "incrível dom para plantas, de verdade!\n"\
           "------------------------------------------\n"\
           "Sempre que ela visita uma nova terra, ela\n"\
-          "traz uma nova planta, ou semente, e cresce\n"\
-          "ela aqui!",
+          "traz uma nova planta, ou semente, e\n"\
+          "cultiva ela aqui!",
       },
       2 => {
         1 =>
@@ -13483,7 +13487,7 @@ $events_lang = {
           "comida caseira. Também vendemos chá\n"\
           "em atacado!\n"\
           "------------------------------------------\n"\
-          "Eu mesma cresço todo o chá na plantação ali\n"\
+          "Eu mesma cultivo todo chá na plantação ali\n"\
           "atrás... Amo jardinagem e me sinto em casa\n"\
           "quando estou cercada de plantas e natureza.\n",
         30 =>
@@ -13525,7 +13529,7 @@ $events_lang = {
           "comida caseira. Também vendemos chá\n"\
           "em atacado!\n"\
           "------------------------------------------\n"\
-          "Eu mesma cresço todo o chá na plantação ali\n"\
+          "Eu mesma cultivo todo chá na plantação ali\n"\
           "atrás... Amo jardinagem e me sinto em casa\n"\
           "quando estou cercada de plantas e natureza.\n",
         30 =>
@@ -13568,7 +13572,7 @@ $events_lang = {
           #------------------------------------------
           "Se eu pudesse sair, eu também visitaria nossa\n"\
           "vizinha para conseguir Cinzas de Dragão para\n"\
-          "esta flor que estou crescendo aqui...\n"\
+          "esta flor que estou cultivando aqui...\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Garoto]\\face[BoyHappy1]\\fr\n"\
           "Uma Hikaribana!\n",
@@ -14181,7 +14185,7 @@ $events_lang = {
           "comida caseira. Também vendemos chá\n"\
           "em atacado!\n"\
           "------------------------------------------\n"\
-          "Eu mesma cresço todo o chá na plantação ali\n"\
+          "Eu mesma cultivo todo chá na plantação ali\n"\
           "atrás... Amo jardinagem e me sinto em casa\n"\
           "quando estou cercada de plantas e natureza.\n",
       },
@@ -14267,28 +14271,28 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Subir o Pé de Feijão?\n",
+          "Descer o Pé de Feijão?\n",
         2 => [["Sim", "Não"], 2],
       },
       1 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Subir o Pé de Feijão?\n",
+          "Descer o Pé de Feijão?\n",
         2 => [["Sim", "Não"], 2],
       },
       2 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Subir o Pé de Feijão?\n",
+          "Descer o Pé de Feijão?\n",
         2 => [["Sim", "Não"], 2],
       },
       3 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Subir o Pé de Feijão?\n",
+          "Descer o Pé de Feijão?\n",
         2 => [["Sim", "Não"], 2],
       },
     },
@@ -14447,7 +14451,7 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[Servente de Chá]\\face[Cave Bud]\\fr\n"\
-          "Se vocês estão procurando a Chá da Tarde do\n"\
+          "Se vocês estão procurando o Chá da Tarde do\n"\
           "Monsieur Broto, terão que voltar\n"\
           "mais tarde.\n",
       },
@@ -15101,8 +15105,8 @@ $events_lang = {
           "\\ignr\\nm[]\\face[]\n"\
           "Uma bela pintura.\n"\
           "------------------------------------------\n"\
-          "Alguém riscou algo na beirada do quadro\n"\
-          "de avisos.\n"\
+          "Alguém riscou algo na beirada inferior\n"\
+          "direita do quadro.\n"\
           "------------------------------------------\n"\
           "Ler?\n",
         5 => [["Sim", "Não"], 2],
@@ -15487,8 +15491,8 @@ $events_lang = {
           #------------------------------------------
           "\\ignr\\nm[Minimori 16]\\face[Minimori]\\fr\n"\
           "Oi, sou um Minimori! Existem muitos de nós\n"\
-          "e nós temos número anexados aos nossos\n"\
-          "nomes.\n"\
+          "e nós temos números anexados aos\n"\
+          "nossos nomes.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Minimori 16]\\face[Minimori]\\fr\n"\
           "Você quer saber o que os números\n"\
@@ -15844,7 +15848,7 @@ $events_lang = {
           "\\ignr\\nm[Placa]\\face[Sign]\\fr\n"\
           "Tem razão! Se uma Placa de Madeira ainda\n"\
           "carrega um puff de segurança, ela não é\n"\
-          "menos uma Placa de Madeira que as outras, é?\n"\
+          "menos Placa de Madeira que as outras, é?\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Garoto]\\face[Boy]\\fr\n"\
           "Definitivamente não!\n"\
@@ -16428,7 +16432,7 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[Broto da Caverna]\\face[Cave Bud]\\fr\n"\
-          "Uou, você realmente vai aí?\n"\
+          "Uou, você realmente vai lá?\n"\
           "------------------------------------------\n"\
           "Esse lugar é estranho!\n",
       },
@@ -16726,7 +16730,7 @@ $events_lang = {
         6 =>
           #------------------------------------------
           "\\iNíveis de Oxigênio da Máscara da Câmara\n"\
-          "Individual estão setados para 21% agora.\n",
+          "Individual estão definidos para 21% agora.\n",
         24 =>
           #------------------------------------------
           "\\iAcesso negado.\n",
@@ -16736,7 +16740,7 @@ $events_lang = {
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
           "\\iNíveis de Oxigênio da Máscara da Câmara\n"\
-          "Individual estão setados para 21% agora.\n",
+          "Individual estão definidos para 21% agora.\n",
       },
     },
     47 => {
@@ -16774,7 +16778,7 @@ $events_lang = {
         7 => [["1a Caixa", "2a Caixa", "Deixa pra lá."], 3],
         9 =>
           #------------------------------------------
-          "Um cartão postal de Busan, Coréia e um\n"\
+          "Um cartão postal de Busan, Coréia, e um\n"\
           "pequeno pedaço de papel etiquetado \\iJR\n"\
           "Passe Leste - Expresso Limitado.\n"\
           "------------------------------------------\n"\
@@ -16925,12 +16929,12 @@ $events_lang = {
           #------------------------------------------
           "Horário: 14:46:23\n"\
           "Altura: 40.5m\n"\
-          "\\c[2]Pessoas: 11,450\n",
+          "\\c[2]Pessoas: 11.450\n",
         11 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
           "2 DE JULHO (KR) -\n"\
-          "\\iExistem 20,000 estudantes Coreanos no\n"\
+          "\\iExistem 20.000 estudantes Coreanos no\n"\
           "Japão, e o número está crescendo.\n"\
           "------------------------------------------\n"\
           "\\iEnquanto as tensões entre Japão e\n"\
@@ -16978,7 +16982,7 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Um novo microscópio.\n",
+          "Um microscópio novo.\n",
       },
     },
     87 => {
@@ -17364,7 +17368,7 @@ $events_lang = {
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
           "Onde você quer procurar?\n",
-        3 => [["Prateleira Superior", "Prateleira do Meio", "Armário de Estante", "Deixa pra lá"], 4],
+        3 => [["Prateleira Superior", "Prateleira do Meio", "Armário da Estante", "Deixa pra lá"], 4],
         5 =>
           #------------------------------------------
           "Esta prateleira tem uma variedade de\n"\
@@ -17373,7 +17377,7 @@ $events_lang = {
           #------------------------------------------
           "Tem uma variedade de livros de exercício:\n"\
           "\"Gramática Diária,\" \"Prática Hangul,\" e\n"\
-          "\"Frase Coreanas Básicas.\"\n",
+          "\"Frases Coreanas Básicas.\"\n",
         14 =>
           #------------------------------------------
           "Parece que alguém deixou uma chave\n"\
@@ -17524,16 +17528,16 @@ $events_lang = {
           "Claro, Ancião.\n",
         51 =>
           #------------------------------------------
-          "\\ignr\\nm[Carpinteiro de Kanko]\\face[]\n"\
+          "\\ignr\\nm[Carpinteiro Kanko]\\face[]\n"\
           "\\e[4]             ...\n",
         63 =>
           #------------------------------------------
-          "\\ignr\\nm[Carpinteiro de Kanko]\\face[]\n"\
+          "\\ignr\\nm[Carpinteiro Kanko]\\face[]\n"\
           "\\e[4]Você acredita que foram necessárias\n"\
           "500 Frutinhas de Sila para pintar este pano?\n",
         74 =>
           #------------------------------------------
-          "\\ignr\\nm[Carpinteiro de Kanko]\\face[]\n"\
+          "\\ignr\\nm[Carpinteiro Kanko]\\face[]\n"\
           "\\e[4]Ajudei minha mãe a pintar, e minhas\n"\
           "mãos ficaram roxas por semanas!\n",
         79 =>
@@ -17545,7 +17549,7 @@ $events_lang = {
           "Ah... Um...\n",
         88 =>
           #------------------------------------------
-          "\\ignr\\nm[Carpinteiro de Kanko]\\face[]\n"\
+          "\\ignr\\nm[Carpinteiro Kanko]\\face[]\n"\
           "\\e[4]Está tudo bem? Precisa de\n"\
           "alguma ajuda?\n",
         93 =>
@@ -17555,7 +17559,7 @@ $events_lang = {
           "Eu não deveria...\n",
         98 =>
           #------------------------------------------
-          "\\ignr\\nm[Carpinteiro de Kanko]\\face[]\n"\
+          "\\ignr\\nm[Carpinteiro Kanko]\\face[]\n"\
           "\\e[4]Não deveria falar com\n"\
           "estranhos? Eu entendo.\n"\
           "------------------------------------------\n"\
@@ -17619,8 +17623,8 @@ $events_lang = {
           "\\e[7]Acho que sim...\n"\
           "\n"\
           "------------------------------------------\n"\
-          "\\e[7]Mas ainda...Você ouviu sobre como\n"\
-          "os Kanko são... Não são bons!\n"\
+          "\\e[7]Mas ainda assim...Você ouviu sobre \n"\
+          "como os Kanko são... Não são bons!\n"\
           "------------------------------------------\n"\
           "\\e[7]Vou ficar feliz quando eles forem embora!\n"\
           "\n",
@@ -18516,7 +18520,7 @@ $events_lang = {
           "\\iNão ligo para o que dizem. Sei em meu\n"\
           "coração que isso está certo.\n"\
           "------------------------------------------\n"\
-          "\\iQuando eu guardar o suficiente, vou voltar para\n"\
+          "\\iQuando eu juntar o suficiente, vou voltar para\n"\
           "o local em que nos conhecemos para começar\n"\
           "uma nova vida juntos, longe de tudo isso.\n",
       },
@@ -19234,7 +19238,7 @@ $events_lang = {
         100 =>
           #------------------------------------------
           "\\ignr\\nm[Garoto]\\face[Boy]\\fr\n"\
-          "Vou garantir que vou abrir a caixa e\n"\
+          "Garanto que vou abrir a caixa e\n"\
           "levar para ele o que está dentro.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Gemma]\\face[Gemma]\\fr\n"\
@@ -19476,7 +19480,7 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[Ferreiro Jacky]\\face[Blacksmith]\\fr\n"\
-          "Esppeeere!!!\n",
+          "Esppeeerem!!!\n",
         33 =>
           #------------------------------------------
           "\\ignr\\nm[Ferreiro Jacky]\\face[Blacksmith]\\fr\n"\
@@ -19515,7 +19519,7 @@ $events_lang = {
           "Eles estão tão cegos por coisas como \\imedo\n"\
           "\\ie \\iódio \\ique eles não são mais eles mesmos.\n"\
           "------------------------------------------\n"\
-          "Eu estava aqui coletando suprimentos semana\n"\
+          "Eu estava aqui coletando materiais semana\n"\
           "passada e um punhado deles roubou minhas\n"\
           "ferramentas!\n"\
           "------------------------------------------\n"\
@@ -21197,7 +21201,7 @@ $events_lang = {
           #------------------------------------------
           "\\ignr\\nm[Esporo Rei]\\face[]\n"\
           "Obrigado pela ajuda, cara.\n",
-        3 => [["Eu sou radical?", "Outra vez, o que temos que fazer?", "Até mais!"], 3],
+        3 => [["Eu sou radical?", "O que temos que fazer, mesmo?", "Até mais!"], 3],
         5 =>
           #------------------------------------------
           "\\ignr\\nm[Esporo Rei]\\face[]\n"\
@@ -21877,7 +21881,7 @@ $events_lang = {
         17 =>
           #------------------------------------------
           "\\ignr\\nm[Golem Letárgico]\\face[]\n"\
-          "Me sinto diferente agora... É como seu eu\n"\
+          "Me sinto diferente agora... É como se eu\n"\
           "tivesse muito mais...\n",
         24 =>
           #------------------------------------------
@@ -21938,9 +21942,9 @@ $events_lang = {
         2 =>
           #------------------------------------------
           "\\ignr\\nm[Criança Golem]\\face[]\n"\
-          "Se o Irmãozão se esquece de comer, ele fica\n"\
-          "tão cansado que só fica sentado e espera\n"\
-          "alguém trazer comida.\n",
+          "Quando o Irmãozão se esquece de comer, ele\n"\
+          "fica tão cansado que só consegue ficar sentado,\n"\
+          "esperando alguém trazer comida.\n",
         9 =>
           #------------------------------------------
           "\\ignr\\nm[Criança Golem]\\face[]\n"\
@@ -22780,7 +22784,7 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Um livro velho com fecho de prata.\n"\
+          "Um livro velho com fivela de prata.\n"\
           "------------------------------------------\n"\
           "Abrir?\n",
         3 => [["Sim", "Não"], 2],
@@ -22826,7 +22830,7 @@ $events_lang = {
           "Ah, eu não sou importante.\n"\
           "------------------------------------------\n"\
           "Mas se quiser me chamar de algo,\n"\
-          "pode me chamar \\iUma.\n",
+          "pode me chamar de \\iUma.\n",
         89 =>
           #------------------------------------------
           "\\ignr\\nm[Garoto]\\face[BoyBummed]\\fr\n"\
@@ -23060,8 +23064,9 @@ $events_lang = {
         33 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Um dia, o Garoto voltou para casa de uma caçada\n"\
-          "e descobriu que todo mundo em sua tribo...\\w[80]\n",
+          "Um dia, o Garoto voltou para casa de\n"\
+          "uma caçada e descobriu que todo\n"\
+          "mundo em sua tribo...\\w[80]\n",
         38 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
@@ -23091,8 +23096,8 @@ $events_lang = {
           "\\ignr\\nm[]\\face[]\n"\
           "Assim, o Garoto partiu em uma grande jornada.\\w[30]\n"\
           "------------------------------------------\n"\
-          "Ele batalhou espíritos malignos... Visitou muitas\n"\
-          "terras...\\w[30]\n",
+          "Ele lutou contra espíritos malignos...\n"\
+          "Visitou muitas terras...\\w[30]\n",
         64 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
@@ -23101,14 +23106,14 @@ $events_lang = {
         69 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "E finalmente, Morizora concedeu ao Garoto\n"\
-          "seu desejo:\\w[40]\n"\
+          "E finalmente, Morizora concedeu ao\n"\
+          "Garoto seu desejo:\\w[40]\n"\
           "------------------------------------------\n"\
           "Um passeio em seu barco mágico.\\w[40]\n"\
           "------------------------------------------\n"\
-          "O Garoto agora era capaz de navegar, finalmente\n"\
-          "se reunindo a sua tribo e a todos aqueles que\n"\
-          "ele amava...\\w[40]\n"\
+          "O Garoto agora era capaz de navegar,\n"\
+          "finalmente se reunindo a sua tribo e a\n"\
+          "todos aqueles que ele amava...\\w[40]\n"\
           "------------------------------------------\n"\
           "No belo mundo...\\w[10]\n",
         79 =>
@@ -23247,7 +23252,7 @@ $events_lang = {
           "Atenção: Esta escada de saída está atualmente\n"\
           "em construção, por favor não use.\n"\
           "------------------------------------------\n"\
-          "\\iIsso significa você, Kisaburo! --Líder do Turno\n",
+          "\\iIsso significa você, Kisaburo! --Chefe do Turno\n",
       },
     },
     5 => {
@@ -23938,7 +23943,7 @@ $events_lang = {
           "Uma variedade de livros escolares de\n"\
           "matemática, história e línguas estrangeiras.\n"\
           "------------------------------------------\n"\
-          "Folhetos sobre a viajar para o Japão estão\n"\
+          "Folhetos sobre viajar para o Japão estão\n"\
           "empilhados em cima dos livros.\n",
       },
     },
@@ -24186,7 +24191,7 @@ $events_lang = {
           "postal na loja de presentes. Está quente aqui!\n"\
           "------------------------------------------\n"\
           "\\iCuide da sua mãe, seja legal com a sua irmã...\n"\
-          "Se você for bonzinho, vou trazer um presente\n"\
+          "Se você for bonzinho, vou levar um presente\n"\
           "para você da minha viagem.\n"\
           "Te amo, Papai\n",
         27 =>
@@ -24252,7 +24257,7 @@ $events_lang = {
           "Sua mãe me disse que ursos são suas coisas\n"\
           "preferidas, então te dou este de aniversário.\n"\
           "------------------------------------------\n"\
-          "Qual vai ser o nome dele?\n"\
+          "\\iQual vai ser o nome dele?\n"\
           "Te amo, Papai.\n",
       },
     },
@@ -24463,7 +24468,7 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Olhar ao tabuleiro de xadrez?\n",
+          "Olhar o tabuleiro de xadrez?\n",
         2 => [["Sim", "Não"], 2],
         5 =>
           #------------------------------------------
@@ -25396,7 +25401,7 @@ $events_lang = {
           "\\ignr\\nm[Christina]\\face[Christy]\\fr\n"\
           "Sim, é ainda mais importante do que uma lupa.\n"\
           "------------------------------------------\n"\
-          "Que ver? Observe!\n"\
+          "Quer ver? Observe!\n"\
           "------------------------------------------\n"\
           "Vou fechar os meus olhos, e usando apenas\n"\
           "o meu nariz, vou encontrar alguns cogumelos.\n",
@@ -25571,7 +25576,7 @@ $events_lang = {
           "------------------------------------------\n"\
           "\\ignr\\nm[Bonnie]\\face[]\n"\
           "Por que você não volta e termina\n"\
-          "sua janta.\n"\
+          "sua janta?\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Christina]\\face[ChristySad]\\fr\n"\
           "Tá bom, Mãe.\n",
@@ -25803,7 +25808,7 @@ $events_lang = {
           "sua mãe em casa? Tem conseguido boas\n"\
           "notas?\n"\
           "------------------------------------------\n"\
-          "\\iQuando eu voltar, vou trazer um presente\n"\
+          "\\iQuando eu voltar, vou levar um presente\n"\
           "especial por ser tão boa.\n"\
           "Te amo, Papai\n",
       },
@@ -25922,8 +25927,8 @@ $events_lang = {
           "Uma bela pintura de uma mulher. O nome\n"\
           "\"Bonnie\" está escrito na moldura.\n"\
           "------------------------------------------\n"\
-          "Alguém riscou algo na beirada do quadro\n"\
-          "de avisos.\n"\
+          "Alguém riscou algo no lado esquerdo\n"\
+          "do quadro.\n"\
           "------------------------------------------\n"\
           "Olhar?\n",
         6 => [["Sim", "Não"], 2],
@@ -26004,7 +26009,7 @@ $events_lang = {
           "------------------------------------------\n"\
           "\\ignr\\nm[Mãe]\\face[Mom]\\fr\n"\
           "Hum... Parece uma carta que nunca foi\n"\
-          "enviada. Tem uma estampa e tudo\n"\
+          "enviada. Tem um selo e tudo\n"\
           "nela...\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Garoto]\\face[BoyNeutral]\\fr\n"\
@@ -26375,7 +26380,7 @@ $events_lang = {
           "\\iNOSSO esconderijo secreto.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Christina]\\face[Christy]\\fr\n"\
-          "Ele pode ser nossa primeiro \\i\n"\
+          "Ele pode ser nosso primeiro \\i\n"\
           "Clube Secreto de Detetive\\i oficial!\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Benny]\\face[Benny]\\fr\n"\
@@ -26581,7 +26586,7 @@ $events_lang = {
           "ser acordado de qualquer forma.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Ajudante de Morizora]\\face[Oracle]\\fr\n"\
-          "Quando as trevas o fizeram adormecer, a\n"\
+          "Quando as trevas o fazem adormecer, a\n"\
           "única coisa que pode acordar ele é uma\n"\
           "canção muito especial...\n"\
           "------------------------------------------\n"\
@@ -27066,7 +27071,7 @@ $events_lang = {
           "\\ignr\\nm[Yami]\\face[Yami_stern]\\fr\n"\
           "Não sei.\n"\
           "------------------------------------------\n"\
-          "Dá última vez que vi, ele tava dormindo. E\n"\
+          "Da última vez que vi, ele tava dormindo. E\n"\
           "mesmo que acorde, duvido que ele \\ime\\i\n"\
           "concederia um desejo.\n"\
           "------------------------------------------\n"\
@@ -27481,7 +27486,7 @@ $events_lang = {
           "E ENTÃO...\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Sessenta]\\face[]\n"\
-          "Eu percebei no meio do ataque da cabra\n"\
+          "Eu percebi no meio do ataque da cabra\n"\
           "que minha vassoura tinha sido derrubada\n"\
           "no rio. Então eu pulei atrás dela!\n"\
           "------------------------------------------\n"\
@@ -27830,7 +27835,7 @@ $events_lang = {
           "------------------------------------------\n"\
           "\\ignr\\nm[Mãe]\\face[Mom]\\fr\n"\
           "Isso! O barulho do sino nos ajudava\n"\
-          "a encontrar gatos e cães quando eles\n"\
+          "a encontrar cães e gatos quando eles\n"\
           "estavam se escondendo...\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Mãe]\\face[MomClosedHappy]\\fr\n"\
@@ -28105,7 +28110,7 @@ $events_lang = {
       0 => {
         1 =>
           #------------------------------------------
-          "\\ignr\\nm[Líder do Turno]\\face[]\n"\
+          "\\ignr\\nm[Chefe do Turno]\\face[]\n"\
           "Pare de me perturbar, garoto. Eu estou cheia\n"\
           "de coisas para fazer agora.\n"\
           "------------------------------------------\n"\
@@ -28114,7 +28119,7 @@ $events_lang = {
         6 => [["Oferecer uma Barra de Amendoim", "Ir embora"], 2],
         9 =>
           #------------------------------------------
-          "\\ignr\\nm[Líder do Turno]\\face[]\n"\
+          "\\ignr\\nm[Chefe do Turno]\\face[]\n"\
           "Espera... Você está \\idando \\iisto para mim?\n"\
           "------------------------------------------\n"\
           "Nossa... Muito obrigada. Não tenho comido\n"\
@@ -28124,11 +28129,11 @@ $events_lang = {
           "eu der uma pausa rapidinho.\n",
         41 =>
           #------------------------------------------
-          "\\ignr\\nm[Líder do Turno]\\face[]\n"\
+          "\\ignr\\nm[Chefe do Turno]\\face[]\n"\
           "Pare de me perturbar, garoto. Eu estou cheia\n"\
           "de coisas para fazer agora.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Líder do Turno]\\face[]\n"\
+          "\\ignr\\nm[Chefe do Turno]\\face[]\n"\
           "\\iE meu estômago está rosnando! O que\n"\
           "eu não daria por uma Barra de Amendoim!\n",
       },
@@ -28297,11 +28302,11 @@ $events_lang = {
           "\\ignr\\nm[Winston]\\face[Winston]\\fr\n"\
           "Ouvi dizer que Cora e Danielle estão\n"\
           "trabalhando em um projeto especial para\n"\
-          "melhorar a moral do hospital.\n"\
+          "melhorar o moral do hospital.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Winston]\\face[WinstonAmazed]\\fr\n"\
           "Da última vez que ouvi, elas estavam se\n"\
-          "chamando de \"Heróis Capa de Toalha.\"\n",
+          "chamando de \"Heróis da Capa de Toalha.\"\n",
       },
       1 => {
         2 =>
@@ -28376,11 +28381,11 @@ $events_lang = {
           "\\ignr\\nm[Winston]\\face[Winston]\\fr\n"\
           "Ouvi dizer que Cora e Danielle estão\n"\
           "trabalhando em um projeto especial para\n"\
-          "melhorar a moral do hospital.\n"\
+          "melhorar o moral do hospital.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Winston]\\face[WinstonAmazed]\\fr\n"\
           "Da última vez que ouvi, elas estavam se\n"\
-          "chamando de \"Heróis Capa de Toalha.\"\n",
+          "chamando de \"Heróis da Capa de Toalha.\"\n",
       },
       2 => {
         2 =>
@@ -28449,11 +28454,11 @@ $events_lang = {
           "\\ignr\\nm[Winston]\\face[Winston]\\fr\n"\
           "Ouvi dizer que Cora e Danielle estão\n"\
           "trabalhando em um projeto especial para\n"\
-          "melhorar a moral do hospital.\n"\
+          "melhorar o moral do hospital.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Winston]\\face[WinstonAmazed]\\fr\n"\
           "Da última vez que ouvi, elas estavam se\n"\
-          "chamando de \"Heróis Capa de Toalha.\"\n",
+          "chamando de \"Heróis da Capa de Toalha.\"\n",
       },
     },
     5 => {
@@ -28464,7 +28469,7 @@ $events_lang = {
           "Paciente #138\n"\
           "------------------------------------------\n"\
           "Lesão Cerebral Anóxica | Estágio 1 Coma\n"\
-          "Sessão de Terapia Respiratória | 21-11\n",
+          "Sessão de Terapia Respiratória | 21/11\n",
       },
     },
     6 => {
@@ -28552,9 +28557,9 @@ $events_lang = {
           "\\ignr\\nm[]\\face[]\n"\
           "Paciente #237\n"\
           "------------------------------------------\n"\
-          "Pemetrexede | 800mg | Dose única | 21-11 16:02:31\n"\
-          "Carboplatina | 360mg | Dose única | 21-11 16:03:16\n"\
-          "Carboplatina | 376mg | Dose única | 12-12 16:04:00\n",
+          "Pemetrexede | 800mg | Dose única | 21/11 16:02:31\n"\
+          "Carboplatina | 360mg | Dose única | 21/11 16:03:16\n"\
+          "Carboplatina | 376mg | Dose única | 12/12 16:04:00\n",
       },
     },
     4 => {
@@ -28671,7 +28676,7 @@ $events_lang = {
           "está se saindo muito bem.\n"\
           "------------------------------------------\n"\
           "De verdade, eu acredito que está tudo bem\n"\
-          "para você andar pelos corredores um\n"\
+          "você andar pelos corredores um\n"\
           "pouquinho por hoje.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Garoto]\\face[BoyThinking]\\fr\n"\
@@ -28716,7 +28721,7 @@ $events_lang = {
           #------------------------------------------
           "\\ignr\\nm[Central]\\face[]\n"\
           "Olá, como posso ajudar?\n",
-        14 => [["Desculpe, eu liguei por engano...", "A lanchonete está aberta?", "Poderia enviar a enfermeira?"], 4],
+        14 => [["Desculpe, eu liguei por engano...", "A lanchonete está aberta?", "Poderia enviar um enfermeiro?"], 4],
         16 =>
           #------------------------------------------
           "\\ignr\\nm[Central]\\face[]\n"\
@@ -29337,9 +29342,9 @@ $events_lang = {
           "\\ignr\\nm[]\\face[]\n"\
           "Paciente #237\n"\
           "------------------------------------------\n"\
-          "Pemetrexede | 800mg | Dose única | 21-11 16:02:31\n"\
-          "Carboplatina | 360mg | Dose única | 21-11 16:03:16\n"\
-          "Carboplatina | 376mg | Dose única | 12-12 16:04:00\n",
+          "Pemetrexede | 800mg | Dose única | 21/11 16:02:31\n"\
+          "Carboplatina | 360mg | Dose única | 21/11 16:03:16\n"\
+          "Carboplatina | 376mg | Dose única | 12/12 16:04:00\n",
       },
     },
     7 => {
@@ -29430,7 +29435,7 @@ $events_lang = {
           "Paciente #138\n"\
           "------------------------------------------\n"\
           "Lesão Cerebral Anóxica | Estágio 1 Coma\n"\
-          "Sessão de Terapia Respiratória | 21-11\n",
+          "Sessão de Terapia Respiratória | 21/11\n",
       },
     },
     6 => {
@@ -29884,7 +29889,7 @@ $events_lang = {
           "\\ignr\\nm[Mãe]\\face[MomTalking]\\fr\n"\
           "Bem...\n"\
           "------------------------------------------\n"\
-          "E se eu disse que com APENAS um pedaço\n"\
+          "E se eu disser que com APENAS um pedaço\n"\
           "de papel, você pode fazer uma peça de\n"\
           "armadura muito especial...\n"\
           "------------------------------------------\n"\
@@ -29945,9 +29950,9 @@ $events_lang = {
           "\\ignr\\nm[]\\face[]\n"\
           "Paciente #237\n"\
           "------------------------------------------\n"\
-          "Pemetrexede | 800mg | Dose única | 21-11 16:02:31\n"\
-          "Carboplatina | 360mg | Dose única | 21-11 16:03:16\n"\
-          "Carboplatina | 376mg | Dose única | 12-12 16:04:00\n",
+          "Pemetrexede | 800mg | Dose única | 21/11 16:02:31\n"\
+          "Carboplatina | 360mg | Dose única | 21/11 16:03:16\n"\
+          "Carboplatina | 376mg | Dose única | 12/12 16:04:00\n",
       },
     },
     5 => {
@@ -30022,8 +30027,8 @@ $events_lang = {
           "\\ignr\\nm[Central]\\face[]\n"\
           "Nós temos!\n"\
           "------------------------------------------\n"\
-          "A Salão das Crianças tem todo tipo de atividade,\n"\
-          "mas se seu filho não está se sentindo bem o\n"\
+          "O Salão das Crianças tem todo tipo de atividade,\n"\
+          "mas se seu filho não estiver se sentindo bem o\n"\
           "suficiente para sair do quarto, hum...\n"\
           "------------------------------------------\n"\
           "...Acho que deve ter alguns papéis e giz de\n"\
@@ -30040,7 +30045,7 @@ $events_lang = {
       0 => {
         1 =>
           #------------------------------------------
-          "\\ignr\\nm[Líder do Turno]\\face[]\n"\
+          "\\ignr\\nm[Chefe do Turno]\\face[]\n"\
           "Como seu filho está hoje?\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Mãe]\\face[Mom]\\fr\n"\
@@ -30053,7 +30058,7 @@ $events_lang = {
           "------------------------------------------\n"\
           "E você, como está hoje?\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Líder do Turno]\\face[]\n"\
+          "\\ignr\\nm[Chefe do Turno]\\face[]\n"\
           "Estou no meu intervalo agora, e reabasteceram\n"\
           "a máquina de vendas, então...\n"\
           "------------------------------------------\n"\
@@ -30063,14 +30068,14 @@ $events_lang = {
           "...\n",
         18 =>
           #------------------------------------------
-          "\\ignr\\nm[Líder do Turno]\\face[]\n"\
+          "\\ignr\\nm[Chefe do Turno]\\face[]\n"\
           "Acho que a máquina de vendas deveria ter\n"\
           "mais opções, não acha?\n",
       },
       1 => {
         0 =>
           #------------------------------------------
-          "\\ignr\\nm[Líder do Turno]\\face[]\n"\
+          "\\ignr\\nm[Chefe do Turno]\\face[]\n"\
           "Tudo aqui está tremendo! Nós temos que\n"\
           "sair daqui!\n"\
           "------------------------------------------\n"\
@@ -30274,7 +30279,7 @@ $events_lang = {
       0 => {
         0 =>
           #------------------------------------------
-          "\\ignr\\nm[Enfermeira]\\face[]\n"\
+          "\\ignr\\nm[Enfermeiro]\\face[]\n"\
           "Não, você não pode passar por aqui... Todo o\n"\
           "lugar está caindo!\n",
       },
@@ -30485,9 +30490,9 @@ $events_lang = {
           "\\ignr\\nm[]\\face[]\n"\
           "Paciente #237\n"\
           "------------------------------------------\n"\
-          "Pemetrexede | 800mg | Dose única | 21-11 16:02:31\n"\
-          "Carboplatina | 360mg | Dose única | 21-11 16:03:16\n"\
-          "Carboplatina | 376mg | Dose única | 12-12 16:04:00\n",
+          "Pemetrexede | 800mg | Dose única | 21/11 16:02:31\n"\
+          "Carboplatina | 360mg | Dose única | 21/11 16:03:16\n"\
+          "Carboplatina | 376mg | Dose única | 12/12 16:04:00\n",
       },
     },
     4 => {
@@ -30615,7 +30620,7 @@ $events_lang = {
       0 => {
         4 =>
           #------------------------------------------
-          "\\ignr\\nm[Enfermeira]\\face[]\n"\
+          "\\ignr\\nm[Enfermeiro]\\face[]\n"\
           "É bem difícil cuidar de tudo com poucas\n"\
           "horas de eletricidade por dia...\n"\
           "------------------------------------------\n"\
@@ -30626,7 +30631,7 @@ $events_lang = {
           "ainda ter ficado intacta!\n",
         14 =>
           #------------------------------------------
-          "\\ignr\\nm[Enfermeira]\\face[]\n"\
+          "\\ignr\\nm[Enfermeiro]\\face[]\n"\
           "Esse zumbido constante que você está\n"\
           "ouvindo vem do andar de baixo...\n"\
           "------------------------------------------\n"\
@@ -30687,10 +30692,10 @@ $events_lang = {
       0 => {
         0 =>
           #------------------------------------------
-          "\\ignr\\nm[Enfermeira]\\face[]\n"\
+          "\\ignr\\nm[Enfermeiro]\\face[]\n"\
           "É melhor se afastar desta área...\n"\
           "------------------------------------------\n"\
-          "O chão está começando a ceder para todo\n"\
+          "O chão está começando a ceder por todo\n"\
           "dano causado pela água.\n",
       },
     },
@@ -30726,7 +30731,7 @@ $events_lang = {
       0 => {
         0 =>
           #------------------------------------------
-          "\\ignr\\nm[Enfermeira]\\face[]\n"\
+          "\\ignr\\nm[Enfermeiro]\\face[]\n"\
           "Não posso imaginar o que foi que esses\n"\
           "trabalhadores passaram...\n"\
           "------------------------------------------\n"\
@@ -32662,7 +32667,7 @@ $events_lang = {
           "\\ignr\\nm[Mãe]\\face[Mom]\\fr\n"\
           "Todo mundo me disse que você fez\n"\
           "um bom trabalho hoje!\n",
-        4 => [["Como foi o seu dia?", "Pronto para dormir?", "Deixa pra lá."], 3],
+        4 => [["Como foi o seu dia?", "Pronta para dormir?", "Deixa pra lá."], 3],
         6 =>
           #------------------------------------------
           "\\ignr\\nm[Mãe]\\face[MomClosedHappy]\\fr\n"\
@@ -33665,7 +33670,7 @@ $events_lang = {
           "não precisa se preocupar!\n",
         53 =>
           #------------------------------------------
-          "\\iÉ um DISASTRE!\n"\
+          "\\iÉ um DESASTRE!\n"\
           "------------------------------------------\n"\
           "Como eu estava dizendo... Se o ladrão pôde\n"\
           "roubar algo tão importante, vai SABER do\n"\
@@ -33680,7 +33685,7 @@ $events_lang = {
           "Por favor, experimentem os chás e as comidas\n"\
           "que nós preparamos! Aproveitem!\n"\
           "------------------------------------------\n"\
-          "\\iArg... É um DISASTRE!\n",
+          "\\iArg... É um DESASTRE!\n",
       },
       1 => {
         4 =>
@@ -34686,7 +34691,7 @@ $events_lang = {
           "\\ignr\\nm[Garoto]\\face[BoyDepressed]\\fr\n"\
           "...\n"\
           "------------------------------------------\n"\
-          "Não quero mais estar aqui...\n"\
+          "Não quero mais ficar aqui...\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Mãe]\\face[MomSad]\\fr\n"\
           "Eu sei querido...\n"\
@@ -34744,7 +34749,7 @@ $events_lang = {
           "Atenção: Esta escada de saída está atualmente\n"\
           "em construção, por favor não use.\n"\
           "------------------------------------------\n"\
-          "\\iIsso significa você, Kisaburo! --Líder do Turno\n",
+          "\\iIsso significa você, Kisaburo! --Chefe do Turno\n",
       },
     },
     5 => {
@@ -34973,7 +34978,7 @@ $events_lang = {
       0 => {
         6 =>
           #------------------------------------------
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]Alice, Alice, você quer\n"\
           "saber o que eu comi hoje à\n"\
           "noite??\n"\
@@ -34982,7 +34987,7 @@ $events_lang = {
           "\\e[23]Por favor, me diz que você\n"\
           "não vai passar mal mais tarde...\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]Eu comi uma bomba, uma torta\n"\
           "de frutas com chantilly, um sanduíche,\n"\
           "outro sanduíche, uma torta, uma---\n"\
@@ -34991,7 +34996,7 @@ $events_lang = {
           "\\e[23]Eu pensei que você disse\n"\
           "que iria se acalmar!\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]Espera, \"se acalmar\" não\n"\
           "significa comer até doer o\n"\
           "estômago?\n"\
@@ -34999,7 +35004,7 @@ $events_lang = {
           "\\ignr\\nm[Alice]\\face[]\n"\
           "\\e[23]Ai meu Deus, não!\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]Ah, então não, eu não\n"\
           "vou me acalmar.\n"\
           "------------------------------------------\n"\
@@ -35008,27 +35013,26 @@ $events_lang = {
         34 =>
           #------------------------------------------
           "\\ignr\\nm[Alice]\\face[]\n"\
-          "\\e[23]Então Reitora, me conte sobre\n"\
+          "\\e[23]Então Dean, me conte sobre\n"\
           "o trabalho hoje.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]Bem, o trabalho foi bem\n"\
           "bom, eu tive que---\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]OOH OLHA ALICE É UMA TORTA!\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Alice]\\face[]\n"\
           "\\e[23]Sim, tem Torta de Sila ali.\n"\
-          "Você já comeu um,\n"\
-          "lembra?\n"\
+          "Você já comeu, lembra?\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]Uh, desculpa... Ok, então no\n"\
           "trabalho hoje, eu estava ajudando a\n"\
           "consertar---\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]OLHA TEM UM\n"\
           "VAGA-LUME!!!\n"\
           "------------------------------------------\n"\
@@ -35037,12 +35041,12 @@ $events_lang = {
           "Continue... Você tava contando\n"\
           "do trabalho...\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]Minha nossa, desculpas! Ok, então\n"\
           "eu tava ajudando um cliente hoje no\n"\
           "trabalho e---\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]ALICE VOCÊ TEM\n"\
           "ORELHAS!\n"\
           "------------------------------------------\n"\
@@ -35056,7 +35060,7 @@ $events_lang = {
       0 => {
         3 =>
           #------------------------------------------
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]Alice, Alice, você quer\n"\
           "saber o que eu comi hoje à\n"\
           "noite??\n"\
@@ -35065,7 +35069,7 @@ $events_lang = {
           "\\e[23]Por favor, me diz que você\n"\
           "não vai passar mal mais tarde...\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]Eu comi uma bomba, uma torta\n"\
           "de frutas com chantilly, um sanduíche,\n"\
           "outro sanduíche, uma torta, uma---\n"\
@@ -35074,7 +35078,7 @@ $events_lang = {
           "\\e[23]Eu pensei que você disse\n"\
           "que iria se acalmar!\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]Espera, \"se acalmar\" não\n"\
           "significa comer até doer o\n"\
           "estômago?\n"\
@@ -35082,7 +35086,7 @@ $events_lang = {
           "\\ignr\\nm[Alice]\\face[]\n"\
           "\\e[23]Ai meu Deus, não!\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]Ah, então não, eu não\n"\
           "vou me acalmar.\n"\
           "------------------------------------------\n"\
@@ -35091,26 +35095,26 @@ $events_lang = {
         31 =>
           #------------------------------------------
           "\\ignr\\nm[Alice]\\face[]\n"\
-          "\\e[23]Então Reitora, me conte sobre\n"\
+          "\\e[23]Então Dean, me conte sobre\n"\
           "o trabalho hoje.\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
-          "\\e[24]Bem, o trabalho for bem\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
+          "\\e[24]Bem, o trabalho foi bem\n"\
           "bom, eu tive que---\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]OOH OLHA ALICE É UMA TORTA!\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Alice]\\face[]\n"\
           "\\e[23]Sim, tem Torta de Sila ali.\n"\
           "Você já comeu, lembra?\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]Uh, desculpa... Ok, então no\n"\
           "trabalho hoje, eu estava ajudando a\n"\
           "consertar---\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]OLHA TEM UM\n"\
           "VAGA-LUME!!!\n"\
           "------------------------------------------\n"\
@@ -35119,12 +35123,12 @@ $events_lang = {
           "Continue... Você tava contando\n"\
           "do trabalho...\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]Minha nossa, desculpas! Ok, então\n"\
           "eu tava ajudando um cliente hoje no\n"\
           "trabalho e---\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Reitora]\\face[]\n"\
+          "\\ignr\\nm[Dean]\\face[]\n"\
           "\\e[24]ALICE VOCÊ TEM\n"\
           "ORELHAS!\n"\
           "------------------------------------------\n"\
@@ -36633,10 +36637,10 @@ $events_lang = {
       0 => {
         0 =>
           #------------------------------------------
-          "\\ignr\\nm[Líder do Turno]\\face[]\n"\
+          "\\ignr\\nm[Chefe do Turno]\\face[]\n"\
           "Kazuko!\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Líder do Turno]\\face[]\n"\
+          "\\ignr\\nm[Chefe do Turno]\\face[]\n"\
           "As dicas que você deu realmente ajudaram!\n"\
           "Meu pequeno limoeiro está mais saudável\n"\
           "do que nunca!\n"\
@@ -36814,7 +36818,7 @@ $events_lang = {
           "...?\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Toma]\\face[]\n"\
-          "Você é novo aqui, né?\n"\
+          "Você é nova aqui, né?\n"\
           "------------------------------------------\n"\
           "Cadê sua ninhada? Cadê sua\n"\
           "Mãe?\n"\
@@ -37325,7 +37329,7 @@ $events_lang = {
           "\\ignr\\nm[Carrocinha]\\face[]\n"\
           "\\e[11]Uma grande Akita sarnenta\n"\
           "como Hachiko não duraria muito na\n"\
-          "Tokyo de hoje...\n"\
+          "Tóquio de hoje...\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Carrocinha]\\face[]\n"\
           "\\e[11]Uma pena.\n"\
@@ -37791,7 +37795,7 @@ $events_lang = {
           "------------------------------------------\n"\
           "\\ignr\\nm[Sue]\\face[Sue1]\\fr\n"\
           "Talvez o mundo seja assim. Da mesma\n"\
-          "forma que gatos e cães não se dão bem.\n",
+          "forma que cães e gatos não se dão bem.\n",
         203 =>
           #------------------------------------------
           "\\ignr\\nm[Puchi]\\face[Puchi2]\\fr\n"\
@@ -38501,13 +38505,13 @@ $events_lang = {
           "padaria.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Yuki]\\face[]\n"\
-          "\\e[7]Uma padaria de gatos e\n"\
-          "cães... Que dia!\n"\
+          "\\e[7]Uma padaria de cães e\n"\
+          "gatos... Que dia!\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Mickey]\\face[]\n"\
           "\\e[3]\"Bem-vindos à primeira\n"\
-          "Padaria de Gatos e Cães de\n"\
-          "Tokyo oficial!\"\n"\
+          "Padaria Oficial de Cães e Gatos de\n"\
+          "Tóquio!\"\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Yuki]\\face[]\n"\
           "\\e[4]Ha ha ha!\n"\
@@ -38577,7 +38581,7 @@ $events_lang = {
           "estou aqui.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Uma]\\face[UmaSad2]\\fr\n"\
-          "Depois de tudo que eu fiz, Eu\n"\
+          "Depois de tudo que eu fiz, eu\n"\
           "não mereço ainda estar andando\n"\
           "por estes caminhos.\n"\
           "------------------------------------------\n"\
@@ -38630,7 +38634,7 @@ $events_lang = {
         83 =>
           #------------------------------------------
           "\\ignr\\nm[Uma]\\face[UmaSad2]\\fr\n"\
-          "Vocês tomaram conta um do outro...\n"\
+          "Vocês tomaram conta uma da outra...\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Uma]\\face[UmaSad]\\fr\n"\
           "Ela é forte, não é?\n",
@@ -38767,8 +38771,8 @@ $events_lang = {
           "...\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Sue]\\face[Sue1Happy]\\fr\n"\
-          "Um planeta de padaria de gatos e\n"\
-          "cães? É uma ótima ideia!\n",
+          "Um planeta de padaria de cães e\n"\
+          "gatos? É uma ótima ideia!\n",
       },
     },
   },
@@ -38906,15 +38910,15 @@ $events_lang = {
           "veja a lista de alucinações e delírios.\n",
         13 =>
           #------------------------------------------
-          "21-10: Encontrado subindo a escada na zona\n"\
+          "21/10: Encontrado subindo a escada na zona\n"\
           "de construção 5b. Quando indagado, respondeu\n"\
           "que estava tentando abrir um buraco no teto.\n"\
           "------------------------------------------\n"\
-          "28-10: Encontrado no jardim cavando na lama.\n"\
+          "28/10: Encontrado no jardim cavando na lama.\n"\
           "Sem resposta quando indagado. Pareceu estar\n"\
           "desconexo de onde estava e do tempo.\n"\
           "------------------------------------------\n"\
-          "02-11: Carregando sacolas de--\n",
+          "02/11: Carregando sacolas de--\n",
       },
     },
     17 => {
@@ -39032,7 +39036,7 @@ $events_lang = {
           "\\iPode parecer que eu... \\w[80]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Kisaburo]\\face[Kisaburo2SingingNW]\\fr\n"\
-          "\\iEstou a milhões de kilometros... \\w[160]\n"\
+          "\\iEstou a milhões de quilômetros... \\w[160]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Kisaburo]\\face[Kisaburo2SingingNW]\\fr\n"\
           "\\iMas querida... \\w[80]\n"\
@@ -40325,7 +40329,7 @@ $events_lang = {
           #------------------------------------------
           "\\ignr\\nm[Poku]\\face[]\n"\
           "Oi pessoal! Sejam bem-vindos à Agência\n"\
-          "de Proteção Leeble! Vocês devem ser os\n"\
+          "de Proteção ao Leeble! Vocês devem ser os\n"\
           "novos recrutas!\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[Poku]\\face[]\n"\
@@ -40413,7 +40417,7 @@ $events_lang = {
           #------------------------------------------
           "\\ignr\\nm[Joe]\\face[]\n"\
           "Amo tartarugas! Amo \\btodos\\b os animais, na\n"\
-          "verdade. Muito mais do que gente como Reitora\n"\
+          "verdade. Muito mais do que gente como Dean\n"\
           "ou Poku.\n",
       },
     },
@@ -40437,7 +40441,7 @@ $events_lang = {
           "------------------------------------------\n"\
           "\\ignr\\nm[Grande Marechal Montador de Alce Fisor]\\face[]\n"\
           "Me procure se precisar de ajuda com\n"\
-          "veículos aéreos, movimentos especiais de\n"\
+          "veículos aéreos, golpes especiais de\n"\
           "luta ou xarope de bordo.\n",
       },
     },
@@ -40604,21 +40608,21 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Subir o Pé de Feijão?\n",
+          "Descer o Pé de Feijão?\n",
         2 => [["Sim", "Não"], 2],
       },
       1 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Subir o Pé de Feijão?\n",
+          "Descer o Pé de Feijão?\n",
         2 => [["Sim", "Não"], 2],
       },
       2 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Subir o Pé de Feijão?\n",
+          "Descer o Pé de Feijão?\n",
         2 => [["Sim", "Não"], 2],
       },
     },
@@ -40828,7 +40832,7 @@ $events_lang = {
         11 =>
           #------------------------------------------
           "12 DE MARÇO (APN) -\n"\
-          "\\iA polícia confirmou 1,480 pessoas\n"\
+          "\\iA polícia confirmou 1.480 pessoas\n"\
           "desaparecidas nas áreas afetadas.\n"\
           "------------------------------------------\n"\
           "\\iTeme-se que a contagem final de mortos\n"\
@@ -41269,11 +41273,11 @@ $items_lang = {
   177 => ["Lâmpada Cogubrilho", "Uma lâmpada azul translúcida no formato de um Cogubrilho."],
   178 => ["Luzes de Coguparede", "Um par de luzes em forma de Coguparede bem realistas."],
   179 => ["\"Cena do Céu com um Avião\"", "Um conjunto de adesivos com aviões e céu para a parede."],
-  180 => ["CD dos \"Pequenos Planetas\"", "CD dos \"Pequenos Planetas\" para o Jukebox."],
-  181 => ["CD do \"Enviado do Espírito\"", "CD do \"Enviado do Espírito\" para o Jukebox."],
-  182 => ["CD Remixado do MC Brotin", "\"O Chá do Monsieur (Remix do MC Brotin)\" para o Jukebox."],
-  183 => ["CD de \"Os Detentores\"", "CD de \"Os Detentores\" para o Jukebox."],
-  184 => ["CD de \"Ao Boshi Matsuri\"", "CD de \"Ao Boshi Matsuri\" para o Jukebox."],
+  180 => ["CD \"Pequenos Planetas\"", "CD \"Pequenos Planetas\" para o Jukebox."],
+  181 => ["CD \"Enviado do Espírito\"", "CD \"Enviado do Espírito\" para o Jukebox."],
+  182 => ["CD Remixado do MC Brotin", "CD \"O Chá do Monsieur (Remix do MC Brotin)\" para o Jukebox."],
+  183 => ["CD \"Os Detentores\"", "CD \"Os Detentores\" para o Jukebox."],
+  184 => ["CD \"Ao Boshi Matsuri\"", "CD \"Ao Boshi Matsuri\" para o Jukebox."],
   185 => ["", ""],
   186 => ["", ""],
   187 => ["", ""],
