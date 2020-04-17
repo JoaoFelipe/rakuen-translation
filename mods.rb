@@ -24,6 +24,7 @@
 # load "#{Dir.getwd}/mods.rb"
 # on top of Data/Scripts.rxdata/Main
 
+$WD_PATH = Dir.getwd
 $EXE_PATH = "#{Dir.getwd}/Data"
 
 class Mod_System
@@ -39,7 +40,7 @@ class Mod_System
   end
 
   def reload
-    load("#{$EXE_PATH}/mods.rb")
+    load("#{$WD_PATH}/mods.rb")
   end
 
 end
