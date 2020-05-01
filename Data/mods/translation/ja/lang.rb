@@ -170,11 +170,11 @@ $journal_lang = [
   "キサブロウの病室を調べて、クリスティーナを探そう。",
   "材料を探して翼を作ろう。",
   "トニーに手紙を届けよう。",
-  "Help Kisaburo.",
+  "キサブロウさんを手伝おう。",
   "真夜中茶屋のカズコを手伝おう。",
   "プチを見つけてスーの元に連れて行こう。",
-  "Find a Pickaxe to clear fallen rocks.",
-  "Get Monsieur Bud to try a tea sample.",
+  "石を壊すつるはしを見つけよう。",
+  "ムッシューにお茶のサンプルを飲んでもらおう。",
   "ドラゴンのストーミーからドラゴンの灰をもらおう。",
   "水をせき止めているものを取り除こう。",
   "Find out what Puchi wants.",
@@ -342,16 +342,17 @@ $events_lang = {
         141 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Everyone says hospital and airplane food\n"\
-          "are the worst... but I actually kind of like it.\n",
+          "みんなは病院食と機内食は\n"\
+          "美味しくないって言うけど…\n"\
+          "実はお母さんは好きなんだ。\n",
         147 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "When you move back home again, we're \n"\
-          "going to have a big party at the house!\n"\
+          "退院したら、お家で盛大に\n"\
+          "お祝いしなくちゃね！\n"\
           "------------------------------------------\n"\
-          "I'll make a big pot of oden, and your \n"\
-          "favorite desserts. \n",
+          "大きなお鍋でおでんを作るわ。\n"\
+          "それにあなたの好きなデザートもね。\n",
         159 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
@@ -661,39 +662,39 @@ $events_lang = {
         154 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "I'm really curious what's going on \n"\
-          "with Kisaburo...\n"\
+          "キサブロウさんに何があったのか\n"\
+          "すごく気になるね…。\n"\
           "------------------------------------------\n"\
-          "Perhaps if we visited him in Morizora's\n"\
-          "Forest we could learn more about the\n"\
-          "situation. \n"\
+          "モリゾラの森にいた\n"\
+          "キサブロウさんに聞いてみたら、\n"\
+          "もう少し何か判るかも。\n"\
           "------------------------------------------\n"\
-          "If I remember correctly, there should be\n"\
-          "a door through the path behind his room.\n",
+          "確か、彼の病室にある通路の先に\n"\
+          "扉があったはずだよ。\n",
         165 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "We should probably visit Kazuko to \n"\
-          "see if she needs any help...\n"\
+          "カズコさんに手伝えることがないか\n"\
+          "聞きに行った方がいいんじゃないかしら…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "If I remember correctly, she's in a little\n"\
-          "shop west of the hot springs.\n"\
+          "カズコさんは、温泉の西にある\n"\
+          "小さなお茶屋さんにいたよね。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Which is also the same part of the Forest\n"\
-          "you'd arrive at when you go through the \n"\
-          "door behind Kisaburo's hospital room.\n",
+          "キサブロウさんの病室の近くにある\n"\
+          "扉を通ると、お茶屋さんがある側の\n"\
+          "森に出られるよ。\n",
         178 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Kazuko wants us to share a sample \n"\
-          "of tea with someone who lives on those\n"\
-          "floating islands in the sky.\n"\
+          "カズコさんは、お茶のサンプルを\n"\
+          "空に浮かぶ島にいる誰かに\n"\
+          "届けて欲しいんですって。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "To get there, we need to find a beanstalk\n"\
-          "that's west of Leeble Village. \n",
+          "そこに行くにはまず、リーブル村の\n"\
+          "西にある豆の木を見つけなきゃね。\n",
         188 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSurprised]\\fr\n"\
@@ -710,42 +711,42 @@ $events_lang = {
         201 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Oooh, I can't wait to meet a real life\n"\
-          "Water Dragon!\n"\
+          "ねぇ、本物のウォータードラゴンに\n"\
+          "会えるなんて楽しみだね！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "We should head back to the cave near\n"\
-          "the tea shop so we can get some Dragon\n"\
-          "Ash from Stormey.\n",
+          "お茶屋さんの近くにある洞窟に\n"\
+          "入って、ストーミーから\n"\
+          "ドラゴンの灰を分けてもらいましょ。\n",
         210 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Oooh, I can't wait to meet a real life\n"\
-          "Water Dragon!\n"\
+          "ねぇ、本物のウォータードラゴンに\n"\
+          "会えるなんて楽しみだね！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "We should head back to the cave near\n"\
-          "the tea shop so we can get some Dragon\n"\
-          "Ash from Stormey.\n"\
+          "お茶屋さんの近くにある洞窟に\n"\
+          "入って、ストーミーから\n"\
+          "ドラゴンの灰を分けてもらいましょ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomSurprised]\\fr\n"\
-          "But we might need to get a \\bPickaxe\\b\n"\
-          "in order to get into the cave... \n"\
+          "でも洞窟に入るには\n"\
+          "\\bつるはし\\bがないとね…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomTalking]\\fr\n"\
-          "I remember a sign at Jacky's hut saying\n"\
-          "he could make one using 3 Lumen Rocks,\n"\
-          "3 Nightsones, and 5 Camphor Sticks...\n"\
+          "ジャッキーの看板に、ルーメン石が\n"\
+          "3個、夜宵石が3個、クスノキの棒が5本\n"\
+          "あれば作れるって書いてなかったかしら…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Let's keep an eye out for those items! \n"\
-          "I think I saw a pretty blue rock in the \n"\
-          "Skylands. Could that be \\iLumen Rock?\n",
+          "そのアイテムを探してみましょ！\n"\
+          "スカイランドに青くて可愛らしい\n"\
+          "石があったけど、あれが\\iルーメン石\\iかな？\n",
         233 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Perhaps we should deliver the Dragon\n"\
-          "Ash to Kazuko back at the tea shop.\n",
+          "お茶屋のカズコさんにドラゴンの灰を\n"\
+          "届けたほうがいいんじゃないかな。\n",
         239 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
@@ -1302,10 +1303,11 @@ $events_lang = {
           "スーちゃん大好き！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[コラ]\\face[CoraConfused]\\fr\n"\
-          "でもスーちゃんは上の空なの。\n"\
+          "でもスーちゃんは\n"\
+          "取り憑かれたみたいになってるの。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySurprised2]\\fr\n"\
-          "上の空？\n"\
+          "取り憑かれた？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[コラ]\\face[CoraConfused]\\fr\n"\
           "うん。ここに入院する前、お友達に\n"\
@@ -2124,22 +2126,21 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko2Sad2]\\fr\n"\
-          "\\iHe doesn't remember me...\n",
+          "\\i私のことも覚えていないの…。\n",
         7 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko2]\\fr\n"\
-          "Oh hello, dear... How are you feeling \n"\
-          "today? \n"\
+          "あら、こんにちは…ご機嫌いかが？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[カズコ]\\face[Kazuko2]\\fr\n"\
-          "Our anniversary is coming up, so I \n"\
-          "thought I'd bring Kisaburo something \n"\
-          "nice to cheer him up.\n"\
+          "結婚記念日が近いから、あの人を\n"\
+          "元気づけられるようなものを\n"\
+          "持ってこようと思ったの。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[カズコ]\\face[Kazuko2]\\fr\n"\
-          "But I figure it's best to wait until the right\n"\
-          "time... I'm sure he's exhausted from all\n"\
-          "the tests, so I'll give him some time.\n",
+          "でも、もう少し待ったほうがよさそうね…。\n"\
+          "きっと検査続きで疲れてるでしょうから、\n"\
+          "少し時間を置くことにするわ。\n",
       },
     },
     58 => {
@@ -2393,21 +2394,21 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[ナース]\\face[]\n"\
-          "I was in Tony's room just earlier, and\n"\
-          "he seemed \\idifferent.\n"\
+          "さっきまでトニーさんの病室に\n"\
+          "いたんだけど、いつもと様子が\\i違ったよ。\n"\
           "------------------------------------------\n"\
-          "I might even say he was...\n"\
+          "なんというか…\n"\
           "------------------------------------------\n"\
-          "...happy.\n",
+          "…幸せそうだった。\n",
         9 =>
           #------------------------------------------
           "\\ignr\\nm[ナース]\\face[]\n"\
-          "Did you know they were thinking of \n"\
-          "turning the room west of the cafeteria \n"\
-          "into an activity room for the patients?\n"\
+          "カフェテリアの隣の部屋を、\n"\
+          "患者さんの娯楽室に改装してたの\n"\
+          "知ってた？\n"\
           "------------------------------------------\n"\
-          "It's great they've rebuilt it... but I'm not\n"\
-          "sure what we could put there right now.\n",
+          "改装したのはいいんだけど…\n"\
+          "今は置けるものが何もないんだよね。\n",
       },
     },
     67 => {
@@ -3172,109 +3173,108 @@ $events_lang = {
         17 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
-          "Hi Mom!\n"\
+          "あ、お母さん！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Hi sweetie... did you sleep okay?\n"\
+          "おはよう…よく眠れた？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
-          "I did! \n"\
+          "うん！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyHappy2]\\fr\n"\
-          "I feel refreshed!\n",
+          "すっきりしたよ！\n",
         27 =>
           #------------------------------------------
           "\\ignr\\nm[先生]\\face[DoctorHappy]\\fr\n"\
-          "That's what I like to hear.\n"\
+          "そいつはよかった。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyHappy3]\\fr\n"\
           "…\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[先生]\\face[Doctor]\\fr\n"\
-          "So... looks like we're all set! I'll get\n"\
-          "these tests to the lab, and---\n",
+          "じゃあ…私は研究室に\n"\
+          "この検体を持って行くよ。それで---\n",
         58 =>
           #------------------------------------------
           "\\ignr\\nm[先生]\\face[]\n"\
-          "\\e[7]Shanti! I'm terribly sorry \n"\
-          "to interrupt, but...\n"\
+          "\\e[7]シャンティ先生！\n"\
+          "お取り込み中にすいません…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[先生]\\face[]\n"\
-          "\\e[7]We're having a bit \n"\
-          "of a... \\iproblem.\n",
+          "\\e[7]ちょっとした…\\i問題\\iが\n"\
+          "発生中です。\n",
         65 =>
           #------------------------------------------
           "\\ignr\\nm[先生]\\face[]\n"\
-          "\\e[22]No worries, Kenji... \n"\
-          "What do you need?\n"\
+          "\\e[22]落ち着いて、ケンジ先生…。\n"\
+          "何があったんだい？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[先生]\\face[]\n"\
-          "\\e[7]Well... \n"\
+          "\\e[7]それが…\n"\
           "------------------------------------------\n"\
-          "\\e[7]I hate to tell you this, but...\n",
+          "\\e[7]言いにくいことなんですが、その…。\n",
         72 =>
           #------------------------------------------
-          "\\e[7]Kisaburo got out again.\n"\
+          "\\e[7]キサブロウさんがまた脱走しました。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[先生]\\face[]\n"\
-          "\\e[22]WHAT!?\n"\
+          "\\e[22]なんだって！？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[先生]\\face[]\n"\
-          "\\e[7]He broke the new boards we put up \n"\
-          "and got into the space behind his room...\n"\
+          "\\e[7]新しく張った板を破って、\n"\
+          "その向こう側に行ったようで…。\n"\
           "------------------------------------------\n"\
-          "\\e[7]And I'm pretty sure he got outside\n"\
-          "too... because there's more boxes, \n"\
-          "and more mud...\n"\
-          "------------------------------------------\n"\
-          "\\ignr\\nm[先生]\\face[]\n"\
-          "\\e[22]Ugh... WHY. \\iI just don't \n"\
-          "have time for this now!\n"\
+          "\\e[7]入れ物も土も増えていたので、\n"\
+          "外に出たのは間違いないと思います…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[先生]\\face[]\n"\
-          "\\e[7]I'm thinking we might have to \n"\
-          "reevaluate Kisaburo's medication...\n"\
+          "\\e[22]くっ…。\\i今はそんなことに\n"\
+          "関わっている時間なんてないのに！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[先生]\\face[]\n"\
-          "\\e[22]Unfortunately, I think you're \n"\
-          "probably right. \n",
+          "\\e[7]キサブロウさんの投薬を\n"\
+          "見直す必要がありそうですね…。\n"\
+          "------------------------------------------\n"\
+          "\\ignr\\nm[先生]\\face[]\n"\
+          "\\e[22]残念ながら、その見立ては\n"\
+          "正しいでしょうね。\n",
         95 =>
           #------------------------------------------
           "\\ignr\\nm[先生]\\face[DoctorAngry]\\fr\n"\
-          "Sorry guys, but I gotta run! You're free\n"\
-          "to walk around today if you'd like.\n"\
+          "すいません、もう行かないと。\n"\
+          "君は好きに歩き回っていいぞ、少年。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyHappy2]\\fr\n"\
-          "Yay!!\n"\
+          "やった！！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Thank-you, doctor.\n"\
+          "ありがとうございます、先生。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "I hope everything is okay...\n"\
+          "何事もないといいですね…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[先生]\\face[DoctorSad]\\fr\n"\
-          "Oh, I'm sure it'll be fine. You know \n"\
-          "how it is... \n"\
+          "はは、きっと大丈夫ですよ。\n"\
+          "こんなことは…\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[先生]\\face[DoctorAngry]\\fr\n"\
-          "Just another day at the hospital!\n",
+          "病院の日常茶飯事ですからね！\n",
         113 =>
           #------------------------------------------
           "\\ignr\\nm[先生]\\face[]\n"\
-          "\\e[22]Okay Kenji, I'll meet you at \n"\
-          "Kisaburo's room.\n"\
+          "\\e[22]じゃあケンジ先生。\n"\
+          "キサブロウさんの病室で合流しましょう。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[先生]\\face[]\n"\
-          "\\e[7]Got it!\n",
+          "\\e[7]わかりました！\n",
         146 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "What do you think... \\iShould we go\n"\
-          "see what's going on with Kisaburo?\n"\
+          "どうしようか…\\iキサブロウさんに\n"\
+          "何があったのか見に行ってみる？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
-          "Yeah, let's go Mom!\n",
+          "行ってみよう、お母さん！\n",
       },
     },
     20 => {
@@ -3513,7 +3513,7 @@ $events_lang = {
           #------------------------------------------
           "\\ignr\\nm[トニー]\\face[Tony]\\fr\n"\
           "やぁ、坊や。 \n",
-        3 => [["何の仕事をしてるの？", "好きな食べ物は？", "Who is the lady here?", "なんでもない。"], 4],
+        3 => [["何の仕事をしてるの？", "好きな食べ物は？", "この女の人は誰？", "なんでもない。"], 4],
         5 =>
           #------------------------------------------
           "\\ignr\\nm[トニー]\\face[TonyTalk]\\fr\n"\
@@ -3542,11 +3542,11 @@ $events_lang = {
         26 =>
           #------------------------------------------
           "\\ignr\\nm[トニー]\\face[TonySmile]\\fr\n"\
-          "That's my daughter, Christina. \n"\
+          "娘のクリスティーナだ。\n"\
           "------------------------------------------\n"\
-          "Like I always say, it's good to have \n"\
-          "some company now and then, don't\n"\
-          "you think?\n"\
+          "いつも言ってることだが、誰かと\n"\
+          "交流するのはいいものだな。\n"\
+          "そう思わないか？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
           "…\n",
@@ -3556,7 +3556,7 @@ $events_lang = {
           #------------------------------------------
           "\\ignr\\nm[トニー]\\face[Tony]\\fr\n"\
           "Hey kid, good to see ya. \n",
-        3 => [["How are you feeling?", "Who is the lady here?", "またね。"], 4],
+        3 => [["How are you feeling?", "この女の人は誰？", "またね。"], 4],
         5 =>
           #------------------------------------------
           "\\ignr\\nm[トニー]\\face[TonySmile]\\fr\n"\
@@ -3596,11 +3596,11 @@ $events_lang = {
         35 =>
           #------------------------------------------
           "\\ignr\\nm[トニー]\\face[TonySmile]\\fr\n"\
-          "That's my daughter, Christina. \n"\
+          "娘のクリスティーナだ。\n"\
           "------------------------------------------\n"\
-          "Like I always say, it's good to have \n"\
-          "some company now and then, don't\n"\
-          "you think?\n"\
+          "いつも言ってることだが、誰かと\n"\
+          "交流するのはいいものだな。\n"\
+          "そう思わないか？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
           "…\n",
@@ -3738,26 +3738,26 @@ $events_lang = {
         18 =>
           #------------------------------------------
           "\\ignr\\nm[トニー]\\face[Tony]\\fr\n"\
-          "Who's there?\n",
+          "誰だ？\n",
         26 =>
           #------------------------------------------
           "\\ignr\\nm[トニー]\\face[TonyAngry]\\fr\n"\
-          "I thought I told you stupid nurses to\n"\
-          "LEAVE ME ALO---\n",
+          "バカなナースどもめ、私に構うなと\n"\
+          "あれほど言っ---\n",
         31 =>
           #------------------------------------------
           "\\ignr\\nm[トニー]\\face[TonyTalk]\\fr\n"\
-          "...Christy?\n"\
+          "…クリスティー？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[クリスティーナ]\\face[]\n"\
-          "Hi Dad.\n",
+          "お父さん。\n",
         38 =>
           #------------------------------------------
           "\\ignr\\nm[トニー]\\face[TonySmile]\\fr\n"\
-          "...I'm glad you're here.\n"\
+          "…来てくれて嬉しいよ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[クリスティーナ]\\face[]\n"\
-          "Me too, Dad.\n",
+          "私も会えて嬉しい、お父さん。\n",
       },
     },
     15 => {
@@ -3765,27 +3765,27 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[クリスティーナ]\\face[]\n"\
-          "I like your hat!\n"\
+          "素敵な帽子ね！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
-          "I folded it myself! My Mom taught me.\n"\
+          "自分で折ったんだよ！\n"\
+          "お母さんに教えてもらったんだ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[クリスティーナ]\\face[]\n"\
-          "Wow, you did a very good job. \n"\
+          "へぇ、上手く作れたんだね。\n"\
           "------------------------------------------\n"\
-          "I used to know how to fold some things\n"\
-          "out of paper... not sure I'd remember\n"\
-          "anymore though!\n",
+          "私もいくつか折り方を知ってたな…。\n"\
+          "もう忘れちゃったけどね！\n",
         13 =>
           #------------------------------------------
           "\\ignr\\nm[クリスティーナ]\\face[]\n"\
-          "Remember diners?\n"\
+          "昨日の夜ご飯、覚えてる？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyThinking]\\fr\n"\
-          "Hmm...\n"\
+          "うーん…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyOpenMouth]\\fr\n"\
-          "I don't think so...\n",
+          "思い出せないや…。\n",
       },
     },
   },
@@ -4280,46 +4280,47 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[キサブロウ]\\face[Kisaburo]\\fr\n"\
-          "Oh, hey kid.\n"\
+          "よう、坊や。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[キサブロウ]\\face[KisaburoWorried]\\fr\n"\
-          "Seems you're the only one who listens \n"\
-          "to me these days... Everyone else thinks \n"\
-          "I've completely lost it. \n",
+          "ここのところ、俺の話を\n"\
+          "聞いてくれるのはお前だけだ…。\n"\
+          "みんな、俺が正気じゃないと思ってやがる。 \n",
         7 =>
           #------------------------------------------
           "\\ignr\\nm[キサブロウ]\\face[Kisaburo]\\fr\n"\
           "何か用か？\n",
-        9 => [["何かあった？", "Why did you go outside?", "病院にいる人の話を教えて。", "またね。"], 4],
+        9 => [["何かあった？", "どうして外に出るの？", "病院にいる人の話を教えて。", "またね。"], 4],
         11 =>
           #------------------------------------------
           "\\ignr\\nm[キサブロウ]\\face[KisaburoWorried]\\fr\n"\
-          "Not feeling so great. I got a job to do,\n"\
-          "but no one here'll let me do it.\n"\
+          "気分が良くないな。仕事があるのに、\n"\
+          "誰もやらせようとしてくれないんだ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[キサブロウ]\\face[KisaburoWorried]\\fr\n"\
-          "My supervisor expects me to fix the\n"\
-          "main engine... I can't do that if they\n"\
-          "keep taking away my tools!\n",
+          "上官にメインエンジンの修理を\n"\
+          "任されたのに…道具を隠されたら\n"\
+          "直しようがないだろ！\n",
         21 =>
           #------------------------------------------
           "\\ignr\\nm[キサブロウ]\\face[KisaburoAngry]\\fr\n"\
-          "The doctors think it's too dangerous \n"\
-          "to be outside. But I have to be!\n"\
+          "医者どもは外に出ると危ないと\n"\
+          "抜かしやがる。それでも俺は\n"\
+          "行かなきゃならないんだ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[キサブロウ]\\face[KisaburoOpenEyes]\\fr\n"\
-          "I'm running out of time...\n"\
+          "もう時間がない…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[キサブロウ]\\face[KisaburoWorried]\\fr\n"\
-          "I have to find it... I have to finish it.\n"\
-          "I have to send a message.\n"\
+          "早く見つけて…終わらせないと。\n"\
+          "伝えないといけないんだ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySad]\\fr\n"\
           "…\n",
         34 =>
           #------------------------------------------
           "\\ignr\\nm[キサブロウ]\\face[KisaburoSuspicious]\\fr\n"\
-          "I'm not one for gossip.\n",
+          "噂話は嫌いだぜ。\n",
       },
     },
     3 => {
@@ -4462,7 +4463,7 @@ $events_lang = {
           "考えられる。\n"\
           "------------------------------------------\n"\
           "抗精神病薬の投与を提案します。\n"\
-          "幻覚と妄想のリストを参照して下さい。\n",
+          "錯乱と妄想のリストを参照して下さい。\n",
         13 =>
           #------------------------------------------
           "10月21日: 建築ゾーン5Bにて、はしごを登って\n"\
@@ -4481,15 +4482,17 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[先生]\\face[]\n"\
-          "Sometimes when a patient's body is \n"\
-          "not well, it can affect their mind. \n"\
+          "患者の体調が優れない時、\n"\
+          "精神にまで影響を及ぼすことが\n"\
+          "あるんだ。\n"\
           "------------------------------------------\n"\
-          "These sorts of things are never easy.\n",
+          "そういった類の症状は\n"\
+          "一筋縄ではいかないよ。\n",
         8 =>
           #------------------------------------------
           "\\ignr\\nm[先生]\\face[]\n"\
-          "\\iAt least he didn't bring the mud\n"\
-          "in here...\n",
+          "\\iせめて土を持ち込まないで\n"\
+          "くれたらなぁ…。\n",
       },
     },
     17 => {
@@ -4497,45 +4500,46 @@ $events_lang = {
         9 =>
           #------------------------------------------
           "\\ignr\\nm[先生]\\face[]\n"\
-          "\\e[15]I think a higher dosage \n"\
-          "would help with these recent \n"\
-          "hallucinations.\n"\
+          "\\e[15]高用量の方が、\n"\
+          "最近の錯乱症状に\n"\
+          "効くと思います。\n"\
           "------------------------------------------\n"\
-          "\\e[15]You can get more rest, \n"\
-          "and feel better overall.\n",
+          "\\e[15]身体も休まって、\n"\
+          "気分も良くなりますよ。\n",
         17 =>
           #------------------------------------------
           "\\ignr\\nm[キサブロウ]\\face[KisaburoAngry]\\fr\n"\
-          "I'm NOT hallucinating! \n",
+          "錯乱なんかしてねぇ！\n",
         29 =>
           #------------------------------------------
           "\\ignr\\nm[先生]\\face[DoctorWorried]\\fr\n"\
-          "Kisaburo, you can't keep going outside.\n"\
+          "キサブロウさん、外を\n"\
+          "出歩くのはやめてください。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[キサブロウ]\\face[KisaburoAngry]\\fr\n"\
-          "Why not? I'm a grown man, if I want\n"\
-          "to leave, I can leave at any time.\n"\
+          "どうしてだ？俺は大人だ。\n"\
+          "俺が出たい時に出ていくぞ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[先生]\\face[DoctorAngry]\\fr\n"\
-          "It's not safe out there. And you're \n"\
-          "destroying hospital property.\n"\
+          "外は危険です。それにあなたは\n"\
+          "病院の設備も破壊している。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[キサブロウ]\\face[KisaburoWorried]\\fr\n"\
-          "I have to fix the train! It's my JOB!!! \n"\
-          "You can't keep taking my tools \n"\
-          "away from me! \n"\
+          "列車を直すんだよ！俺の仕事だ！！\n"\
+          "俺の仕事道具を返せ！\n"\
           "------------------------------------------\n"\
-          "I'm running out of time, I have to tell\n"\
-          "her something! I have to tell her!!\n"\
+          "もう時間がないんだよ、\n"\
+          "あいつに伝えないと！\n"\
+          "あいつに伝えないといけないんだ！！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[先生]\\face[DoctorSad]\\fr\n"\
           "…\n",
         46 =>
           #------------------------------------------
           "\\ignr\\nm[先生]\\face[DoctorWorried]\\fr\n"\
-          "Dr. Kenji is going to be observing you\n"\
-          "for a while. Please know, we're doing all\n"\
-          "we can to help you right now.\n",
+          "ケンジ先生が当分、経過を観察します。\n"\
+          "あなたのためにしていることです。\n"\
+          "ご理解ください。\n",
       },
     },
   },
@@ -6182,7 +6186,7 @@ $events_lang = {
           "------------------------------------------\n"\
           "\\ignr\\nm[ウィンストン]\\face[WinstonHappy]\\fr\n"\
           "でもね、部屋に戻ってきたら\n"\
-          "彼女の指輪に嵌っていたんだ！\n"\
+          "彼女の指にはまっていたんだ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウィンストン]\\face[WinstonAmazed]\\fr\n"\
           "驚いたな…。\n"\
@@ -6225,40 +6229,40 @@ $events_lang = {
         3 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[Winston]\\fr\n"\
-          "Hello again... Can I help you with \n"\
-          "anything?\n",
+          "やぁ、また会ったね…。\n"\
+          "何か用かな？\n",
         6 => [["何かあった？", "泥棒の話って聞いた？", "病院にいる人の話を教えて。", "またね。"], 4],
         9 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[WinstonWorried]\\fr\n"\
-          "The doctors say that my wife is doing\n"\
-          "much better. I don't understand all\n"\
-          "the details, but I'm hopeful.\n",
+          "お医者さんが言うには、ジェマは\n"\
+          "よくなってきてるそうなんだ。\n"\
+          "詳しくは分からないけど、期待しているよ。\n",
         16 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[Winston]\\fr\n"\
-          "I feel like even though she can't talk with \n"\
-          "me, somehow Gemma's able to let me\n"\
-          "know which books she prefers.\n"\
+          "例え、話ができなくても、なんとなく\n"\
+          "ジェマが好きな本を\n"\
+          "教えてくれているように感じるよ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウィンストン]\\face[WinstonHappy]\\fr\n"\
-          "It's almost as if she starts smiling when\n"\
-          "I read certain books to her.\n",
+          "特定の本を読み聞かせると\n"\
+          "彼女が微笑む気がするんだ。\n",
         29 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[Winston]\\fr\n"\
-          "I thought that her ring was gone, I \n"\
-          "really did...\n"\
+          "僕はね、彼女の指輪がどこかに\n"\
+          "いってしまったと思っていたんだよ…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウィンストン]\\face[WinstonHappy]\\fr\n"\
-          "But I came back to the room and noticed \n"\
-          "that it's 彼女の指に戻ってたって聞いたよ！\n"\
+          "でもね、部屋に戻ってきたら\n"\
+          "彼女の指にはまっていたんだ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウィンストン]\\face[WinstonAmazed]\\fr\n"\
-          "This is amazing...\n"\
+          "驚いたな…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウィンストン]\\face[WinstonRelieved]\\fr\n"\
-          "And a great relief!\n",
+          "本当によかったよ！\n",
         43 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[Winston]\\fr\n"\
@@ -6273,11 +6277,12 @@ $events_lang = {
         54 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[Winston]\\fr\n"\
-          "I heard that Tony got a visit from his \n"\
-          "daughter and grandchildren recently.\n"\
+          "トニーさんのところに、\n"\
+          "娘と孫がお見舞いに来たそうだね。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウィンストン]\\face[WinstonHappy]\\fr\n"\
-          "I've never seen him so happy before!\n",
+          "あんなに幸せそうなトニーさんは\n"\
+          "見たことないよ！\n",
         62 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[Winston]\\fr\n"\
@@ -6293,25 +6298,25 @@ $events_lang = {
         3 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[Winston]\\fr\n"\
-          "Hello again... Can I help you with \n"\
-          "anything?\n",
+          "やぁ、また会ったね…。\n"\
+          "何か用かな？\n",
         6 => [["何かあった？", "There's a dog here!", "病院にいる人の話を教えて。", "またね。"], 4],
         9 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[WinstonWorried]\\fr\n"\
-          "The doctors say that my wife is doing\n"\
-          "much better. I don't understand all\n"\
-          "the details, but I'm hopeful.\n",
+          "お医者さんが言うには、ジェマは\n"\
+          "よくなってきてるそうなんだ。\n"\
+          "詳しくは分からないけど、期待しているよ。\n",
         16 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[Winston]\\fr\n"\
-          "I feel like even though she can't talk with \n"\
-          "me, somehow Gemma's able to let me\n"\
-          "know which books she prefers.\n"\
+          "例え、話ができなくても、なんとなく\n"\
+          "ジェマが好きな本を\n"\
+          "教えてくれているように感じるよ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウィンストン]\\face[WinstonHappy]\\fr\n"\
-          "It's almost as if she starts smiling when\n"\
-          "I read certain books to her.\n",
+          "特定の本を読み聞かせると\n"\
+          "彼女が微笑む気がするんだ。\n",
         29 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[Winston]\\fr\n"\
@@ -6336,11 +6341,12 @@ $events_lang = {
         51 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[Winston]\\fr\n"\
-          "I heard that Tony got a visit from his \n"\
-          "daughter and grandchildren recently.\n"\
+          "トニーさんのところに、\n"\
+          "娘と孫がお見舞いに来たそうだね。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウィンストン]\\face[WinstonHappy]\\fr\n"\
-          "I've never seen him so happy before!\n",
+          "あんなに幸せそうなトニーさんは\n"\
+          "見たことないよ！\n",
         59 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[Winston]\\fr\n"\
@@ -6356,8 +6362,8 @@ $events_lang = {
         3 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[Winston]\\fr\n"\
-          "Hello again... Can I help you with \n"\
-          "anything?\n",
+          "やぁ、また会ったね…。\n"\
+          "何か用かな？\n",
         6 => [["How are you feeling?", "Sue...", "またね。"], 3],
         8 =>
           #------------------------------------------
@@ -7315,16 +7321,16 @@ $events_lang = {
         63 =>
           #------------------------------------------
           "\\ignr\\nm[ダニエル]\\face[Danielle]\\fr\n"\
-          "Hey did you hear?? Tony got a \n"\
-          "visitor!!\n"\
+          "ねぇ、聞いた？？トニーさんのところに\n"\
+          "お見舞いの人が来たんだって！！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ダニエル]\\face[Danielle]\\fr\n"\
-          "His daughter and grandkids have been\n"\
-          "hanging out in his room and he's \n"\
-          "never been happier.\n"\
+          "娘さんとお孫さんが来てて、\n"\
+          "トニーさんったら最高に\n"\
+          "幸せそうだったよ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ダニエル]\\face[DanielleGrin]\\fr\n"\
-          "I knew deep down he was a softy.\n",
+          "やっぱり根は優しい人だったね。\n",
         75 =>
           #------------------------------------------
           "\\ignr\\nm[ダニエル]\\face[Danielle]\\fr\n"\
@@ -7406,16 +7412,16 @@ $events_lang = {
         73 =>
           #------------------------------------------
           "\\ignr\\nm[ダニエル]\\face[Danielle]\\fr\n"\
-          "Hey did you hear?? Tony got a \n"\
-          "visitor!!\n"\
+          "ねぇ、聞いた？？トニーさんのところに\n"\
+          "お見舞いの人が来たんだって！！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ダニエル]\\face[Danielle]\\fr\n"\
-          "His daughter and grandkids have been\n"\
-          "hanging out in his room and he's \n"\
-          "never been happier.\n"\
+          "娘さんとお孫さんが来てて、\n"\
+          "トニーさんったら最高に\n"\
+          "幸せそうだったよ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ダニエル]\\face[DanielleGrin]\\fr\n"\
-          "I knew deep down he was a softy.\n",
+          "やっぱり根は優しい人だったね。\n",
         85 =>
           #------------------------------------------
           "\\ignr\\nm[ダニエル]\\face[Danielle]\\fr\n"\
@@ -7488,16 +7494,16 @@ $events_lang = {
         62 =>
           #------------------------------------------
           "\\ignr\\nm[ダニエル]\\face[Danielle]\\fr\n"\
-          "Hey did you hear?? Tony got a \n"\
-          "visitor!!\n"\
+          "ねぇ、聞いた？？トニーさんのところに\n"\
+          "お見舞いの人が来たんだって！！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ダニエル]\\face[Danielle]\\fr\n"\
-          "His daughter and grandkids have been\n"\
-          "hanging out in his room and he's \n"\
-          "never been happier.\n"\
+          "娘さんとお孫さんが来てて、\n"\
+          "トニーさんったら最高に\n"\
+          "幸せそうだったよ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ダニエル]\\face[DanielleGrin]\\fr\n"\
-          "I knew deep down he was a softy.\n",
+          "やっぱり根は優しい人だったね。\n",
         74 =>
           #------------------------------------------
           "\\ignr\\nm[ダニエル]\\face[Danielle]\\fr\n"\
@@ -7936,8 +7942,8 @@ $events_lang = {
         4 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "The door is locked. A notice is \n"\
-          "posted here.\n"\
+          "ドアには鍵がかかっていて、\n"\
+          "貼り紙がある。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[]\\face[]\n"\
           "読んでみる？\n",
@@ -7945,9 +7951,9 @@ $events_lang = {
         11 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "\\iFor security purposes, all 3 supervisor\n"\
-          "card keys must be inserted in order to\n"\
-          "open this door.\n",
+          "\\iセキュリティのため、\n"\
+          "このドアを開けるには3枚全ての\n"\
+          "カードキーを挿入してください。\n",
       },
     },
     4 => {
@@ -8882,18 +8888,18 @@ $events_lang = {
         2 =>
           #------------------------------------------
           "\\ignr\\nm[子リーブル]\\face[]\n"\
-          "I can't believe Tony the bear is hanging\n"\
-          "out in our village now... \n"\
+          "トニーが村に出入りしてるなんて\n"\
+          "信じられないや…。\n"\
           "------------------------------------------\n"\
-          "He helped me plant a turnip the \n"\
-          "other day. A TURNIP!!!\n",
+          "この間なんて、カブを植えるのを\n"\
+          "手伝ってくれたんだ。カブだよ！！\n",
         10 =>
           #------------------------------------------
           "\\ignr\\nm[子リーブル]\\face[]\n"\
-          "My friends and I used to have this awesome\n"\
-          "hangout south of the Midnight Tea Shop...\n"\
+          "星空茶屋の南に友達と行ったら、\n"\
+          "すごいたまり場があって…\n"\
           "------------------------------------------\n"\
-          "Oops! \\iI've said too much...\n",
+          "あっ！\\iしゃべりすぎちゃった…。\n",
       },
       2 => {
         2 =>
@@ -8912,11 +8918,11 @@ $events_lang = {
         14 =>
           #------------------------------------------
           "\\ignr\\nm[子リーブル]\\face[]\n"\
-          "I can't believe Tony the bear is hanging\n"\
-          "out in our village now... \n"\
+          "トニーが村に出入りしてるなんて\n"\
+          "信じられないや…。\n"\
           "------------------------------------------\n"\
-          "He helped me plant a turnip the \n"\
-          "other day. A TURNIP!!!\n",
+          "この間なんて、カブを植えるのを\n"\
+          "手伝ってくれたんだ。カブだよ！！\n",
       },
       3 => {
         1 =>
@@ -9152,22 +9158,22 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[村人リーブル]\\face[]\n"\
-          "Now that Tony is on our side, I feel\n"\
-          "much safer.\n"\
+          "トニーが味方になってくれて\n"\
+          "一安心だよ。\n"\
           "------------------------------------------\n"\
-          "And with Tony around, that means more\n"\
-          "Christina. And more Christina means more\n"\
-          "sour cream cake for everyone!\n"\
+          "トニーがいれば、クリスティーナも\n"\
+          "クリスティーナがいれば、みんなに\n"\
+          "サワークリームケーキを作ってくれる！\n"\
           "------------------------------------------\n"\
-          "It's a happy day.\n",
+          "いい日だなぁ。\n",
         11 =>
           #------------------------------------------
           "\\ignr\\nm[村人リーブル]\\face[]\n"\
-          "Unlike other Leebles, I'm not afraid of\n"\
-          "the Envoy at all.\n"\
+          "他のリーブルと違って、僕は\n"\
+          "御使いなんて怖くないよ。\n"\
           "------------------------------------------\n"\
-          "But I still wouldn't go into Morizora's\n"\
-          "Cave by myself.\n",
+          "モリゾラの洞窟には\n"\
+          "まだ一人で入れないんだけどね。\n",
       },
       2 => {
         0 =>
@@ -9405,28 +9411,28 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[トニー]\\face[Tony2]\\fr\n"\
-          "It's good to see you again.\n",
-        2 => [["How are you?", "またね！"], 4],
+          "また会えて嬉しいぞ。\n",
+        2 => [["調子はどう？", "またね！"], 4],
         5 =>
           #------------------------------------------
           "\\ignr\\nm[トニー]\\face[Tony2]\\fr\n"\
-          "I'm doing great! I no longer want to \n"\
-          "live by myself on that island...\n"\
+          "最高だぞ！あの島に独りで\n"\
+          "いるのはもう御免だ…。\n"\
           "------------------------------------------\n"\
-          "I'm really enjoying spending time with my\n"\
-          "daughter and grandcubs. \n"\
+          "娘と孫といられる時間を\n"\
+          "楽しんでるよ。\n"\
           "------------------------------------------\n"\
-          "Thank-you for giving me back something\n"\
-          "I thought was gone forever.\n",
+          "こんな時間は二度と手に入らないと\n"\
+          "思っていた。ありがとう。\n",
         15 =>
           #------------------------------------------
           "\\ignr\\nm[トニー]\\face[Tony2]\\fr\n"\
-          "I'm gonna do my best each day to \n"\
-          "help protect the Leeble Village.\n"\
+          "これからはリーブル村を\n"\
+          "全力で守ろう。\n"\
           "------------------------------------------\n"\
-          "It's the least I could do after all the \n"\
-          "vegetable gardens I destroyed... Huh\n"\
-          "huh...\n",
+          "俺が壊した畑の代わりに\n"\
+          "してやれることなんて、\n"\
+          "それくらいしかないからな…。\n",
       },
       2 => {
         0 =>
@@ -9441,28 +9447,28 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[トニー]\\face[Tony2]\\fr\n"\
-          "It's good to see you again.\n",
-        2 => [["How are you?", "またね！"], 4],
+          "また会えて嬉しいぞ。\n",
+        2 => [["調子はどう？", "またね！"], 4],
         5 =>
           #------------------------------------------
           "\\ignr\\nm[トニー]\\face[Tony2]\\fr\n"\
-          "I'm doing great! I no longer want to \n"\
-          "live by myself on that island...\n"\
+          "最高だぞ！あの島に独りで\n"\
+          "いるのはもう御免だ…。\n"\
           "------------------------------------------\n"\
-          "I'm really enjoying spending time with my\n"\
-          "daughter and grandcubs. \n"\
+          "娘と孫といられる時間を\n"\
+          "楽しんでるよ。\n"\
           "------------------------------------------\n"\
-          "Thank-you for giving me back something\n"\
-          "I thought was gone forever.\n",
+          "こんな時間は二度と手に入らないと\n"\
+          "思っていた。ありがとう。\n",
         15 =>
           #------------------------------------------
           "\\ignr\\nm[トニー]\\face[Tony2]\\fr\n"\
-          "I'm gonna do my best each day to \n"\
-          "help protect the Leeble Village.\n"\
+          "これからはリーブル村を\n"\
+          "全力で守ろう。\n"\
           "------------------------------------------\n"\
-          "It's the least I could do after all the \n"\
-          "vegetable gardens I destroyed... Huh\n"\
-          "huh...\n",
+          "俺が壊した畑の代わりに\n"\
+          "してやれることなんて、\n"\
+          "それくらいしかないからな…。\n",
       },
     },
     54 => {
@@ -9470,23 +9476,24 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[クリスティーナ]\\face[]\n"\
-          "My Dad is so different now... \n"\
+          "お父さん、前とすっかり変わって…。\n"\
           "------------------------------------------\n"\
-          "Thank-you so much for fixing something\n"\
-          "that was so important to both of us.\n",
+          "私たちにとって大切なものを\n"\
+          "元通りにしてくれて、本当にありがとう。\n",
         8 =>
           #------------------------------------------
           "\\ignr\\nm[クリスティーナ]\\face[]\n"\
-          "The cubs love spending time with their\n"\
-          "Grandpa. He can't say no to them.\n"\
+          "チビたちはおじいちゃんと一緒に\n"\
+          "いられて、本当に嬉しいみたい。\n"\
+          "孫にノーって言えないのよ。\n"\
           "------------------------------------------\n"\
-          "I'm not sure if that's a good or bad thing...\n"\
-          "There's only so much honey a cub\n"\
-          "should be eating in a day...\n"\
+          "良いことなのかどうか分からないけど…。\n"\
+          "ねぇ、子熊に食べさせていい\n"\
+          "はちみつの量ってものがあるのよ…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[トニー]\\face[Tony2]\\fr\n"\
-          "I don't know what you're talking \n"\
-          "about, Christy...\n"\
+          "何を言ってるかわからんな、\n"\
+          "クリスティー…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[クリスティーナ]\\face[]\n"\
           "…\n",
@@ -9505,23 +9512,24 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[クリスティーナ]\\face[]\n"\
-          "My Dad is so different now... \n"\
+          "お父さん、前とすっかり変わって…。\n"\
           "------------------------------------------\n"\
-          "Thank-you so much for fixing something\n"\
-          "that was so important to both of us.\n",
+          "私たちにとって大切なものを\n"\
+          "元通りにしてくれて、本当にありがとう。\n",
         8 =>
           #------------------------------------------
           "\\ignr\\nm[クリスティーナ]\\face[]\n"\
-          "The cubs love spending time with their\n"\
-          "Grandpa. He can't say no to them.\n"\
+          "チビたちはおじいちゃんと一緒に\n"\
+          "いられて、本当に嬉しいみたい。\n"\
+          "孫にノーって言えないのよ。\n"\
           "------------------------------------------\n"\
-          "I'm not sure if that's a good or bad thing...\n"\
-          "There's only so much honey a cub\n"\
-          "should be eating in a day...\n"\
+          "良いことなのかどうか分からないけど…。\n"\
+          "ねぇ、子熊に食べさせていい\n"\
+          "はちみつの量ってものがあるのよ…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[トニー]\\face[Tony2]\\fr\n"\
-          "I don't know what you're talking \n"\
-          "about, Christy...\n"\
+          "何を言ってるかわからんな、\n"\
+          "クリスティー…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[クリスティーナ]\\face[]\n"\
           "…\n",
@@ -9532,7 +9540,7 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[アマンダ]\\face[]\n"\
-          "I like having a Grandpa!\n",
+          "おじいちゃんがいてうれしい！\n",
       },
       2 => {
         0 =>
@@ -9544,7 +9552,7 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[アマンダ]\\face[]\n"\
-          "Is it true Morizora woke up? \n",
+          "モリゾラが起きたってほんと？\n",
       },
     },
     56 => {
@@ -9552,7 +9560,7 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[アンバー]\\face[]\n"\
-          "Honey!!!\n",
+          "はちみつ！！\n",
       },
       2 => {
         0 =>
@@ -9564,7 +9572,7 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[アンバー]\\face[]\n"\
-          "Honey!!!\n",
+          "はちみつ！！\n",
       },
     },
     57 => {
@@ -9790,7 +9798,6 @@ $events_lang = {
           " \n",
         7 =>
           #------------------------------------------
-          # TODO I gotta scoot to boot
           "\\ignr\\nm[少年]\\face[BoySurprised]\\fr\n"\
           "ウーマ！！\n"\
           "------------------------------------------\n"\
@@ -9804,11 +9811,11 @@ $events_lang = {
           "なに、もう過ぎたことさ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウーマ]\\face[Uma]\\fr\n"\
-          "Look, I gotta scoot to boot, but I thought you \n"\
-          "might need some more directions.\n"\
+          "なぁ、儂はもう行くが、\n"\
+          "その前にヒントが欲しいんじゃないか？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySurprised2]\\fr\n"\
-          "Directions?\n"\
+          "ヒント？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウーマ]\\face[Uma]\\fr\n"\
           "クリスティーナを探してるんだろ？\n"\
@@ -10226,11 +10233,11 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[Winston2]\\fr\n"\
-          "I hear that Tony and his family are \n"\
-          "hanging out in the Leeble Village \n"\
-          "now? How wonderful! \n"\
+          "トニーと彼の家族は今、\n"\
+          "リーブル村にいるんだって？\n"\
+          "よかったね！\n"\
           "------------------------------------------\n"\
-          "He really is a nice bear after all.\n",
+          "やっぱり優しい熊だったんだ。\n",
       },
       2 => {
         0 =>
@@ -12108,8 +12115,8 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Don't you think we should go talk to Jacky\n"\
-          "while we still remember the song?\n",
+          "曲を忘れない内に、ジャッキーと\n"\
+          "話したほうがいいんじゃない？\n",
       },
     },
     2 => {
@@ -12384,7 +12391,7 @@ $events_lang = {
           "また来てくれたね！\n"\
           "------------------------------------------\n"\
           "どうしたのかな？\n",
-        5 => [["つるはし", "We know the song!", "なんでもない"], 4],
+        5 => [["つるはし", "曲がわかったよ！", "なんでもない"], 4],
         10 =>
           #------------------------------------------
           "\\ignr\\nm[鍛冶屋のジャッキー]\\face[Blacksmith]\\fr\n"\
@@ -12423,100 +12430,105 @@ $events_lang = {
         81 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyHappy1]\\fr\n"\
-          "Jacky, we know the music box's\n"\
-          "song now!\n"\
+          "ジャッキー、オルゴールの\n"\
+          "曲がわかったよ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[鍛冶屋のジャッキー]\\face[Blacksmith]\\fr\n"\
-          "You do??\n"\
+          "本当かい？？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[鍛冶屋のジャッキー]\\face[Blacksmith]\\fr\n"\
-          "Well that's fantastic news!\n"\
+          "そいつはよかった！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[鍛冶屋のジャッキー]\\face[Blacksmith]\\fr\n"\
-          "I'll get right to work... We'll have this\n"\
-          "bad boy up and running in no time!\n",
+          "早速取りかかろう…すぐにこの子を\n"\
+          "直してあげるからね！\n",
         121 =>
           #------------------------------------------
           "\\ignr\\nm[トニー]\\face[Tony2]\\fr\n"\
-          "MY MUSIC BOX!!!!!\n",
+          "俺のオルゴール！！！\n",
         137 =>
           #------------------------------------------
           "\\ignr\\nm[鍛冶屋のジャッキー]\\face[Blacksmith]\\fr\n"\
-          "T-T-TONY BEAR IN MY HUT!!!\n",
+          "ト、ト、トニーが入ってきた！！\n",
         140 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoySurprised]\\fr\n"\
-          "Don't worry, he won't hurt you!\n"\
+          "何もしないから大丈夫だよ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[トニー]\\face[Tony2]\\fr\n"\
-          "Little Leeble... did you fix my\n"\
-          "music box!?\n",
+          "リーブル…お前が俺の\n"\
+          "オルゴールを直したのか！？\n",
         150 =>
           #------------------------------------------
           "\\ignr\\nm[鍛冶屋のジャッキー]\\face[Blacksmith]\\fr\n"\
-          "This music box belongs to TONY!?!?\n"\
+          "これはトニーの\n"\
+          "オルゴールだったのかい！？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyOpenMouth]\\fr\n"\
-          "...Yes, I'm sorry we didn't tell you...\n"\
+          "…そうなんだ、黙っててごめんね…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyOpenMouth]\\fr\n"\
-          "It's just... he really looked like he needed\n"\
-          "help, but didn't know how to ask.\n"\
+          "トニーは本当に困っていて、\n"\
+          "でも誰に助けを求めればいいのか\n"\
+          "わからなかったんだ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[トニー]\\face[Tony2]\\fr\n"\
-          "So the Little Leeble \\idid \\ifix it?\n"\
+          "それで、\\i本当に\\iこのリーブルが\n"\
+          "直してくれたのか？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[鍛冶屋のジャッキー]\\face[Blacksmith]\\fr\n"\
-          "...If I say \"yes\" will you not eat me?\n",
+          "…イエスって言ったら\n"\
+          "僕のこと食べないでくれる？\n",
         164 =>
           #------------------------------------------
           "\\ignr\\nm[トニー]\\face[Tony2]\\fr\n"\
-          "I can't believe this...\n"\
+          "なんてことだ…。\n"\
           "------------------------------------------\n"\
-          "You don't even know what this \n"\
-          "means to me...\n",
+          "これが俺にとって\n"\
+          "どんなに大事なものか…。\n",
         170 =>
           #------------------------------------------
           "\\ignr\\nm[トニー]\\face[Tony2]\\fr\n"\
-          "I can't thank you enough... \n"\
+          "お礼のしようもない…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[トニー]\\face[Tony2]\\fr\n"\
-          "I'm so sorry for destroying your gardens.\n"\
-          "You are much nicer creatures than I \n"\
-          "give you credit for...\n"\
+          "畑を荒らしてすまなかった。\n"\
+          "お前たちは、俺が考えてたよりずっと\n"\
+          "親切な生き物だったんだな…。\n"\
           "------------------------------------------\n"\
-          "I guess I've just been a big jerk.\n"\
+          "俺はとんでもなく無神経だった。\n"\
           "------------------------------------------\n"\
-          "Well, from here on out, not only do I \n"\
-          "promise not to harm your village...\n"\
+          "もうお前たちの村に悪さをしないと\n"\
+          "約束する。それに…\n"\
           "------------------------------------------\n"\
-          "I also promise to \\iprotect it. \\iI owe you\n"\
-          "so much, the least I could do is show\n"\
-          "you my gratitude.\n"\
+          "これからは\\i村を守ろう\\i。\n"\
+          "お前たちに報いるためにできる、\n"\
+          "せめてもの感謝の気持ちだ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[鍛冶屋のジャッキー]\\face[Blacksmith]\\fr\n"\
-          "I... well... uh...\n",
+          "あぁ…えっと…その…\n",
         189 =>
           #------------------------------------------
           "\\ignr\\nm[鍛冶屋のジャッキー]\\face[Blacksmith]\\fr\n"\
-          "Thank-you... Tony Bear.\n"\
+          "ありがとう…トニー。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[トニー]\\face[Tony2]\\fr\n"\
-          "And thank-you, all my new little friends.\n",
+          "こちらこそありがとう。\n"\
+          "小さき友人たちよ。\n",
         220 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoySurprised2]\\fr\n"\
-          "\\iMom look!\n"\
+          "\\i見て、お母さん！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySurprised]\\fr\n"\
-          "\\iIt's another door!\n",
+          "\\iまた扉が現れたよ！\n",
         225 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "\\iShould we see where it leads?\n"\
+          "\\i早速入ってみる？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
-          "\\iYeah!\n",
+          "\\iうん！\n",
       },
       5 => {
         1 =>
@@ -12524,13 +12536,13 @@ $events_lang = {
           "\\ignr\\nm[鍛冶屋のジャッキー]\\face[Blacksmith]\\fr\n"\
           "また来てくれたね！\n"\
           "------------------------------------------\n"\
-          "Boy I sure can't wait for Star Night this  \n"\
-          "year... I'm going to use my knowledge \n"\
-          "of physics to maximize my fun.\n"\
+          "僕はもう星夜祭が待ちきれないよ…。\n"\
+          "思いっきり楽しむために\n"\
+          "僕の知識を活用するつもりさ。\n"\
           "------------------------------------------\n"\
-          "Bean bag toss? Why that's just a fancy\n"\
-          "term for calculating the surface area and\n"\
-          "velocity to use gravity in your favor!\n",
+          "お手玉？それは表面積と速度を\n"\
+          "計算して重力を利用する遊びを\n"\
+          "小難しく表現した言葉だね！\n",
         11 =>
           #------------------------------------------
           "\\ignr\\nm[鍛冶屋のジャッキー]\\face[Blacksmith]\\fr\n"\
@@ -12732,20 +12744,20 @@ $events_lang = {
         2 =>
           #------------------------------------------
           "\\ignr\\nm[コラ]\\face[Cora2]\\fr\n"\
-          "Wow, you brought everything!\n"\
-          "Thank-you so much!\n",
+          "わぁ、材料を持ってきてくれたんだね！\n"\
+          "本当にありがとう！\n",
         6 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "You give Cora the Reeds and Fireflies.\n",
+          "コラに葦とホタルを渡した。\n",
         12 =>
           #------------------------------------------
           "\\ignr\\nm[コラ]\\face[Cora2]\\fr\n"\
-          "Now Star Night will be as bright\n"\
-          "as it was meant to be!\n"\
+          "これで星夜祭はいつもより\n"\
+          "もっと明るくなる！\n"\
           "------------------------------------------\n"\
-          "When it's time for Star Night, talk to\n"\
-          "the Chief and he'll walk over with you!\n",
+          "星夜祭の時間になったら、\n"\
+          "村長に話せば連れて行ってくれるよ！\n",
         27 =>
           #------------------------------------------
           "\\ignr\\nm[コラ]\\face[Cora2]\\fr\n"\
@@ -12779,11 +12791,11 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[コラ]\\face[Cora2]\\fr\n"\
-          "Thanks so much you guys!\n"\
+          "本当にありがとう！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[コラ]\\face[Cora2]\\fr\n"\
-          "Now Star Night will be as bright\n"\
-          "as it was meant to be!\n",
+          "これで星夜祭はいつもより\n"\
+          "もっと明るくなるよ！\n",
       },
       4 => {
         0 =>
@@ -12915,19 +12927,19 @@ $events_lang = {
           "\\ignr\\nm[村人リーブル]\\face[Leeble]\\fr\n"\
           "どうしてこの森に\n"\
           "いらしたんですか？\n",
-        12 => [["We're looking for Kisaburo.", "こっち側には何があるの？", "何してるの？", "なんでもない。"], 4],
+        12 => [["キサブロウさんを探してるんだ。", "こっち側には何があるの？", "何してるの？", "なんでもない。"], 4],
         14 =>
           #------------------------------------------
           "\\ignr\\nm[村人リーブル]\\face[Leeble]\\fr\n"\
-          "Oh Kisaburo! He's a good friend\n"\
-          "of mine!\n"\
+          "あぁ、キサブロウ！\n"\
+          "彼とはお友達ですよ！\n"\
           "------------------------------------------\n"\
-          "Head east until you see the hot springs...\n"\
-          "He's the Hangyojin who is soaking there.\n"\
+          "温泉が見えるまで東に行って…\n"\
+          "そこにいる半魚人が彼です。\n"\
           "------------------------------------------\n"\
-          "Kisaburo fell ill a long time ago, and \n"\
-          "Morizora commanded him to stay in\n"\
-          "the hot springs until he got better.\n",
+          "キサブロウは昔、病気にかかって、\n"\
+          "それが良くなるまで湯治するよう\n"\
+          "モリゾラに言われたんです。\n",
         25 =>
           #------------------------------------------
           "\\ignr\\nm[村人リーブル]\\face[Leeble]\\fr\n"\
@@ -13265,7 +13277,7 @@ $events_lang = {
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
           "今日はどうしましたか？\n",
-        8 => [["何かあった？", "ここは何？", "Can we help out?", "なんでもない。"], 4],
+        8 => [["何かあった？", "ここは何？", "手伝えることはない？", "なんでもない。"], 4],
         10 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
@@ -13288,122 +13300,123 @@ $events_lang = {
         30 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "You want to help? You mean like...\n"\
-          "you're looking for a job?\n"\
+          "お手伝い？それはつまり…\n"\
+          "仕事を探してるのかしら？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyThinking]\\fr\n"\
-          "Well, not exactly...\n"\
+          "えっと、そうじゃなくて…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
-          "Your husband, Kisaburo asked us to \n"\
-          "see if you needed anything!\n"\
+          "キサブロウさんから、あなたの\n"\
+          "お手伝いを頼まれたんだ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "He actually said that to you?\n",
+          "あの人があなたにそう言ったの？\n",
         41 =>
           #------------------------------------------
-          "Wow... Well, I guess I \\icould\\i use\n"\
-          "some help with a couple things...\n"\
+          "そう…じゃあ、いくつか\n"\
+          "手伝って欲しいことがあるの…。\n"\
           "------------------------------------------\n"\
-          "Business has been slower these days...\n"\
+          "最近は売り上げが振るわなくて…。\n"\
           "------------------------------------------\n"\
-          "I guess I'd feel a lot safer if we could get \n"\
-          "just \\ione\\i more big tea contract...\n"\
+          "茶葉の大きな契約が\\i一つ\\iでもあれば\n"\
+          "安心できるのよ…。\n"\
           "------------------------------------------\n"\
-          "I \\ido\\i have a customer in mind... his name\n"\
-          "is Monsieur Bud and he holds regular tea\n"\
-          "events that require LOTS of tea.\n"\
+          "心当たりはあって…彼の名前は\n"\
+          "ムッシューつぼみといって、\n"\
+          "お茶会を開くから茶葉をたくさん使うの。\n"\
           "------------------------------------------\n"\
-          "I'm sure if I could bring him a sample, he'd\n"\
-          "be our customer in no time! \n"\
+          "サンプルを持参すれば、きっと\n"\
+          "すぐにでも契約してくれるはず！\n"\
           "------------------------------------------\n"\
-          "Unfortunately... I'm the only employee\n"\
-          "so I can't really leave the store right now...\n",
+          "でも…このお店の従業員は\n"\
+          "私しかいないから\n"\
+          "ここを離れるわけにはいかないの。\n",
         57 =>
           #------------------------------------------
-          "If I could leave, I'd also visit our neighbor \n"\
-          "to pick up some Dragon Ash for this \n"\
-          "flower I'm growing here...\n"\
+          "それと、このお花のために\n"\
+          "近所からドラゴンの灰を\n"\
+          "もらってきたくて…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyHappy1]\\fr\n"\
-          "A Hikaribana!\n",
+          "ヒカリバナ！\n",
         64 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Wow, good eye! It is indeed a Hikaribana.\n"\
+          "よく知ってるのね！\n"\
+          "そう、これはヒカリバナ。\n"\
           "------------------------------------------\n"\
-          "She's grown quite a bit, however I don't \n"\
-          "think she'll bloom without that Dragon\n"\
-          "Ash...\n"\
+          "だいぶ成長したけど、ドラゴンの灰が\n"\
+          "ないと開花しないと思うの…。\n"\
           "------------------------------------------\n"\
-          "Anyways...\n",
+          "それで…\n",
         73 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "...So you'd really like to help?\n"\
+          "本当に手伝ってくれるのね？\n"\
           "------------------------------------------\n"\
-          "Okay then... would it be too much to \n"\
-          "ask you to go in my place? \n"\
+          "それなら…私の代わりに\n"\
+          "おつかいを頼まれてくれるかしら？\n"\
           "------------------------------------------\n"\
-          "To bring Monsieur Bud a sample of our\n"\
-          "tea, and to pick up some Dragon Ash\n"\
-          "from our neighbor?\n",
-        80 => [["We'd love to help!", "Maybe not..."], 2],
+          "ムッシューのところにお茶の\n"\
+          "サンプルを届けて、近所から\n"\
+          "\n",
+        80 => [["よろこんで！", "それはちょっと…。"], 2],
         82 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
-          "We'd love to help!\n"\
+          "よろこんでお手伝いするよ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Oh thank-you so much!\n"\
+          "まぁ、ありがとう！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "You'll find Monsieur Bud, in the \n"\
-          "Skylands.\n"\
+          "ムッシューは\n"\
+          "スカイランドにいるの。\n"\
           "------------------------------------------\n"\
-          "\\bA beanstalk west of Leeble Village\\b \n"\
-          "should take you there.\n"\
+          "\\bリーブル村の西にある豆の木\\b\n"\
+          "を登れば彼のところに行けるわ。\n"\
           "------------------------------------------\n"\
-          "You can give him a sample of tea \n"\
-          "from this gourd!\n",
+          "サンプルはこのひょうたんに\n"\
+          "入れて持って行ってね！\n",
         94 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "You received\\oi[116].\n",
+          "\\oi[116]を受け取った。\n",
         99 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Our neighbor lives \\bin the cave right\n"\
-          "outside our shop.\\b\n"\
+          "近所の人は、\\bこのお店の外にある\n"\
+          "洞窟\\bに住んでるの。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Occasionally, the entrance to her cave gets\n"\
-          "blocked by fallen rocks, so you might need \n"\
-          "to find a \\bPickaxe\\b to clear them.\n"\
+          "ときどき、洞窟の入り口が落石で\n"\
+          "塞がってるの。そんな時は\\bつるはし\\bで\n"\
+          "岩を壊してね。\n"\
           "------------------------------------------\n"\
-          "If you ask nicely, I'm sure she'll give you\n"\
-          "some Dragon Ash. Her name is Stormey,\n"\
-          "and she's a great Water Dragon...\n"\
+          "彼女はウォータードラゴンの\n"\
+          "ストーミー。きちんとお願いすれば、\n"\
+          "ドラゴンの灰を分けてもらえるわ。\n"\
           "------------------------------------------\n"\
-          "Try not to be intimidated.\n"\
+          "怖がらないであげてね。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySurprised]\\fr\n"\
           "…\n",
         116 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Good luck, and thanks again!\n",
+          "頼んだわね。ありがとう！\n",
         123 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "I understand, thank-you anyway.\n",
+          "わかったわ、仕方ないものね。\n",
       },
       2 => {
         8 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Thanks so much for your help!\n",
-        10 => [["We shared your tea!", "Where should we go?", "またね！"], 3],
+          "手伝ってくれて本当にありがとう！\n",
+        10 => [["We shared your tea!", "どこに行けばいいんだっけ？", "またね！"], 3],
         12 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
@@ -13492,16 +13505,16 @@ $events_lang = {
         120 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "You'll find Monsieur Bud, in the Skylands. \n"\
-          "\\bA beanstalk west of Leeble Village\\b \n"\
-          "should take you there.\n"\
+          "ムッシューはスカイランドにいるの。\n"\
+          "\\bリーブル村の西にある豆の木\\b\n"\
+          "を登れば彼のところに行けるわ。\n"\
           "------------------------------------------\n"\
-          "Good luck!\n",
+          "よろしくね！\n",
         133 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Thanks so much for your help!\n",
-        135 => [["We shared your tea!", "We got the Dragon Ash!", "Where should we go?", "またね！"], 4],
+          "手伝ってくれて本当にありがとう！\n",
+        135 => [["We shared your tea!", "ドラゴンの灰をもらってきたよ！", "どこに行けばいいんだっけ？", "またね！"], 4],
         137 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
@@ -13590,10 +13603,11 @@ $events_lang = {
         244 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Oh, you got the Dragon Ash!\n"\
+          "まぁ、ドラゴンの灰を\n"\
+          "持ってきてくれたのね！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Thank-you so much!\n",
+          "とっても助かったわ！\n",
         251 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
@@ -13627,30 +13641,31 @@ $events_lang = {
         287 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "You'll find Monsieur Bud, in the Skylands. \n"\
-          "\\bA beanstalk west of Leeble Village\\b \n"\
-          "should take you there.\n"\
+          "ムッシューはスカイランドにいるの。\n"\
+          "\\bリーブル村の西にある豆の木\\b\n"\
+          "を登れば彼のところに行けるわ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Our neighbor Stormey can be found  \n"\
-          "\\bin the cave right outside our shop.\\b \n"\
+          "近所のストーミーは、\\bこのお店の\n"\
+          "外にある洞窟\\bにいるの。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Occasionally, the entrance to her cave gets\n"\
-          "blocked by fallen rocks, so you might need \n"\
-          "to find a \\bPickaxe\\b to clear them.\n",
+          "ときどき、洞窟の入り口が落石で\n"\
+          "塞がってるの。そんな時は\\bつるはし\\bで\n"\
+          "岩を壊してね。\n",
         312 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Thanks so much for your help!\n",
-        314 => [["We got the Dragon Ash!", "Where should we go?", "またね！"], 3],
+          "手伝ってくれて本当にありがとう！\n",
+        314 => [["ドラゴンの灰をもらってきたよ！", "どこに行けばいいんだっけ？", "またね！"], 3],
         316 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Oh, you got the Dragon Ash!\n"\
+          "まぁ、ドラゴンの灰を\n"\
+          "持ってきてくれたのね！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Thank-you so much!\n",
+          "とっても助かったわ！\n",
         323 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
@@ -13684,34 +13699,34 @@ $events_lang = {
         357 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Our neighbor Stormey can be found  \n"\
-          "\\bin the cave right outside our shop.\\b \n"\
+          "近所のストーミーは、\\bこのお店の\n"\
+          "外にある洞窟\\bにいるの。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Occasionally, the entrance to her cave gets\n"\
-          "blocked by fallen rocks, so you might need \n"\
-          "to find a \\bPickaxe\\b to clear them.\n"\
+          "ときどき、洞窟の入り口が落石で\n"\
+          "塞がってるの。そんな時は\\bつるはし\\bで\n"\
+          "岩を壊してね。\n"\
           "------------------------------------------\n"\
           "Please ask her for some Dragon Ash\n"\
           "to help this Hikaribana bloom.\n",
         382 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Our neighbor Stormey can be found  \n"\
-          "\\bin the cave right outside our shop.\\b \n"\
+          "近所のストーミーは、\\bこのお店の\n"\
+          "外にある洞窟\\bにいるの。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Occasionally, the entrance to her cave gets\n"\
-          "blocked by fallen rocks, so you might need \n"\
-          "to find a \\bPickaxe\\b to clear them.\n"\
+          "ときどき、洞窟の入り口が落石で\n"\
+          "塞がってるの。そんな時は\\bつるはし\\bで\n"\
+          "岩を壊してね。\n"\
           "------------------------------------------\n"\
           "Please ask her for some Dragon Ash\n"\
           "to help this Hikaribana bloom.\n",
         397 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Thanks so much for your help!\n",
-        399 => [["We shared your tea!", "Where should we go?", "またね！"], 3],
+          "手伝ってくれて本当にありがとう！\n",
+        399 => [["We shared your tea!", "どこに行けばいいんだっけ？", "またね！"], 3],
         401 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
@@ -13800,30 +13815,31 @@ $events_lang = {
         509 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "You'll find Monsieur Bud, in the Skylands. \n"\
-          "\\bA beanstalk west of Leeble Village\\b \n"\
-          "should take you there.\n"\
+          "ムッシューはスカイランドにいるの。\n"\
+          "\\bリーブル村の西にある豆の木\\b\n"\
+          "を登れば彼のところに行けるわ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Our neighbor Stormey can be found  \n"\
-          "\\bin the cave right outside our shop.\\b \n"\
+          "近所のストーミーは、\\bこのお店の\n"\
+          "外にある洞窟\\bにいるの。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Occasionally, the entrance to her cave gets\n"\
-          "blocked by fallen rocks, so you might need \n"\
-          "to find a \\bPickaxe\\b to clear them.\n",
+          "ときどき、洞窟の入り口が落石で\n"\
+          "塞がってるの。そんな時は\\bつるはし\\bで\n"\
+          "岩を壊してね。\n",
         538 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Thanks so much for your help!\n",
-        540 => [["We got the Dragon Ash!", "Where should we go?", "またね！"], 3],
+          "手伝ってくれて本当にありがとう！\n",
+        540 => [["ドラゴンの灰をもらってきたよ！", "どこに行けばいいんだっけ？", "またね！"], 3],
         542 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Oh, you got the Dragon Ash!\n"\
+          "まぁ、ドラゴンの灰を\n"\
+          "持ってきてくれたのね！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Thank-you so much!\n",
+          "とっても助かったわ！\n",
         549 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
@@ -13857,50 +13873,50 @@ $events_lang = {
         583 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "You'll find Monsieur Bud, in the Skylands. \n"\
-          "\\bA beanstalk west of Leeble Village\\b \n"\
-          "should take you there.\n"\
+          "ムッシューはスカイランドにいるの。\n"\
+          "\\bリーブル村の西にある豆の木\\b\n"\
+          "を登れば彼のところに行けるわ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Our neighbor Stormey can be found  \n"\
-          "\\bin the cave right outside our shop.\\b \n"\
+          "近所のストーミーは、\\bこのお店の\n"\
+          "外にある洞窟\\bにいるの。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Occasionally, the entrance to her cave gets\n"\
-          "blocked by fallen rocks, so you might need \n"\
-          "to find a \\bPickaxe\\b to clear them.\n",
+          "ときどき、洞窟の入り口が落石で\n"\
+          "塞がってるの。そんな時は\\bつるはし\\bで\n"\
+          "岩を壊してね。\n",
         603 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "You'll find Monsieur Bud, in the Skylands. \n"\
-          "\\bA beanstalk west of Leeble Village\\b \n"\
-          "should take you there.\n"\
+          "ムッシューはスカイランドにいるの。\n"\
+          "\\bリーブル村の西にある豆の木\\b\n"\
+          "を登れば彼のところに行けるわ。\n"\
           "------------------------------------------\n"\
-          "Good luck!\n",
+          "よろしくね！\n",
         614 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Thanks so much for your help!\n"\
+          "手伝ってくれて本当にありがとう！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Please give a sample of our tea to Monsieur\n"\
-          "Bud, and bring back some Dragon Ash \n"\
-          "from Stormey the Water Dragon.\n"\
+          "ムッシューのところにお茶の\n"\
+          "サンプルを届けて、近所から\n"\
+          "ドラゴンの灰をもらってきて欲しいの。\n"\
           "------------------------------------------\n"\
-          "You'll find Monsieur Bud, in the Skylands. \n"\
-          "\\bA beanstalk west of Leeble Village\\b \n"\
-          "should take you there.\n"\
-          "------------------------------------------\n"\
-          "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Our neighbor Stormey can be found  \n"\
-          "\\bin the cave right outside our shop.\\b \n"\
+          "ムッシューはスカイランドにいるの。\n"\
+          "\\bリーブル村の西にある豆の木\\b\n"\
+          "を登れば彼のところに行けるわ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Occasionally, the entrance to her cave gets\n"\
-          "blocked by fallen rocks, so you might need \n"\
-          "to find a \\bPickaxe\\b to clear them.\n"\
+          "近所のストーミーは、\\bこのお店の\n"\
+          "外にある洞窟\\bにいるの。\n"\
           "------------------------------------------\n"\
-          "Good luck!\n",
+          "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
+          "ときどき、洞窟の入り口が落石で\n"\
+          "塞がってるの。そんな時は\\bつるはし\\bで\n"\
+          "岩を壊してね。\n"\
+          "------------------------------------------\n"\
+          "よろしくね！\n",
       },
       3 => {
         2 =>
@@ -14201,10 +14217,10 @@ $events_lang = {
       0 => {
         0 =>
           #------------------------------------------
-          "\\ignr\\nm[Tea Server]\\face[Cave Bud]\\fr\n"\
-          "ムッシューつぼみの\n"\
-          "アフタヌーンティーをご所望でしたら\n"\
-          "また後ほどお越しください。\n",
+          "\\ignr\\nm[給仕]\\face[Cave Bud]\\fr\n"\
+          "ムッシューのアフタヌーンティーを\n"\
+          "ご所望でしたら、また後ほど\n"\
+          "お越しください。\n",
       },
     },
     16 => {
@@ -14326,7 +14342,7 @@ $events_lang = {
           #------------------------------------------
           "\\ignr\\nm[キサブロウ]\\face[Kisaburo2]\\fr\n"\
           "この温泉に何の用だい？\n",
-        19 => [["何かあった？", "Can we help you?", "またね！"], 4],
+        19 => [["何かあった？", "手伝えることはない？", "またね！"], 4],
         21 =>
           #------------------------------------------
           "\\ignr\\nm[キサブロウ]\\face[Kisaburo2]\\fr\n"\
@@ -14353,48 +14369,47 @@ $events_lang = {
         40 =>
           #------------------------------------------
           "\\ignr\\nm[キサブロウ]\\face[Kisaburo2]\\fr\n"\
-          "I hate asking for help. But seeing as how\n"\
-          "Morizora's commanded me to stay here...\n"\
+          "助けは借りたくないが、モリゾラに\n"\
+          "ここにいるよう言われたからな…。\n"\
           "------------------------------------------\n"\
-          "I guess I have no other choice.\n"\
+          "他に方法はない、か。\n"\
           "------------------------------------------\n"\
-          "My wife Kazuko and I run a little tea shop\n"\
-          "to the west of here. \n"\
-          "------------------------------------------\n"\
-          "\\ignr\\nm[キサブロウ]\\face[Kisaburo2]\\fr\n"\
-          "Ever since I got sick, she's had to run the\n"\
-          "shop all by herself... which is no small\n"\
-          "task.\n"\
-          "------------------------------------------\n"\
-          "Perhaps if Kazuko had a couple extra \n"\
-          "helping hands, it might ease the \n"\
-          "burden a bit.\n"\
+          "女房のカズコと俺で、ここの西にある\n"\
+          "小さな茶屋を営んでるんだ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[キサブロウ]\\face[Kisaburo2]\\fr\n"\
-          "Do you think you could visit her at our \n"\
-          "tea shop west of here, and see if\n"\
-          "she needs help with anything?\n"\
+          "俺が病気にかかってからというもの、\n"\
+          "あいつ一人で店を切り盛りしててな…。\n"\
+          "決して楽な仕事じゃない。\n"\
+          "------------------------------------------\n"\
+          "もう少し人手がいれば、\n"\
+          "少しは楽をさせてやれるんだ。\n"\
+          "------------------------------------------\n"\
+          "\\ignr\\nm[キサブロウ]\\face[Kisaburo2]\\fr\n"\
+          "茶屋にいるあいつに聞いて、\n"\
+          "何か手伝ってやってくれないか？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
-          "Yeah totally!\n"\
+          "はーい、任せて！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Of course. We'll help out however\n"\
-          "we can.\n"\
+          "もちろんです。できるかぎり\n"\
+          "お手伝いします。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[キサブロウ]\\face[Kisaburo2]\\fr\n"\
-          "Thank-you so much. It really \n"\
-          "means a lot to both of us.\n",
+          "本当にありがとう。\n"\
+          "俺たち夫婦には\n"\
+          "とても大切なことなんだ。\n",
         72 =>
           #------------------------------------------
           "\\ignr\\nm[キサブロウ]\\face[Kisaburo2]\\fr\n"\
-          "Perhaps if my wife had a couple extra helping \n"\
-          "hands, it might ease the burden of running\n"\
-          "our tea shop all by herself...\n"\
+          "もう少し人手がいれば、\n"\
+          "一人で茶屋を切り盛りするあいつに\n"\
+          "少しは楽をさせてやれるんだ…。\n"\
           "------------------------------------------\n"\
-          "Could you please visit Kazuko at the \n"\
-          "Midnight Tea Shop west of here, and \n"\
-          "see if she needs help with anything?\n",
+          "西にある真夜中茶屋を訪ねて、\n"\
+          "手伝えることがないか\n"\
+          "あいつに聞いてくれないか？\n",
       },
       2 => {
         0 =>
@@ -14408,27 +14423,27 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "There is a note attached to the rocks.\n"\
+          "岩に貼り紙がしてある。\n"\
           "------------------------------------------\n"\
           "読んでみる？\n",
         3 => [["はい", "いいえ"], 2],
         5 =>
           #------------------------------------------
-          "\\iGone to pick berries. Will be また後ほどお越しください。\n"\
-          "~Christina\n",
+          "\\iベリー拾いに行ってます。すぐ戻ります。\n"\
+          "~クリスティーナ\n",
       },
       2 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "There is a note attached to the rocks.\n"\
+          "岩に貼り紙がしてある。\n"\
           "------------------------------------------\n"\
           "読んでみる？\n",
         3 => [["はい", "いいえ"], 2],
         5 =>
           #------------------------------------------
-          "\\iHanging out at Leeble Village!\n"\
-          "~Christina\n",
+          "\\iリーブル村に出かけてます！\n"\
+          "~クリスティーナ\n",
       },
     },
     9 => {
@@ -14923,28 +14938,28 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Use the \\oi[117]?\n",
+          "\\oi[117]を使ってみる？\n",
         3 => [["はい", "いいえ"], 2],
         5 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoySurprised]\\fr\n"\
-          "Okay... here goes nothing!\n",
+          "よし…やってみよう。\n",
         14 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoySurprised]\\fr\n"\
-          "Ruuuuuun!!!\n",
+          "離れてええ！！\n",
         33 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyHappy2]\\fr\n"\
-          "Phew, that was a close one!\n"\
+          "ふー、危なかった！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Great job!\n",
+          "よくできたね！\n",
         45 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Hmm... it looks like these boulders are\n"\
-          "preventing the water from flowing freely.\n",
+          "うーん…大きな岩が\n"\
+          "水の流れをせき止めてるね。\n",
       },
     },
     8 => {
@@ -14952,28 +14967,28 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Use the \\oi[117]?\n",
+          "\\oi[117]を使ってみる？\n",
         3 => [["はい", "いいえ"], 2],
         5 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoySurprised]\\fr\n"\
-          "Okay... here goes nothing!\n",
+          "よし…やってみよう。\n",
         15 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoySurprised]\\fr\n"\
-          "Ruuuuuun!!!\n",
+          "離れてええ！！\n",
         35 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyHappy2]\\fr\n"\
-          "Phew, that was a close one!\n"\
+          "ふー、危なかった！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Great job!\n",
+          "よくできたね！\n",
         47 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Hmm... it looks like these boulders are\n"\
-          "preventing the water from flowing freely.\n",
+          "うーん…大きな岩が\n"\
+          "水の流れをせき止めてるね。\n",
       },
     },
   },
@@ -15328,13 +15343,13 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyNeutral]\\fr\n"\
-          "Oh... it's locked now.\n",
+          "あれ…鍵がかかってるよ。\n",
       },
       2 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyNeutral]\\fr\n"\
-          "Oh... it's locked now.\n",
+          "あれ…鍵がかかってるよ。\n",
       },
       3 => {
         0 =>
@@ -15360,7 +15375,7 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "\\oi[100]を使って\n\n"\
+          "\\oi[100]を使って\n"\
           "箱の鍵を開けた。\n",
         33 =>
           #------------------------------------------
@@ -15379,9 +15394,10 @@ $events_lang = {
           "その…\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウィンストン]\\face[Winston2Neutral]\\fr\n"\
-          "僕が贈った花だ…。\n"\
+          "あのとき彼女のところに\n"\
+          "飛んでいったヒカリバナだ…。\n"\
           "------------------------------------------\n"\
-          "受け取ってくれたんだ…。\n"\
+          "それを受け取ってくれていた…。\n"\
           "------------------------------------------\n"\
           "ということは…\n",
         49 =>
@@ -16225,7 +16241,7 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[サイトウさん]\\face[]\n"\
-          "Nerrrrrr----NO ONE IS HOME!!\n",
+          "ふひひひ----誰もいないよ！！\n",
       },
     },
     4 => {
@@ -24495,7 +24511,7 @@ $events_lang = {
         16 =>
           #------------------------------------------
           "\\ignr\\nm[トニー]\\face[Tony]\\fr\n"\
-          "やぁ、坊や…。ここがわかったな？\n"\
+          "やぁ、坊や…。よくここがわかったな？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySad]\\fr\n"\
           "トニーさん、大丈夫？\n",
@@ -25866,6 +25882,7 @@ $events_lang = {
           "…\n",
         38 =>
           #------------------------------------------
+          # TODO
           "\\ignr\\nm[トニー]\\face[Tony2Singing]\\fr\n"\
           "\\iIf you brush your teeth...\n"\
           "日本語歌詞\\w[90]\n"\
@@ -26599,191 +26616,193 @@ $events_lang = {
         35 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoySurprised2]\\fr\n"\
-          "Mom...?\n",
+          "お母さん…？\n",
         52 =>
           #------------------------------------------
           "\\ignr\\nm[ヤミ]\\face[Yami]\\fr\n"\
-          "Still sleeping?\n",
+          "まだ寝てるのかい？\n",
         60 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyHappy1]\\fr\n"\
-          "Yami, it's you!\n"\
+          "ヤミだったんだね！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami]\\fr\n"\
-          "You should really be used to this \n"\
-          "by now.\n"\
+          "もういい加減慣れなよ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyHappy3]\\fr\n"\
-          "Heh...\n"\
+          "えへへ…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "So I hear you're becoming a regular \n"\
-          "\\ihero\\i around here, eh?\n"\
+          "聞いたよ、この辺で\\iヒーロー\\iに\n"\
+          "なりつつあるんだって？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "Helping out your neighbors, saving little\n"\
-          "pink cat creatures from angry bears.\n"\
+          "病院にいる人を手助けして、ピンク色の\n"\
+          "小さな猫を熊から救って。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySurprised2]\\fr\n"\
-          "Wait... you know about the Leebles?\n"\
+          "…リーブルのことを知ってるの？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami]\\fr\n"\
-          "Course I do.\n"\
+          "もちろんさ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "You think you're so special... The only \n"\
-          "kid who's been to \\ithe Forest?\n"\
+          "\\iあの森\\iに行ける子どもは\n"\
+          "特別な自分だけだと思ってたんだろ？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySad]\\fr\n"\
-          "Oh, no no I didn't mean that at all...\n"\
+          "え、ううん、そんなつもりは\n"\
+          "ちっともなくて…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyThinking]\\fr\n"\
-          "I just...\n"\
+          "僕はただ…\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyOpenMouth]\\fr\n"\
-          "Before, when you didn't understand why\n"\
-          "the book was important to me, I thought...\n"\
+          "前にキミと、この本について\n"\
+          "話をしたとき、僕はてっきり…\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySad]\\fr\n"\
-          "I thought that meant you hadn't read \n"\
-          "the story before. I'm sorry Yami, I just---\n"\
+          "この本を読んだことがないのかと\n"\
+          "思ったんだ。ごめんねヤミ、僕は---\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami]\\fr\n"\
-          "Hey, I was just kidding...It's all good. \n"\
-          "You don't hafta explain.\n"\
+          "おいおい、冗談だよ…別にいいよ。\n"\
+          "説明しなくてもいい。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyNeutral]\\fr\n"\
-          "Heh...\n"\
+          "ほっ…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyThinking]\\fr\n"\
-          "Wait... \n"\
+          "待てよ…\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyThinking]\\fr\n"\
-          "So that means...\n"\
+          "ということは…\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
-          "You know about Morizora! \n"\
+          "モリゾラのことも知ってる？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami]\\fr\n"\
-          "Of course I do.\n"\
+          "もちろん。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyHappy2]\\fr\n"\
-          "That's great, Yami! Why didn't you\n"\
-          "tell me?\n"\
+          "すごいよ、ヤミ！\n"\
+          "どうして教えてくれなかったの？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
-          "Oh I couldn't even believe it the first \n"\
-          "time I saw it...\n"\
+          "初めて森を見た時は\n"\
+          "もう信じられなかったよ…。\n"\
           "------------------------------------------\n"\
-          "Everything is so wonderful there... The creatures\n"\
-          "are real! And they want to talk to me, and help\n"\
-          "me... and I want to help them, too!\n"\
+          "何もかも夢みたいで…不思議な生き物が\n"\
+          "本当にいてさ！話をして、手助けしてくれて…\n"\
+          "僕もみんなをお手伝いしたんだ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami]\\fr\n"\
-          "Hah, yeah everyone loves you when they\n"\
-          "\\iwant something from you.\n"\
+          "ははっ、そうだね。みんな\\i見返りを求めて\\i\n"\
+          "君と仲良くしたがるんだ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySurprised2]\\fr\n"\
-          "Wait... what?\n"\
+          "えっ…なんて？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "I'm just sayin. It's human nature, ya know?\n"\
+          "つまり、それが本性ってこと。そうだろ？\n"\
           "------------------------------------------\n"\
-          "Shouldn't feel bad about it. It's just the way\n"\
-          "it is.\n"\
+          "悪いことじゃない。\n"\
+          "そういうものなんだ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyThinking]\\fr\n"\
           "……\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyNeutral]\\fr\n"\
-          "Are you gonna wish for anything?\n"\
+          "キミは何をお願いするの？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "From Morizora?\n"\
+          "モリゾラにかい？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
-          "Yeah!\n"\
+          "そう！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "I dunno.\n"\
+          "どうかな。\n"\
           "------------------------------------------\n"\
-          "Last I saw he was sleeping. And even if\n"\
-          "he did wake up, I doubt he'd grant \\ime \\ia\n"\
-          "wish.\n"\
+          "例えモリゾラが起きたとしても、\n"\
+          "\\i僕の\\i願いを叶えてくれるとは\n"\
+          "思わないね。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySad]\\fr\n"\
-          "Why do you think that?\n"\
+          "どうしてそう思うの？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "Wishes are for good kids.\n"\
+          "願いっていうのは\n"\
+          "いい子のためのものさ。\n"\
           "------------------------------------------\n"\
-          "Kids that help people; kids that are strong.\n"\
-          "I'm too weak and too sick, how could I ever\n"\
-          "help anyone with anything?\n"\
+          "人を助けられる、強くていい子。\n"\
+          "こんな病弱な僕が、どうやったら\n"\
+          "何かの役に立てるんだい？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySad]\\fr\n"\
-          "Oh Yami...\n",
+          "ヤミ…。\n",
         147 =>
           #------------------------------------------
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "Ah man, I'm gonna get busted if the\n"\
-          "nurse catches me again...\n",
+          "おっと、またナースに捕まったら\n"\
+          "おしおきされちゃうな…。\n",
         152 =>
           #------------------------------------------
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "I'd better go.\n",
+          "もう行かなきゃ。\n",
         162 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyNeutral]\\fr\n"\
-          "...Yami?\n"\
+          "…ヤミ？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "What?\n"\
+          "なんだ？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyNeutral]\\fr\n"\
-          "You've helped me.\n"\
+          "ヤミは僕を助けてくれたよ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "Huh? Why... \n"\
+          "へぇ？それは…\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami]\\fr\n"\
-          "Cuz I break into your room every night and \n"\
-          "you mistake me for your Mom?\n"\
+          "夜な夜なこの部屋に忍び込んで、\n"\
+          "お前のお母さんと\n"\
+          "勘違いさせてるからかい？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyHappy2]\\fr\n"\
-          "Haha no!\n"\
+          "はは、違うよ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyThinking]\\fr\n"\
-          "Well...\n"\
+          "えっと…\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyHappy3]\\fr\n"\
-          "Maybe.\n"\
+          "多分違う。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "What are you on about?\n",
+          "何が言いたいんだ？\n",
         182 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyNeutral]\\fr\n"\
-          "You keep me company.\n",
+          "キミは僕に付き合ってくれる。\n",
         185 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyNeutral]\\fr\n"\
-          "And you understand.\n"\
+          "それに理解してくれる。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyThinking]\\fr\n"\
-          "Nights are the loneliest, you know? But\n"\
-          "when you're here...\n"\
+          "夜はすごく寂しい、でしょ？\n"\
+          "でもキミがいる時は…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyNeutral]\\fr\n"\
-          "...it's not so bad.\n",
+          "そんなに悪くない。\n",
         193 =>
           #------------------------------------------
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "Well... thanks for saying that.\n",
+          "そうか…ありがとう。\n",
         196 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
-          "I mean it.\n",
+          "本当だよ。\n",
       },
     },
   },
@@ -26802,8 +26821,9 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[モリゾラの従者]\\face[Oracle]\\fr\n"\
-          "I can tell that you've been through \n"\
-          "a lot, young one.\n",
+          "若き者よ、ここに来るまでの間に\n"\
+          "既にいくつもの試練を\n"\
+          "乗り越えてきたのでしょう。\n",
       },
     },
     3 => {
@@ -26940,52 +26960,53 @@ $events_lang = {
         4 =>
           #------------------------------------------
           "\\ignr\\nm[空つぼみ]\\face[Cave Bud]\\fr\n"\
-          "If I stand right here, doesn't it kind of \n"\
-          "look like I have a tree growing out of\n"\
-          "my head?\n"\
+          "ここにこうして立ってると、\n"\
+          "頭から木が生えてるように\n"\
+          "見えてこない？\n"\
           "------------------------------------------\n"\
-          "Trees growing out of flowers... My \n"\
-          "oh my, the tables have turned!\n",
+          "花から木が生える…\n"\
+          "これって、これって革命よ！\n",
         13 =>
           #------------------------------------------
           "\\ignr\\nm[空つぼみ]\\face[Cave Bud]\\fr\n"\
-          "Monsieur has invited us all here to \n"\
-          "drink tea with him!\n"\
+          "ムッシューがここにいるみんなを\n"\
+          "お茶に誘ってくれたの！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[空つぼみ]\\face[Cave Bud]\\fr\n"\
-          "I wish I could take my tree in with me.\n",
+          "私の木も連れて行けたらなぁ。\n",
       },
     },
     6 => {
       0 => {
         0 =>
           #------------------------------------------
-          "\\ignr\\nm[Dance Bud]\\face[]\n"\
-          "Reach for the sky! Work off those \n"\
-          "calories!\n",
+          "\\ignr\\nm[ダンシングつぼみ]\\face[]\n"\
+          "空まで届け！\n"\
+          "カロリー燃えてるよ！\n",
       },
     },
     7 => {
       0 => {
         0 =>
           #------------------------------------------
-          "\\ignr\\nm[Dance Bud]\\face[]\n"\
-          "I hear Monsieur Bud is serving some\n"\
-          "kind of special cake at today's tea...\n"\
+          "\\ignr\\nm[ダンシングつぼみ]\\face[]\n"\
+          "本日のお茶会では特製ケーキが\n"\
+          "振る舞われるそうなんですの…。\n"\
           "------------------------------------------\n"\
-          "I can't wait to eat... but I'm still kind of \n"\
-          "full from the last event!\n",
+          "待ちきれませんわ…\n"\
+          "でも前回のお茶会の分で\n"\
+          "まだお腹が減ってませんのよ！\n",
       },
     },
     8 => {
       0 => {
         0 =>
           #------------------------------------------
-          "\\ignr\\nm[Dance Bud]\\face[]\n"\
-          "I had 5 scones the other day at \n"\
-          "Monsieur Bud's afternoon tea...\n"\
+          "\\ignr\\nm[ダンシングつぼみ]\\face[]\n"\
+          "ムッシューのお茶会で\n"\
+          "スコーンを5個も食べてしまって…。\n"\
           "------------------------------------------\n"\
-          "I gotta work it off somehow!\n",
+          "なんとか消費しないと！\n",
       },
     },
     19 => {
@@ -26993,13 +27014,13 @@ $events_lang = {
         3 =>
           #------------------------------------------
           "\\ignr\\nm[空つぼみ]\\face[Cave Bud]\\fr\n"\
-          "Have you heard, there is a Leeble Artisan\n"\
-          "who has created a remarkable tea set\n"\
-          "modeled after Sky Buds? It's gorgeous!\n"\
+          "聞いたかい、リーブルの職人が\n"\
+          "空つぼみモチーフのティーセットを\n"\
+          "作ったそうだよ。ゴージャスだね！\n"\
           "------------------------------------------\n"\
-          "I believe he's on one of the other floating\n"\
-          "islands... you should check it out if\n"\
-          "you get the chance!\n",
+          "彼もスカイランドのどこかに\n"\
+          "いると思うんだが…機会があれば\n"\
+          "君も覗いてみるといい！\n",
       },
     },
     20 => {
@@ -27060,7 +27081,7 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "This well looks inaccessible.\n",
+          "この井戸は入れないみたい。\n",
       },
     },
   },
@@ -27077,7 +27098,7 @@ $events_lang = {
       0 => {
         4 =>
           #------------------------------------------
-          "\\ignr\\nm[Birdie]\\face[]\n"\
+          "\\ignr\\nm[バーディ]\\face[]\n"\
           "\\e[5]...   \n",
       },
     },
@@ -27174,70 +27195,69 @@ $events_lang = {
       0 => {
         3 =>
           #------------------------------------------
-          "\\ignr\\nm[SuperRoo]\\face[]\n"\
-          "Hello friends!\n",
-        5 => [["How are you?", "Is this your bird?", "またね！"], 3],
+          "\\ignr\\nm[スーパールー]\\face[]\n"\
+          "こんちわ！\n",
+        5 => [["調子はどう？", "これは君の鳥？", "またね！"], 3],
         7 =>
           #------------------------------------------
-          "Days like these always make me feel like\n"\
-          "dancing. I was in the middle of planting \n"\
-          "radishes and then boom! \n"\
+          "こんな日は踊りたくなるね。\n"\
+          "大根を植えてる途中だったけど、\n"\
+          "ババーンとね！\n"\
           "------------------------------------------\n"\
-          "The urge to dance was just so strong...\n"\
-          "I had to start moving!\n"\
+          "踊りたい気持ちが強すぎて…\n"\
+          "いてもたってもいられない！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
           "…\n",
         16 =>
           #------------------------------------------
-          "You know, this lil' one kind of just fell out\n"\
-          "of a tree one day and broke her wing! I've\n"\
-          "been taking care of her since then, but...\n"\
+          "実はある日、この子が木から\n"\
+          "落ちて翼を折っちゃったんだ！\n"\
+          "それからお世話してたんだけど…。\n"\
           "------------------------------------------\n"\
-          "I don't think she'll ever fly well enough to go\n"\
-          "back to the wild... So I've been looking \n"\
-          "for a good home for her.\n"\
+          "もう野生に還せるほど上手くは\n"\
+          "飛べないんだ…。だから\n"\
+          "新しい飼い主を探してるんだ。\n"\
           "------------------------------------------\n"\
-          "She's very caring, great with kids and folks\n"\
-          "who aren't feeling well. Would you like \n"\
-          "to adopt her?\n",
+          "とっても人馴れしてるから、子どもや\n"\
+          "落ち込んでる人にいいと思うんだけど。\n"\
+          "引き取ってくれない？\n",
         25 => [["はい", "いいえ"], 2],
         27 =>
           #------------------------------------------
-          "Thank-you so much! \n",
+          "ありがとう！\n",
         64 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "You adopted \\oi[171]!\n"\
+          "\\oi[171]を引き取った！\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[SuperRoo]\\face[]\n"\
-          "Please take good care of \n"\
-          "her for me!\n",
+          "\\ignr\\nm[スーパールー]\\face[]\n"\
+          "可愛がってあげてね！\n",
         74 =>
           #------------------------------------------
-          "I understand... taking care of a bird can\n"\
-          "be quite a handful sometimes!\n",
+          "わかったよ…鳥を飼うのも\n"\
+          "大変だもんね！\n",
       },
       1 => {
         0 =>
           #------------------------------------------
-          "\\ignr\\nm[SuperRoo]\\face[]\n"\
-          "Hello friends!\n",
-        2 => [["How are you?", "Your bird is doing great!", "またね！"], 3],
+          "\\ignr\\nm[スーパールー]\\face[]\n"\
+          "こんちわ！\n",
+        2 => [["調子はどう？", "鳥は元気にしてるよ！", "またね！"], 3],
         4 =>
           #------------------------------------------
-          "Days like these always make me feel like\n"\
-          "dancing. I was in the middle of planting \n"\
-          "radishes and then boom! \n"\
+          "こんな日は踊りたくなるね。\n"\
+          "大根を植えてる途中だったけど、\n"\
+          "ババーンとね！\n"\
           "------------------------------------------\n"\
-          "The urge to dance was just so strong...\n"\
-          "I had to start moving!\n"\
+          "踊りたい気持ちが強すぎて…\n"\
+          "いてもたってもいられない！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
           "…\n",
         13 =>
           #------------------------------------------
-          "Thanks so much for adopting her! \n",
+          "引き取ってくれて本当にありがとう！\n",
       },
     },
     13 => {
@@ -28026,7 +28046,7 @@ $events_lang = {
         2 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[WinstonSadSmile]\\fr\n"\
-          "\\iThis is amazing...\n"\
+          "\\i驚いたな…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウィンストン]\\face[Winston]\\fr\n"\
           "おっと、やぁ…調子はどうだい？\n",
@@ -28051,18 +28071,18 @@ $events_lang = {
         28 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[Winston]\\fr\n"\
-          "I thought that her ring was gone, I \n"\
-          "really did...\n"\
+          "僕はね、彼女の指輪がどこかに\n"\
+          "いってしまったと思っていたんだよ…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウィンストン]\\face[WinstonHappy]\\fr\n"\
-          "But I came back to the room and noticed \n"\
-          "that it's 彼女の指に戻ってたって聞いたよ！\n"\
+          "でもね、部屋に戻ってきたら\n"\
+          "彼女の指にはまっていたんだ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウィンストン]\\face[WinstonAmazed]\\fr\n"\
-          "This is amazing...\n"\
+          "驚いたな…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウィンストン]\\face[WinstonRelieved]\\fr\n"\
-          "And a great relief!\n",
+          "本当によかったよ！\n",
         40 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[Winston]\\fr\n"\
@@ -31122,7 +31142,7 @@ $events_lang = {
       0 => {
         4 =>
           #------------------------------------------
-          "\\ignr\\nm[Tea Server]\\face[Cave Bud]\\fr\n"\
+          "\\ignr\\nm[給仕]\\face[Cave Bud]\\fr\n"\
           "Are you looking for Monsieur Bud's \n"\
           "Afternoon Tea?\n"\
           "------------------------------------------\n"\
@@ -31132,19 +31152,19 @@ $events_lang = {
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
           "Yes? \n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Tea Server]\\face[Cave Bud]\\fr\n"\
+          "\\ignr\\nm[給仕]\\face[Cave Bud]\\fr\n"\
           "It's just up these stairs. Enjoy \n"\
           "yourselves!\n",
         17 =>
           #------------------------------------------
-          "\\ignr\\nm[Tea Server]\\face[Cave Bud]\\fr\n"\
+          "\\ignr\\nm[給仕]\\face[Cave Bud]\\fr\n"\
           "Monsieur Bud's Afternoon Tea is\n"\
           "just up these stairs. Enjoy!\n",
       },
       1 => {
         3 =>
           #------------------------------------------
-          "\\ignr\\nm[Tea Server]\\face[Cave Bud]\\fr\n"\
+          "\\ignr\\nm[給仕]\\face[Cave Bud]\\fr\n"\
           "Thanks for all your help! You're \n"\
           "welcome to visit anytime!\n",
       },
@@ -32606,7 +32626,7 @@ $events_lang = {
           "buns!\n",
         8 =>
           #------------------------------------------
-          "\\ignr\\nm[Tea Server]\\face[]\n"\
+          "\\ignr\\nm[給仕]\\face[]\n"\
           "\\e[3]Wahaha... \\icold buns.\n",
       },
     },
@@ -32636,7 +32656,7 @@ $events_lang = {
       1 => {
         0 =>
           #------------------------------------------
-          "\\ignr\\nm[Tea Server]\\face[]\n"\
+          "\\ignr\\nm[給仕]\\face[]\n"\
           "Oh, don't worry about Rupert... he \n"\
           "loses his wigs all the time. \n"\
           "------------------------------------------\n"\
@@ -32645,7 +32665,7 @@ $events_lang = {
       2 => {
         1 =>
           #------------------------------------------
-          "\\ignr\\nm[Tea Server]\\face[]\n"\
+          "\\ignr\\nm[給仕]\\face[]\n"\
           "Rupert was so shocked by Maxwell's...\n"\
           "um... \"art\"... \n"\
           "------------------------------------------\n"\
@@ -32656,7 +32676,7 @@ $events_lang = {
           "of can't stop laughing when I look at it.\n",
         11 =>
           #------------------------------------------
-          "\\ignr\\nm[Tea Server]\\face[]\n"\
+          "\\ignr\\nm[給仕]\\face[]\n"\
           "Cold buns, hot buns... hah... haha...\n"\
           "HAHAHAHA...\n"\
           "------------------------------------------\n"\
@@ -32713,7 +32733,7 @@ $events_lang = {
           "are WARM this time??\n",
         17 =>
           #------------------------------------------
-          "\\ignr\\nm[Tea Server]\\face[]\n"\
+          "\\ignr\\nm[給仕]\\face[]\n"\
           "\\e[3]Yes sir, Mr. Rupert!\n"\
           "Very warm buns!\n",
         21 =>
@@ -33350,7 +33370,7 @@ $events_lang = {
       0 => {
         0 =>
           #------------------------------------------
-          "\\ignr\\nm[Tea Server]\\face[Cave Bud]\\fr\n"\
+          "\\ignr\\nm[給仕]\\face[Cave Bud]\\fr\n"\
           "I'm telling you... \\iSomething fishy is\n"\
           "going on around here...\n"\
           "------------------------------------------\n"\
@@ -33363,7 +33383,7 @@ $events_lang = {
       1 => {
         0 =>
           #------------------------------------------
-          "\\ignr\\nm[Tea Server]\\face[Cave Bud]\\fr\n"\
+          "\\ignr\\nm[給仕]\\face[Cave Bud]\\fr\n"\
           "I KNEW something fishy was going on!\n"\
           "------------------------------------------\n"\
           "All those pots and pans clanking in the\n"\
@@ -34073,7 +34093,7 @@ $events_lang = {
           "------------------------------------------\n"\
           "\\e[7]Rest assured, we will be \n"\
           "buying LOTS of tea from\n"\
-          "this 真夜中茶屋にようこそ。\n",
+          "this Midnight Tea Shop.\n",
         299 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyHappy2_BT]\\fr\n"\
@@ -35469,7 +35489,7 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "This well looks inaccessible.\n",
+          "この井戸は入れないみたい。\n",
       },
     },
   },
@@ -38492,7 +38512,7 @@ $events_lang = {
           "考えられる。\n"\
           "------------------------------------------\n"\
           "抗精神病薬の投与を提案します。\n"\
-          "幻覚と妄想のリストを参照して下さい。\n",
+          "錯乱と妄想のリストを参照して下さい。\n",
         13 =>
           #------------------------------------------
           "10月21日: 建築ゾーン5Bにて、はしごを登って\n"\
@@ -38861,319 +38881,312 @@ $events_lang = {
       0 => {
         4 =>
           #------------------------------------------
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "What brings you to my domain?\n"\
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "我が領域に何用だ？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySurprised]\\fr\n"\
-          "Whoa...\n"\
+          "うわぁ…。\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "What are you staring at, child?\n"\
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "何を見ている、人の子よ？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySurprised]\\fr\n"\
-          "I'm sorry, it's just... I've never seen\n"\
-          "a real dragon before.\n"\
+          "ごめんなさい、でも…本物の\n"\
+          "ドラゴンなんて初めて見たから。\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "Well that's because we are not very\n"\
-          "common around these parts.\n"\
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "この辺りでは我らは\n"\
+          "珍しい存在だからな。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyHappy2]\\fr\n"\
-          "You're SO COOL!\n"\
+          "すっごくかっこいいね！\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "Yes.\n",
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "そうか。\n",
         23 =>
           #------------------------------------------
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "Tell me child, what is it that \n"\
-          "you need?\n",
-        26 => [["What do you do here?", "Do you have Dragon Ash?", "またね！"], 4],
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "して、人の子よ。何を望む？\n",
+        26 => [["ここで何してるの？", "ドラゴンの灰を持ってない？", "またね！"], 4],
         28 =>
           #------------------------------------------
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "I'm a water dragon, so it is my job to \n"\
-          "regulate the waterways and clouds.\n"\
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "我はウォータードラゴン。\n"\
+          "水の流れと雲を司る存在である。\n"\
           "------------------------------------------\n"\
-          "I try to keep everything in balance, and\n"\
-          "make sure the Forest gets the water it \n"\
-          "needs.\n",
+          "万物の均衡を保ち、この森に\n"\
+          "必要な水をもたらしている。\n",
         36 =>
           #------------------------------------------
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "I can \\imake\\i Dragon Ash, if that's what \n"\
-          "you mean. I \\iam\\i a dragon after all...\n"\
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "ドラゴンの灰を\\i作る\\iことならできる。\n"\
+          "我はドラゴンなのだからな…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyThinking]\\fr\n"\
-          "How do you make it? \n"\
+          "どうやって作るの？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySurprised]\\fr\n"\
-          "Is it hard to do?\n"\
+          "難しい？\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "You're just full of questions, aren't \n"\
-          "you child?\n"\
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "質問ばかりだな、人の子よ？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySad]\\fr\n"\
-          "Sorry!\n"\
+          "ごめんなさい！\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "It's quite alright.\n"\
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "構わぬ。\n"\
           "------------------------------------------\n"\
-          "Dragon Ash is the byproduct of dragon fire.\n"\
-          "Of course we all have different kinds of \n"\
-          "\"fire\"... mine is really more like ice.\n"\
+          "ドラゴンの灰とは、\n"\
+          "我らが息吹の副産物なのだ。\n"\
+          "我の\"息吹\"は、氷に近い。\n"\
           "------------------------------------------\n"\
-          "It's not difficult to do, however... creating\n"\
-          "fire requires a lot of concentration.\n"\
+          "難しいことではないが…\n"\
+          "集中を要する。\n"\
           "------------------------------------------\n"\
-          "\\iAnd\\i... your natural element (mine\n"\
-          "being water, of course) \\bmust\\b be in \n"\
-          "balance. \n"\
+          "\\iそして\\i、自然界のエレメント…\n"\
+          "我の場合はもちろん水だが…\n"\
+          "その調和が取れていなければならない。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
-          "Oh, I see!\n"\
+          "へぇ、そうなんだね！\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "Unfortunately, if you haven't noticed...\n"\
-          "Things around here have not been in\n"\
-          "balance lately.\n"\
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "残念なことに、近ごろ\n"\
+          "この辺りの調和が乱れておるのだ。\n"\
           "------------------------------------------\n"\
-          "Besides the increase in negative energy\n"\
-          "coming from the Envoy, I can sense that\n"\
-          "something's blocking the flow of water.\n"\
+          "御使いの悪しき力の増大に加え、\n"\
+          "何かが水の流れを\n"\
+          "せき止めているのを感じる。\n"\
           "------------------------------------------\n"\
-          "If something isn't done, the whole Forest \n"\
-          "could go into a massive drought. \n"\
+          "このままでは、森全体が\n"\
+          "干ばつに見舞われよう。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySurprised]\\fr\n"\
-          "That's terrible!\n"\
+          "そんな、ひどい！\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "I know.\n"\
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "そうだな。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyThinking]\\fr\n"\
-          "Hmm...\n"\
+          "うーん…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyOpenMouth]\\fr\n"\
-          "Maybe we could help clear away \n"\
-          "whatever's blocking the water!\n"\
+          "水をせき止めてる物を\n"\
+          "片付けてきてあげる！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySurprised2]\\fr\n"\
-          "If we did that for you...\n"\
+          "そうしたら…\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
-          "Would you make us some Dragon Ash?\n"\
+          "ドラゴンの灰を作ってくれる？\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "Hah.\n"\
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "ほう。\n"\
           "------------------------------------------\n"\
-          "You really want that Dragon Ash, \n"\
-          "don't you?\n"\
-          "------------------------------------------\n"\
-          "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
-          "It's for our friend, Kazuko. She said it\n"\
-          "would help her flower bloom.\n"\
-          "------------------------------------------\n"\
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "Oh is that right? Kazuko certainly does\n"\
-          "know a thing or two about gardening.\n"\
-          "------------------------------------------\n"\
-          "She's trying to grow a Hikaribana, \n"\
-          "isn't she?\n"\
+          "お前はそこまでして\n"\
+          "ドラゴンの灰を欲するか？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
-          "Yes! How'd you know?\n"\
+          "友達のカズコさんのためだよ。\n"\
+          "花を咲かせるのに必要なんだって。\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "Oh, a dragon knows many things.\n"\
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "なるほどな。カズコは確かに\n"\
+          "園芸の心得があるようだ。\n"\
+          "------------------------------------------\n"\
+          "彼女はヒカリバナを\n"\
+          "咲かせようとしているのだろう？\n"\
+          "------------------------------------------\n"\
+          "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
+          "そう！よく知ってるね？\n"\
+          "------------------------------------------\n"\
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "龍は数多のことを知り得ている。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyHappy3]\\fr\n"\
           "…\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "Okay then. If you clear the waterways, I'll\n"\
-          "make you some Dragon Ash for Kazuko.\n"\
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "いいだろう。水の流れを正した\n"\
+          "あかつきには、カズコに\n"\
+          "ドラゴンの灰を作ってやろう。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyHappy2]\\fr\n"\
-          "Thank-you!\n"\
+          "ありがとう！\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "Take this. If there are boulders blocking\n"\
-          "the flow of water, you should be able to\n"\
-          "strike it with this...\n",
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "これを受け取れ。\n"\
+          "水をせき止める大岩も、\n"\
+          "これを使えば砕くことができよう…。\n",
         111 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
           "\\oi[117]を受け取った！\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "But be careful... Scale Flint is known\n"\
-          "to cause large reactions.\n"\
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "気をつけるのだぞ…その石は\n"\
+          "強い反応を引き起こす。\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "To get to the water blockage, you might\n"\
-          "try going through that door up there.\n"\
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "水の淀みは、そこの洞窟を\n"\
+          "通った先にある。\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "Good luck!\n",
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "頼んだぞ。\n",
       },
       1 => {
         0 =>
           #------------------------------------------
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "What is it that you need?\n",
-        2 => [["What do you do?", "What should we do?", "またね！"], 4],
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "何を望むのだ？\n",
+        2 => [["ここで何してるの？", "何をすればいいんだっけ？", "またね！"], 4],
         4 =>
           #------------------------------------------
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "I'm a water dragon, so it is my job to \n"\
-          "regulate the waterways and clouds.\n"\
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "我はウォータードラゴン。\n"\
+          "水の流れと雲を司る存在である。\n"\
           "------------------------------------------\n"\
-          "I try to keep everything in balance, and\n"\
-          "make sure the Forest gets the water it \n"\
-          "needs.\n",
+          "万物の均衡を保ち、この森に\n"\
+          "必要な水をもたらしている。\n",
         12 =>
           #------------------------------------------
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "If you want me to make you some \n"\
-          "Dragon Ash, you must help clear the\n"\
-          "waterways.\n"\
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "ドラゴンの灰を欲するなら、\n"\
+          "水の流れを正してくるがよい。\n"\
           "------------------------------------------\n"\
-          "Use the Scale Flint I gave you to strike\n"\
-          "the boulders blocking the flow of water.\n"\
-          "It should do the trick!\n",
+          "水をせき止める大岩に、\n"\
+          "お前に授けた鱗打ち石を使え。\n"\
+          "そうすればうまくいく。\n",
       },
       2 => {
         3 =>
           #------------------------------------------
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "What is it that you need?\n",
-        5 => [["What do you do?", "We did it!!!", "またね！"], 4],
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "何を望むのだ？\n",
+        5 => [["ここで何してるの？", "やったよ！！", "またね！"], 4],
         7 =>
           #------------------------------------------
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "I'm a water dragon, so it is my job to \n"\
-          "regulate the waterways and clouds.\n"\
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "我はウォータードラゴン。\n"\
+          "水の流れと雲を司る存在である。\n"\
           "------------------------------------------\n"\
-          "I try to keep everything in balance, and\n"\
-          "make sure the Forest gets the water it \n"\
-          "needs.\n",
+          "万物の均衡を保ち、この森に\n"\
+          "必要な水をもたらしている。\n",
         15 =>
           #------------------------------------------
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "My sources tell me that you got\n"\
-          "the job done.\n"\
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "使命を果たしたのだな。\n"\
+          "水の流れが報せてくれた。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyHappy2]\\fr\n"\
-          "We did! \n"\
+          "やったよ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
-          "There were boulders blocking the water,\n"\
-          "but we cleared them out.\n"\
+          "水をせき止めてる大岩を\n"\
+          "片付けてきたんだ。\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "Impressive.\n"\
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "見事だ。\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "Well... now that things are in order, \n"\
-          "I think I should uphold my end of \n"\
-          "the bargain.\n"\
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "さて…水の流れが正常となった今、\n"\
+          "我も約定を果たそう。\n"\
           "------------------------------------------\n"\
-          "One moment please.\n",
+          "しばし待つがよい。\n",
         70 =>
           #------------------------------------------
-          "Well then, here you go. \n",
+          "さぁ、受け取れ。\n",
         73 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
           "\\oi[129]を手に入れた。\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "See to it that Kazuko grows that flower\n"\
-          "to its fullest potential. It means a lot to\n"\
-          "her, you know...\n"\
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "これでカズコもあの花を満開に\n"\
+          "育てられるだろう。あれは\n"\
+          "彼女にとって大切なものなのだ…。\n"\
           "------------------------------------------\n"\
-          "Tell me, child...\n"\
+          "なぁ、人の子よ…。\n"\
           "------------------------------------------\n"\
-          "Do you know why Kazuko is growing\n"\
-          "a Hikaribana?\n"\
+          "カズコが何故ヒカリバナを\n"\
+          "育てているのか知っているか？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyThinking]\\fr\n"\
-          "I'm not sure...\n"\
+          "よく知らないんだ…。\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "Here in the Forest, the Hikaribana is a\n"\
-          "symbol of great love.\n"\
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "この森ではな、ヒカリバナは\n"\
+          "大いなる愛の象徴なのだ。\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "They say it has the power to bring \n"\
-          "loved ones together.\n"\
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "愛する者同士を引き寄せあう\n"\
+          "力があると言われている。\n"\
           "------------------------------------------\n"\
-          "To heal, to bond, to help find someone\n"\
-          "who has been lost...\n"\
+          "癒し、絆を深め、道に迷った者を\n"\
+          "見つけるのだ…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyNeutral]\\fr\n"\
-          "Oh...\n"\
+          "へぇ…。\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "Perhaps Kazuko is trying to remind her \n"\
-          "husband of their love; for she feels he \n"\
-          "has forgotten her.\n"\
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "夫に忘れ去られたと思った\n"\
+          "カズコは、恐らく夫に愛を\n"\
+          "思い出させようとしているのだ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySad]\\fr\n"\
-          "He hasn't forgotten her! He mentions\n"\
-          "her all the time!\n"\
+          "忘れてなんかいないよ！\n"\
+          "キサブロウさんはいつだって\n"\
+          "カズコさんのことを話してる！\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "Yes, but she does not know that. \n"\
-          "They have not spoken in ages.\n"\
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "そうだ、しかし彼女は知らぬのだ。\n"\
+          "彼らはもう何年も話していない。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySurprised2]\\fr\n"\
-          "They haven't?\n"\
+          "話してない？\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "Kisaburo's sickness has weakened his\n"\
-          "mind... He's disoriented, he can't tell day\n"\
-          "from night, his speech is nonsensical.\n"\
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "キサブロウの病は心を蝕んでおる…。\n"\
+          "混乱して昼も夜もわからず、\n"\
+          "おかしなことを口走る。\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "It's amazing that he's able to \n"\
-          "communicate with you, child.\n"\
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "お前と会話できたこと自体が\n"\
+          "驚くべきことなのだ、人の子よ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySad]\\fr\n"\
-          "I see...\n"\
+          "そうだったんだ…。\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "That's why it is a noble thing you are\n"\
-          "doing... helping someone who cannot\n"\
-          "reach out themselves.\n"\
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "だからこそ、互いの手が\n"\
+          "届かぬ者同士を助けようとする\n"\
+          "お前の行ないは尊いのだ…。\n"\
           "------------------------------------------\n"\
-          "Good luck, and may you find your \n"\
-          "own path to happiness as well.\n"\
+          "行くがよい。そしてお前にも\n"\
+          "幸せに至る道が拓かんことを。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
-          "Thank-you Stormey.\n",
+          "ありがとう、ストーミー。\n",
       },
       3 => {
         0 =>
           #------------------------------------------
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "What is it that you need?\n",
-        2 => [["What do you do?", "How are the waters?", "またね！"], 4],
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "何を望むのだ？\n",
+        2 => [["ここで何してるの？", "水の流れはどう？", "またね！"], 4],
         4 =>
           #------------------------------------------
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "I'm a water dragon, so it is my job to \n"\
-          "regulate the waterways and clouds.\n"\
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "我はウォータードラゴン。\n"\
+          "水の流れと雲を司る存在である。\n"\
           "------------------------------------------\n"\
-          "I try to keep everything in balance, and\n"\
-          "make sure the Forest gets the water it \n"\
-          "needs.\n",
+          "万物の均衡を保ち、この森に\n"\
+          "必要な水をもたらしている。\n",
         12 =>
           #------------------------------------------
-          "\\ignr\\nm[Stormey]\\face[]\n"\
-          "Clear and balanced as they should be!\n",
+          "\\ignr\\nm[ストーミー]\\face[]\n"\
+          "調和が取れて正常である。\n",
       },
     },
   },
@@ -39820,27 +39833,27 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[サイトウさん]\\face[]\n"\
-          "I bet you thought that I'd be afraid\n"\
-          "of you... but I'm not.\n",
-        4 => [["You're still in the ground...", "Why aren't you afraid?", "そうなんだ。"], 3],
+          "僕が怖がると思ったでしょ…\n"\
+          "でも怖くないよ。\n",
+        4 => [["でも潜ってるよね…。", "どうして怖くないの？", "そうなんだ。"], 3],
         6 =>
           #------------------------------------------
-          "I'm only 85% in the ground. I'm not\n"\
-          "coming fully out because my body\n"\
-          "gets cold easily.\n"\
+          "85%しか潜ってないよ。\n"\
+          "すぐ寒くなっちゃうから\n"\
+          "全身は出さないんだ。\n"\
           "------------------------------------------\n"\
-          "I have really bad circulation.\n",
+          "冷え性なんだよね。\n",
         12 =>
           #------------------------------------------
-          "Life's too short.\n"\
+          "人生は短いんだ。\n"\
           "------------------------------------------\n"\
-          "If I ducked into my hole everytime\n"\
-          "something new came near me, I'd\n"\
-          "miss out on a lot of things.\n"\
+          "誰かが近づくたびに穴に\n"\
+          "潜ってたら、色んなものを\n"\
+          "見逃しちゃうでしょ。\n"\
           "------------------------------------------\n"\
-          "So even though my body stays under\n"\
-          "ground, my face and my eyes have\n"\
-          "so many new experiences!\n",
+          "身体が地面の下にあっても、\n"\
+          "顔と目を出しておけば\n"\
+          "新しい経験ができるからね！\n",
       },
     },
     3 => {
@@ -40264,47 +40277,45 @@ $events_lang = {
       0 => {
         0 =>
           #------------------------------------------
-          "\\ignr\\nm[Amy]\\face[]\n"\
-          "I just finished inking hundreds of pages...\n"\
-          "I think my hand is about to fall off.\n"\
+          "\\ignr\\nm[アミー]\\face[]\n"\
+          "何百枚もの塗りが終わった…\n"\
+          "もう手が取れちゃうかと思った。\n"\
           "------------------------------------------\n"\
-          "But it's okay because I'm gonna sleep\n"\
-          "well tonight! And you know what they\n"\
-          "say...\n"\
+          "でもこれで今夜はぐっすり眠れる！\n"\
+          "それに、よく言うでしょ…。\n"\
           "------------------------------------------\n"\
-          "A good night's sleep is the secret to \n"\
-          "a good day!\n",
+          "良い一日は良い睡眠から、ってね！ \n",
       },
     },
     6 => {
       0 => {
         4 =>
           #------------------------------------------
-          "\\ignr\\nm[shigi]\\face[supershigi]\\fr\n"\
-          "Morning tea is good to me... \n"\
-          "Afternoon tea, helps me think...\n"\
+          "\\ignr\\nm[シギ]\\face[supershigi]\\fr\n"\
+          "朝の紅茶は眠気スッキリ…\n"\
+          "午後の紅茶は集中できる…\n"\
           "------------------------------------------\n"\
-          "Evening tea you shouldn't drink...\n"\
-          "Cuz then you can't fall asleep...\n"\
+          "夜の紅茶は飲んじゃダメ…\n"\
+          "飲んだが最後、眠れない…\n"\
           "------------------------------------------\n"\
-          "N-n-n-no no... Then you caaaaan't \n"\
-          "faaaaaaaall aaaaaasleeeeeep!\n"\
+          "ダメよ…ダメ…飲んだが最後、\n"\
+          "眠れないいいいいいいい！\n"\
           "------------------------------------------\n"\
-          "Yeahhhhhh.\n",
+          "いいいい…イェーイ\n",
         16 =>
           #------------------------------------------
-          "\\ignr\\nm[shigi]\\face[supershigi]\\fr\n"\
+          # TODO
+          "\\ignr\\nm[シギ]\\face[supershigi]\\fr\n"\
           "Syncopate, \\iI don't thinksopate.\n",
         21 =>
           #------------------------------------------
-          "\\ignr\\nm[shigi]\\face[supershigi]\\fr\n"\
-          "So I was talkin' to Bad Attitude Onion\n"\
-          "the other day, and he told me I had \n"\
-          "dumb fists.\n"\
+          "\\ignr\\nm[シギ]\\face[supershigi]\\fr\n"\
+          "ある日失礼なタマネギと話したのね、\n"\
+          "そしたら私の腕がマヌケとか言うの。\n"\
           "------------------------------------------\n"\
-          "So I says, I says to Onion... How dumb\n"\
-          "will my fists be after I ram them into\n"\
-          "your face?\n",
+          "だからね、だからタマネギに言ったの…。\n"\
+          "その顔にこの腕をぶち込んだら\n"\
+          "どれだけマヌケな腕になるかしら？\n",
       },
     },
     7 => {
@@ -40312,28 +40323,28 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "This coffee pot has an inscription on \n"\
-          "the side.\n"\
+          "コーヒーポットの側面に\n"\
+          "何か刻まれている。\n"\
           "------------------------------------------\n"\
           "読んでみる？\n",
         4 => [["はい", "いいえ"], 2],
         6 =>
           #------------------------------------------
-          "Lannie's Coffee: The best brew in\n"\
-          "all of Morizora's Forest.\n",
+          "ラニーのコーヒー:\n"\
+          "モリゾラの森で最高の一杯\n",
       },
     },
     8 => {
       0 => {
         3 =>
           #------------------------------------------
-          "\\ignr\\nm[Matt]\\face[]\n"\
-          "Just finishing up some new art!\n"\
+          "\\ignr\\nm[マット]\\face[]\n"\
+          "もう少しで絵が完成するぞ！\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Matt]\\face[]\n"\
-          "Ah, those flowers up there always \n"\
-          "remind me of the time I fell asleep\n"\
-          "in a planter...\n",
+          "\\ignr\\nm[マット]\\face[]\n"\
+          "あぁ、そこの花を見るといつも\n"\
+          "プランターの中で居眠り\n"\
+          "しちゃったことを思い出すな…。\n",
       },
     },
   },
@@ -40829,7 +40840,7 @@ $items_lang = {
   141 => ["", ""],
   142 => ["-----Mori no Kokoro-----", ""],
   # TODO
-  143 => ["Mori no Kokoro Part 1", "\"Lights\""],
+  143 => ["森の心 パート1", "\"光\""],
   144 => ["森の心 パート2", "\"かわいい娘\""],
   145 => ["Mori no Kokoro Part 3", "\"Yours\""],
   146 => ["Mori no Kokoro Part 4", "\"Lonely Tree\""],
@@ -40860,15 +40871,14 @@ $items_lang = {
   169 => ["Big Purple Security Bean Bag", "A big purple bean bag that smells like fresh laundry."],
   170 => ["シラベリーのビーズクッション", "巨大なシラベリーの形をした、すっごく気持ちいいクッション。"],
   171 => ["鳥のバーディ", "病院のペットに良さそうな鳥。"],
-  172 => ["ムッシューつぼみの絵", "灯台を眺めるムッシューつぼみの絵。"],
+  172 => ["ムッシューの絵", "灯台を眺めるムッシューつぼみの絵。"],
   173 => ["\"楽しいウォールステッカー\"", "虹と太陽のステッカー！"],
   174 => ["タマネギ空気清浄機", "茎からびっくりするくらいいい匂いを放つ。"],
   175 => ["子ゴーレムの人形", "とても柔らかくてぶどうの香りがする小ゴーレムの人形。"],
   176 => ["シメジ人形", "柔らかくて本物みたいなシメジの人形。"],
   177 => ["グロウシュルームランプ", "グロウシュルームみたいな形の、青くて半透明なランプ。"],
   178 => ["ウォールシュルームライト", "ウォールシュルームみたいな形の、一対のライト。"],
-  # TODO
-  179 => ["\"Airplane Sky Scene\"", "A set of hanging airplanes and sky decals for the wall."],
+  179 => ["\"空と飛行機の光景\"", "吊り下げる飛行機と、壁に貼る空のシールのセット。"],
   180 => ["Tiny PlanetsのCD", "ジュークボックスに入れる\"Tiny Planets\"のCD。"],
   181 => ["The Spirit EnvoyのCD", "ジュークボックスに入れる\"The Spirit Envoy\"のCD。"],
   182 => ["Lil Budz RemixのCD", "ジュークボックスに入れる\"The Monsieur's Tea (lil budz remix)\"のCD。"],
