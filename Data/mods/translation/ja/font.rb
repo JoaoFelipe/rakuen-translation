@@ -1,7 +1,7 @@
 # Override font names
 $override_fonts_lang = {
-    "5yearsoldfont" => ["あずきフォントP", "azukifontP"],
+    "5yearsoldfont" => ["みちます", "mitimasu"],
 }
 
-$defaultfonttype = ["あずきフォントP", "azukifontP"]
+$defaultfonttype = ["みちます", "mitimasu"]
 Font.default_name = $defaultfonttype
