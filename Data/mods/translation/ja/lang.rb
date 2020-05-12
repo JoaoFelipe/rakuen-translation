@@ -187,7 +187,7 @@ $journal_lang = [
   "ウィンストンからヒカリバナを借りよう。",
   "1.) 書類を見つける",
   "2.) 洗濯機を回す",
-  "3.) 植物に水をあげる",
+  "3.) 盆栽に水をあげる",
   "4.) 炊飯器をオンにする",
   500,
 ]
@@ -457,66 +457,67 @@ $events_lang = {
         269 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "It's been a long day, hasn't it? \n"\
+          "長い一日だったでしょ？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyBummed]\\fr\n"\
-          "For you too, Mom.\n"\
+          "それはお母さんも、でしょ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "We're gonna get through this together.\n"\
-          "Everything's gonna be alright.\n"\
+          "私たちなら乗り越えられる。\n"\
+          "きっと大丈夫だから。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
           "…\n",
         282 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Let me know if you need anything... \n"\
-          "I've got some water and snacks in\n"\
-          "the bag.\n",
+          "何か欲しかったら言ってね…。\n"\
+          "カバンに飲み物とお菓子を\n"\
+          "入れてあるから。\n",
         290 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Did I ever tell you, you're the bravest\n"\
-          "person I know?\n",
+          "これって言ったことあったかしら。\n"\
+          "あなたは、私が知る中で\n"\
+          "一番勇敢な人よ。\n",
         297 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Are you cold sweetie? Let me know\n"\
-          "if you'd like your coat, or any extra\n"\
-          "blankets or anything.\n",
+          "寒いの？上着や毛布が\n"\
+          "欲しかったら教えてね。\n",
         305 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "If you'd like to play any games, I've got\n"\
-          "our old favorites...\n"\
+          "もしゲームで遊びたかったら、\n"\
+          "昔のお気に入りがあるわ…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "We can go fight the giant monster that\n"\
-          "looks like a Durian... Or would you rather\n"\
-          "eat bad guys and turn them into eggs?\n"\
+          "大きなドリアンみたいなモンスターと\n"\
+          "戦うのがいいかしら…それとも\n"\
+          "敵を食べて卵にしちゃうゲーム？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Personally, I wouldn't mind battling an\n"\
-          "evil scientist and his army of robots.\n",
+          "私としては、悪の科学者と\n"\
+          "そのロボットの軍隊と戦うのも\n"\
+          "悪くないかな。\n",
         319 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Let's imagine riding on a train together,\n"\
-          "and all the fantastic things we'd see\n"\
-          "when we looked outside...\n"\
+          "一緒に電車に乗るところを想像してみて。\n"\
+          "窓の外に見える、\n"\
+          "たくさんの素敵な景色…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomClosed]\\fr\n"\
-          "I can see rice fields, and tall trees,\n"\
-          "and even some birds that are flying\n"\
-          "alongside the train...\n",
+          "田んぼがあって、森があって、\n"\
+          "電車の横を飛んでいく\n"\
+          "鳥まで見えるわ…。\n",
         330 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "I love you.\n"\
+          "愛してるわ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
-          "I love you too, Mom.\n",
+          "僕もだよ、お母さん。\n",
         350 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
@@ -2198,7 +2199,7 @@ $events_lang = {
         31 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "\\oi[159]を受け取った。\n"\
+          "\\oi[159]を手に入れた。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[タン]\\face[]\n"\
           "アイテムを使ってラウンジに\n"\
@@ -2215,7 +2216,7 @@ $events_lang = {
         58 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "\\oi[160]を受け取った。\n"\
+          "\\oi[160]を手に入れた。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[タン]\\face[]\n"\
           "アイテムを使ってラウンジに\n"\
@@ -2232,7 +2233,7 @@ $events_lang = {
         85 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "\\oi[161]を受け取った。\n"\
+          "\\oi[161]を手に入れた。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[タン]\\face[]\n"\
           "アイテムを使ってラウンジに\n"\
@@ -2281,7 +2282,7 @@ $events_lang = {
         32 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "\\oi[153]を受け取った。\n"\
+          "\\oi[153]を手に入れた。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[マイク]\\face[]\n"\
           "アイテムを使ってラウンジに\n"\
@@ -2298,7 +2299,7 @@ $events_lang = {
         59 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "\\oi[156]を受け取った。\n"\
+          "\\oi[156]を手に入れた。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[マイク]\\face[]\n"\
           "アイテムを使ってラウンジに\n"\
@@ -2315,7 +2316,7 @@ $events_lang = {
         86 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "\\oi[157]を受け取った。\n"\
+          "\\oi[157]を手に入れた。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[マイク]\\face[]\n"\
           "アイテムを使ってラウンジに\n"\
@@ -2358,7 +2359,7 @@ $events_lang = {
           "出来る限りのことはしましょう。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウィンストン]\\face[Winston]\\fr\n"\
-          "ありがとうございます、先生。n"\
+          "ありがとうございます、先生。\n"\
           "------------------------------------------\n"\
           "皆さんが忙しいこんな時に、\n"\
           "手を煩わせてしまって…\n"\
@@ -2629,7 +2630,7 @@ $events_lang = {
         199 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "\\oi[152]を受け取った。\n"\
+          "\\oi[152]を手に入れた。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[コラ]\\face[Cora]\\fr\n"\
           "ラウンジにアイテムを置きたいなら\n"\
@@ -2646,7 +2647,7 @@ $events_lang = {
         225 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "\\oi[158]を受け取った。\n"\
+          "\\oi[158]を手に入れた。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[コラ]\\face[Cora]\\fr\n"\
           "ラウンジにアイテムを置きたいなら\n"\
@@ -2685,7 +2686,7 @@ $events_lang = {
           "出来る限りのことはしましょう。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウィンストン]\\face[Winston]\\fr\n"\
-          "ありがとうございます、先生。n"\
+          "ありがとうございます、先生。\n"\
           "------------------------------------------\n"\
           "皆さんが忙しいこんな時に、\n"\
           "手を煩わせてしまって…\n"\
@@ -2757,7 +2758,7 @@ $events_lang = {
         6 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "\\i保管区画5B。患者の立ち入りを禁ずる。\n",
+          "\\i保管区画 5B。患者の立ち入りを禁ずる。\n",
       },
     },
     5 => {
@@ -5731,21 +5732,21 @@ $events_lang = {
         3 =>
           #------------------------------------------
           "\\ignr\\nm[スー]\\face[Sue]\\fr\n"\
-          "Hey there!\n",
+          "こんにちは！\n",
         5 => [["何かあった？", "いいもの持ってきたよ！", "病院にいる人の話を教えて。", "またね。"], 4],
         7 =>
           #------------------------------------------
           "\\ignr\\nm[スー]\\face[SueSadSmile]\\fr\n"\
-          "I'm so relieved that my friend is\n"\
-          "okay. \n"\
+          "お友達が元気でいて\n"\
+          "安心したよ。 \n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[スー]\\face[SueSurprised]\\fr\n"\
-          "Turns out, she'd been waiting for me\n"\
-          "all this time at the place we used to\n"\
-          "meet!\n"\
+          "この子、いつも会ってた場所で\n"\
+          "アタシのことをずっと\n"\
+          "待ってくれてたんだって！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[スー]\\face[SueEmbarassed]\\fr\n"\
-          "I'm so glad she's safe.\n",
+          "無事で本当によかった。\n",
         20 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
@@ -6296,7 +6297,7 @@ $events_lang = {
           "\\ignr\\nm[ウィンストン]\\face[Winston]\\fr\n"\
           "やぁ、また会ったね…。\n"\
           "何か用かな？\n",
-        6 => [["何かあった？", "There's a dog here!", "病院にいる人の話を教えて。", "またね。"], 4],
+        6 => [["何かあった？", "犬がいるよ！", "病院にいる人の話を教えて。", "またね。"], 4],
         9 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[WinstonWorried]\\fr\n"\
@@ -6316,13 +6317,13 @@ $events_lang = {
         29 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[Winston]\\fr\n"\
-          "Ah yes, someone came by earlier to drop\n"\
-          "the dog off. They said \"Puchi\" waited for \n"\
-          "Sue a long time.\n"\
+          "あぁ、うん。ちょっと前にこの子を\n"\
+          "連れてきた人がいてね。\"プチ\"は\n"\
+          "ずっとスーちゃんを待ってたんだって。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウィンストン]\\face[WinstonHappy]\\fr\n"\
-          "That's really sweet. I've always felt that\n"\
-          "dogs are such loyal companions.\n",
+          "いい話だよね。犬はやっぱり\n"\
+          "忠実だって改めて思ったよ。\n",
         40 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[Winston]\\fr\n"\
@@ -6331,9 +6332,9 @@ $events_lang = {
         44 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[Winston]\\fr\n"\
-          "Ever since Sue got \"Puchi\" back, she's\n"\
-          "been so filled with happiness. It's nice\n"\
-          "seeing her this way.\n",
+          "\"プチ\"が戻ってから、スーちゃんは\n"\
+          "幸せいっぱいって感じでね。\n"\
+          "あんなスーちゃんが見られてよかったよ。\n",
         51 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[Winston]\\fr\n"\
@@ -7374,7 +7375,7 @@ $events_lang = {
         39 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "\\oi[168]を受け取った。\n",
+          "\\oi[168]を手に入れた。\n",
         44 =>
           #------------------------------------------
           "\\ignr\\nm[ダニエル]\\face[Danielle]\\fr\n"\
@@ -7456,7 +7457,7 @@ $events_lang = {
         28 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "\\oi[168]を受け取った。\n",
+          "\\oi[168]を手に入れた。\n",
         33 =>
           #------------------------------------------
           "\\ignr\\nm[ダニエル]\\face[Danielle]\\fr\n"\
@@ -7760,8 +7761,8 @@ $events_lang = {
           #------------------------------------------
           "3月14日 (JNR) - \n"\
           "\\i国家安全保障局によると、\n"\
-          "放射線の被曝者数は増加する\n"\
-          "見込みだという。\n"\
+          "放射線の被曝者数は\n"\
+          "増加する見込みだという。\n"\
           "------------------------------------------\n"\
           "\\i防護服を着た作業員が、避難所に\n"\
           "到着した人々をスキャンして\n"\
@@ -8122,16 +8123,16 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "\\iHmm, maybe I should go see \n"\
-          "Winston instead...\n",
+          "\\i早くウィンストンのところに\n"\
+          "行かないと…。\n",
       },
       2 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "\\iI should probably try heading back to \n"\
-          "the hospital... One of these doors \n"\
-          "has got to work...\n",
+          "\\i病院に戻ったほうがいいわね…。\n"\
+          "扉がどれか一つでも\n"\
+          "開くといいのだけど…。\n",
       },
     },
     6 => {
@@ -8139,16 +8140,16 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "\\iHmm, maybe I should go see \n"\
-          "Winston instead...\n",
+          "\\i早くウィンストンのところに\n"\
+          "行かないと…。\n",
       },
       4 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "\\iI should probably try heading back to \n"\
-          "the hospital... One of these doors \n"\
-          "has got to work...\n",
+          "\\i病院に戻ったほうがいいわね…。\n"\
+          "扉がどれか一つでも\n"\
+          "開くといいのだけど…。\n",
       },
     },
     7 => {
@@ -8195,12 +8196,12 @@ $events_lang = {
         9 => [["はい", "いいえ"], 2],
         11 =>
           #------------------------------------------
-          "\\iCome eat some delicious Sila Berry\n"\
-          "Pie at Star Night (I made them, so you\n"\
-          "KNOW they're good).\n"\
+          "\\i星夜祭でシラベリーパイを\n"\
+          "食べに来てくれよな。\n"\
+          "(俺が作ったんだ、\n"\
+          " 美味いに決まってるだろ？)\n"\
           "------------------------------------------\n"\
-          "\\iSincerely,\n"\
-          "~Panky!\n",
+          "\\iパンキーより！\n",
       },
     },
     14 => {
@@ -8216,11 +8217,10 @@ $events_lang = {
         9 => [["はい", "いいえ"], 2],
         11 =>
           #------------------------------------------
-          "\\iWant me to paint your portrait? Visit\n"\
-          "me at Star Night!\n"\
+          "\\i似顔絵を描いて欲しい？\n"\
+          "星夜祭でうちにおいでよ！\n"\
           "------------------------------------------\n"\
-          "\\iAlways,\n"\
-          "~Cora\n",
+          "\\iコラより\n",
       },
     },
     15 => {
@@ -8255,11 +8255,10 @@ $events_lang = {
         9 => [["はい", "いいえ"], 2],
         11 =>
           #------------------------------------------
-          "\\iI will win all the games tonight. Don't\n"\
-          "believe me? Watch.\n"\
+          "\\i今夜の景品は全部いただきさ。\n"\
+          "信じられない？見てなって。\n"\
           "------------------------------------------\n"\
-          "\\iSincerely,\n"\
-          "~The Blacksmith\n",
+          "\\i鍛冶屋より,\n",
       },
     },
     16 => {
@@ -8275,11 +8274,11 @@ $events_lang = {
         9 => [["はい", "いいえ"], 2],
         11 =>
           #------------------------------------------
-          "\\iSnacks snacks snacks!! (I'm at\n"\
-          "Star Night... come say hi!!!)\n"\
+          "\\iたこ焼き、ラムネ、スイカ！！\n"\
+          "(星夜祭に行ってるよ。\n"\
+          "冷やかしに来てね！)\n"\
           "------------------------------------------\n"\
-          "\\iSincerely,\n"\
-          "~Danielle\n",
+          "\\iダニエルより\n",
       },
     },
     18 => {
@@ -8378,16 +8377,16 @@ $events_lang = {
         10 =>
           #------------------------------------------
           "\\ignr\\nm[村長]\\face[Chief]\\fr\n"\
-          "The stars are starting to fall! \n"\
-          "You know what that means... \n"\
+          "星が降り始めましたぞ！\n"\
+          "ということは…。\n"\
           "------------------------------------------\n"\
-          "Star Night is about to begin! Shall\n"\
-          "we walk to the festival together?\n",
+          "星夜祭が始まります！\n"\
+          "共に祭りに向かいますかな？\n",
         15 => [["はい", "いいえ"], 2],
         18 =>
           #------------------------------------------
           "\\ignr\\nm[村長]\\face[Chief]\\fr\n"\
-          "Alrighty then, let's go!\n",
+          "よろしい、それでは参りましょう！\n",
         36 =>
           #------------------------------------------
           "\\ignr\\nm[村長]\\face[Chief]\\fr\n"\
@@ -8422,7 +8421,7 @@ $events_lang = {
           #------------------------------------------
           "\\ignr\\nm[村長]\\face[Chief]\\fr\n"\
           "まだこの辺りに滞在するのであれば、\n"\
-          "ぜひ大星夜祭のお祝いにお越しくだされ！\n",
+          "ぜひ星夜祭のお祝いにお越しくだされ！\n",
         70 => [["星夜祭って何？", "準備を手伝おうか？", "楽しそう！"], 4],
         72 =>
           #------------------------------------------
@@ -8450,7 +8449,7 @@ $events_lang = {
           #------------------------------------------
           "\\ignr\\nm[村長]\\face[Chief]\\fr\n"\
           "まだこの辺りに滞在するのであれば、\n"\
-          "ぜひ大星夜祭のお祝いにお越しくだされ！\n",
+          "ぜひ星夜祭のお祝いにお越しくだされ！\n",
         100 => [["星夜祭って何？", "準備を手伝おうか？", "楽しそう！"], 4],
         102 =>
           #------------------------------------------
@@ -8479,8 +8478,9 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[村長]\\face[Chief]\\fr\n"\
-          "Did you enjoy Star Night? ...Oh, where\n"\
-          "is your colt? Aren't you usually together?\n",
+          "星夜祭はいかがでしたかな？\n"\
+          "…おや、いつも一緒にいた子馬の\n"\
+          "姿が見えないようですな。\n",
       },
       3 => {
         0 =>
@@ -8505,13 +8505,15 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[看板]\\face[Sign]\\fr\n"\
-          "Hey, where's that spunky kid of yours?\n"\
+          "よう、あの元気な子どもは\n"\
+          "一緒じゃないのか？\n"\
           "------------------------------------------\n"\
-          "I know you're pretty strong, but just a \n"\
-          "heads up: The Envoy are restless today.\n"\
-          "Something's on the move.\n"\
+          "見ろ、今日は御使いが\n"\
+          "妙にざわついてる。\n"\
+          "これは何かあるぞ。\n"\
           "------------------------------------------\n"\
-          "Best to be careful, ya hear?\n",
+          "お前が強いことは知ってるが、\n"\
+          "それでも気をつけてくれよ？\n",
       },
       4 => {
         0 =>
@@ -8606,12 +8608,12 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[村人リーブル]\\face[Leeble]\\fr\n"\
-          "There's something strange in the air \n"\
-          "today... \n"\
+          "今日は空気が\n"\
+          "変な感じだよ…。\n"\
           "------------------------------------------\n"\
-          "It feels like more Envoy are coming in\n"\
-          "from beyond the Great Sea... I'm not \n"\
-          "sure if I should be out right now.\n",
+          "海の向こうから来る御使いも\n"\
+          "増えた気がする…。今日は外に\n"\
+          "出ないほうがよかったかな。\n",
       },
       3 => {
         1 =>
@@ -8761,28 +8763,28 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[看板]\\face[Sign]\\fr\n"\
-          "Hey you two!\n"\
+          "よう、お前たち！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
-          "How come you're blocking the path\n"\
-          "again?\n"\
+          "どうしてまた道を\n"\
+          "塞いでるの？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[看板]\\face[Sign]\\fr\n"\
-          "Well... as you may or may not know,\n"\
-          "Star Night's starting really soon.\n"\
+          "知ってるかもしれないが、\n"\
+          "星夜祭がもうすぐ始まるんだ。\n"\
           "------------------------------------------\n"\
-          "The Chief wants everyone who isn't\n"\
-          "involved with setting up the grounds to\n"\
-          "head over together.\n"\
+          "会場の設営に関係ない者は\n"\
+          "全員一緒に向かうのだと\n"\
+          "村長が言っていた。\n"\
           "------------------------------------------\n"\
-          "So why don't you go talk to him.\n"\
+          "だから村長に話してみるといい。\n"\
           "------------------------------------------\n"\
-          "I'd let you through, because you're all\n"\
-          "good in my book... but I don't wanna \n"\
-          "get in trouble, you know how it is.\n"\
+          "俺としては通してところだが…\n"\
+          "トラブルは御免だからな、\n"\
+          "お前にもわかるだろう。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyHappy3]\\fr\n"\
-          "Heh yeah I understand.\n",
+          "うん、わかった。\n",
       },
     },
     28 => {
@@ -8844,15 +8846,18 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[村人リーブル]\\face[]\n"\
-          "What a night! I've never had so much\n"\
-          "Sila Berry juice in all my life...\n"\
+          "最高の夜だったよ！あんなにたくさんを\n"\
+          "シラベリージュースを飲んだのは\n"\
+          "生まれて初めて…。\n"\
           "------------------------------------------\n"\
-          "My stomach ache only lasted 3 hours!\n",
+          "腹痛なんて3時間もしたら\n"\
+          "どこかに行っちゃったけどね！\n",
         8 =>
           #------------------------------------------
           "\\ignr\\nm[村人リーブル]\\face[]\n"\
-          "Where is your son? I think this is the\n"\
-          "first time I've seen you guys apart.\n",
+          "あの子はどこかに行ってるの？\n"\
+          "君たちが一緒にいないところを\n"\
+          "見るのは初めてだね。\n",
       },
       4 => {
         0 =>
@@ -8923,9 +8928,9 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[子リーブル]\\face[]\n"\
-          "This morning there were big grey clouds\n"\
-          "everywhere... do you think another storm\n"\
-          "is coming?\n",
+          "今朝は空じゅうが\n"\
+          "灰色の雲に覆われてるね…。\n"\
+          "また嵐が来るのかな？\n",
       },
       4 => {
         2 =>
@@ -8971,13 +8976,13 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[村人リーブル]\\face[]\n"\
-          "Hmm... where's your son? Aren't you\n"\
-          "two usually together?\n",
+          "あれ…あの子はどこ？\n"\
+          "いつも一緒にいたよね？\n",
         7 =>
           #------------------------------------------
           "\\ignr\\nm[村人リーブル]\\face[]\n"\
-          "The air is really heavy right now...\n"\
-          "Makes me feel a bit anxious.\n",
+          "空気がすごく重いね…。\n"\
+          "なんだか気分が落ち着かないよ。\n",
       },
       2 => {
         0 =>
@@ -9118,16 +9123,16 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "\\iHmm, maybe I should go see \n"\
-          "Winston instead...\n",
+          "\\i早くウィンストンのところに\n"\
+          "行かないと…。\n",
       },
       3 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "\\iI should probably try heading back to \n"\
-          "the hospital... One of these doors \n"\
-          "has got to work...\n",
+          "\\i病院に戻ったほうがいいわね…。\n"\
+          "扉がどれか一つでも\n"\
+          "開くといいのだけど…。\n",
       },
     },
     36 => {
@@ -9174,22 +9179,22 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[村人リーブル]\\face[]\n"\
-          "Are you excited about Star Night?\n"\
-          "It's about to begin!!\n"\
+          "もうすぐ星夜祭が始まるよ！\n"\
+          "ワクワクしてこない？\n"\
           "------------------------------------------\n"\
-          "A lot of the other villagers have already\n"\
-          "headed over to the grounds to help\n"\
-          "set things up... I can't wait!\n",
+          "他の村人の何人かは\n"\
+          "もう会場の設営をしてるんだ…。\n"\
+          "待ちきれないよ！！\n",
       },
       3 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[村人リーブル]\\face[]\n"\
-          "The sky looks ominous... I have a \n"\
-          "funny feeling in my tummy.\n"\
+          "不気味な空だね…\n"\
+          "お腹が変な感じだよ。\n"\
           "------------------------------------------\n"\
-          "Maybe it's because I had 20 pancakes\n"\
-          "last night... \n",
+          "昨夜、パンケーキを20枚も\n"\
+          "食べちゃったせいかな…。\n",
       },
       4 => {
         0 =>
@@ -9244,16 +9249,16 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "\\iHmm, maybe I should go see \n"\
-          "Winston instead...\n",
+          "\\i早くウィンストンのところに\n"\
+          "行かないと…。\n",
       },
       6 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "\\iI should probably try heading back to \n"\
-          "the hospital... One of these doors \n"\
-          "has got to work...\n",
+          "\\i病院に戻ったほうがいいわね…。\n"\
+          "扉がどれか一つでも\n"\
+          "開くといいのだけど…。\n",
       },
       7 => {
         0 =>
@@ -9354,7 +9359,7 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "リーブルかな？\n",
+          "リーブルかしら？\n",
       },
       2 => {
         0 =>
@@ -9382,8 +9387,8 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "\\iHmm, maybe I should go see \n"\
-          "Winston instead...\n",
+          "\\i早くウィンストンのところに\n"\
+          "行かないと…。\n",
       },
     },
     47 => {
@@ -9433,10 +9438,10 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[トニー]\\face[Tony2]\\fr\n"\
-          "This strange weather is making my \n"\
-          "joints ache. \n"\
+          "この変な天気のせいで\n"\
+          "関節が痛むな。\n"\
           "------------------------------------------\n"\
-          "Hey... where's your cub?\n",
+          "む…お前の子どもはどうした？\n",
       },
       3 => {
         0 =>
@@ -9497,11 +9502,12 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[クリスティーナ]\\face[]\n"\
-          "It feels like we're having some earthquake\n"\
-          "weather around the Forest...\n"\
+          "森じゅうがまるで\n"\
+          "地震の前触れみたいな天気ね…。\n"\
           "------------------------------------------\n"\
-          "Sure is making the cubs act strangely...\n"\
-          "Well, moreso than usual.\n",
+          "うちの子たちも変な感じで…\n"\
+          "いえ、変なことするのは\n"\
+          "毎度のことだけど。\n",
       },
       3 => {
         1 =>
@@ -9575,7 +9581,7 @@ $events_lang = {
         13 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "\\iI need to be more careful...\n",
+          "\\iもう少し気をつけないと…。\n",
       },
     },
     58 => {
@@ -9583,16 +9589,16 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "\\iHmm, maybe I should go see \n"\
-          "Winston instead...\n",
+          "\\i早くウィンストンのところに\n"\
+          "行かないと…。\n",
       },
       2 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "\\iI should probably try heading back to \n"\
-          "the hospital... One of these doors \n"\
-          "has got to work...\n",
+          "\\i病院に戻ったほうがいいわね…。\n"\
+          "扉がどれか一つでも\n"\
+          "開くといいのだけど…。\n",
       },
     },
     61 => {
@@ -9626,10 +9632,10 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[バフカス]\\face[]\n"\
-          "That bear thought he could eat more\n"\
-          "than me... hah!\n"\
+          "あの熊は大食いで\n"\
+          "俺に勝てると思ったのか…フン！\n"\
           "------------------------------------------\n"\
-          "BUFKUS FOREVER!!\n",
+          "バフカス・フォーエバー！！\n",
       },
       2 => {
         4 =>
@@ -9649,10 +9655,10 @@ $events_lang = {
         18 =>
           #------------------------------------------
           "\\ignr\\nm[バフカス]\\face[]\n"\
-          "That bear thought he could eat more\n"\
-          "than me... hah!\n"\
+          "あの熊は大食いで\n"\
+          "俺に勝てると思ったのか…フン！\n"\
           "------------------------------------------\n"\
-          "BUFKUS FOREVER!!\n",
+          "バフカス・フォーエバー！！\n",
       },
     },
     63 => {
@@ -9705,7 +9711,7 @@ $events_lang = {
         13 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "\\iI need to be more careful...\n",
+          "\\iもう少し気をつけないと…。\n",
       },
     },
     72 => {
@@ -9713,7 +9719,7 @@ $events_lang = {
         13 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "\\iI need to be more careful...\n",
+          "\\iもう少し気をつけないと…。\n",
       },
     },
     73 => {
@@ -9721,7 +9727,7 @@ $events_lang = {
         13 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "\\iI need to be more careful...\n",
+          "\\iもう少し気をつけないと…。\n",
       },
     },
     76 => {
@@ -9729,7 +9735,7 @@ $events_lang = {
         13 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "\\iI need to be more careful...\n",
+          "\\iもう少し気をつけないと…。\n",
       },
     },
     85 => {
@@ -10055,16 +10061,16 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "\\iWinston's right up there... I should \n"\
-          "go talk to him...\n",
+          "\\iウィンストンはそこにいる…。\n"\
+          "彼と話をしないと…。\n",
       },
       5 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "\\iI should probably try heading back to \n"\
-          "the hospital... One of these doors \n"\
-          "has got to work...\n",
+          "\\i病院に戻ったほうがいいわね…。\n"\
+          "扉がどれか一つでも\n"\
+          "開くといいのだけど…。\n",
       },
       6 => {
         0 =>
@@ -10194,8 +10200,8 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "\\iWinston's right over there... I should\n"\
-          "go talk to him...\n",
+          "\\iウィンストンはあそこにいる…。\n"\
+          "彼と話をしないと…。\n",
       },
     },
     10 => {
@@ -10203,16 +10209,16 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "\\iWinston's right up there... I should \n"\
-          "go talk to him...\n",
+          "\\iウィンストンはそこにいる…。\n"\
+          "彼と話をしないと…。\n",
       },
       2 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "\\iI should probably try heading back to \n"\
-          "the hospital... One of these doors \n"\
-          "has got to work...\n",
+          "\\i病院に戻ったほうがいいわね…。\n"\
+          "扉がどれか一つでも\n"\
+          "開くといいのだけど…。\n",
       },
     },
     13 => {
@@ -10238,50 +10244,53 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[Winston2]\\fr\n"\
-          "Have you ever played Kingyo Sukui?\n"\
+          "金魚すくいをしたことはあるかい？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウィンストン]\\face[Winston2]\\fr\n"\
-          "It's a fun festival game where you use \n"\
-          "a paper net to try and catch yourself\n"\
-          "a pet goldfish!\n"\
+          "お祭りの出し物で、紙製の\n"\
+          "ポイを使って金魚をすくう\n"\
+          "楽しい遊びだよ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウィンストン]\\face[Winston2]\\fr\n"\
-          "Come see me at Star Night if you'd\n"\
-          "like to play!\n",
+          "星夜祭で僕のところに来れば\n"\
+          "遊べるからね！\n",
       },
       3 => {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[Winston2]\\fr\n"\
-          "Well hello there! It's been a while!\n"\
+          "やぁ！何か用事かな？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "Oh Winston... \n"\
+          "ウィンストン…。\n"\
           "------------------------------------------\n"\
-          "I'm sorry to bother you, but I don't know \n"\
-          "who else to turn to right now... \n"\
+          "ごめんなさい、\n"\
+          "でも今は他に\n"\
+          "頼れる人がいなくて…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウィンストン]\\face[Winston2Neutral]\\fr\n"\
-          "Oh no, what happened?\n"\
+          "気にしないで。\n"\
+          "それより何があったんだい？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "When I woke up after Star Night,\n"\
-          "my son was gone!\n"\
+          "お祭りの後で目が覚めたら、\n"\
+          "私の子どもがいなくなってたの！\n"\
           "------------------------------------------\n"\
-          "Something feels wrong...  I don't know\n"\
-          "how to explain it, but I just know he \n"\
-          "needs my help...\n"\
+          "何かが変なの…説明できないけど、\n"\
+          "あの子が私の助けを\n"\
+          "必要と必要としてるのはわかる…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウィンストン]\\face[Winston2Neutral]\\fr\n"\
-          "The Envoy...\n"\
+          "御使いか…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "The Leebles at the Inn told me that a\n"\
-          "Hikaribana could lead me to him...\n"\
+          "宿屋のリーブルが、ヒカリバナが\n"\
+          "あの子の元に導いてくれるって\n"\
+          "教えてくれて…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウィンストン]\\face[Winston2Neutral]\\fr\n"\
-          "Come with me, I think I might \n"\
-          "be able to help.\n",
+          "こっちに来て。\n"\
+          "力になれるかもしれない。\n",
       },
       5 => {
         1 =>
@@ -10874,16 +10883,16 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "\\iHmm, maybe I should go see \n"\
-          "Winston instead...\n",
+          "\\i早くウィンストンのところに\n"\
+          "行かないと…。\n",
       },
       6 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "\\iI should probably try heading back to \n"\
-          "the hospital... One of these doors \n"\
-          "has got to work...\n",
+          "\\i病院に戻ったほうがいいわね…。\n"\
+          "扉がどれか一つでも\n"\
+          "開くといいのだけど…。\n",
       },
       7 => {
         0 =>
@@ -11329,15 +11338,15 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[村人リーブル]\\face[Leeble]\\fr\n"\
-          "I hope you can find your son... \n",
+          "あの子が見つかるといいね…。\n",
         6 =>
           #------------------------------------------
           "\\ignr\\nm[村人リーブル]\\face[Leeble]\\fr\n"\
-          "I'm glad you were able to make it\n"\
-          "to Star Night this year!\n"\
+          "君たちが今年の星夜祭に\n"\
+          "来てくれて本当によかった！\n"\
           "------------------------------------------\n"\
-          "My belly still aches a bit from all the\n"\
-          "cider I drank, heh heh...\n",
+          "サイダーの飲み過ぎで\n"\
+          "まだお腹が痛いよ、へへへ…。\n",
       },
       2 => {
         1 =>
@@ -11409,39 +11418,42 @@ $events_lang = {
           "\\ignr\\nm[宿屋のお手伝い]\\face[]\n"\
           "僕たちはこの村をとっても大事にしてるんだ。\n"\
           "------------------------------------------\n"\
-          "僕は大星夜祭の前に掃除をする\n"\
+          "僕は星夜祭の前に掃除をする\n"\
           "担当なんだよ！\n",
       },
       1 => {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[宿屋のお手伝い]\\face[]\n"\
-          "In Morizora's Forest, we believe that a\n"\
-          "Hikaribana will lead you back to a loved one...\n"\
+          "モリゾラの森では、ヒカリバナは\n"\
+          "愛する人の元へ導いてくれると\n"\
+          "されているんだ。\n"\
           "------------------------------------------\n"\
-          "If your son is still missing, talk to Winston\n"\
-          "out by the river. He might be able to lend\n"\
-          "you his...\n",
+          "あの子がまだ見つからないなら、\n"\
+          "川の傍に住んでるウィンストンが\n"\
+          "きっとヒカリバナを貸してくるよ…。\n",
         10 =>
           #------------------------------------------
           "\\ignr\\nm[宿屋のお手伝い]\\face[]\n"\
-          "Be careful out there... the Envoy are \n"\
-          "strong today. \n",
+          "外に出るなら気をつけて…\n"\
+          "今日は御使いが強力だよ。\n",
       },
       2 => {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[宿屋のお手伝い]\\face[]\n"\
-          "In Morizora's Forest, we believe that a\n"\
-          "Hikaribana will lead you back to a loved one...\n"\
+          "モリゾラの森では、ヒカリバナは\n"\
+          "愛する人の元へ導いてくれると\n"\
+          "されているんだ。\n"\
           "------------------------------------------\n"\
-          "If your son is still missing, start by looking\n"\
-          "for him where he spent a lot of time.\n",
+          "まだ見つからないなら、\n"\
+          "あの子が長く過ごした場所を\n"\
+          "探すといいよ。\n",
         9 =>
           #------------------------------------------
           "\\ignr\\nm[宿屋のお手伝い]\\face[]\n"\
-          "Be careful out there... the Envoy are \n"\
-          "strong today. \n",
+          "外に出るなら気をつけて…\n"\
+          "今日は御使いが強力だよ。\n",
       },
       3 => {
         1 =>
@@ -11490,8 +11502,8 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[宿屋の主人リーブル]\\face[]\n"\
-          "I hope you're able to find your son...\n"\
-          "Please be careful.\n",
+          "子どもが見つかるといいね…。\n"\
+          "気をつけて行くんだよ。\n",
       },
       2 => {
         1 =>
@@ -11537,11 +11549,11 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSurprised]\\fr\n"\
-          "It's locked??\n",
+          "鍵がかかってる？？\n",
         6 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "Hm... still locked...\n",
+          "まだ開かないわね…。\n",
       },
     },
     8 => {
@@ -11692,7 +11704,7 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "僕の頭よりも大きな花が咲いてる。\n",
+          "頭よりも大きな花が咲いてる。\n",
       },
     },
     12 => {
@@ -11708,7 +11720,7 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "僕の頭よりも大きな花が咲いてる。\n",
+          "頭よりも大きな花が咲いてる。\n",
       },
     },
     15 => {
@@ -11827,8 +11839,8 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[パンキー]\\face[Panky2]\\fr\n"\
-          "Star Night is over, but as you can see, \n"\
-          "a baker's work is never done!\n",
+          "星夜祭は終わった。でも見ろよ、\n"\
+          "パン屋の仕事に終わりはねぇんだ！\n",
       },
     },
     8 => {
@@ -12021,11 +12033,11 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[ダニエル]\\face[Danielle2]\\fr\n"\
-          "Hey lady! You're up early today!\n"\
+          "おはよう！今日は早起きね！\n"\
           "------------------------------------------\n"\
-          "I think this is the first time I've seen you\n"\
-          "in here without your son... is he off \n"\
-          "playing somewhere?\n",
+          "あの子と一緒にいないなんて\n"\
+          "珍しい…。どこかに遊びに\n"\
+          "行ってるの？\n",
       },
       4 => {
         0 =>
@@ -12585,11 +12597,11 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[鍛冶屋のジャッキー]\\face[Blacksmith]\\fr\n"\
-          "Good morning! Lovely day isn't it? \n"\
+          "おはよう！いい日だね！\n"\
           "------------------------------------------\n"\
-          "Actually... it feels a bit strange today, \n"\
-          "doesn't it? The energy is a bit... heavier\n"\
-          "than usual. \n",
+          "でも、ちょっと変な感じがしないかい？\n"\
+          "なんというか…空気が普段より\n"\
+          "少し重く感じるよ。\n",
       },
       7 => {
         0 =>
@@ -12796,12 +12808,12 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[コラ]\\face[Cora2]\\fr\n"\
-          "When I was out this morning working on\n"\
-          "my painting, I got the strangest feeling...\n"\
+          "今朝、絵を描くために外に出たら\n"\
+          "すごく変な感じがしたの…。\n"\
           "------------------------------------------\n"\
-          "Shortly after, a whole wave of Envoy\n"\
-          "passed by... I was relieved they didn't \n"\
-          "see me.\n",
+          "しばらくしたら、大勢の御使いが\n"\
+          "横を通り過ぎて…。\n"\
+          "目が合わなくてほっとしたよ。\n",
       },
       5 => {
         0 =>
@@ -12845,13 +12857,13 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "It looks like the Monsieur... \n",
+          "ムッシューかしら…。\n",
       },
       3 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyHappy3]\\fr\n"\
-          "It's the Monsieur!\n",
+          "ムッシューだ！\n",
       },
     },
   },
@@ -13054,9 +13066,9 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Come visit our shop at Star Night for\n"\
-          "some special Midnight Tea!\n"\
-          "~Kazuko\n",
+          "星夜祭の出店で、特製の\n"\
+          "真夜中茶を飲んでくださいね！\n"\
+          "カズコ\n",
       },
     },
     12 => {
@@ -13377,7 +13389,7 @@ $events_lang = {
         94 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "\\oi[116]を受け取った。\n",
+          "\\oi[116]を手に入れた。\n",
         99 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
@@ -15794,7 +15806,7 @@ $events_lang = {
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
           "\\oi[170]を\n"\
-          "受け取った。\n"\
+          "手に入れた。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[看板]\\face[Sign]\\fr\n"\
           "これからは、誰かのせいで\n"\
@@ -16288,35 +16300,35 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Are you ready to visit Morizora? \n"\
+          "心の準備はできた？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "If you need to talk to anyone, or finish \n"\
-          "anything, it's probably best to do it \n"\
-          "before we see him.\n",
-        6 => [["I'm ready to make my wish.", "I still have something to do."], 2],
+          "もし話したい人や心残りが\n"\
+          "あるなら、モリゾラに会う前に\n"\
+          "済ませたほうがいいよ。\n",
+        6 => [["願いを叶えてもらおう。", "まだやることがあるんだ。"], 2],
         8 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Are you completely sure? \n",
-        10 => [["I'm sure.", "On second thought..."], 2],
+          "本当にいいのね？\n",
+        10 => [["うん。", "やっぱりやめた…。"], 2],
         12 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
-          "I'm sure.\n"\
+          "うん。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Okay sweetie, let's go.\n",
+          "わかった、行こうか。\n",
         22 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Okay dear. When you're ready to visit\n"\
-          "Morizora, we can return here.\n",
+          "わかったわ。モリゾラに会う準備が\n"\
+          "できたら、戻ってこようね。\n",
         38 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Okay dear. When you're ready to visit\n"\
-          "Morizora, we can return here.\n",
+          "わかったわ。モリゾラに会う準備が\n"\
+          "できたら、戻ってこようね。\n",
       },
     },
     6 => {
@@ -16324,35 +16336,35 @@ $events_lang = {
         20 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Are you ready to visit Morizora? \n"\
+          "心の準備はできた？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "If you need to talk to anyone, or finish \n"\
-          "anything, it's probably best to do it \n"\
-          "before we see him.\n",
-        26 => [["I'm ready to make my wish.", "I still have something to do."], 2],
+          "もし話したい人や心残りが\n"\
+          "あるなら、モリゾラに会う前に\n"\
+          "済ませたほうがいいよ。\n",
+        26 => [["願いを叶えてもらおう。", "まだやることがあるんだ。"], 2],
         28 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Are you completely sure? \n",
-        30 => [["I'm sure.", "On second thought..."], 2],
+          "本当にいいのね？\n",
+        30 => [["うん。", "やっぱりやめた…。"], 2],
         32 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
-          "I'm sure.\n"\
+          "うん。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Okay sweetie, let's go.\n",
+          "わかった、行こうか。\n",
         54 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Okay dear. When you're ready to visit\n"\
-          "Morizora, we can return here.\n",
+          "わかったわ。モリゾラに会う準備が\n"\
+          "できたら、戻ってこようね。\n",
         74 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Okay dear. When you're ready to visit\n"\
-          "Morizora, we can return here.\n",
+          "わかったわ。モリゾラに会う準備が\n"\
+          "できたら、戻ってこようね。\n",
       },
     },
     7 => {
@@ -18969,7 +18981,7 @@ $events_lang = {
         97 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "\\oi[100]を受け取った。\n",
+          "\\oi[100]を手に入れた。\n",
         100 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
@@ -19453,7 +19465,7 @@ $events_lang = {
           "とっても悲しい思いをしてるの！\n"\
           "------------------------------------------\n"\
           "根っこが悲しんでたら、\n"\
-          "綺麗になれないんでしょ？？n"\
+          "綺麗になれないんでしょ？？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[シラの苗木]\\face[]\n"\
           "1本はお腹が空いてて、\n"\
@@ -19513,7 +19525,7 @@ $events_lang = {
           "とっても悲しい思いをしてるの！\n"\
           "------------------------------------------\n"\
           "根っこが悲しんでたら、\n"\
-          "綺麗になれないんでしょ？？n"\
+          "綺麗になれないんでしょ？？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[シラの若木]\\face[]\n"\
           "1本はお腹が空いてて、\n"\
@@ -19570,7 +19582,7 @@ $events_lang = {
           "とっても悲しい思いをしてるの！\n"\
           "------------------------------------------\n"\
           "根っこが悲しんでたら、\n"\
-          "綺麗になれないんでしょ？？n"\
+          "綺麗になれないんでしょ？？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[シラの若木]\\face[]\n"\
           "1本はお腹が空いてて、\n"\
@@ -21018,7 +21030,7 @@ $events_lang = {
         44 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "\\oi[176]を受け取った。\n",
+          "\\oi[176]を手に入れた。\n",
         49 =>
           #------------------------------------------
           "\\ignr\\nm[キングスポア]\\face[]\n"\
@@ -21033,7 +21045,7 @@ $events_lang = {
         68 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "\\oi[177]を受け取った。\n",
+          "\\oi[177]を手に入れた。\n",
         73 =>
           #------------------------------------------
           "\\ignr\\nm[キングスポア]\\face[]\n"\
@@ -21048,7 +21060,7 @@ $events_lang = {
         92 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "\\oi[178]を受け取った。\n",
+          "\\oi[178]を手に入れた。\n",
         97 =>
           #------------------------------------------
           "\\ignr\\nm[キングスポア]\\face[]\n"\
@@ -21071,7 +21083,7 @@ $events_lang = {
         10 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "\\oi[176]を受け取った。\n",
+          "\\oi[176]を手に入れた。\n",
         15 =>
           #------------------------------------------
           "\\ignr\\nm[キングスポア]\\face[]\n"\
@@ -21086,7 +21098,7 @@ $events_lang = {
         34 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "\\oi[177]を受け取った。\n",
+          "\\oi[177]を手に入れた。\n",
         39 =>
           #------------------------------------------
           "\\ignr\\nm[キングスポア]\\face[]\n"\
@@ -21101,7 +21113,7 @@ $events_lang = {
         58 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "\\oi[178]を受け取った。\n",
+          "\\oi[178]を手に入れた。\n",
         63 =>
           #------------------------------------------
           "\\ignr\\nm[キングスポア]\\face[]\n"\
@@ -26474,7 +26486,7 @@ $events_lang = {
         16 =>
           #------------------------------------------
           "\\ignr\\nm[スー]\\face[SueSadSmile]\\fr\n"\
-          "Thank-you my friend.\n",
+          "ありがとね。\n",
       },
     },
     2 => {
@@ -26717,7 +26729,7 @@ $events_lang = {
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami]\\fr\n"\
           "ははっ、そうだね。みんな\\i見返りを求めて\\i\n"\
-          "君と仲良くしたがるんだ。\n"\
+          "お前と仲良くしたがるんだ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySurprised2]\\fr\n"\
           "えっ…なんて？\n"\
@@ -26755,7 +26767,7 @@ $events_lang = {
           "いい子のためのものさ。\n"\
           "------------------------------------------\n"\
           "人を助けられる、強くていい子。\n"\
-          "こんな病弱な僕が、どうやったら\n"\
+          "こんな病弱な僕が、どうすれば\n"\
           "何かの役に立てるんだい？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySad]\\fr\n"\
@@ -27284,7 +27296,7 @@ $events_lang = {
         5 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "\"Closed for Star Night\"\n",
+          "\"星夜祭につき不在\"\n",
       },
     },
     14 => {
@@ -27292,7 +27304,7 @@ $events_lang = {
         5 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "\"Closed for Star Night\"\n",
+          "\"星夜祭につき不在\"\n",
       },
     },
   },
@@ -27302,33 +27314,33 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyNeutral]\\fr\n"\
-          "Sue dropped this...\n",
+          "スーが落としてった…。\n",
         4 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
           "\\oi[119]を手に入れた。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyThinking]\\fr\n"\
-          "...What do you think it's for, Mom? \n"\
+          "…これって何かな、お母さん？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomClosed]\\fr\n"\
-          "Hmm, I'm not sure...\n"\
+          "うーん、何かしら…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "But when I was a little girl, I used a \n"\
-          "ribbon with a bell on it just like this,  \n"\
-          "as a pet collar.\n"\
+          "でもお母さんが小さい頃、\n"\
+          "こんな風にリボンに鈴をつけて\n"\
+          "ペットの首輪にしたっけ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyThinking]\\fr\n"\
-          "A pet collar?\n"\
+          "ペットの首輪？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyOpenMouth]\\fr\n"\
-          "Mom look!\n"\
+          "お母さん、見て！\n"\
           "------------------------------------------\n"\
-          "It says \"Puchi\" on the side...\n"\
+          "ここに\"プチ\"って書いてある…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Hmm... that name seems familiar...\n",
+          "聞いたことがある名前ね…。\n",
       },
     },
     6 => {
@@ -27581,8 +27593,8 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "\\iHmm, maybe I should go see \n"\
-          "Winston instead...\n",
+          "\\i早くウィンストンのところに\n"\
+          "行かないと…。\n",
       },
       6 => {
         0 =>
@@ -27712,7 +27724,7 @@ $events_lang = {
           "少し遅れてるみたいなの。\n"\
           "------------------------------------------\n"\
           "ちょっと顔を出して、\n"\
-          "話を聞いてきてくれない？n",
+          "話を聞いてきてくれない？\n",
         56 =>
           #------------------------------------------
           "\\ignr\\nm[ダニエル]\\face[Danielle2]\\fr\n"\
@@ -27738,27 +27750,27 @@ $events_lang = {
         15 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyNeutral]\\fr\n"\
-          "...? \\w[40]\n",
+          "…？\\w[40]\n",
         19 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyHappy1]\\fr\n"\
-          "...Sue? \\w[40]\n",
+          "…スー？\\w[40]\n",
         30 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyHappy1]\\fr\n"\
-          "Sue!! \\w[40]\n",
+          "スー！！\\w[40]\n",
         36 =>
           #------------------------------------------
           "\\ignr\\nm[スー]\\face[Sue2Sad]\\fr\n"\
-          "...? \\w[40]\n",
+          "…？\\w[40]\n",
         45 =>
           #------------------------------------------
           "\\ignr\\nm[スー]\\face[Sue2Closed2]\\fr\n"\
-          "You're here!! \\w[40]\n",
+          "ここにいたんだね！！\\w[40]\n",
         63 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyHappy3]\\fr\n"\
-          "... \\w[40]\n",
+          "…\\w[40]\n",
       },
     },
   },
@@ -27862,23 +27874,23 @@ $events_lang = {
         16 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyHappy2]\\fr\n"\
-          "...! \\w[20]\n"\
+          "…！\\w[20]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[先生]\\face[DoctorWorried]\\fr\n"\
-          "... \\w[40]\n"\
+          "…\\w[40]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyNeutral]\\fr\n"\
-          "... \\w[40]\n",
+          "…\\w[40]\n",
         32 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
-          "...! \\w[20]\n"\
+          "…！\\w[20]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ジャッキー]\\face[JackyStern]\\fr\n"\
-          "... \\w[40]\n"\
+          "…\\w[40]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyNeutral]\\fr\n"\
-          "... \\w[40]\n",
+          "…\\w[40]\n",
       },
     },
   },
@@ -27888,13 +27900,13 @@ $events_lang = {
         7 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyNeutral]\\fr\n"\
-          "...? \\w[20]\n"\
+          "…？\\w[20]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウィンストン]\\face[WinstonWorriedClosed]\\fr\n"\
-          "... \\w[40]\n"\
+          "\\w[40]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySurprised2]\\fr\n"\
-          "... \\w[40]\n",
+          "…\\w[40]\n",
       },
     },
     2 => {
@@ -28252,7 +28264,7 @@ $events_lang = {
         6 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "\\i保管区画5B。患者の立ち入りを禁ずる。\n",
+          "\\i保管区画 5B。患者の立ち入りを禁ずる。\n",
       },
     },
     5 => {
@@ -28273,9 +28285,10 @@ $events_lang = {
         16 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoySurprised2]\\fr\n"\
-          "...? \\w[30]\n",
+          "…？\\w[30]\n",
         19 =>
           #------------------------------------------
+          # TODO
           "\\ignr\\nm[]\\face[]\n"\
           "Now it's time for me to leave... \\w[40]\n"\
           "------------------------------------------\n"\
@@ -28287,7 +28300,7 @@ $events_lang = {
         27 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyDepressed]\\fr\n"\
-          "... \\w[80]\n",
+          "…\\w[80]\n",
       },
     },
     9 => {
@@ -28430,11 +28443,11 @@ $events_lang = {
         16 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyNeutral]\\fr\n"\
-          "...? \\w[40]\n",
+          "…？\\w[40]\n",
         19 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyRamune]\\fr\n"\
-          "...! \\w[20]\n",
+          "…！\\w[20]\n",
       },
     },
   },
@@ -28444,79 +28457,79 @@ $events_lang = {
         21 =>
           #------------------------------------------
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "They all leave eventually.\n",
+          "みんな結局いなくなるんだ。\n",
         24 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyDepressed]\\fr\n"\
-          "Yami...\n"\
+          "ヤミ…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "I know how you feel. \n"\
+          "お前の気持ち、わかるよ。\n"\
           "------------------------------------------\n"\
-          "I know what it feels like to have \n"\
-          "someone \\ileave\\i you.\n"\
+          "お前が誰かに\\i見捨てられた \\iときの\n"\
+          "気持ち、僕にはわかる。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyDepressed]\\fr\n"\
-          "She didn't \\ileave\\i me. \n",
+          "スーは\\i見捨てた \\iんじゃない。\n",
         34 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyNeutral]\\fr\n"\
-          "You make it sound like she \n"\
-          "left on purpose...\n",
+          "キミの言い方だと、何かのために\n"\
+          "いなくなったみたいだけど…。\n",
         39 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyDepressed]\\fr\n"\
-          "But she didn't.\n",
+          "でもスーは違う。\n",
         42 =>
           #------------------------------------------
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "Well, the person who left me \n"\
-          "\\idid\\i have a choice. \n",
+          "だけど、僕を置いていった人は\n"\
+          "\\iそうする \\iことを選んだ。\n",
         51 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyNeutral]\\fr\n"\
-          "How do you know that?\n"\
+          "どうしてそう思うの？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "Because he had the chance to \n"\
-          "come home, and he didn't.\n"\
+          "家に帰るチャンスはあった、\n"\
+          "でも帰らなかった。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySad]\\fr\n"\
-          "What if he stayed because people\n"\
-          "needed his help?\n"\
+          "でも、その人の助けを\n"\
+          "みんなが必要としていたら？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "Who could be more important than\n"\
-          "your own family?\n"\
+          "家族より大事なものが\n"\
+          "あると思うのかい？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "He left us alone.\n",
+          "あの人は僕たちを見捨てたんだ。\n",
         65 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoySad]\\fr\n"\
-          "I'm sorry...\n",
+          "ごめん…。\n",
         68 =>
           #------------------------------------------
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "I know how it feels to be alone.\n"\
+          "僕は孤独がどんなものか知ってる。\n"\
           "------------------------------------------\n"\
-          "But if you come with me, you'll never\n"\
-          "have to be alone again.\n",
+          "でも僕と一緒にくれば、お前は二度と\n"\
+          "独りにならなくて済むんだ。\n",
         74 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyDepressed]\\fr\n"\
-          "Yami...\n"\
+          "ヤミ…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "Come with me.\n"\
+          "僕と一緒に来い…。\n"\
           "------------------------------------------\n"\
-          "I'll take care of you.\n",
+          "僕が傍にいてやる。\n",
         80 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyDepressed]\\fr\n"\
-          "Okay.\n"\
+          "わかった。\n"\
           "------------------------------------------\n"\
-          "I'll go...\n",
+          "行くよ…。\n",
       },
     },
   },
@@ -28526,12 +28539,12 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[村人リーブル]\\face[Leeble]\\fr\n"\
-          "Where is your son? Aren't you two\n"\
-          "usually together?\n",
+          "あの子はどこに行ったのかな？\n"\
+          "いつも一緒だったよね？\n",
         7 =>
           #------------------------------------------
           "\\ignr\\nm[村人リーブル]\\face[Leeble]\\fr\n"\
-          "Star Night was a blast!\n",
+          "来年の星夜祭も楽しみ！\n",
       },
     },
     2 => {
@@ -28539,12 +28552,12 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[宿屋のお手伝い]\\face[]\n"\
-          "Is your son missing? Whenever someone\n"\
-          "gets lost, they say to seek a Hikaribana.\n",
+          "あの子がいないの？そんなときは\n"\
+          "ヒカリバナを探せってよく言うよ。\n",
         7 =>
           #------------------------------------------
           "\\ignr\\nm[宿屋のお手伝い]\\face[]\n"\
-          "Man, Star Night was a blast!\n",
+          "ねぇ、星夜祭は楽しかったでしょ！\n",
       },
     },
     5 => {
@@ -28552,8 +28565,8 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[宿屋の主人リーブル]\\face[]\n"\
-          "I hope you're able to find your son...\n"\
-          "Please be careful.\n",
+          "子どもが見つかるといいね…。\n"\
+          "気をつけて行くんだよ。\n",
       },
     },
     6 => {
@@ -28561,11 +28574,11 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSurprised]\\fr\n"\
-          "It's locked??\n",
+          "鍵がかかってる？？\n",
         6 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "Hm... still locked...\n",
+          "まだ開かないわね…。\n",
       },
     },
     8 => {
@@ -28573,7 +28586,7 @@ $events_lang = {
         53 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "...\\iWhere's my son?\n",
+          "...\\iあの子はどこ？\n",
       },
     },
     10 => {
@@ -28597,7 +28610,7 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "僕の頭よりも大きな花が咲いてる。\n",
+          "頭よりも大きな花が咲いてる。\n",
       },
     },
     13 => {
@@ -28605,7 +28618,7 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "僕の頭よりも大きな花が咲いてる。\n",
+          "頭よりも大きな花が咲いてる。\n",
       },
     },
     14 => {
@@ -28635,128 +28648,127 @@ $events_lang = {
         4 =>
           #------------------------------------------
           "\\ignr\\nm[宿屋のお手伝い]\\face[]\n"\
-          "\\e[2]Oh look, she's awake!\n"\
+          "\\e[2]あ、見て！起きたよ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[宿屋の主人リーブル]\\face[]\n"\
-          "\\e[3]Good morning, ma'am!\n"\
-          "I hope you slept well!\n"\
+          "\\e[3]おはよう。\n"\
+          "よく眠れたかい？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[村人リーブル]\\face[]\n"\
-          "\\e[1]Wasn't Star Night \n"\
-          "a blast?\n",
+          "\\e[1]星夜祭は\n"\
+          "楽しめた？\n",
         14 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "Thank-you all... and yes, it was a \n"\
-          "very lovely event...\n"\
+          "皆さん、ありがとう…。えぇ、\n"\
+          "とっても素敵なイベントだったわ…。\n"\
           "------------------------------------------\n"\
-          "I'm sorry, I'm just a bit distracted \n"\
-          "right now...\n"\
+          "ごめんなさい、ちょっと今は\n"\
+          "落ち着かなくて…。\n"\
           "------------------------------------------\n"\
-          "Have any of you seen my son?\n",
+          "誰か私の子どもを見ませんでしたか？\n",
         22 =>
           #------------------------------------------
           "\\ignr\\nm[村人リーブル]\\face[]\n"\
-          "\\e[1]Your son? \n"\
+          "\\e[1]子ども？\n"\
           "------------------------------------------\n"\
-          "\\e[1]Oh that's right! You two are \n"\
-          "usually together, aren't you?\n",
+          "\\e[1]あぁ！いつも一緒にいた\n"\
+          "あの子のこと？\n",
         28 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "Yes... but I just woke up, and now \n"\
-          "he's gone!\n"\
+          "えぇ…でも今起きたら、\n"\
+          "部屋にいなかったの！\n"\
           "------------------------------------------\n"\
-          "I have a terrible feeling about this... \n"\
-          "I have to find him!\n",
+          "なんだか嫌な予感がする…。\n"\
+          "見つけてあげないと！\n",
         35 =>
           #------------------------------------------
           "\\ignr\\nm[村人リーブル]\\face[]\n"\
-          "\\e[1]It's okay, ma'am... we'll help\n"\
-          "you however we can!\n",
+          "\\e[1]わかった…\n"\
+          "できるかぎり手伝うよ！\n",
         40 =>
           #------------------------------------------
           "\\ignr\\nm[宿屋のお手伝い]\\face[]\n"\
-          "\\e[2]What's going on?\n"\
-          "Someone is lost?\n",
+          "\\e[2]どういうこと？\n"\
+          "誰か迷子なの？\n",
         45 =>
           #------------------------------------------
           "\\ignr\\nm[村人リーブル]\\face[]\n"\
-          "\\e[1]Yes, her son's gone\n"\
-          "missing!\n",
+          "\\e[1]うん、彼女の子どもが\n"\
+          "いないんだって！\n",
         50 =>
           #------------------------------------------
           "\\ignr\\nm[宿屋の主人リーブル]\\face[]\n"\
-          "\\e[3]Her son? You mean the\n"\
-          "child with the warrior's hat?\n"\
+          "\\e[3]子ども？\n"\
+          "あの兜を被ったあの子かい？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[村人リーブル]\\face[]\n"\
-          "\\e[1]That's him! She woke up\n"\
-          "and he was just gone!\n"\
+          "\\e[1]そう！目が覚めたら\n"\
+          "いなくなってたんだ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[宿屋の主人リーブル]\\face[]\n"\
-          "\\e[3]That's terrible...\n"\
+          "\\e[3]それは気の毒に…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[村人リーブル]\\face[]\n"\
-          "\\e[1]I know!\n",
+          "\\e[1]まったくだね！\n",
         66 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "I'm sorry, but I have to go now... \n",
+          "ごめんなさい、もう行かなきゃ…。\n",
         72 =>
           #------------------------------------------
           "\\ignr\\nm[宿屋のお手伝い]\\face[]\n"\
-          "\\e[2]Ma'am...\n"\
+          "\\e[2]あの…。\n"\
           "------------------------------------------\n"\
-          "\\e[2]I know you must be in a great\n"\
-          "hurry, but if I might make a \n"\
-          "suggestion...\n"\
+          "\\e[2]すごく急いでると思うけど、\n"\
+          "聞いて欲しい話があって…。\n"\
           "------------------------------------------\n"\
-          "\\e[2]Here in Morizora's Forest, we have\n"\
-          "a belief that when a loved one has gone\n"\
-          "missing...\n"\
+          "\\e[2]ここモリゾラの森には\n"\
+          "言い伝えがあって、\n"\
+          "もし愛する者を見失ったときは…\n"\
           "------------------------------------------\n"\
-          "\\e[2]A Hikaribana will lead \n"\
-          "you back to them.\n",
+          "\\e[2]ヒカリバナが\n"\
+          "導いてくれるんだ。\n",
         84 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "A Hikaribana? You mean the \n"\
-          "glowing flower?\n",
+          "ヒカリバナって、\n"\
+          "あのお花のことかしら？\n",
         89 =>
           #------------------------------------------
           "\\ignr\\nm[宿屋のお手伝い]\\face[]\n"\
-          "\\e[2]Yes. \n"\
+          "\\e[2]うん。\n"\
           "------------------------------------------\n"\
-          "\\e[2]Do you know Winston? He was\n"\
-          "in town the other day and he \n"\
-          "mentioned keeping one in his tent.\n"\
+          "\\e[2]ウィンストンは知ってる？\n"\
+          "街に来たとき、テントの中に一つだけ\n"\
+          "とってあるって言ってた。\n"\
           "------------------------------------------\n"\
-          "\\e[2]Winston lives out by the river.\n"\
-          "He might lend you his Hikaribana\n"\
-          "if you're unable to find your son...\n",
+          "\\e[2]ウィンストンは川の傍に\n"\
+          "住んでるよ。子どもが見つからないなら、\n"\
+          "きっとヒカリバナを貸してくれるよ…。\n",
         99 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "Thank-you very much... I will \n"\
-          "go there right away.\n",
+          "本当にありがとう…。\n"\
+          "すぐに行ってみることにするわね。\n",
         111 =>
           #------------------------------------------
           "\\ignr\\nm[宿屋のお手伝い]\\face[]\n"\
-          "\\e[2]Oh and ma'am...\n",
+          "\\e[2]あぁ、それと…。\n",
         117 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "Yes?\n",
+          "何かしら？\n",
         121 =>
           #------------------------------------------
           "\\ignr\\nm[宿屋のお手伝い]\\face[]\n"\
-          "\\e[2]The Envoy are strong today... \n"\
-          "so please be careful.\n",
+          "\\e[2]今日は御使いが強力だよ…。\n"\
+          "気をつけてね。\n",
         126 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "Thank-you, I will be.\n",
+          "ありがとう、気を付けるわね。\n",
       },
     },
   },
@@ -28766,15 +28778,15 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[Winston2]\\fr\n"\
-          "Good luck!\n"\
+          "がんばってね！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウィンストン]\\face[Winston2Neutral]\\fr\n"\
-          "Remember, you should start where his \n"\
-          "presence was the strongest.\n"\
+          "いいかい、彼の存在がもっとも\n"\
+          "濃厚な場所から探すんだよ。\n"\
           "------------------------------------------\n"\
-          "The place he spent the most time recently;\n"\
-          "perhaps where he spent the most time\n"\
-          "alone with his thoughts.\n",
+          "彼が最近、もっとも長く、\n"\
+          "そして恐らく孤独を感じながら\n"\
+          "過ごした場所。\n",
       },
     },
     3 => {
@@ -28823,58 +28835,59 @@ $events_lang = {
         5 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[Winston2]\\fr\n"\
-          "Have you heard the story of the\n"\
-          "Hikaribana?\n"\
+          "ヒカリバナにまつわる話は\n"\
+          "聞いたことある？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "A little bit...\n"\
+          "少しだけなら…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウィンストン]\\face[Winston2]\\fr\n"\
-          "Where I come from, every year Lunaflies\n"\
-          "lay their eggs inside these big flowers.\n"\
+          "僕がいた土地では毎年、\n"\
+          "ホタルがこの大きな花の中に\n"\
+          "卵を産むんだ。\n"\
           "------------------------------------------\n"\
-          "When they hatch, the Lunaflies make \n"\
-          "the whole flower glow, and lift them\n"\
-          "up as they fly for the first time.\n"\
+          "卵から孵ったホタルたちは、\n"\
+          "花ごと飛びながら光るんだ。\n"\
           "------------------------------------------\n"\
-          "But there's something else that's special\n"\
-          "about these flowers...\n"\
+          "でもこの花には、\n"\
+          "他にも特別な力があって…。\n"\
           "------------------------------------------\n"\
-          "If you've lost someone dear to you,\n"\
-          "and you think deeply about what \n"\
-          "they mean to you...\n"\
+          "もし大切な人を見失って、\n"\
+          "その人が自分にとってどんなに\n"\
+          "大事だったか深く考えたとき…。\n"\
           "------------------------------------------\n"\
-          "The light of the Hikaribana will glow and\n"\
-          "lead you to them.\n",
+          "ヒカリバナの光が\n"\
+          "その人の元へ導いてくれるんだ。\n",
         27 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[Winston2Neutral]\\fr\n"\
-          "Please... take this, and find your son.\n"\
+          "さぁ…持って行って。\n"\
+          "あの子を見つけてあげて。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Thank-you.\n",
+          "ありがとう。\n",
         40 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[Winston2Neutral]\\fr\n"\
-          "Oh, and one more thing!\n",
+          "あ、それともう一つ！\n",
         44 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "...Yes?\n"\
+          "…はい？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウィンストン]\\face[Winston2Neutral]\\fr\n"\
-          "You should start where his presence \n"\
-          "was the strongest.\n"\
+          "彼の存在がもっとも濃厚な\n"\
+          "場所から探すといいよ。\n"\
           "------------------------------------------\n"\
-          "The place he spent the most time recently;\n"\
-          "perhaps where he spent the most time\n"\
-          "alone with his thoughts.\n"\
+          "彼が最近、もっとも長く、\n"\
+          "そして恐らく孤独を感じながら\n"\
+          "過ごした場所。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウィンストン]\\face[Winston2]\\fr\n"\
-          "Good luck.\n"\
+          "がんばってね。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Thank-you.\n",
+          "ありがとう。\n",
       },
     },
     9 => {
@@ -28882,7 +28895,7 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "A Hikaribana.\n",
+          "ヒカリバナだ。\n",
       },
     },
   },
@@ -28892,8 +28905,8 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "\\iMom I'm scared... What is an \n"\
-          "X-ray?\n",
+          "\\i怖いよ、お母さん…。\n"\
+          "レントゲンってなに？\n",
       },
     },
     4 => {
@@ -28901,8 +28914,8 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "\\iAnd when the work is done, we'll all\n"\
-          "get to go home...\n",
+          "\\i仕事が片付けば、\n"\
+          "俺たちも帰れるから…。\n",
       },
     },
     7 => {
@@ -29018,17 +29031,17 @@ $events_lang = {
         3 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Enter the portal?\n",
+          "ゲートに入る？\n",
         5 => [["はい", "いいえ"], 2],
         14 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "But don't you worry... we're a strong\n"\
-          "bunch! \n"\
+          "心配いらないよ…。\n"\
+          "信頼できる仲間もいるんだ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[]\\face[]\n"\
-          "We're eating ramen together, and singing\n"\
-          "fight songs...\n",
+          "一緒にラーメン食って、\n"\
+          "歌で励ましあってさ…。\n",
       },
     },
     9 => {
@@ -29036,7 +29049,7 @@ $events_lang = {
         11 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "\\iI need to be more careful...\n",
+          "\\iもう少し気をつけないと…。\n",
       },
     },
     11 => {
@@ -29044,7 +29057,7 @@ $events_lang = {
         11 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "\\iI need to be more careful...\n",
+          "\\iもう少し気をつけないと…。\n",
       },
     },
   },
@@ -29203,8 +29216,8 @@ $events_lang = {
         4 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "It's too dark to see anything, I have to\n"\
-          "turn back...\n",
+          "暗くて何も見えないわね。\n"\
+          "一旦戻らないと…。\n",
       },
     },
   },
@@ -29261,18 +29274,18 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Turn on the laundry machine?\n",
+          "洗濯機の電源を入れる？\n",
         3 => [["はい", "いいえ"], 2],
         9 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "The laundry machine is now on.\n",
+          "洗濯機の電源を入れた。\n",
       },
       1 => {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "The laundry machine is on.\n",
+          "洗濯機が回っている。\n",
       },
     },
   },
@@ -29282,8 +29295,8 @@ $events_lang = {
         5 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "\\iI gotta find my \"to do\" list... I know it's \n"\
-          "in here somewhere...\n",
+          "\\iまずは\"チェックリスト\"を見つけないと…。\n"\
+          "この部屋にあると思うんだけど…。\n",
       },
     },
     2 => {
@@ -29291,17 +29304,17 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Mom's \"to do\" list:\n"\
+          "\"チェックリスト\":\n"\
           "------------------------------------------\n"\
-          "1.) Find work papers\n"\
-          "2.) Start the laundry\n"\
-          "3.) Water the plant\n"\
+          "1.) 書類を見つける\n"\
+          "2.) 洗濯機を回す\n"\
+          "3.) 盆栽に水をあげる\n"\
           "------------------------------------------\n"\
-          "4.) Turn on rice cooker\n",
+          "4.) 炊飯器をオンにする\n",
         7 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Ah, here it is! Time to get to work...\n",
+          "見つけた！さぁ、家事を済ませないと…。\n",
       },
     },
     3 => {
@@ -29309,7 +29322,7 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "A fresh pot of green tea.\n",
+          "淹れたてのお茶が入った急須だ。\n",
       },
     },
     4 => {
@@ -29317,7 +29330,8 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "A basket of juicy, red apples.\n",
+          "カゴには赤くてみずみずしい\n"\
+          "りんごが入ってる。\n",
       },
     },
     5 => {
@@ -29325,7 +29339,8 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "There's nothing on at this hour...\n",
+          "この時間、面白い番組は\n"\
+          "やってないわね…。\n",
       },
     },
     8 => {
@@ -29333,57 +29348,57 @@ $events_lang = {
         10 =>
           #------------------------------------------
           "\\ignr\\nm[お父さん]\\face[]\n"\
-          "Hon, are you in there?\n",
+          "ねぇ、そこにいる？\n",
         17 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Is someone calling me?\n",
+          "誰か呼んだ？\n",
         27 =>
           #------------------------------------------
           "\\ignr\\nm[お父さん]\\face[]\n"\
-          "Just me... \n"\
+          "俺だよ…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomClosedHappy]\\fr\n"\
           "…\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お父さん]\\face[]\n"\
-          "Just wanted to let you know that I gotta\n"\
-          "head in early today...\n"\
+          "今日は早めに出勤しないと\n"\
+          "いけなくなって…。\n"\
           "------------------------------------------\n"\
-          "Tetsuya called in sick, so they \n"\
-          "need an extra hand on the floor...\n"\
+          "テツヤが病欠で、現場の手が\n"\
+          "足りないみたいなんだ…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "Aww, that's too bad... \n"\
+          "あら、それは大変ね…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomTalking]\\fr\n"\
-          "Well, your lunch is all ready, I just gotta\n"\
-          "grab it from the kitchen.\n"\
+          "お弁当は作ってあるから、\n"\
+          "持ってきてあげるね。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お父さん]\\face[]\n"\
-          "Oh I can grab it on the way out! \n"\
+          "いや、俺が取ってくるよ！\n"\
           "------------------------------------------\n"\
-          "You two gonna be okay picking up\n"\
-          "grandma from the station?\n"\
+          "おばあちゃんのお迎えを\n"\
+          "二人に任せてもいいかな？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "I think we should be fine. I'll let you \n"\
-          "know if we run into any trouble!\n"\
+          "多分大丈夫。何かあったら\n"\
+          "知らせるわね！\n"\
           "------------------------------------------\n"\
-          "I just gotta take care of some things \n"\
-          "around the house before we head out.\n"\
+          "迎えに行く前に、家事を\n"\
+          "少し終わらせなくちゃ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お父さん]\\face[]\n"\
-          "Alrighty, I'll see ya later then. \n"\
-          "I love you.\n"\
+          "よし、それじゃあ行ってくる。\n"\
+          "愛してるよ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomClosedHappy]\\fr\n"\
-          "I love you, too.\n",
+          "私もよ。\n",
         65 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomClosed]\\fr\n"\
-          "\\iHmm... now where did I put that \"to do\"\n"\
-          "list? It's gotta be around here somewhere...\n",
+          "\\iさて…\"チェックリスト\"はどこかしら？\n"\
+          "この辺りにあると思うんだけど…。\n",
       },
     },
     9 => {
@@ -29391,41 +29406,41 @@ $events_lang = {
         8 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Hello?\n"\
+          "もしもし？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[]\\face[]\n"\
-          "Hello ma'am...\n"\
+          "もしもし…。\n"\
           "------------------------------------------\n"\
-          "I'm calling from Sakuramachi Elementary \n"\
-          "with an urgent message about your son.\n"\
+          "私、桜町小学校の者です。\n"\
+          "お子さんの緊急の件で電話しました。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomSurprised]\\fr\n"\
-          "My son? Is everything okay?\n"\
+          "うちの子が？大丈夫なんですか？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[]\\face[]\n"\
-          "He's okay right now... \n"\
+          "今は落ち着いています…。\n"\
           "------------------------------------------\n"\
-          "He's resting here at the nurse's office for\n"\
-          "the time being, but you're gonna have to\n"\
-          "come and pick him up.\n"\
+          "とりあえず保健室で休ませて\n"\
+          "いますが、すぐお迎えに\n"\
+          "来ていただけませんか。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "My goodness, what happened?\n"\
+          "一体何があったんでしょうか？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[]\\face[]\n"\
-          "His teacher said that he passed out \n"\
-          "during class... \n"\
+          "担任の先生によると、授業中に\n"\
+          "突然吐いてしまったらしく…。\n"\
           "------------------------------------------\n"\
-          "He also complained of a severe headache \n"\
-          "and nausea right before... I'm sure\n"\
-          "it's just a flu or something like that...\n"\
+          "その直前には、激しい頭痛と\n"\
+          "吐き気を訴えていました…。\n"\
+          "インフルエンザか何かかと思うのですが…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomMad]\\fr\n"\
-          "I'm leaving right now, I'll be there \n"\
-          "as soon as I can.\n"\
+          "これから家を出るので、\n"\
+          "すぐそちらに向かいます。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[]\\face[]\n"\
-          "Thank-you ma'am.\n",
+          "お願いします。\n",
       },
     },
     12 => {
@@ -29433,8 +29448,8 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "A newspaper opened to an article about\n"\
-          "nuclear power reactor facilities.\n",
+          "原子力発電所の原子炉設備に関する\n"\
+          "記事が開かれた新聞がある。\n",
       },
     },
   },
@@ -29444,64 +29459,66 @@ $events_lang = {
         163 =>
           #------------------------------------------
           "\\ignr\\nm[先生]\\face[]\n"\
-          "We'll be taking your son to Radiology to\n"\
-          "do a few X-rays. It won't take too long.\n"\
+          "放射線科でお子さんの\n"\
+          "レントゲン写真を撮ります。\n"\
+          "長くはかかりません。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySad_hair]\\fr\n"\
-          "Mom, I'm scared...\n"\
+          "怖いよ、お母さん…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "It's alright honey, I've had many X-rays\n"\
-          "before and it doesn't hurt at all.\n",
+          "大丈夫、レントゲンなんて何回も\n"\
+          "撮ったけど全然痛くないんだから。\n",
         173 =>
           #------------------------------------------
           "\\ignr\\nm[先生]\\face[]\n"\
-          "\\e[1]This way, ma'am.\n",
+          "\\e[1]こちらです、お母さん。\n",
         177 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoySad_hair]\\fr\n"\
-          "What is an X-ray?\n"\
+          "レントゲンってなに？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Well... do you remember that one episode\n"\
-          "of NekoPan Man when his friend gets eaten?\n"\
+          "そうねぇ…ネコパンマンで、\n"\
+          "お友達が食べられちゃった話が\n"\
+          "あったでしょ？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySad_hair]\\fr\n"\
-          "Yeah...\n"\
+          "うん…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Do you remember what NekoPan Man did\n"\
-          "to save the day?\n"\
+          "ネコパンマンがどうやって\n"\
+          "助け出したか覚えてる？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyThinking_hair]\\fr\n"\
-          "Hmm...\n"\
+          "うーん…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyOpenMouth_hair]\\fr\n"\
-          "He used X-Ray Goggles to see inside \n"\
-          "the giant's tummy. \n"\
+          "レントゲンゴーグルで巨人の\n"\
+          "お腹の中を見たんだよね。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyThinking_hair]\\fr\n"\
-          "He could see that his friend was in there...\n"\
+          "お友達が入ってるのが見えたから…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyHappy2_hair]\\fr\n"\
-          "So he tricked the giant into drinking so\n"\
-          "much soda that he burped his friend out!\n"\
+          "巨人を騙してソーダを飲ませて、\n"\
+          "ゲップをさせて助けたんだ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Yup!\n"\
+          "そうそう！\n"\
           "------------------------------------------\n"\
-          "The doctors are gonna use an X-Ray to\n"\
-          "look inside YOUR tummy to see what's\n"\
-          "going on in there.\n"\
+          "先生がレントゲンを使って、\n"\
+          "お腹の中がどうなってるのか\n"\
+          "見てくれるのよ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "To make sure everything is okay.\n"\
+          "なんともないって確かめるためにね。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[Boy_hair]\\fr\n"\
-          "Does that mean I get to drink soda?\n"\
+          "じゃあ僕、ソーダを飲むの？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomTalking]\\fr\n"\
-          "We'll talk about that later.\n"\
+          "お話はまた後でね。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyHappy3_hair]\\fr\n"\
           "…\n",
@@ -29522,87 +29539,86 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyDepressed_hair]\\fr\n"\
-          "Mom...\n"\
+          "お母さん…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySad_hair]\\fr\n"\
-          "I had another bad dream...\n",
+          "また悪い夢を見たよ…。\n",
         16 =>
           #------------------------------------------
-          "Everyone's gonna look at me funny...\n"\
+          "みんなが僕を見て笑うんだ…。\n"\
           "------------------------------------------\n"\
-          "I don't want people to stare at me.\n"\
+          "僕を見ないで…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "Oh sweetie...\n"\
+          "…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomTalking]\\fr\n"\
-          "You know...\n"\
+          "ねぇ…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "I just remembered something really \n"\
-          "important...\n"\
+          "大切なことを\n"\
+          "思い出したわ…。\n"\
           "------------------------------------------\n"\
-          "Something your father and I have been\n"\
-          "meaning to teach you...\n"\
+          "お父さんと私が、あなたに\n"\
+          "ずっと教えようと思ってたこと…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyOpenMouth_hair]\\fr\n"\
-          "What is it?\n"\
+          "それって何？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomTalking]\\fr\n"\
-          "Well...\n"\
+          "それはね…。\n"\
           "------------------------------------------\n"\
-          "What if I told you that with JUST a piece\n"\
-          "of paper, you could make a very special\n"\
-          "piece of armor...\n"\
+          "たった1枚の紙から、特製の\n"\
+          "防具が作れたらすごいと思わない？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySurprised_hair]\\fr\n"\
-          "Really??\n"\
+          "作れるの？？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomTalking]\\fr\n"\
-          "Oh yes... a helmet, in fact.\n"\
+          "えぇ…兜だけどね。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "A helmet that looks like the helmets\n"\
-          "samurai used to wear in battle!\n"\
+          "まるで侍が被るような\n"\
+          "兜なんだよ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyHappy2_hair]\\fr\n"\
-          "Wow!!\n"\
+          "わぁ！！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyOpenMouth_hair]\\fr\n"\
-          "Will you teach me, Mom... please?\n"\
+          "僕にも教えて欲しいな…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Of course.\n"\
+          "もちろん。\n"\
           "------------------------------------------\n"\
-          "And lucky for you, I found some paper\n"\
-          "right in our room! \n"\
+          "幸い、この部屋で\n"\
+          "紙も見つけられたしね！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomClosedHappy]\\fr\n"\
-          "Let's get to work...\n"\
+          "早速やってみようか…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyHappy2_hair]\\fr\n"\
-          "Yeah!\n",
+          "やったぁ！\n",
         96 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyHappy2]\\fr\n"\
-          "Mom it's so cool!\n"\
+          "うわぁ、かっこいいね！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomClosedHappy]\\fr\n"\
-          "You look great.\n"\
+          "似合ってるわよ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Like a real samurai.\n"\
+          "本当の侍みたい。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
-          "Thank-you Mom.\n",
+          "ありがとう、お母さん。\n",
         114 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyDepressed_hair]\\fr\n"\
-          "I'm not feeling good, Mom...\n"\
+          "気持ち悪いよ、お母さん…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "I'm sorry honey... I'll see if I can find \n"\
-          "something for us to do.\n",
+          "かわいそうに…気が紛れるものを\n"\
+          "探してきてあげるね。\n",
       },
     },
     3 => {
@@ -29631,7 +29647,7 @@ $events_lang = {
         6 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "\\i保管区画5B。患者の立ち入りを禁ずる。\n",
+          "\\i保管区画 5B。患者の立ち入りを禁ずる。\n",
       },
     },
     6 => {
@@ -29644,10 +29660,10 @@ $events_lang = {
         4 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "The drawer is filled with plain white\n"\
-          "printer paper and crayons.\n"\
+          "中にはまっさらな印刷用紙と\n"\
+          "クレヨンが入っていた。\n"\
           "------------------------------------------\n"\
-          "Take some with you?\n",
+          "少し持っていく？\n",
         8 => [["はい", "いいえ"], 2],
         12 =>
           #------------------------------------------
@@ -29677,28 +29693,28 @@ $events_lang = {
           #------------------------------------------
           "\\ignr\\nm[受付係]\\face[]\n"\
           "もしもし、どうしました？\n",
-        14 => [["ごめんなさい、間違えました…", "Do you have any activities?", "When will the doctor be by?"], 4],
+        14 => [["ごめんなさい、間違えました…", "遊べるものはありませんか？", "先生はいつ来るんですか？"], 4],
         16 =>
           #------------------------------------------
           "\\ignr\\nm[受付係]\\face[]\n"\
-          "No worries. Let us know if you need\n"\
-          "anything.\n",
+          "大丈夫ですよ。何かあったら\n"\
+          "遠慮なくおっしゃってください。\n",
         26 =>
           #------------------------------------------
           "\\ignr\\nm[受付係]\\face[]\n"\
-          "We do! \n"\
+          "ありますよ！\n"\
           "------------------------------------------\n"\
-          "The children's lounge has all sorts of things,\n"\
-          "but if your son isn't feeling well enough to\n"\
-          "leave the room, hm...\n"\
+          "子ども向けラウンジに行けば\n"\
+          "色々置いてあります。\n"\
+          "もし具合が悪いようなら…\n"\
           "------------------------------------------\n"\
-          "...I believe there should be some paper\n"\
-          "and crayons in the drawers.\n",
+          "…たしか引き出しの中に\n"\
+          "紙とクレヨンが入ってるはずです。\n",
         40 =>
           #------------------------------------------
           "\\ignr\\nm[受付係]\\face[]\n"\
-          "Your doctor should be making her\n"\
-          "rounds shortly. \n",
+          "先生は回診中で、\n"\
+          "少し席を外しています。\n",
       },
     },
   },
@@ -29708,43 +29724,44 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[シフトリーダー]\\face[]\n"\
-          "How's your son doing today?\n"\
+          "息子さんは元気ですか？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "He's hanging in there... Misses the rest\n"\
-          "of the family, but they'll be visiting soon.\n"\
+          "がんばっています…。\n"\
+          "他の家族にも会いたがってて、\n"\
+          "近くお見舞いに来る予定です。\n"\
           "------------------------------------------\n"\
-          "I think he'll be especially happy to see\n"\
-          "his Dad.\n"\
+          "特にお父さんに\n"\
+          "会いたがってるみたいで。\n"\
           "------------------------------------------\n"\
-          "How are you doing today?\n"\
+          "そちらはどうですか？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[シフトリーダー]\\face[]\n"\
-          "I'm on my break right now, and they \n"\
-          "restocked the vending machine so...\n"\
+          "今は休憩中です。自動販売機も\n"\
+          "補充されたので…。\n"\
           "------------------------------------------\n"\
-          "Not too shabby.\n"\
+          "悪くないですね。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomClosedHappy]\\fr\n"\
           "…\n",
         18 =>
           #------------------------------------------
           "\\ignr\\nm[シフトリーダー]\\face[]\n"\
-          "I think our vending machines need a \n"\
-          "bigger selection, ya know?\n",
+          "自動販売機にもっと色々\n"\
+          "置いて欲しいと思いません？\n",
       },
       1 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[シフトリーダー]\\face[]\n"\
-          "This whole place is shaking! We gotta\n"\
-          "get outta here!\n"\
+          "建物全体が揺れてます！\n"\
+          "避難しましょう！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomSurprised]\\fr\n"\
-          "But my son's still in this wing! \n"\
+          "この病棟に子どもがいるんです！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomMad]\\fr\n"\
-          "I have to find him!\n",
+          "探しに行かないと！\n",
       },
     },
     2 => {
@@ -29752,53 +29769,53 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "A vending machine.\n"\
+          "自動販売機だ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[]\\face[]\n"\
-          "What would you like?\n",
-        5 => [["Green Tea", "Peanut Chew Chews", "Hot Coffee"], 4],
+          "何を買う？\n",
+        5 => [["緑茶", "ピーナツチョコバー", "ホットコーヒー"], 4],
         8 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "I already have one of these.\n",
+          "もう買ってあるわね。\n",
         14 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
           "\\oi[5]を手に入れた。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "\\iI've been craving this all day...\n"\
+          "\\i今日はこれが飲みたかったのよ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomSurprised]\\fr\n"\
-          "Huh...?\n",
+          "あら…？\n",
         32 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSurprised]\\fr\n"\
-          "\\iI could have sworn I felt something...\n",
+          "\\i気のせいだったのかしら…。\n",
         38 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSurprised]\\fr\n"\
-          "Oh my gosh!\n",
+          "きゃ！\n",
         45 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomMad]\\fr\n"\
-          "I have to find my son!\n",
+          "あの子を探さないと！\n",
         55 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "\\iHmm... I'm not really feeling like eating\n"\
-          "those right now.\n",
+          "\\iうーん…\n"\
+          "今はそんな気分じゃないわね。\n",
         60 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "\\iHmm... I'm not really feeling like \n"\
-          "drinking that right now.\n",
+          "\\iうーん…\n"\
+          "今はそんな気分じゃないわね。\n",
       },
       1 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomMad]\\fr\n"\
-          "I have to find my son!\n",
+          "あの子を探さないと！\n",
       },
     },
     3 => {
@@ -29806,8 +29823,8 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "\\iI think I want to get some tea before\n"\
-          "I leave...\n",
+          "\\i帰る前にちょっと\n"\
+          "お茶を飲みたいわね…。\n",
       },
     },
     4 => {
@@ -29815,53 +29832,53 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "A vending machine.\n"\
+          "自動販売機だ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[]\\face[]\n"\
-          "What would you like?\n",
-        5 => [["Green Tea", "Peanut Chew Chews", "Hot Coffee"], 4],
+          "何を買う？\n",
+        5 => [["緑茶", "ピーナツチョコバー", "ホットコーヒー"], 4],
         8 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "I already have one of these.\n",
+          "もう買ってあるわね。\n",
         14 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
           "\\oi[5]を手に入れた。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "\\iI've been craving this all day...\n"\
+          "\\i今日はこれが飲みたかったのよ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomSurprised]\\fr\n"\
-          "Huh...?\n",
+          "あら…？\n",
         32 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSurprised]\\fr\n"\
-          "\\iI could have sworn I felt something...\n",
+          "\\i気のせいだったのかしら…。\n",
         38 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSurprised]\\fr\n"\
-          "Oh my gosh!\n",
+          "きゃ！\n",
         45 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomMad]\\fr\n"\
-          "I have to find my son!\n",
+          "あの子を探さないと！\n",
         54 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "\\iHmm... I'm not really feeling like eating\n"\
-          "those right now.\n",
+          "\\iうーん…\n"\
+          "今はそんな気分じゃないわね。\n",
         59 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "\\iHmm... I'm not really feeling like \n"\
-          "drinking that right now.\n",
+          "\\iうーん…\n"\
+          "今はそんな気分じゃないわね。\n",
       },
       1 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomMad]\\fr\n"\
-          "I have to find my son!\n",
+          "あの子を探さないと！\n",
       },
     },
     6 => {
@@ -29869,15 +29886,15 @@ $events_lang = {
         3 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "\\iI think I want to get some tea before\n"\
-          "I leave...\n",
+          "\\i帰る前にちょっと\n"\
+          "お茶を飲みたいわね…。\n",
       },
       1 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomMad]\\fr\n"\
-          "\\iThe door is jammed shut! I gotta take\n"\
-          "the other exit...\n",
+          "\\i何かが引っかかって開かない！\n"\
+          "他の出口を探さないと…。\n",
       },
     },
   },
@@ -29887,18 +29904,18 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[ジャッキー]\\face[JackyStern]\\fr\n"\
-          "I don't know how structurally sound \n"\
-          "we are...\n"\
+          "構造的にどれだけ安全か\n"\
+          "わかりません…。\n"\
           "------------------------------------------\n"\
-          "It's probably best to evacuate as soon\n"\
-          "快適な場所にいさせてあげたいんだ。\n"\
+          "一刻も早く\n"\
+          "避難したほうがいいです。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomMad]\\fr\n"\
-          "My son's still in this wing, I need to\n"\
-          "find him!\n"\
+          "この病棟に子どもがいるんです。\n"\
+          "探しに行かないと！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ジャッキー]\\face[JackyStern]\\fr\n"\
-          "Please be careful...\n",
+          "わかりました、でも気をつけて…。\n",
       },
     },
     4 => {
@@ -29906,8 +29923,8 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[受付係]\\face[]\n"\
-          "I can't go back in there... everything's\n"\
-          "collapsed...\n",
+          "中には入れません…\n"\
+          "何もかも倒れてるんです。。\n",
       },
     },
     5 => {
@@ -29915,11 +29932,11 @@ $events_lang = {
         3 =>
           #------------------------------------------
           "\\ignr\\nm[先生]\\face[]\n"\
-          "Lady what are you doing? Get \n"\
-          "yourself outta here!\n"\
+          "何してるんです？\n"\
+          "早く避難してください！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomMad]\\fr\n"\
-          "I have to find my son!!\n",
+          "子どもを探してるんです！！\n",
       },
     },
     6 => {
@@ -29943,8 +29960,8 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[ナース]\\face[]\n"\
-          "No, you can't go this way... the whole\n"\
-          "place is fallin' down!\n",
+          "そっちはいけません！\n"\
+          "今にも崩れそうです！\n",
       },
     },
     10 => {
@@ -29954,8 +29971,8 @@ $events_lang = {
           "\\ignr\\nm[]\\face[]\n"\
           "全スタッフへ 緊急連絡\n"\
           "------------------------------------------\n"\
-          "New shift schedules will be posted Friday\n"\
-          "morning at 9am.\n",
+          "新しいシフトは\n"\
+          "金曜の朝9時に貼り出されます。\n",
       },
     },
     11 => {
@@ -29965,8 +29982,8 @@ $events_lang = {
           "\\ignr\\nm[]\\face[]\n"\
           "全スタッフへ 緊急連絡\n"\
           "------------------------------------------\n"\
-          "New shift schedules will be posted Friday\n"\
-          "morning at 9am.\n",
+          "新しいシフトは\n"\
+          "金曜の朝9時に貼り出されます。\n",
       },
     },
     12 => {
@@ -29992,18 +30009,18 @@ $events_lang = {
         4 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoySad]\\fr\n"\
-          "Mom!! What's happening? \n"\
+          "お母さん！！どうなってるの？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomMad]\\fr\n"\
-          "Hold tight dear, I'm almost there!\n",
+          "しっかりして、すぐに行くから！\n",
         11 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoySad]\\fr\n"\
-          "I'm so scared!\n",
+          "怖いよ！\n",
         63 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomTalking]\\fr\n"\
-          "Everything's gonna be alright...\n",
+          "もう大丈夫だから…。\n",
       },
     },
   },
@@ -30021,45 +30038,46 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyThinking]\\fr\n"\
-          "Mom... Did you see outside?\n"\
+          "お母さん…外、見た？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySurprised]\\fr\n"\
-          "There's water EVERYWHERE!\n"\
+          "水だらけだよ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "I know, dear... That's why we all have to\n"\
-          "stay indoors right now.\n"\
+          "そうね…だから今はみんな\n"\
+          "外に出られないのよ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyThinking]\\fr\n"\
-          "Will we have to swim everywhere?\n"\
+          "泳がないといけなく\n"\
+          "なっちゃうの？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "The water will eventually return to\n"\
-          "normal, so no.\n"\
+          "水はいつか元に戻るから、\n"\
+          "大丈夫。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyThinking]\\fr\n"\
-          "What about Dad... how is he gonna get\n"\
-          "back from work?\n"\
+          "でもお父さんは…\n"\
+          "どうやって仕事から帰ればいいの？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomClosed]\\fr\n"\
-          "You don't need to worry about that... \n"\
+          "心配いらないよ…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "When it's Dad's time to come home, the \n"\
-          "plant has arranged for special transportation.\n"\
+          "お父さんが帰るときには、\n"\
+          "会社が送ってくれるから。\n"\
           "------------------------------------------\n"\
-          "Why they have all sorts of people helping\n"\
-          "out... the firemen, the police, even folks who\n"\
-          "have boats!\n"\
+          "警察に消防、それに\n"\
+          "ボートを持ってる人まで\n"\
+          "助けに来てくれてるんだよ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySad]\\fr\n"\
-          "I miss him...\n"\
+          "お父さんに会いたい…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "Me too, dear...\n"\
+          "えぇ、私もよ…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "But we're gonna see him soon enough.\n"\
+          "きっとすぐに会えるわ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyDepressed]\\fr\n"\
           "…\n",
@@ -30070,81 +30088,82 @@ $events_lang = {
         39 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomTalking]\\fr\n"\
-          "I was just thinking...\n",
-        41 => [["Would you like a snack?", "Do you want to draw?", "Speaking of water...", "Get some rest, dear."], 4],
+          "そうねぇ…。\n",
+        41 => [["おやつ食べたくない？", "お絵かきしない？", "水といえば…。", "ゆっくり休んでね。"], 4],
         43 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Are you hungry at all? Would you like me\n"\
-          "to grab you something from the cafeteria?\n"\
+          "お腹は減ってない？カフェテリアで\n"\
+          "何かもらってこようか？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyBummed]\\fr\n"\
-          "Thanks Mom, but...\n"\
+          "ありがとう、おかあさん。でも…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyDepressed]\\fr\n"\
-          "I'm not really hungry at all.\n",
+          "お腹は全然減らないんだ。\n",
         52 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Would you like to draw some pictures?\n"\
+          "お絵かきはどう？\n"\
           "------------------------------------------\n"\
-          "We could draw the dinosaurs from the \n"\
-          "latest episode of NekoPan Man!\n"\
+          "前にネコパンマンに出てきた\n"\
+          "恐竜を描いてみようよ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyThinking]\\fr\n"\
-          "Naw... that's okay...\n",
+          "ううん…やめておくよ…。\n",
         60 =>
           #------------------------------------------
+          # TODO ジョーク
           "\\ignr\\nm[お母さん]\\face[MomSurprised]\\fr\n"\
-          "Oh!\n"\
+          "そうだ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomTalking]\\fr\n"\
-          "Did I ever tell you about my friend\n"\
-          "from Fiji?\n"\
+          "フィジーから来た友達の話、\n"\
+          "まだしてなかったよね？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyNeutral]\\fr\n"\
-          "No...\n"\
+          "うん…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomTalking]\\fr\n"\
-          "Well from what I've heard...\n"\
+          "聞いた話なんだけどね…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "In Fiji, there's so much water that they \n"\
-          "DO swim everywhere...\n"\
+          "その子が住んでた辺りは\n"\
+          "周りが水だらけで、\n"\
+          "どこへ行くにも泳ぐんだって…。\n"\
           "------------------------------------------\n"\
-          "To their friends' houses, to the park,\n"\
-          "even to school! They just hop in the \n"\
-          "water and go!\n"\
+          "友達の家も、公園も、学校も！\n"\
+          "みんな水に飛び込んで行くのよ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyOpenMouth]\\fr\n"\
-          "Won't their books get wet?\n"\
+          "教科書が濡れちゃうんじゃないの？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "I think everything they need is just kept\n"\
-          "at the school. \n"\
+          "きっと必要なものはみんな\n"\
+          "学校に置いてあるんじゃないかな。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomTalking]\\fr\n"\
-          "Which is pretty important if you think\n"\
-          "about it...\n"\
+          "考えてみたら、それって\n"\
+          "大事なことよね…。\n"\
           "------------------------------------------\n"\
           "I mean, you want a good education; you\n"\
           "don't want it to be \\iwatered down\\i...\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomSurprised]\\fr\n"\
-          "...Eh?\n",
+          "…どう？\n",
         88 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomClosedHappy]\\fr\n"\
-          "...Eh?\n"\
+          "…面白かった？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyHappy2]\\fr\n"\
-          "Mom!!\n",
+          "もう、お母さんったら！！\n",
       },
       1 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
-          "Mom, the phone is ringing! \n",
+          "お母さん、電話だよ！\n",
       },
     },
     3 => {
@@ -30170,96 +30189,96 @@ $events_lang = {
           #------------------------------------------
           "\\ignr\\nm[受付係]\\face[]\n"\
           "もしもし、どうしました？\n",
-        14 => [["ごめんなさい、間違えました…", "Are there disaster updates?", "When will the doctor be by?"], 4],
+        14 => [["ごめんなさい、間違えました…", "災害情報はありますか？", "先生はいつ来るんですか？"], 4],
         16 =>
           #------------------------------------------
           "\\ignr\\nm[受付係]\\face[]\n"\
-          "No worries. Let us know if you need\n"\
-          "anything.\n",
+          "大丈夫ですよ。何かあったら\n"\
+          "遠慮なくおっしゃってください。\n",
         26 =>
           #------------------------------------------
           "\\ignr\\nm[受付係]\\face[]\n"\
-          "Patients are still advised to stay within\n"\
-          "the designated safe zones.\n"\
+          "患者さんには引き続き、指定の\n"\
+          "安全な場所にいるようお願いしています。\n"\
           "------------------------------------------\n"\
-          "The power will be shut off at approximately\n"\
-          "4pm today, but phone lines will still be \n"\
-          "available.\n",
+          "午後4時には電力が切れる\n"\
+          "見込みですが、その後も\n"\
+          "電話は使えますからね。\n",
         39 =>
           #------------------------------------------
           "\\ignr\\nm[受付係]\\face[]\n"\
-          "Your doctor will probably be running late \n"\
-          "today due to the influx of new patients.\n",
+          "患者さんが殺到しているので、\n"\
+          "先生は遅れると思います。\n",
       },
       1 => {
         7 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Hello?\n"\
+          "もしもし？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お父さん]\\face[]\n"\
-          "Hi honey, it's me...\n",
+          "あぁ、俺だよ…。\n",
         15 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyHappy1]\\fr\n"\
-          "Dad!!\n"\
+          "お父さん！！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Oh honey, I'm so happy to hear \n"\
-          "from you...\n"\
+          "声が聞けてよかった…。\n"\
           "------------------------------------------\n"\
-          "We all miss you so much...\n"\
+          "あなたがいなくて\n"\
+          "みんな寂しがってるのよ…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お父さん]\\face[]\n"\
-          "I miss you too, I've been thinking about\n"\
-          "all of you...\n",
+          "俺も寂しいよ。\n"\
+          "家族のことばかり考えてる…。\n",
         26 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "Is everything alright? \n",
+          "うまくいってるの？\n",
         29 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyNeutral]\\fr\n"\
-          "Dad?\n",
+          "お父さん？\n",
         32 =>
           #------------------------------------------
           "\\ignr\\nm[お父さん]\\face[]\n"\
-          "Our team is gonna have to stay at the\n"\
-          "plant a bit longer...\n"\
+          "うちの班はもう少し発電所で\n"\
+          "作業することになってな…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "Dear...\n"\
+          "そんな…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お父さん]\\face[]\n"\
-          "But don't you worry... we're a strong\n"\
-          "bunch! \n"\
+          "心配いらないよ…。\n"\
+          "信頼できる仲間もいるんだ！\n"\
           "------------------------------------------\n"\
-          "We're eating ramen together, and singing\n"\
-          "fight songs... We'll pull together and protect\n"\
-          "our town.\n"\
+          "一緒にラーメン食って、\n"\
+          "歌で励ましあってさ…。\n"\
+          "力を合わせて故郷を守るよ。\n"\
           "------------------------------------------\n"\
-          "And when the work is done, we'll all\n"\
-          "get to go home...\n"\
+          "仕事が片付けば、\n"\
+          "俺たちも帰れるから…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
           "…\n",
         48 =>
           #------------------------------------------
           "\\ignr\\nm[お父さん]\\face[]\n"\
-          "I love you so very much...\n"\
+          "心から愛してるよ…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "I love you too.\n"\
+          "私も、愛してる。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySurprised2]\\fr\n"\
-          "...Dad?\n"\
+          "…お父さん？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お父さん]\\face[]\n"\
-          "They're calling us back now... take care\n"\
-          "of them for me.\n"\
+          "もう戻らないと…。\n"\
+          "みんなのことを頼んだよ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySurprised]\\fr\n"\
-          "Dad!!!\n",
+          "お父さん！！\n",
       },
     },
     5 => {
@@ -30276,7 +30295,7 @@ $events_lang = {
         6 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "\\i保管区画5B。患者の立ち入りを禁ずる。\n",
+          "\\i保管区画 5B。患者の立ち入りを禁ずる。\n",
       },
     },
     6 => {
@@ -30284,23 +30303,23 @@ $events_lang = {
         4 =>
           #------------------------------------------
           "\\ignr\\nm[ナース]\\face[]\n"\
-          "It's pretty tough getting everything taken care\n"\
-          "of on a few hours of electricity each day...\n"\
+          "1日に数時間の電力供給で\n"\
+          "全てを賄うのは無理があります…。\n"\
           "------------------------------------------\n"\
-          "Still though, I can't complain. We're lucky to \n"\
-          "have these generators...\n"\
+          "それでも、文句は言えません。\n"\
+          "幸い発電機があるんですからね…。\n"\
           "------------------------------------------\n"\
-          "And VERY lucky so much of our hospital \n"\
-          "wing was still left intact!\n",
+          "むしろ、この病棟が無事で\n"\
+          "運が良かったくらいですよ！\n",
         14 =>
           #------------------------------------------
           "\\ignr\\nm[ナース]\\face[]\n"\
-          "That constant hum you're hearing is coming\n"\
-          "from downstairs...\n"\
+          "ずっとブンブンいってる音は\n"\
+          "下の階で鳴ってるんですよ…。\n"\
           "------------------------------------------\n"\
-          "They've been using this time to pump water\n"\
-          "out of the basement. So many supplies were\n"\
-          "ruined...\n",
+          "多くの物資がダメになって\n"\
+          "しまったけど、それでも今のうちに\n"\
+          "ポンプで地下の排水をしてるそうです…。\n",
       },
     },
     8 => {
@@ -30323,20 +30342,21 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "A clipping from a newspaper article has\n"\
-          "been fixed to the bulletin board.\n"\
+          "新聞記事の切り抜きが\n"\
+          "掲示板に貼られている。\n"\
           "------------------------------------------\n"\
           "読んでみる？\n",
         4 => [["はい", "いいえ"], 2],
         6 =>
           #------------------------------------------
-          "18 MARCH (APN) - \n"\
-          "\\i--There would be grounds to suspect that\n"\
-          "many workers were not really aware of the \n"\
+          "3月18日 (APN) - \n"\
+          "\\i--作業員の多くが、その作業の危険性を\n"\
+          "十分に周知されていなかったと\n"\
+          "\n"\
           "------------------------------------------\n"\
-          "\\idangers of their assignment. However, \n"\
-          "according to Prime Minister Naoto Kan, the\n"\
-          "workers were \"prepared for death\"-- \n",
+          "\\i疑われるのも無理はない。\n"\
+          "しかし菅直人総理大臣によると、\n"\
+          "作業員たちは\"決死の覚悟\"で--\n",
       },
     },
     2 => {
@@ -30344,11 +30364,11 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[先生]\\face[]\n"\
-          "It's a great and noble thing what your\n"\
-          "husband and those other workers did.\n"\
+          "ご主人や作業員の方々の行動は\n"\
+          "本当に立派なものでした。\n"\
           "------------------------------------------\n"\
-          "They truly are heroes, and will always\n"\
-          "be remembered.\n",
+          "彼らこそヒーローです。\n"\
+          "忘れることはできません。\n",
       },
     },
     3 => {
@@ -30356,11 +30376,10 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[ナース]\\face[]\n"\
-          "It's probably best to keep clear of this\n"\
-          "area... \n"\
+          "この辺りは歩かないほうが\n"\
+          "いいかもしれません…。\n"\
           "------------------------------------------\n"\
-          "The floor is starting to cave in from all \n"\
-          "the water damage.\n",
+          "水害で床が崩れ始めていますから。\n",
       },
     },
     4 => {
@@ -30368,27 +30387,27 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[先生]\\face[Doctor]\\fr\n"\
-          "He's almost finished for the day... \n"\
+          "もう少しで今日の治療が終わります…。\n"\
           "------------------------------------------\n"\
-          "Why don't you check back in a little bit...\n"\
-          "I'm sure he'd love a visit from you.\n",
+          "もう少し経ったら来てください…。\n"\
+          "きっとあなたに会いたいはずです。\n",
       },
       1 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[先生]\\face[Doctor]\\fr\n"\
-          "Your son's all finished for the day, and\n"\
-          "is resting in the recovery room.\n"\
+          "息子さんは今日の治療を終えて、\n"\
+          "回復室で休んでいます。\n"\
           "------------------------------------------\n"\
-          "Would you like to visit him now?\n",
-        4 => [["Yes", "I'm not ready yet..."], 2],
+          "彼のところに行きますか？\n",
+        4 => [["はい。", "まだ準備が…。"], 2],
         6 =>
           #------------------------------------------
-          "Okay, come with me...\n",
+          "では、こちらへどうぞ…。\n",
         13 =>
           #------------------------------------------
-          "Just let me know when you're ready\n"\
-          "and I can escort you to his room.\n",
+          "準備ができたら教えてください。\n"\
+          "彼の部屋に案内しますので。\n",
       },
     },
     6 => {
@@ -30396,27 +30415,27 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[ナース]\\face[]\n"\
-          "I just can't imagine what it must have been\n"\
-          "like for those workers...\n"\
+          "作業員のみなさんがどんな\n"\
+          "気持ちだったか、想像もつきません…。\n"\
           "------------------------------------------\n"\
-          "I mean, our hospital's been hit pretty hard\n"\
-          "by all this... but I still feel like it's nothing\n"\
-          "compared to what they went through.\n"\
+          "この病院も大きな被害を受けました…。\n"\
+          "それでも、彼らの状況を考えれば\n"\
+          "なんでもないことに思えるんです。\n"\
           "------------------------------------------\n"\
-          "Your husband's a real hero... staying \n"\
-          "behind like that to take care of the power\n"\
-          "plant...\n",
+          "あんなことになった発電所に\n"\
+          "残り続けたなんて…あなたの\n"\
+          "旦那さんは真のヒーローです…。\n",
       },
     },
     7 => {
       0 => {
         3 =>
           #------------------------------------------
-          "\\ignr\\nm[Hospital Guest]\\face[]\n"\
-          "The vending machines are all empty. \n"\
+          "\\ignr\\nm[見舞客]\\face[]\n"\
+          "この自動販売機はみんな売り切れですよ。\n"\
           "------------------------------------------\n"\
-          "I wonder if they'd let us take the sample\n"\
-          "drinks outta the display...\n",
+          "見本の缶にも\n"\
+          "飲み物が入ってたらいいのに…。\n",
       },
     },
     8 => {
@@ -30424,11 +30443,10 @@ $events_lang = {
         3 =>
           #------------------------------------------
           "\\ignr\\nm[コラ]\\face[CoraConfused]\\fr\n"\
-          "We're so lucky to be this high up...\n"\
+          "高いところにいてよかった…。\n"\
           "------------------------------------------\n"\
-          "People are saying the water washed \n"\
-          "away all the food and medicine from\n"\
-          "the ground floor...\n",
+          "地下にあった食料も薬も、\n"\
+          "みんな流されちゃったんだって…。\n",
       },
     },
     9 => {
@@ -30436,29 +30454,29 @@ $events_lang = {
         4 =>
           #------------------------------------------
           "\\ignr\\nm[ダニエル]\\face[Danielle]\\fr\n"\
-          "I think it's nice how they've been using the\n"\
-          "bulletin boards for those articles about your\n"\
-          "husband and all those other workers...\n"\
+          "旦那さんや他の作業員の記事を\n"\
+          "掲示板に貼ってくれて\n"\
+          "よかったですね…。\n"\
           "------------------------------------------\n"\
-          "I don't have much, but I just wanted to say\n"\
-          "that if you ever need anything, please let\n"\
-          "me know.\n",
+          "私にできることは少ないけど、\n"\
+          "それでも何かあれば\n"\
+          "遠慮なく言ってください。\n",
         13 =>
           #------------------------------------------
           "\\ignr\\nm[ダニエル]\\face[Danielle]\\fr\n"\
-          "I think it's nice how they've been using the\n"\
-          "bulletin boards for those articles...\n"\
+          "掲示板に記事を貼ってくれて\n"\
+          "よかったですね…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "...Articles?\n"\
+          "…記事？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ダニエル]\\face[Danielle]\\fr\n"\
-          "The ones about your husband and all \n"\
-          "those other workers...\n"\
+          "あなたの旦那さんや、\n"\
+          "他の作業員の記事…。\n"\
           "------------------------------------------\n"\
-          "I don't have much, but I just wanted to say\n"\
-          "that if you ever need anything, please let\n"\
-          "me know.\n",
+          "私にできることは少ないけど、\n"\
+          "それでも何かあれば\n"\
+          "遠慮なく言ってくださいね。\n",
       },
     },
     10 => {
@@ -30466,19 +30484,19 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "A clipping from a newspaper article has\n"\
-          "been fixed to the bulletin board.\n"\
+          "新聞記事の切り抜きが\n"\
+          "掲示板に貼られている。\n"\
           "------------------------------------------\n"\
           "読んでみる？\n",
         4 => [["はい", "いいえ"], 2],
         6 =>
           #------------------------------------------
-          "20 MARCH (APN) - \n"\
-          "\\i--the nuclear power plant was damaged, but\n"\
-          "the heroic efforts and improvisations of its\n"\
+          "3月20日 (APN) - \n"\
+          "\\i--により原子炉は大きな被害を\n"\
+          "受けたが、作業員の懸命の努力により\n"\
           "------------------------------------------\n"\
-          "\\ioperators resulted in the successful shutdown\n"\
-          "of all four operating reactors-- \n",
+          "\\i4つすべての号機において\n"\
+          "冷温停止を達成することが--\n",
       },
     },
     11 => {
@@ -30486,8 +30504,8 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Caution: Extensive water damage. The floor is\n"\
-          "unsafe to walk on beyond this point.\n",
+          "足元注意: この先の床は\n"\
+          "水害により危険な状態です。\n",
       },
     },
     12 => {
@@ -30495,24 +30513,24 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "A clipping from a newspaper article has\n"\
-          "been fixed to the bulletin board.\n"\
+          "新聞記事の切り抜きが\n"\
+          "掲示板に貼られている。\n"\
           "------------------------------------------\n"\
           "読んでみる？\n",
         4 => [["はい", "いいえ"], 2],
         6 =>
           #------------------------------------------
           "3月19日 (JNR) - \n"\
-          "\\i--Given that long-term effects of exposure to \n"\
-          "high levels of ionizing radiation would be more\n"\
+          "\\i--比較的高齢な作業員であっても\n"\
+          "高線量被曝が長期的な影響を\n"\
           "------------------------------------------\n"\
-          "\\ilikely to appear before a natural death in older\n"\
-          "workers, some of the younger workers were\n"\
-          "given the option to leave.\n"\
+          "\\i及ぼす可能性が高いことから、\n"\
+          "若い作業員には拒否するという\n"\
+          "選択肢もあった。\n"\
           "------------------------------------------\n"\
-          "\\iHowever, a strong sense of loyalty to their\n"\
-          "coworkers and community prevented them \n"\
-          "from leaving the ill-fated nuclear power plant--\n",
+          "\\iしかし、同僚や地域への強い想いが\n"\
+          "彼らを悲劇の原子力発電所に\n"\
+          "踏みとどまらせたのだ--\n",
       },
     },
   },
@@ -30522,45 +30540,46 @@ $events_lang = {
         5 =>
           #------------------------------------------
           "\\ignr\\nm[先生]\\face[Doctor]\\fr\n"\
-          "He's right up ahead... He's been asking\n"\
-          "about you all afternoon.\n",
+          "こちらです…。午後はずっと\n"\
+          "あなたの話をしてたんですよ。\n",
         15 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Hi sweetie, I'm here now...\n",
+          "起きて、お見舞いに来たよ…。\n",
         30 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyThinking]\\fr\n"\
-          "...Mom, is that you?\n"\
+          "…お母さん。お母さんなの？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Yes dear... how are you feeling?\n"\
+          "そうよ…具合はどう？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyLoopy]\\fr\n"\
-          "I'm okay... I feel like I'm moving, like we're\n"\
-          "in a car. Are we in a car?\n"\
+          "大丈夫…でもなんか動いてるみたい。\n"\
+          "ここって車の中？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "No, dear... \n"\
+          "ううん、違うよ…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyLoopy]\\fr\n"\
-          "Oh... okay. How are you?\n"\
+          "そうなんだ…。今日は何してたの？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomClosed]\\fr\n"\
-          "I'm feeling alright. I talked to some nice\n"\
-          "people today. I got to eat some noodles.\n"\
+          "今日は素敵な人たちと話したのよ。。\n"\
+          "それにラーメンを食べてきたの。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyLoopy]\\fr\n"\
-          "Noooooooodles.\n"\
+          "ラーメン…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Yes, dear... noodles.\n",
+          "えぇ…ラーメンよ。\n",
         49 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyThinking]\\fr\n"\
-          "Mom...\n"\
+          "お母さん…。\n"\
           "------------------------------------------\n"\
-          "Did I dream what happened to Dad?\n"\
+          "お父さんのこと、\n"\
+          "夢だったのかな？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySad]\\fr\n"\
           "…\n"\
@@ -30569,23 +30588,24 @@ $events_lang = {
           "…\n",
         57 =>
           #------------------------------------------
-          "I'm sorry, dear... that wasn't a dream.\n",
+          "違うの…夢じゃないんだよ。\n",
         59 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyDepressed]\\fr\n"\
-          "That's what I thought...\n",
+          "やっぱりそうなんだ…。\n",
         62 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "But I want you to know that no matter\n"\
-          "what, I will always be there for you.\n",
+          "何があっても、私はいつまでも\n"\
+          "あなたの傍にいるからね。\n",
         67 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoySad]\\fr\n"\
-          "But Mom...\n",
+          "お母さん…でも、\n",
         71 =>
           #------------------------------------------
-          "...Who's gonna be there for you?\n",
+          "お母さんの傍には、\n"\
+          "誰がいてくれるの？\n",
       },
     },
   },
@@ -30595,11 +30615,11 @@ $events_lang = {
         17 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "My baby... can you hear me?\n",
+          "そんな…お母さんの声が聞こえる？\n",
         20 =>
           #------------------------------------------
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "Go to sleep.\n",
+          "そのまま眠っていろ。\n",
       },
     },
     13 => {
@@ -30607,13 +30627,13 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyDepressed]\\fr\n"\
-          "\\iI might never get to leave.\n"\
+          "\\iもう戻れないのかな。\n"\
           "------------------------------------------\n"\
-          "I'm too weak and too sick, how could I ever\n"\
-          "help anyone with anything?\n"\
+          "こんな病弱な僕が、どうすれば\n"\
+          "何かの役に立てるの？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "Go to sleep.\n",
+          "さぁ、眠るんだ。\n",
       },
     },
     17 => {
@@ -30621,21 +30641,21 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyDepressed]\\fr\n"\
-          "I know what it feels like to have \n"\
-          "someone \\ileave\\i you.\n"\
+          "誰かに\\i見捨てられた \\iときの気持ち、\n"\
+          "僕にはわかる。\n"\
           "------------------------------------------\n"\
-          "The person who left me \\idid\\i \n"\
-          "have a choice. \n"\
+          "僕を置いていった人は\n"\
+          "\\iそうする \\iことを選んだ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "He had the chance to come home, \n"\
-          "and he didn't.\n"\
+          "家に帰るチャンスはあった。\n"\
+          "でも帰らなかった。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyDepressed]\\fr\n"\
-          "Why didn't you come home...\n"\
+          "どうして帰ってこなかったの…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "Go to sleep.\n",
+          "眠るんだ。\n",
       },
     },
     18 => {
@@ -30643,10 +30663,10 @@ $events_lang = {
         3 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoySad]\\fr\n"\
-          "Mommy where are you...\n"\
+          "おかーさん…どこにいるの…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyDepressed]\\fr\n"\
-          "I'm so scared...\n",
+          "怖いよ…。\n",
       },
     },
     19 => {
@@ -30654,15 +30674,15 @@ $events_lang = {
         3 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyDepressed]\\fr\n"\
-          "Who could be more important than\n"\
-          "your own family?\n"\
+          "家族より大事なものが\n"\
+          "あると思う？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "He left us alone.\n"\
+          "お父さんは僕たちを見捨てたんだ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyDepressed]\\fr\n"\
-          "But now I'm gonna leave her, too. I'm\n"\
-          "not ready. I don't want to leave.\n",
+          "でも今度は僕の番だ。イヤだよ。\n"\
+          "お母さんを置き去りにしたくない。\n",
       },
     },
     35 => {
@@ -30670,14 +30690,14 @@ $events_lang = {
         2 =>
           #------------------------------------------
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "When you're asleep, you don't feel\n"\
-          "lonely.\n",
-        5 => [["Talk to him.", "Walk away."], 2],
+          "眠っていれば、\n"\
+          "孤独を感じることもない。\n",
+        5 => [["話しかける。", "立ち去る。"], 2],
         8 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "It's okay sweetie... I'm right here.\n"\
-          "You're not alone at all.\n"\
+          "大丈夫…私はここにいるよ。\n"\
+          "独りなんかじゃないわ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
           "…\n",
@@ -30686,14 +30706,14 @@ $events_lang = {
         2 =>
           #------------------------------------------
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "When you're asleep, you don't feel\n"\
-          "afraid.\n",
-        5 => [["Talk to him.", "Walk away."], 2],
+          "眠っていれば、\n"\
+          "恐怖を感じることもない。\n",
+        5 => [["話しかける。", "立ち去る。"], 2],
         8 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "It's okay to be afraid. It's okay to\n"\
-          "feel that way.\n"\
+          "怖くてもいいの。\n"\
+          "そう感じてもいいのよ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
           "…\n",
@@ -30702,73 +30722,76 @@ $events_lang = {
         2 =>
           #------------------------------------------
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "I'm really really scared...\n",
-        4 => [["Talk to him.", "Walk away."], 2],
+          "本当に、本当に怖いんだ…。\n",
+        4 => [["話しかける。", "立ち去る。"], 2],
         7 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "My dear... I don't want you to worry.\n"\
-          "Everything is gonna be okay.\n"\
+          "心配しないで…。\n"\
+          "きっと大丈夫だから。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "How can you say that?\n"\
+          "よくそんなことが言えるね？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "It's not okay! \\iI'm\\i not okay... \n"\
+          "大丈夫なんかじゃない！\n"\
+          "\\i僕は \\i大丈夫なんかじゃ…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "I can hear what the doctors say about \n"\
-          "me. I know I'm all messed up inside.\n"\
+          "医者の話が聞こえたんだ。\n"\
+          "僕のお腹の中はめちゃくちゃだって\n"\
+          "知ってるんだ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "Sweetie... Remember what I told \n"\
-          "you before?\n"\
+          "聞いて…前に私が言ったこと\n"\
+          "覚えてる？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomTalking]\\fr\n"\
-          "You're in good hands. Your doctor is one\n"\
-          "of the \\bbest\\b doctors in the whole world!\n"\
+          "先生はね、\\b最高の\\bお医者さんなの。\n"\
+          "だから先生に任せなさい！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "The hospital is giving you treatments \n"\
-          "that have helped many other children \n"\
-          "get 100% better.\n"\
+          "この病院だって、絶対治るように\n"\
+          "治療してくれてるわ。\n"\
           "------------------------------------------\n"\
-          "You're not weak... You're the strongest\n"\
-          "boy I know. You're my little hero.\n"\
+          "あなたは弱くない…。私が知る限り\n"\
+          "一番強い男の子。私のヒーローよ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "I'm too weak and too sick to ever\n"\
-          "help anyone, I'm no hero.\n",
+          "僕は弱いし誰も救えない。\n"\
+          "ヒーローなんかじゃない。\n",
       },
       3 => {
         2 =>
           #------------------------------------------
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "They say Dad was a hero... but why\n"\
-          "did he leave us? \n"\
+          "お父さんはヒーローだったって\n"\
+          "みんなは言うけど…。それなら\n"\
+          "どうして僕たちを置いていったの？\n"\
           "------------------------------------------\n"\
-          "Did he not love us? \n",
-        6 => [["Talk to him.", "Walk away."], 2],
+          "愛してるっていうのは\n"\
+          "嘘だったの？\n",
+        6 => [["話しかける。", "立ち去る。"], 2],
         9 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "Oh sweetie, your Dad loved you so \n"\
-          "very much...\n"\
+          "そんな、お父さんは確かに\n"\
+          "あなたを愛していたわ…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "If he loved us, then why didn't he\n"\
-          "come home?\n"\
+          "それなら、\n"\
+          "どうして帰ってこなかったの？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "They gave him the chance to leave the\n"\
-          "power plant, but he didn't take it.\n"\
+          "発電所から帰るチャンスだって\n"\
+          "あったのに、そうしなかった。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
           "…\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "I know in my heart that your Dad believed\n"\
-          "this was the best way to protect us.\n"\
+          "あれが私たちを守る最善の\n"\
+          "方法だと信じたの。私にはわかる。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
           "…\n",
@@ -30777,56 +30800,59 @@ $events_lang = {
         2 =>
           #------------------------------------------
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "Who's gonna be there for you?\n"\
+          "お母さんの傍には\n"\
+          "誰がいてくれるの？\n"\
           "------------------------------------------\n"\
-          "When Dad died, I really wanted to help you. \n"\
-          "But if I die... If I can't get stronger...\n"\
-          "I can't even do that...\n",
-        7 => [["Talk to him.", "Walk away."], 2],
+          "お父さんが死んで、助けになりたいと\n"\
+          "思った。でも僕が強くなれなかったら…\n"\
+          "死んでしまったら、それも叶わないんだ…。\n",
+        7 => [["話しかける。", "立ち去る。"], 2],
         10 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "Sweetie, you're not gonna die... The \n"\
-          "doctors are doing everything they \n"\
-          "can to help you get better.\n"\
+          "死なないわ…先生たちが\n"\
+          "あらゆる手を尽くして\n"\
+          "あなたを治そうとしているのよ。\n"\
           "------------------------------------------\n"\
-          "Your latest tests showed so much \n"\
-          "improvement. I know it's tough, but\n"\
-          "we gotta try to stay positive.\n"\
+          "前の検査でも、いい結果が出てた。\n"\
+          "辛いのはわかるけど、\n"\
+          "希望は捨てないで。\n"\
           "------------------------------------------\n"\
-          "We're gonna get through this, together.\n"\
+          "私たちなら乗り切れる。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "But what if I do die?\n"\
+          "でも僕が死んだら？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "That's not gonna happen.\n",
+          "そんなことにはならないわ。\n",
       },
       5 => {
         2 =>
           #------------------------------------------
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "But what if it does happen?\n"\
+          "でもそんなことになったら？\n"\
           "…\n",
-        5 => [["Talk to him.", "Walk away."], 2],
+        5 => [["話しかける。", "立ち去る。"], 2],
         8 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "It's not gonna happen.\n",
+          "ならないの。\n",
       },
       6 => {
         2 =>
           #------------------------------------------
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "I'm sorry, Mom... I don't think I can\n"\
-          "believe anymore...\n",
-        5 => [["Talk to him.", "Sing to him.", "Walk away."], 3],
+          "ごめん、お母さん…。\n"\
+          "もう何も信じられないよ…。\n",
+        5 => [["話しかける。", "歌いかける。", "立ち去る。"], 3],
         8 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomSad]\\fr\n"\
-          "It's not gonna happen.\n",
+          "安心して。\n"\
+          "そんなことにはならない。\n",
         23 =>
           #------------------------------------------
+          # TODO ここの歌詞は日本語のみ
           "\\ignr\\nm[お母さん]\\face[MomTalking]\\fr\n"\
           "Close your eyes... \\w[40]\n"\
           "------------------------------------------\n"\
@@ -30871,36 +30897,46 @@ $events_lang = {
         229 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[RuneBearers]\\fl\n"\
-          "Close your eyes... \\w[70]\n"\
+          "Close your eyes...\n"\
+          "日本語歌詞\\w[70]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[RuneBearers]\\fl\n"\
-          "It is time... \\w[70]\n"\
+          "It is time...\n"\
+          "日本語歌詞\\w[70]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[RuneBearers]\\fl\n"\
-          "For you to tell the world goodnight... \\w[190]\n"\
+          "For you to tell the world goodnight...\n"\
+          "日本語歌詞\\w[190]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[RuneBearers]\\fl\n"\
-          "It might be dark inside... \\w[110]\n"\
+          "It might be dark inside...\n"\
+          "日本語歌詞\\w[110]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[RuneBearers]\\fl\n"\
           "But there are still stars shining \n"\
-          "in the sky. \\w[240]\n"\
+          "in the sky.\n"\
+          "日本語歌詞\\w[240]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[RuneBearers]\\fl\n"\
-          "Close your eyes... \\w[80]\n"\
+          "Close your eyes...\n"\
+          "日本語歌詞\\w[80]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[RuneBearers]\\fl\n"\
-          "I am here. \\w[70]\n"\
+          "I am here.\n"\
+          "日本語歌詞\\w[70]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[RuneBearers]\\fl\n"\
-          "And everything will be alright... \\w[180]\n"\
+          "And everything will be alright...\n"\
+          "日本語歌詞\\w[180]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[RuneBearers]\\fl\n"\
           "I am right here by your side as we\n"\
-          "go walking... \\w[350]\n"\
+          "go walking...\n"\
+          "日本語歌詞\\w[350]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[RuneBearers]\\fl\n"\
-          "Through the night. \\w[180]\n",
+          "Through the night.\n"\
+          "日本語歌詞\\w[180]\n",
       },
     },
   },
@@ -30910,8 +30946,8 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "A children's calendar with a picture of an\n"\
-          "elephant on it.\n",
+          "象の絵が描かれた、\n"\
+          "子ども向けのカレンダーだ。\n",
       },
     },
     4 => {
@@ -30919,22 +30955,22 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Open the drawer?\n",
+          "引き出しを開けてみる\n",
         2 => [["はい", "いいえ"], 2],
         4 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "You find a folder filled with accounting\n"\
-          "forms and official papers.\n"\
+          "会計書類や公的書類が入った\n"\
+          "フォルダーを見つけた。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "My work papers!\n",
+          "書類！ここにあったのね。\n",
       },
       1 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Open the drawer?\n",
+          "引き出しを開けてみる？\n",
         2 => [["はい", "いいえ"], 2],
         4 =>
           #------------------------------------------
@@ -30946,12 +30982,12 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Open the drawer?\n",
+          "引き出しを開けてみる？\n",
         2 => [["はい", "いいえ"], 2],
         4 =>
           #------------------------------------------
-          "There are a variety of clean handkerchiefs\n"\
-          "inside, arranged according to color.\n",
+          "清潔なハンカチが、色ごとに\n"\
+          "分かれて収納されている。\n",
       },
     },
     6 => {
@@ -30959,7 +30995,7 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "An assortment of old books.\n",
+          "古い本が何冊か入っている。\n",
       },
     },
   },
@@ -30969,18 +31005,18 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "植物に水をあげる？\n",
+          "盆栽に水をあげる？\n",
         3 => [["はい", "いいえ"], 2],
         20 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "A thirsty bonsai tree.\n",
+          "乾燥した盆栽だ。\n",
       },
       1 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "A happy bonsai tree.\n",
+          "幸せそうな盆栽だ。\n",
       },
     },
   },
@@ -31024,18 +31060,18 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Turn on the rice cooker?\n",
+          "炊飯器の電源を入れる？\n",
         2 => [["はい", "いいえ"], 2],
         30 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "The rice cooker is now on.\n",
+          "炊飯器の電源を入れた。\n",
       },
       1 => {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "The rice cooker is on.\n",
+          "炊飯器の電源はオンになっている。\n",
       },
     },
   },
@@ -34456,60 +34492,60 @@ $events_lang = {
         4 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "You made it!! I'm so happy to see \n"\
-          "you here!\n"\
+          "来てくれたのね！！\n"\
+          "会えて嬉しいわ！\n"\
           "------------------------------------------\n"\
-          "I brought many different teas to share \n"\
-          "with folks tonight. But the most special tea \n"\
-          "of all, as you know, is our \\iMidnight Tea.\n"\
+          "みんなで飲むお茶を色々と\n"\
+          "持ってきたの。でもうちの目玉は\n"\
+          "やっぱり\\i真夜中茶 \\iなのよ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
-          "What's it like?\n"\
+          "どんなお茶なの？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Well...\n"\
+          "そうね…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "It tastes sweet, though there's no sugar.\n"\
-          "It will make you feel cozy and warm... \n"\
-          "as if you were at home.\n"\
+          "砂糖は入ってないのに甘みがあって、\n"\
+          "飲むと温かくて心地よくなるの…\n"\
+          "まるで家にいるみたいにね。\n"\
           "------------------------------------------\n"\
-          "But the \\ireal\\i reason it's so special... is \n"\
-          "that after drinking it, you'll have the \n"\
-          "sweetest dreams you've ever had.\n"\
+          "でも、このお茶が特別な\\i本当の \\i\n"\
+          "理由…それは、飲んだ後に\n"\
+          "最高の夢を見られるからなの。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyHappy3]\\fr\n"\
           "…\n",
         26 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Hello again! It sure is beautiful\n"\
-          "tonight!\n"\
+          "また来てくれたのね！\n"\
+          "今日はとっても素敵な夜だわ！\n"\
           "------------------------------------------\n"\
-          "I just brewed a fresh pot of Midnight\n"\
-          "Tea... I guarantee it will give you the\n"\
-          "sweetest dreams.\n",
+          "今ちょうど真夜中茶を淹れたの…。\n"\
+          "これを飲めば、間違いなく\n"\
+          "最高の夢が見られるのよ。\n",
         34 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Care to try some?\n"\
+          "試してみる？\n"\
           "------------------------------------------\n"\
-          "Although I must warn you... once you \n"\
-          "drink it, you'll surely fall asleep.\n",
+          "でも気をつけてね…。飲んだらすぐに\n"\
+          "眠くなってしまうから。\n",
         38 => [["はい", "いいえ"], 2],
         40 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Are you sure you're done experiencing\n"\
-          "Star Night? \n"\
+          "星夜祭はもう十分\n"\
+          "楽しんだかしら？\n"\
           "------------------------------------------\n"\
-          "I'm quite serious when I say it will make\n"\
-          "you fall into a deep slumber...\n",
+          "このお茶を飲むと本当に、\n"\
+          "深く眠ってしまうから…。\n",
         45 => [["はい", "いいえ"], 2],
         50 =>
           #------------------------------------------
           "\\ignr\\nm[カズコ]\\face[Kazuko]\\fr\n"\
-          "Sweet dreams.\n"\
+          "いい夢を見てね。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyHappy3]\\fr\n"\
           "…\n",
@@ -34520,17 +34556,16 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[洞窟つぼみ]\\face[Cave Bud]\\fr\n"\
-          "Have you tried Midnight Tea before?\n"\
+          "真夜中茶って飲んだことある？\n"\
           "------------------------------------------\n"\
-          "It's a very special kind of tea that \n"\
-          "makes you dream the sweetest \n"\
-          "dreams you've ever had.\n",
+          "飲むと最高にいい夢が見られる\n"\
+          "特別なお茶なんだって。\n",
         9 =>
           #------------------------------------------
           "\\ignr\\nm[洞窟つぼみ]\\face[Cave Bud]\\fr\n"\
-          "What do I dream about when I drink\n"\
-          "Midnight Tea? Well... growing into\n"\
-          "a tree of course!\n",
+          "僕が真夜中茶を飲んだら\n"\
+          "どんな夢を見るかな？\n"\
+          "やっぱり木になる夢がいいな！\n",
       },
     },
     7 => {
@@ -34577,7 +34612,7 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[村長]\\face[Chief]\\fr\n"\
-          "I hope you're enjoying Star Night!\n",
+          "星夜祭をお楽しみですかな！\n",
       },
     },
     18 => {
@@ -34585,36 +34620,36 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[クリスティーナ]\\face[]\n"\
-          "Ah, this is the good part! You find out\n"\
-          "that the villain wasn't actually a bad \n"\
-          "guy at all...\n"\
+          "そう、これがいい話なのよ！\n"\
+          "実は悪役が全然悪い人なんかじゃ\n"\
+          "なくて…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[クリスティーナ]\\face[]\n"\
-          "He was just her long lost nephew in\n"\
-          "disguise this whole time!\n",
+          "ずっと行方不明だった彼女の\n"\
+          "甥っ子が変装してただけでね！\n",
         11 =>
           #------------------------------------------
           "\\ignr\\nm[アマンダ]\\face[]\n"\
-          "\\e[19]Maaa! Why are you always \n"\
-          "giving away the endings?\n"\
+          "\\e[19]おかーさーん！どうしていつも\n"\
+          "結末を先に言っちゃうの？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[クリスティーナ]\\face[]\n"\
-          "\\e[18]Oh, I just wanted to make \n"\
-          "sure you understood because\n"\
-          "it's kind of complicated.\n"\
+          "\\e[18]あら、だって難しい話だから\n"\
+          "あなたにも理解してほしい\n"\
+          "だけなのよ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[アマンダ]\\face[]\n"\
-          "\\e[19]But he hasn't even\n"\
-          "gotten to that part yet!\n"\
+          "\\e[19]でも村長さんのお話、\n"\
+          "そこまでいってないじゃん！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[クリスティーナ]\\face[]\n"\
-          "\\e[18]Sorry!\n",
+          "\\e[18]ごめんね！\n",
         28 =>
           #------------------------------------------
           "\\ignr\\nm[クリスティーナ]\\face[]\n"\
-          "A few of the Chief's stories I've listened\n"\
-          "to over 50 times. I just never get tired\n"\
-          "of them!\n",
+          "村長のお話の中には、\n"\
+          "もう50回は聞いたものもあるわ。\n"\
+          "でもちっとも飽きないのよ！\n",
       },
     },
     19 => {
@@ -34622,17 +34657,17 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[アマンダ]\\face[]\n"\
-          "The Chief tells good stories with lots\n"\
-          "of exciting secrets and twists!\n"\
+          "秘密とドキドキがいっぱいのお話を\n"\
+          "村長さんがしてくれるんだよ\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[アマンダ]\\face[]\n"\
-          "But when I listen to his stories with\n"\
-          "my Ma, she just can't help herself...\n"\
+          "でもお母さんと聞いてると、\n"\
+          "お母さんったら黙ってられないの…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[アマンダ]\\face[]\n"\
-          "If she's heard the story before, she always\n"\
-          "reveals the ending before the Chief has\n"\
-          "a chance to get to that part!\n",
+          "聞いたことのあるお話だと、\n"\
+          "村長さんが最後まで話す前に\n"\
+          "いつも結末を言っちゃうんだよ！\n",
       },
     },
     20 => {
@@ -34640,8 +34675,8 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[村人リーブル]\\face[]\n"\
-          "Bufkus is gonna eat everything,\n"\
-          "just you wait!\n",
+          "すべてを喰らい尽くすのは\n"\
+          "バフカスだよ！見てなって！\n",
       },
     },
     21 => {
@@ -34649,8 +34684,8 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[村人リーブル]\\face[]\n"\
-          "The Chief is telling us about the\n"\
-          "Blue Star!\n",
+          "村長が青い星の話を\n"\
+          "してくれるんだ！\n",
       },
     },
     22 => {
@@ -34658,8 +34693,8 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[ミニモリ 7]\\face[Minimori]\\fr\n"\
-          "Who me? Oh I always leave the caves\n"\
-          "to hear the Chief's stories!\n",
+          "え？僕は村長の話が聞けるなら\n"\
+          "いつだって洞窟から出てくるよ！\n",
       },
     },
     23 => {
@@ -34667,82 +34702,82 @@ $events_lang = {
         6 =>
           #------------------------------------------
           "\\ignr\\nm[ディーン]\\face[]\n"\
-          "\\e[24]Alice, Alice, do you want\n"\
-          "to know what I've eaten\n"\
-          "tonight??\n"\
+          "\\e[24]アリス、アリス、\n"\
+          "僕が今夜食べたものを\n"\
+          "知りたくない？？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[アリス]\\face[]\n"\
-          "\\e[23]Please tell me you aren't\n"\
-          "going to get sick later...\n"\
+          "\\e[23]あとでお腹痛くなった\n"\
+          "なんて言わないでよ…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ディーン]\\face[]\n"\
-          "\\e[24]I had an eclair, a fruit tart\n"\
-          "with whipped cream, a sandwich,\n"\
-          "another sandwich, a pie, a---\n"\
+          "\\e[24]エクレアでしょ、クリームたっぷり\n"\
+          "フルーツタルトでしょ、サンドイッチに\n"\
+          "もう一つサンドイッチ、パイとそれから…\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[アリス]\\face[]\n"\
-          "\\e[23]I thought you said you \n"\
-          "were gonna pace yourself!\n"\
+          "\\e[23]ほどほどにしなさいって\n"\
+          "言ったでしょ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ディーン]\\face[]\n"\
-          "\\e[24]Wait, does \"pace yourself\"\n"\
-          "mean eat until your stomach \n"\
-          "hurts?\n"\
+          "\\e[24]え、\"ほどほど\"って\n"\
+          "お腹が痛くなるまで\n"\
+          "食べることじゃないの？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[アリス]\\face[]\n"\
-          "\\e[23]Oh my gosh, no!\n"\
+          "\\e[23]もう、違うわよ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ディーン]\\face[]\n"\
-          "\\e[24]Oh, then no, I'm not\n"\
-          "going to pace myself.\n"\
+          "\\e[24]そうなんだ。じゃあ\n"\
+          "\"ほどほど\"はやめるよ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[アリス]\\face[]\n"\
-          "\\e[23].....      \n",
+          "\\e[23]……      \n",
         34 =>
           #------------------------------------------
           "\\ignr\\nm[アリス]\\face[]\n"\
-          "\\e[23]So Dean, tell me about \n"\
-          "work today.\n"\
+          "\\e[23]それで、ディーン。\n"\
+          "今日の仕事はどうだったの。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ディーン]\\face[]\n"\
-          "\\e[24]Well, work was pretty \n"\
-          "good, I had to---\n"\
+          "\\e[24]えっと、うまくいったよ。\n"\
+          "僕が---\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ディーン]\\face[]\n"\
-          "\\e[24]OOH LOOK ALICE IT'S PIE!\n"\
+          "\\e[24]うわぁ、アリス見て、パイだ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[アリス]\\face[]\n"\
-          "\\e[23]Yes, there's Sila Berry Pie\n"\
-          "over there. You had some \n"\
-          "remember?\n"\
+          "\\e[23]えぇ、シラベリーパイが\n"\
+          "あるわね。もう食べたでしょ、\n"\
+          "忘れたの？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ディーン]\\face[]\n"\
-          "\\e[24]Ugh, sorry... Okay so at\n"\
-          "work today, I was helping\n"\
-          "to fix---\n"\
+          "\\e[24]う、ごめん…。\n"\
+          "それで今日の仕事はね、\n"\
+          "修理の---\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ディーン]\\face[]\n"\
-          "\\e[24]LOOK THERE'S A \n"\
-          "FIREFLY!!!\n"\
+          "\\e[24]見て！！！\n"\
+          "ホタルが居るよ！！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[アリス]\\face[]\n"\
-          "\\e[23]Yes, they're everywhere.\n"\
-          "Go on... you were telling me\n"\
-          "about work...\n"\
+          "\\e[23]はいはい、そこらじゅうに\n"\
+          "いるわよ。それで…\n"\
+          "アンタの仕事だけど…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ディーン]\\face[]\n"\
-          "\\e[24]Oh my gosh, sorry! Okay so\n"\
-          "I was helping a customer today\n"\
-          "at work and---\n"\
+          "\\e[24]あぁ、ごめん！\n"\
+          "それで今日はお客さんの\n"\
+          "手伝いを---\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ディーン]\\face[]\n"\
-          "\\e[24]ALICE YOU HAVE\n"\
-          "EARS!\n"\
+          "\\e[24]アリス！！！\n"\
+          "耳がついてるよ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[アリス]\\face[]\n"\
-          "\\e[23]What? Of course I do! \n"\
-          "Why would you be surprised\n"\
-          "by... ugh, nevermind.\n",
+          "\\e[23]はい？そりゃそうよ！\n"\
+          "アンタはどうしてそんなに\n"\
+          "驚いて…もう、知らないわよ。\n",
       },
     },
     24 => {
@@ -34750,82 +34785,82 @@ $events_lang = {
         3 =>
           #------------------------------------------
           "\\ignr\\nm[ディーン]\\face[]\n"\
-          "\\e[24]Alice, Alice, do you want\n"\
-          "to know what I've eaten\n"\
-          "tonight??\n"\
+          "\\e[24]アリス、アリス、\n"\
+          "僕が今夜食べたものを\n"\
+          "知りたくない？？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[アリス]\\face[]\n"\
-          "\\e[23]Please tell me you aren't\n"\
-          "going to get sick later...\n"\
+          "\\e[23]あとでお腹痛くなった\n"\
+          "なんて言わないでよ…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ディーン]\\face[]\n"\
-          "\\e[24]I had an eclair, a fruit tart\n"\
-          "with whipped cream, a sandwich,\n"\
-          "another sandwich, a pie, a---\n"\
+          "\\e[24]エクレアでしょ、クリームたっぷり\n"\
+          "フルーツタルトでしょ、サンドイッチに\n"\
+          "もう一つサンドイッチ、パイとそれから…\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[アリス]\\face[]\n"\
-          "\\e[23]I thought you said you \n"\
-          "were gonna pace yourself!\n"\
+          "\\e[23]ほどほどにしなさいって\n"\
+          "言ったでしょ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ディーン]\\face[]\n"\
-          "\\e[24]Wait, does \"pace yourself\"\n"\
-          "mean eat until your stomach \n"\
-          "hurts?\n"\
+          "\\e[24]え、\"ほどほど\"って\n"\
+          "お腹が痛くなるまで\n"\
+          "食べることじゃないの？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[アリス]\\face[]\n"\
-          "\\e[23]Oh my gosh, no!\n"\
+          "\\e[23]もう、違うわよ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ディーン]\\face[]\n"\
-          "\\e[24]Oh, then no, I'm not\n"\
-          "going to pace myself.\n"\
+          "\\e[24]そうなんだ。じゃあ\n"\
+          "\"ほどほど\"はやめるよ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[アリス]\\face[]\n"\
-          "\\e[23].....      \n",
+          "\\e[23]……      \n",
         31 =>
           #------------------------------------------
           "\\ignr\\nm[アリス]\\face[]\n"\
-          "\\e[23]So Dean, tell me about \n"\
-          "work today.\n"\
+          "\\e[23]それで、ディーン。\n"\
+          "今日の仕事はどうだったの。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ディーン]\\face[]\n"\
-          "\\e[24]Well, work was pretty \n"\
-          "good, I had to---\n"\
+          "\\e[24]えっと、うまくいったよ。\n"\
+          "僕が---\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ディーン]\\face[]\n"\
-          "\\e[24]OOH LOOK ALICE IT'S PIE!\n"\
+          "\\e[24]うわぁ、アリス見て、パイだ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[アリス]\\face[]\n"\
-          "\\e[23]Yes, there's Sila Berry Pie\n"\
-          "over there. You had some \n"\
-          "remember?\n"\
+          "\\e[23]えぇ、シラベリーパイが\n"\
+          "あるわね。もう食べたでしょ、\n"\
+          "忘れたの？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ディーン]\\face[]\n"\
-          "\\e[24]Ugh, sorry... Okay so at\n"\
-          "work today, I was helping\n"\
-          "to fix---\n"\
+          "\\e[24]う、ごめん…。\n"\
+          "それで今日の仕事はね、\n"\
+          "修理の---\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ディーン]\\face[]\n"\
-          "\\e[24]LOOK THERE'S A \n"\
-          "FIREFLY!!!\n"\
+          "\\e[24]見て！！！\n"\
+          "ホタルが居るよ！！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[アリス]\\face[]\n"\
-          "\\e[23]Yes, they're everywhere.\n"\
-          "Go on... you were telling me\n"\
-          "about work...\n"\
+          "\\e[23]はいはい、そこらじゅうに\n"\
+          "いるわよ。それで…\n"\
+          "アンタの仕事だけど…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ディーン]\\face[]\n"\
-          "\\e[24]Oh my gosh, sorry! Okay so\n"\
-          "I was helping a customer today\n"\
-          "at work and---\n"\
+          "\\e[24]あぁ、ごめん！\n"\
+          "それで今日はお客さんの\n"\
+          "手伝いを---\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ディーン]\\face[]\n"\
-          "\\e[24]ALICE YOU HAVE\n"\
-          "EARS!\n"\
+          "\\e[24]アリス！！！\n"\
+          "耳がついてるよ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[アリス]\\face[]\n"\
-          "\\e[23]What? Of course I do! \n"\
-          "Why would you be surprised\n"\
-          "by... ugh, nevermind.\n",
+          "\\e[23]はい？そりゃそうよ！\n"\
+          "アンタはどうしてそんなに\n"\
+          "驚いて…もう、知らないわよ。\n",
       },
     },
     25 => {
@@ -34833,50 +34868,50 @@ $events_lang = {
         3 =>
           #------------------------------------------
           "\\ignr\\nm[ミニモリ 3]\\face[Minimori]\\fr\n"\
-          "What a beautiful night!\n"\
+          "とってもいい夜だね！\n"\
           "------------------------------------------\n"\
-          "I love checking out all the different \n"\
-          "treats they have during Star Night.\n"\
-          "Do you have a favorite?\n"\
+          "星夜祭の間、みんなが食べてる\n"\
+          "ごちそうを観察するのが好きなんだ。\n"\
+          "君のお気に入りは？\n"\
           "------------------------------------------\n"\
-          "I'll tell your fortune based on which \n"\
-          "one you choose!\n",
-        10 => [["Takoyaki", "Watermelon", "Dango", "I can't choose!"], 4],
+          "選んだ食べ物で\n"\
+          "君の運勢を占ってあげるよ！\n",
+        10 => [["たこ焼き", "スイカ", "お団子", "選べないよ！"], 4],
         12 =>
           #------------------------------------------
-          "Takoyaki are delicious! The only\n"\
-          "problem is that I get too excited and\n"\
-          "bite into it before it's cooled down!\n"\
+          "たこ焼きは美味しいよね！\n"\
+          "でも僕は、興奮しすぎて\n"\
+          "冷める前に口に入れちゃうんだ！\n"\
           "------------------------------------------\n"\
-          "If you eat Takoyaki fast like me, then\n"\
-          "it means you need to work on your\n"\
-          "patience.\n"\
+          "たこ焼きを僕みたいに急いで\n"\
+          "食べちゃう人は、忍耐力を\n"\
+          "鍛えないとダメだよ。\n"\
           "------------------------------------------\n"\
-          "But if you wait for it to cool, it means\n"\
-          "you are good at savoring life!\n",
+          "冷めるまで待てる人は、\n"\
+          "人生を楽しむのが上手だね！\n",
         22 =>
           #------------------------------------------
-          "Watermelon is my favorite fruit! When\n"\
-          "I was little, my mom said I kind of \n"\
-          "looked like a watermelon. Is that good?\n"\
+          "スイカは僕のお気に入り！小さい頃、\n"\
+          "スイカに似てるってお母さんに\n"\
+          "言われたけど、それっていいこと？\n"\
           "------------------------------------------\n"\
-          "If you like watermelon, it means that \n"\
-          "you are easy going and laid back.\n"\
+          "スイカが好きな人は、気楽で\n"\
+          "のんびり屋さんだよ。\n"\
           "------------------------------------------\n"\
-          "Hmm... well actually, if the reason you're\n"\
-          "eating it is because you got really angry \n"\
-          "and need to cool off...\n"\
+          "でも…もし腹が立って\n"\
+          "クールダウンするためにスイカを\n"\
+          "食べてるなら…。\n"\
           "------------------------------------------\n"\
-          "Then the opposite is true!\n",
+          "逆もまた然りだよ！\n",
         33 =>
           #------------------------------------------
-          "Dango are so chewy! I think if you like\n"\
-          "them this means you perservere! You\n"\
-          "have to chew a lot to finish one!\n",
+          "お団子はもちもちしてるね！\n"\
+          "お団子が好きな人は忍耐強い！\n"\
+          "1本食べるのにたくさん噛まないとね！\n",
         38 =>
           #------------------------------------------
-          "I don't blame you! I wish Star Night came\n"\
-          "around more than just once a year.\n",
+          "その気持ちわかる！星夜祭が\n"\
+          "1年に何回もあったらなぁ。\n",
       },
     },
     26 => {
@@ -34884,7 +34919,7 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[村人リーブル]\\face[Leeble]\\fr\n"\
-          "Welcome to Star Night!\n",
+          "星夜祭にようこそ！\n",
       },
     },
     27 => {
@@ -34892,11 +34927,11 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[ルパート]\\face[]\n"\
-          "Oh it's Sugarbaby's cousins! Long\n"\
-          "time no see, friends.\n"\
+          "おぉ、シュガーベビーのいとこか！\n"\
+          "久しぶりだな。\n"\
           "------------------------------------------\n"\
-          "It's a beautiful night, though this humidity\n"\
-          "is terrible for my powdered wig...\n",
+          "いい夜だ。この湿気は\n"\
+          "私のウィッグには最悪だがな…。\n",
       },
     },
     28 => {
@@ -34904,12 +34939,12 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[シュガーベビー]\\face[]\n"\
-          "You guys are here!!! \n"\
+          "君たちも来てたんだ！！\n"\
           "------------------------------------------\n"\
-          "I missed you a lot!\n"\
+          "すごく会いたかったよ！\n"\
           "------------------------------------------\n"\
-          "Rupert misses you, too... even though\n"\
-          "he doesn't want to admit it, heh heh.\n",
+          "ルパート様も会いたがってたよ…\n"\
+          "本人は認めないけどね、えへへ。\n",
       },
     },
     29 => {
@@ -34917,8 +34952,8 @@ $events_lang = {
         3 =>
           #------------------------------------------
           "\\ignr\\nm[村人リーブル]\\face[Leeble]\\fr\n"\
-          "When I hear this music, I can't\n"\
-          "help but sway back and forth.\n",
+          "この音楽を聴くと、\n"\
+          "身体が勝手に動いちゃうよ。\n",
       },
     },
     33 => {
@@ -34926,7 +34961,7 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[村人リーブル]\\face[]\n"\
-          "This is the best Star Night ever!\n",
+          "最高の星夜祭ね！\n",
       },
     },
     34 => {
@@ -34934,24 +34969,24 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[デール]\\face[]\n"\
-          "Happy Star Night you guys! \n"\
+          "星夜祭を楽しんでるかい？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[デール]\\face[]\n"\
-          "I'm in charge of coordinating music for the \n"\
-          "festival tonight, so I wasn't able to bring \n"\
-          "my sweet Dog Spirit with me...\n"\
+          "今夜のお祭りの選曲は僕の\n"\
+          "仕事だから、うちの犬の精霊を\n"\
+          "連れてこられなかったんだ…。\n"\
           "------------------------------------------\n"\
-          "It makes me sad, but I'll see her soon! \n"\
-          "Anyways, here's a little something \n"\
-          "to help you remember tonight!\n",
+          "寂しいけど、すぐに会えるさ！\n"\
+          "はい、これをあげるから\n"\
+          "忘れられない夜にしてくれよ！\n",
         15 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "\\oi[184]を受け取った。\n",
+          "\\oi[184]を手に入れた。\n",
         21 =>
           #------------------------------------------
           "\\ignr\\nm[デール]\\face[]\n"\
-          "Happy Star Night you guys! \n",
+          "星夜祭を楽しんでるかい？\n",
       },
     },
     35 => {
@@ -34959,7 +34994,7 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[村人リーブル]\\face[]\n"\
-          "This is my favorite time of year!\n",
+          "これが毎年楽しみなんだ！\n",
       },
     },
     36 => {
@@ -34967,11 +35002,11 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[トニー]\\face[Tony2]\\fr\n"\
-          "Does that tiny Leeble really think he\n"\
-          "can beat a bear in a pancake eating\n"\
-          "contest?\n"\
+          "パンケーキの大食いコンテストで\n"\
+          "あの小さなリーブルは本当に\n"\
+          "熊に勝てると思ってるのか？\n"\
           "------------------------------------------\n"\
-          "Hah! I'm a BEAR!\n",
+          "ハッ！俺は熊だぞ！\n",
       },
     },
     37 => {
@@ -34979,7 +35014,7 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[アンバー]\\face[]\n"\
-          "Go Grandpa! You can do it!\n",
+          "いけー、おじいちゃん！勝てるよ！\n",
       },
     },
     38 => {
@@ -34987,15 +35022,15 @@ $events_lang = {
         3 =>
           #------------------------------------------
           "\\ignr\\nm[バフカス]\\face[]\\fr\n"\
-          "Oh so that bear thinks he can beat\n"\
-          "me at eating pancakes?\n"\
+          "あの熊はパンケーキの大食いで\n"\
+          "俺に勝てると思ってるのか、えぇ？\n"\
           "------------------------------------------\n"\
-          "Well ask him this: Did he ever eat so\n"\
-          "many pancakes that they had to carry\n"\
-          "him away in a stretcher?\n"\
+          "パンケーキの食べ過ぎで\n"\
+          "担架がないと動けなくなったことが\n"\
+          "あるか聞いてみたいもんだ。\n"\
           "------------------------------------------\n"\
-          "Because that was me, the LAST \n"\
-          "THREE YEARS!\n"\
+          "なんたって、それは\n"\
+          "ここ3年の俺の話だからな！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySurprised]\\fr\n"\
           "…\n",
@@ -35006,9 +35041,9 @@ $events_lang = {
         4 =>
           #------------------------------------------
           "\\ignr\\nm[パンキー]\\face[Panky2]\\fr\n"\
-          "Well I finally got everything prepared\n"\
-          "in time! These guys are about to have\n"\
-          "a pancake eating contest...\n",
+          "時間通りにすべて準備できたな！\n"\
+          "こいつらはこれからパンケーキの\n"\
+          "大食いコンテストなんだ…。\n",
       },
     },
     40 => {
@@ -35016,8 +35051,7 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[パンキー]\\face[Panky2]\\fr\n"\
-          "Well I finally got everything prepared\n"\
-          "in time! \n",
+          "時間通りにすべて準備できたな！\n",
       },
     },
     41 => {
@@ -35025,23 +35059,24 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[コラ]\\face[Cora2]\\fr\n"\
-          "Hi guys!! Thanks so much for helping \n"\
-          "me with the lanterns earlier. This \n"\
-          "place looks great!\n",
+          "やっほ！！灯籠づくりを\n"\
+          "手伝ってくれてありがとう。\n"\
+          "見栄えバッチリだよ！\n",
         5 =>
           #------------------------------------------
           "\\ignr\\nm[コラ]\\face[Cora2]\\fr\n"\
-          "What's up?\n",
-        7 => [["What are you doing?", "What's the best thing here?", "またね！"], 3],
+          "どうしたの？\n",
+        7 => [["何してるの？", "何が一番美味しい？", "またね！"], 3],
         9 =>
           #------------------------------------------
-          "Oh I'm just painting portraits for\n"\
-          "folks. And face paint for the kids!\n",
+          "お客さんに似顔絵を描いてるんだ。\n"\
+          "子どもにはフェイスペイントを\n"\
+          "してあげてるの！\n",
         14 =>
           #------------------------------------------
-          "Hm... I really like the Sila Berry\n"\
-          "donuts over at Panky's! They're\n"\
-          "delicious!\n",
+          "うーん…やっぱりパンキーの\n"\
+          "シラベリードーナツかな！\n"\
+          "すごく美味しいんだよ！\n",
       },
     },
     43 => {
@@ -35049,8 +35084,8 @@ $events_lang = {
         2 =>
           #------------------------------------------
           "\\ignr\\nm[ヒマワリ]\\face[]\n"\
-          "Oh yes, \"NO HOLDS BARD!!!\" plays \n"\
-          "festivals, too.\n",
+          "\"ノー・ホールズ・バード!!!\"も\n"\
+          "祭りに参戦だぜ！\n",
       },
     },
     44 => {
@@ -35058,8 +35093,8 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[クレッグ]\\face[]\n"\
-          "Got any requests?\n",
-        2 => [["Do a Lute Solo!!", "I'm good, thanks!"], 2],
+          "リクエストはあるかい？\n",
+        2 => [["リュートソロを弾いて！", "ううん、ありがと！"], 2],
       },
     },
     45 => {
@@ -35067,32 +35102,32 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[ダニエル]\\face[Danielle2]\\fr\n"\
-          "Heyyyy! Glad you guys could\n"\
-          "make it!\n",
-        4 => [["Where's your husband?", "Did you ever get a 5th cat?", "何を売ってるの？", "See ya."], 4],
+          "ヤッホーー！来てくれたんだね！\n",
+        4 => [["旦那さんはどこ？", "5匹目の猫はどうなった？", "何を売ってるの？", "またね。"], 4],
         6 =>
           #------------------------------------------
           "\\ignr\\nm[ダニエル]\\face[Danielle2_Duh]\\fr\n"\
-          "Ugh. He couldn't make it tonight.\n"\
+          "うっ。あの人は来られないって。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ダニエル]\\face[Danielle2_Thinking]\\fr\n"\
-          "He's playing some dumb card game with \n"\
-          "one of his bear-friends. \n"\
+          "熊のお友達とバカっぽい\n"\
+          "カードゲームで遊んでるんだよ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ダニエル]\\face[Danielle2_Thinking]\\fr\n"\
-          "\"Super Dragon Mage Wizard Warrior \n"\
-          "Wizards\" or something...\n",
+          "\"スーパードラゴンメイジウィザード\n"\
+          "ウォリアーウィザード\"とかなんとか…。\n",
         17 =>
           #------------------------------------------
           "\\ignr\\nm[ダニエル]\\face[Danielle2]\\fr\n"\
-          "I got something even better, actually.\n"\
+          "実はもっといい子を拾っちゃったんだ。\n"\
           "------------------------------------------\n"\
-          "Her name is Peach.\n"\
+          "ピーチって名前なの。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
           "…\n",
         27 =>
           #------------------------------------------
+          # TODO Ayeeeeee!
           "\\ignr\\nm[ダニエル]\\face[Danielle2]\\fr\n"\
           "You're in luck! My plushies were selling\n"\
           "like hotcakes, but---\n",
@@ -35115,60 +35150,65 @@ $events_lang = {
           "Panky.\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ダニエル]\\face[Danielle2]\\fr\n"\
-          "As I was saying... I'm nearly sold out, \n"\
-          "but I have one very special plushie left!\n"\
+          "とにかく…ほとんど売り切れだけど、\n"\
+          "最後に特別なぬいぐるみを\n"\
+          "残してあるんだ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ダニエル]\\face[Danielle2]\\fr\n"\
-          "It's yours for the low low price of 10g.\n"\
+          "君だったらおおまけにまけて\n"\
+          "10Gでいいよ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ダニエル]\\face[Danielle2]\\fr\n"\
-          "Would you like to buy it?\n",
-        54 => [["Ah yeahhhh!!", "Maybe not..."], 2],
+          "買いたい？\n",
+        54 => [["うん、買いたい！！", "いらないかな…。"], 2],
         60 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "You received the\\oi[167].\n",
+          "\\oi[167]を手に入れた。\n",
         65 =>
           #------------------------------------------
           "\\ignr\\nm[ダニエル]\\face[Danielle2_Duh]\\fr\n"\
-          "You don't even have 10g...\n"\
+          "10Gも持ってないじゃない…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ダニエル]\\face[Danielle2_Thinking]\\fr\n"\
-          "What are you trying to pull here?\n"\
+          "これっぽっちでどうするのよ？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySurprised]\\fr\n"\
-          "Sorry!\n",
+          "ごめん！\n",
         80 =>
           #------------------------------------------
           "\\ignr\\nm[ダニエル]\\face[Danielle2]\\fr\n"\
-          "Well...I'm nearly sold out, but I have \n"\
-          "one very special plushie left!\n"\
+          "ほとんど売り切れだけど、\n"\
+          "最後に特別なぬいぐるみを\n"\
+          "残してあるんだ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ダニエル]\\face[Danielle2]\\fr\n"\
-          "It's yours for the low low price of 10g.\n"\
+          "君だったらおおまけにまけて\n"\
+          "10Gでいいよ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ダニエル]\\face[Danielle2]\\fr\n"\
-          "Would you like to buy it?\n",
-        87 => [["Ah yeahhhh!!", "Maybe not..."], 2],
+          "買いたい？\n",
+        87 => [["うん、買いたい！！", "いらないかな…。"], 2],
         93 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "You received the\\oi[167].\n",
+          "\\oi[167]を手に入れた。\n",
         98 =>
           #------------------------------------------
           "\\ignr\\nm[ダニエル]\\face[Danielle2_Duh]\\fr\n"\
-          "You don't even have 10g...\n"\
+          "10Gも持ってないじゃない…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ダニエル]\\face[Danielle2_Thinking]\\fr\n"\
-          "What are you trying to pull here?\n"\
+          "これっぽっちでどうするのよ？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySurprised]\\fr\n"\
-          "Sorry!\n",
+          "ごめん！\n",
         114 =>
           #------------------------------------------
           "\\ignr\\nm[ダニエル]\\face[Danielle2]\\fr\n"\
-          "I'm all sold out now... but I hope you\n"\
-          "like your new toy!\n",
+          "今度こそ売り切れだよ…。\n"\
+          "新しいぬいぐるみ、\n"\
+          "気に入ってくれると嬉しいな！\n",
       },
     },
     46 => {
@@ -35176,76 +35216,77 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[鍛冶屋のジャッキー]\\face[Blacksmith]\\fr\n"\
-          "Hey you guys!! Glad you could make it! \n"\
-          "You're becoming such a big part of the\n"\
-          "village, it'd be weird \\inot\\i to see you here!\n",
+          "やぁ！！来てくれて嬉しいよ！\n"\
+          "もうすっかり村の一員だし、\n"\
+          "君たちがいない方が変に感じるよ！\n",
         5 =>
           #------------------------------------------
           "\\ignr\\nm[鍛冶屋のジャッキー]\\face[Blacksmith]\\fr\n"\
           "どうしたのかな？\n",
-        7 => [["What are you doing?", "What's the best thing here?", "またね！"], 4],
+        7 => [["何してるの？", "何が一番美味しい？", "またね！"], 4],
         10 =>
           #------------------------------------------
-          "For the first time in ages, I'm taking\n"\
-          "a break of course!\n"\
+          "久しぶりの息抜きを\n"\
+          "楽しんでるよ！\n"\
           "------------------------------------------\n"\
-          "Actually, I'll tell you guys what I'm\n"\
-          "REALLY doing. I'm secretly studying\n"\
-          "the science behind festival games.\n"\
+          "いや、君たちには本当のことを\n"\
+          "言おう。実は、お祭りを科学的に\n"\
+          "攻略する方法を考えてるのさ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
-          "The science behind games?\n"\
+          "科学的に攻略？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[鍛冶屋のジャッキー]\\face[Blacksmith]\\fr\n"\
-          "Let's just say the Chief decides to bring\n"\
-          "out a bean bag tossing game. Check\n"\
-          "this out...\n"\
+          "例えば村長の提案で、お手玉を使った\n"\
+          "的あてゲームがあったとしよう。\n"\
+          "いいかい…。\n"\
           "------------------------------------------\n"\
-          "If you flatten the bean bag before you\n"\
-          "toss it, you have a greater chance of\n"\
-          "knocking more things over...\n"\
+          "お手玉を、投げる前に平らに\n"\
+          "潰すと、景品を倒せる確率は\n"\
+          "上昇するんだ…。\n"\
           "------------------------------------------\n"\
-          "It's nothing more than maximizing\n"\
-          "surface area! I've got this in the bag.\n"\
+          "表面積を最大化するだけの\n"\
+          "ことなのさ！\n"\
+          "物理を手玉に取るんだよ。\n"\
           "------------------------------------------\n"\
-          "THE BEAN BAG!\n"\
+          "お手玉だけにね！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyOpenMouth]\\fr\n"\
           "……\n",
         32 =>
           #------------------------------------------
-          "Remember... \\isurface area!\n"\
-          "Shhhhh....\n",
+          "いいかい…\\i表面積だよ！\n"\
+          "シー……。\n",
         39 =>
           #------------------------------------------
-          "I would say the bread, except Panky \n"\
-          "is not baking it correctly. \n"\
+          "僕としてはパンかな。\n"\
+          "パンキーの作り方は不十分だけどね。\n"\
           "------------------------------------------\n"\
-          "He isn't using the right ratio of flour\n"\
-          "to leavening agent, so the optimal \"bread \n"\
-          "height\" has not been achieved.\n"\
+          "小麦粉とふくらし粉の割合が\n"\
+          "合ってない。だから最適な\n"\
+          "\"パンの全高\"に達していないんだ。\n"\
           "------------------------------------------\n"\
-          "But \"bread height\" aside... the bread\n"\
-          "is very good.\n"\
+          "でも\"パンの全高\"以外は…\n"\
+          "美味しいよ。\n"\
           "------------------------------------------\n"\
-          "TOO GOOD.\n",
+          "本当に美味しい。\n",
       },
     },
     48 => {
       0 => {
         0 =>
           #------------------------------------------
-          "\\ignr\\nm[Teables]\\face[]\n"\
-          "Nothing goes with cream cake like \n"\
-          "a nice hot cup of tea!\n",
+          "\\ignr\\nm[ティーブル]\\face[]\n"\
+          "クリームケーキにはやっぱり\n"\
+          "温かいお茶ね！\n",
       },
     },
     49 => {
       0 => {
         0 =>
           #------------------------------------------
-          "\\ignr\\nm[Teables]\\face[]\n"\
-          "This tea is delicious!\n",
+          "\\ignr\\nm[ティーブル]\\face[]\n"\
+          "このお茶すごく美味しい！\n",
       },
     },
     50 => {
@@ -35253,8 +35294,8 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Fish that's been grilled to perfection\n"\
-          "and served over fragrant herbs.\n",
+          "絶妙な焼き加減の魚に、\n"\
+          "香ばしいハーブが添えられている。\n",
       },
     },
     51 => {
@@ -35262,7 +35303,7 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "Honey melon of the finest quality.\n",
+          "最高級のあまーいメロン。\n",
       },
     },
     52 => {
@@ -35270,17 +35311,17 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyNeutral]\\fr\n"\
-          "Are you just eating cabbage from\n"\
-          "someone else's garden?\n"\
+          "他人の畑のキャベツを\n"\
+          "食べてるの？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ピードッグ]\\face[]\n"\
-          "Don't you judge me!\n",
+          "決めつけんなよ！\n",
         9 =>
           #------------------------------------------
           "\\ignr\\nm[ピードッグ]\\face[]\n"\
-          "Cabbage.\n"\
+          "キャベツ。\n"\
           "------------------------------------------\n"\
-          "Sweet, sweet cabbage...\n",
+          "甘い、甘ーいキャベツ…。\n",
       },
     },
     53 => {
@@ -35296,48 +35337,48 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[Winston2Normal]\\fr\n"\
-          "Try your hand at Kingyo Sukui? If you\n"\
-          "can catch a goldfish, you can keep \n"\
-          "it as a pet!\n"\
+          "金魚すくいで腕試しをしてみるかい？\n"\
+          "もし金魚をすくえたら、持ち帰って\n"\
+          "ペットにできるよ！\n"\
           "------------------------------------------\n"\
-          "Would you like to play?\n",
+          "遊んでみる？\n",
         6 => [["はい", "いいえ"], 2],
         8 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[Winston2Normal]\\fr\n"\
-          "Okay, here's your paper net. \n"\
-          "Good luck!\n",
+          "はい、これがポイね。\n"\
+          "がんばって！\n",
         16 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[Winston2Normal]\\fr\n"\
-          "Congratulations, you caught a goldfish!\n"\
+          "金魚がすくえたね、おめでとう！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウィンストン]\\face[Winston2Normal]\\fr\n"\
-          "Now you have your very own pet.\n",
+          "はい、君のペットだよ。\n",
         26 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[Winston2Normal]\\fr\n"\
-          "Sorry, you didn't catch anything... \n"\
-          "better luck next time!\n",
+          "残念、破れちゃったね…。\n"\
+          "次はうまくいくよ！\n",
         33 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[Winston2Normal]\\fr\n"\
-          "If you change your mind, I'll be \n"\
-          "here all night!\n",
+          "一晩中やってるから、\n"\
+          "気が向いたらおいで！\n",
         40 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[Winston2Normal]\\fr\n"\
-          "Only one goldfish per customer, I gotta \n"\
-          "make sure I have enough for everyone!\n",
+          "金魚は1人1匹までだよ。\n"\
+          "みんなに楽しんでもらいたいからね！\n",
       },
     },
     57 => {
       0 => {
         0 =>
           #------------------------------------------
-          "\\ignr\\nm[Hungry Leeble]\\face[Leeble]\\fr\n"\
-          "Want to eat some Takoyaki? They're\n"\
-          "piping hot, chewy and delicious!\n",
+          "\\ignr\\nm[腹ペコリーブル]\\face[Leeble]\\fr\n"\
+          "たこ焼きが食べたいって？\n"\
+          "熱々でタコの食感がたまらないよな！\n",
       },
     },
     61 => {
@@ -35345,89 +35386,88 @@ $events_lang = {
         10 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyHappy1]\\fr\n"\
-          "Mom, I can't believe we're really here!!\n"\
+          "お母さん、\n"\
+          "本当にここまで来たんだね！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomClosedHappy]\\fr\n"\
-          "It's truly amazing... what a beautiful\n"\
-          "festival! \n"\
+          "とっても素敵…なんてきれいな\n"\
+          "お祭りなのかしら！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "What would you like to do \n"\
-          "first, dear?\n",
+          "まずは何をしよっか？\n",
         34 =>
           #------------------------------------------
           "\\ignr\\nm[村人リーブル]\\face[Leeble]\\fr\n"\
-          "Weeeeeeelcome to Star Night!!\n"\
+          "星夜祭にようこそ！！\n"\
           "------------------------------------------\n"\
-          "Is it your first time here?\n"\
+          "ここに来るのは初めて？\n"\
           "------------------------------------------\n"\
-          "\\iWhat am I saying...\\i\\bof COURSE\\b \n"\
-          "it's your first time here!\n"\
+          "\\iって、何言ってるんだ僕は…。\\i\n"\
+          "\\bもちろん\\b初めてだよね！\n"\
           "------------------------------------------\n"\
-          "Well, come on in... make \n"\
-          "yourselves at home! \n"\
+          "いらっしゃい…\n"\
+          "楽しんでいってね！\n"\
           "------------------------------------------\n"\
-          "Oh, and here's a little gift... We call it \n"\
-          "\"Leeble Ramune.\" It's a delicious, bubbly\n"\
-          "drink in a fun glass bottle!\n",
+          "あ、これあげる…。面白い瓶に入った\n"\
+          "\"リーブルラムネ\"っていう、\n"\
+          "シュワシュワして美味しい飲み物だよ！\n",
         46 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
           "\\oi[128]を手に入れた。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyHappy3]\\fr\n"\
-          "Thank-you!\n",
+          "ありがとう！\n",
         63 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyRamune]\\fr\n"\
-          "Whoa... Mom, look! \n"\
+          "わぁ…見て、お母さん！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyRamune]\\fr\n"\
-          "There's a little glass marble inside\n"\
-          "the top of the bottle!\n"\
+          "瓶の上の方に\n"\
+          "ビー玉が入ってるよ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Oh how neat!\n"\
+          "あら、きれいね！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomClosedHappy]\\fr\n"\
-          "When I was a little girl we used to \n"\
-          "drink Ramune! \n"\
+          "お母さんも小さい頃は\n"\
+          "よくラムネを飲んでたんだよ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomTalking]\\fr\n"\
-          "A neighborhood boy once told me there\n"\
-          "was a way to get the marble out of the\n"\
-          "bottle without breaking it.\n"\
+          "近所の男の子が、瓶を割らずに\n"\
+          "ビー玉を取り出す方法があるって\n"\
+          "教えてくれたっけ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomSurprised]\\fr\n"\
-          "But I'm pretty sure he just made that up.\n"\
+          "でもそんなの絶対ウソよね。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyHappy3]\\fr\n"\
           "…\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyRamune]\\fr\n"\
-          "Mom, I think I should give this \n"\
-          "marble to Sue.\n"\
+          "お母さん、これはスーに\n"\
+          "あげたほうがいいと思う。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyRamune]\\fr\n"\
-          "Do you think she'd still want it for her\n"\
-          "collection even though it's inside a \n"\
-          "bottle?\n"\
+          "瓶に入ったままでも\n"\
+          "コレクションに加えてくれるかな？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "That's very kind of you dear.\n"\
+          "まぁ、とっても優しいのね。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomClosed]\\fr\n"\
-          "And yes, I'm sure she would very\n"\
-          "much appreciate that.\n"\
+          "スーちゃんも\n"\
+          "きっと喜んでくれるはずよ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyHappy3]\\fr\n"\
           "…\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Okay then...\n"\
+          "それじゃあ…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomClosedHappy]\\fr\n"\
-          "Let's go to Star Night!\n",
+          "星夜祭にレッツゴー！\n",
       },
     },
     62 => {
@@ -35435,8 +35475,8 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[リトルバズ]\\face[]\n"\
-          "Lil' Budz in the house! Let's get\n"\
-          "this party STARTED!\n",
+          "リトルバズが来たぜ！\n"\
+          "さぁ、パーティタイムだ！\n",
       },
     },
     63 => {
@@ -35444,8 +35484,8 @@ $events_lang = {
         0 =>
           #------------------------------------------
           "\\ignr\\nm[村人リーブル]\\face[]\n"\
-          "Shaved ice with fun flavors! Get them\n"\
-          "before they melt!\n",
+          "変わり種のかき氷はいかが！\n"\
+          "溶けちゃう前に食べるんだよ！\n",
       },
     },
   },
@@ -35455,53 +35495,53 @@ $events_lang = {
         9 =>
           #------------------------------------------
           "\\ignr\\nm[ヤミ]\\face[YamiCrying]\\fr\n"\
-          "Please, please don't leave me...\n"\
+          "お願いだ、置いていかないで…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[YamiCrying]\\fr\n"\
-          "I'm all alone.\n"\
+          "僕は独りぼっちだ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ヤミ]\\face[YamiCrying]\\fr\n"\
-          "I'm all alone and I'm so afraid.\n"\
+          "独りは怖いんだ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySad]\\fr\n"\
-          "Yami... \n"\
+          "ヤミ…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySad]\\fr\n"\
-          "Yami, it's okay!\n"\
+          "ヤミ…大丈夫だよ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySad]\\fr\n"\
-          "You're not alone. I'm not gonna\n"\
-          "leave you.\n",
+          "君は独りじゃない。\n"\
+          "僕たちは一緒だ。。\n",
         23 =>
           #------------------------------------------
           "\\ignr\\nm[ヤミ]\\face[YamiCrying]\\fr\n"\
-          "...You're not?\n"\
+          "…一緒？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySad]\\fr\n"\
-          "No, I'm not... \n"\
+          "そう、一緒…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySad]\\fr\n"\
-          "It's okay... \n"\
+          "大丈夫だよ…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
-          "We're in this together. You're a part of me,\n"\
-          "and I'm a part of you. From the very \n"\
-          "beginning, until the very end.\n",
+          "僕たちは一緒。\n"\
+          "君は僕の一部だし、僕は君の一部。\n"\
+          "最初から最期まで一緒なんだよ。\n",
         34 =>
           #------------------------------------------
-          "Okay?\n",
+          "ね？\n",
         36 =>
           #------------------------------------------
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "Okay.\n",
+          "わかった。\n",
         44 =>
           #------------------------------------------
           "\\ignr\\nm[ヤミ]\\face[Yami_stern]\\fr\n"\
-          "Thank-you.\n",
+          "ありがとう。\n",
         54 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[Yami_relieved]\\fr\n"\
-          "Thank-you.\n",
+          "ありがとう。\n",
       },
     },
   },
@@ -35511,42 +35551,42 @@ $events_lang = {
         7 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyDepressed]\\fr\n"\
-          "I love you, Mom.\n"\
+          "大好きだよ、お母さん。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomClosed]\\fr\n"\
-          "I love you, too.\n",
+          "えぇ、私もよ。\n",
         12 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomClosed]\\fr\n"\
-          "It's been a long day, huh?\n"\
+          "長い一日だったね？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyDepressed]\\fr\n"\
-          "The longest day of my life.\n"\
+          "人生で一番長い日だった。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomClosed]\\fr\n"\
           "…\n",
         19 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomClosed]\\fr\n"\
-          "We're almost there, sweetie.\n"\
+          "もう少しだよ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomClosed]\\fr\n"\
-          "We're almost there.\n",
+          "もう少しだから。\n",
         28 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Come on, let's go find Morizora and\n"\
-          "get you that wish.\n"\
+          "おいで、モリゾラに会って\n"\
+          "願いを叶えてもらいましょ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySad]\\fr\n"\
-          "Thank-you, Mom.\n"\
+          "ありがとう、お母さん。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyDepressed]\\fr\n"\
           "…\n",
         36 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
-          "Thank-you.\n",
+          "ありがとう。\n",
       },
     },
     8 => {
@@ -35563,94 +35603,97 @@ $events_lang = {
       0 => {
         27 =>
           #------------------------------------------
+          # TODO テキスト送り調整が必要
           "\\ignr\\nm[少年]\\face[BoyNeutral]\\fr\n"\
-          "Mom... \\w[50]\n",
+          "お母さん…。\\w[50]\n",
         42 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
-          "I can't believe we're actually here... \\w[90]\n"\
+          "ここまで来たんだね。\n"\
+          "信じられないよ…。\\w[90]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomClosed]\\fr\n"\
-          "It's been a very long journey... \\w[90]\n"\
+          "とっても長い旅だったわ…。\\w[90]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomClosed]\\fr\n"\
-          "You did great. \\w[50]\n",
+          "よくやったね。\\w[50]\n",
         49 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[Boy]\\fr\n"\
-          "... \\w[50]\n"\
+          "…\\w[50]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyNeutral]\\fr\n"\
-          "... \\w[50]\n"\
+          "…\\w[50]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySad]\\fr\n"\
-          "Oh Mom... \\w[50]\n",
+          "お母さん…。\\w[50]\n",
         61 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomTears1]\\fr\n"\
-          "You're my brave little warrior. \\w[60]\n"\
+          "あなたは勇敢な戦士よ。\\w[60]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomTears2]\\fr\n"\
-          "The reason I go on. \\w[60]\n"\
+          "ここまで来られたのはあなたのおかげ。\\w[60]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomTears2]\\fr\n"\
-          "No matter what, I will never ever\n"\
-          "stop loving you. \\w[80]\n",
+          "なにがあっても、あなたのことを\n"\
+          "想い続ける。\\w[80]\n",
         82 =>
           #------------------------------------------
           "\\ignr\\nm[お母さん]\\face[MomTears2]\\fr\n"\
-          "Never forget that, okay? \\w[80]\n"\
+          "そのことを忘れないで、ね。\\w[80]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomTears1]\\fr\n"\
-          "And promise me you'll keep being\n"\
-          "brave... Keep shining your light. \\w[80]\n"\
+          "あなたも勇敢でいるって約束して…。\n"\
+          "私の道を照らし続けて欲しいの。\\w[80]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyNeutral]\\fr\n"\
-          "Mom... \\w[50]\n"\
+          "お母さん…。\\w[50]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomTears2]\\fr\n"\
-          "I want you to know that your kind heart, \n"\
-          "and your gentle spirit...those are such\n"\
-          "special gifts. \\w[80]\n"\
+          "あなたのその優しい心は…\n"\
+          "とっても特別な才能なのよ。\n"\
+          "\\w[80]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyNeutral]\\fr\n"\
-          "Mom... \\w[50]\n"\
+          "お母さん…。\\w[50]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomTears1]\\fr\n"\
-          "I'm gonna miss you so much...\\w[80]\n"\
+          "寂しくなるわ…。\\w[80]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomTears2]\\fr\n"\
-          "I'm gonna miss you so very much,\n"\
-          "my baby. \\w[80]\n"\
+          "とっても寂しくなるわね。\n"\
+          "\\w[80]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyOpenMouth]\\fr\n"\
-          "Mom! \\w[50]\n"\
+          "お母さん！\\w[50]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomTears1]\\fr\n"\
-          "Yes dear? \\w[50]\n",
+          "なあに？\\w[50]\n",
         131 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyNoHair]\\fr\n"\
-          "You're my hero. \\w[80]\n"\
+          "お母さんは僕のヒーローだよ。\\w[80]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomTears2]\\fr\n"\
-          "... \\w[50]\n"\
+          "…\\w[50]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyNoHair]\\fr\n"\
-          "Promise me you'll be strong for me? \\w[60]\n"\
+          "僕のために強く生きるって\n"\
+          "約束してくれる？\\w[60]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomTears2]\\fr\n"\
-          "... \\w[50]\n"\
+          "…\\w[50]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomTears1]\\fr\n"\
-          "I promise. \\w[50]\n",
+          "えぇ、約束よ。\\w[50]\n",
         309 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyNoHair]\\fr\n"\
-          "I love you, Mom!... \\w[70]\n"\
+          "愛してるよ、お母さん！…\\w[70]\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomTears1]\\fr\n"\
-          "I love you! \\w[70]\n",
+          "愛してる！\\w[70]\n",
       },
     },
   },
@@ -35660,65 +35703,64 @@ $events_lang = {
         20 =>
           #------------------------------------------
           "\\ignr\\nm[モリゾラ]\\face[Morizora]\\fr\n"\
-          "So... You're the one who woke me.\n"\
+          "そうか…私を起こしたのはお前か。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyNeutral]\\fr\n"\
-          "Yes.\n",
+          "はい。\n",
         25 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyNeutral]\\fr\n"\
-          "I've heard the things that are too\n"\
-          "quiet for the ears.\n"\
+          "耳には届かないほど\n"\
+          "小さな声を聞きました。\n"\
           "------------------------------------------\n"\
-          "I listened to their fears, and I learned\n"\
-          "what they longed for. \n",
+          "みんなの恐れに耳を傾け、\n"\
+          "みんなの憧れを知りました。\n",
         31 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyThinking]\\fr\n"\
-          "I learned their hopes and their dreams...\n"\
+          "みんなの希望と夢を知って…\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyNeutral]\\fr\n"\
-          "And I wanted those things for them.\n"\
+          "みんなのためにそれを望みました。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoySad]\\fr\n"\
-          "I really really wanted those \n"\
-          "things for them.\n",
+          "本当に…本当に叶えてあげたいと\n"\
+          "思いました。\n",
         39 =>
           #------------------------------------------
           "\\ignr\\nm[モリゾラ]\\face[Morizora]\\fr\n"\
-          "Then you have completed the \n"\
-          "challenges of the Forest, and I\n"\
-          "will grant you one wish.\n"\
+          "お前は森の試練を乗り越えた。\n"\
+          "お前の願いを一つ叶えよう。\n"\
           "------------------------------------------\n"\
-          "So tell me, young one... what is\n"\
-          "it that you wish for?\n",
+          "若き者よ…\n"\
+          "お前は何を願う？\n",
         46 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyNeutral]\\fr\n"\
-          "My wish...\n",
+          "願い…。\n",
         49 =>
           #------------------------------------------
           "\\ignr\\nm[モリゾラ]\\face[Morizora]\\fr\n"\
-          "Yes... what is your wish, my child?\n",
+          "そうだ…お前の願いは何だ？\n",
         52 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyNeutral]\\fr\n"\
-          "I wish...\n",
+          "僕は…。\n",
         55 =>
           #------------------------------------------
           "\\ignr\\nm[少年]\\face[BoyNeutral]\\fr\n"\
-          "I wish for a ride on your \n"\
-          "magical boat... \n"\
+          "僕はモリゾラの\n"\
+          "魔法の舟に乗りたい。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyNeutral]\\fr\n"\
-          "I want to sail to Rakuen.\n",
+          "楽園に行きたいんだ。\n",
         61 =>
           #------------------------------------------
           "\\ignr\\nm[モリゾラ]\\face[Morizora]\\fr\n"\
-          "Very well then.\n"\
+          "いいだろう。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[モリゾラ]\\face[Morizora]\\fr\n"\
-          "Your wish is granted.\n",
+          "お前の願いは叶えられた。\n",
       },
     },
   },
@@ -36816,7 +36858,7 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "It smells like another dog.\n",
+          "他の犬の匂いがする。\n",
       },
     },
     21 => {
@@ -36824,7 +36866,7 @@ $events_lang = {
         1 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "It smells like another dog.\n",
+          "他の犬の匂いがする。\n",
       },
     },
     23 => {
@@ -38284,15 +38326,15 @@ $events_lang = {
         40 =>
           #------------------------------------------
           "\\ignr\\nm[ウーマ]\\face[UmaSad2]\\fr\n"\
-          "儂には家族がいた。\n"\
+          "家庭を持っていた。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウーマ]\\face[UmaSad2]\\fr\n"\
-          "それを見捨てた。\n"\
+          "悪い習慣も持っていた。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウーマ]\\face[UmaSad2]\\fr\n"\
           "恐らく儂は、自分が持つものから\n"\
-          "目を背け、人として最も臆病な方法で\n"\
-          "自分の問題から逃れたんだ。\n",
+          "目を背け、人として最も卑怯な方法で\n"\
+          "逃げ出したんだ。\n",
         49 =>
           #------------------------------------------
           "\\ignr\\nm[ウーマ]\\face[UmaSad2]\\fr\n"\
@@ -38356,7 +38398,7 @@ $events_lang = {
           "------------------------------------------\n"\
           "\\ignr\\nm[ウーマ]\\face[UmaSad2]\\fr\n"\
           "さて…儂もこの世界を\n"\
-          "立ち去るときが来たようだな。\n"\
+          "去るときが来たようだな。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウーマ]\\face[UmaSmileSad]\\fr\n"\
           "嬉しいことだ。\n"\
@@ -39120,7 +39162,7 @@ $events_lang = {
         111 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "\\oi[117]を受け取った！\n"\
+          "\\oi[117]を手に入れた！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ストーミー]\\face[]\n"\
           "気をつけるのだぞ…その石は\n"\
@@ -39563,7 +39605,7 @@ $events_lang = {
         16 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "\\oi[164]を受け取った。\n",
+          "\\oi[164]を手に入れた。\n",
         21 =>
           #------------------------------------------
           "\\ignr\\nm[職人リーブル]\\face[Leeble]\\fr\n"\
@@ -39581,7 +39623,7 @@ $events_lang = {
         42 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "\\oi[165]を受け取った。\n",
+          "\\oi[165]を手に入れた。\n",
         48 =>
           #------------------------------------------
           "\\ignr\\nm[職人リーブル]\\face[Leeble]\\fr\n"\
@@ -40181,7 +40223,7 @@ $events_lang = {
         25 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "\\oi[172]を受け取った。\n"\
+          "\\oi[172]を手に入れた。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[クレッグ]\\face[]\n"\
           "In the end, \\ieveryone\\i gives me \n"\
@@ -40936,7 +40978,7 @@ $items_lang = {
   143 => ["森の心 パート1", "\"光\""],
   144 => ["森の心 パート2", "\"かわいい娘\""],
   145 => ["Mori no Kokoro Part 3", "\"Yours\""],
-  146 => ["Mori no Kokoro Part 4", "\"Lonely Tree\""],
+  146 => ["森の心 パート4", "\"ひとりの木\""],
   147 => ["Mori no Kokoro Part 5", "\"Walking Through the Night\""],
   148 => ["\"森の心\"", "モリゾラに披露して楽園に至る船に乗り込む。"],
   149 => ["", ""],
