@@ -6531,7 +6531,7 @@ $events_lang = {
       1 => {
         1 =>
           #------------------------------------------
-          # TODO
+          # TODO 未確認 トニーの病室のトイレの鍵取得後か？
           "\\ignr\\nm[ナース]\\face[]\n"\
           "Wait, YOU fixed the toilet?\n"\
           "------------------------------------------\n"\
@@ -7809,7 +7809,7 @@ $events_lang = {
       0 => {
         0 =>
           #------------------------------------------
-          # TODO
+          # TODO 未確認
           "\\ignr\\nm[]\\face[]\n"\
           "Office supplies.\n",
         3 =>
@@ -7945,8 +7945,7 @@ $events_lang = {
           "5Gを見つけた。\n",
         55 =>
           #------------------------------------------
-          # TODO
-          "The folder is empty.\n",
+          "フォルダーは空っぽだ。\n",
       },
     },
     11 => {
@@ -10007,7 +10006,6 @@ $events_lang = {
       6 => {
         0 =>
           #------------------------------------------
-          # TODO
           "\\ignr\\nm[]\\face[]\n"\
           "ボートに乗ってトニーの島に渡る？\n",
         2 => [["はい", "いいえ"], 2],
@@ -10122,7 +10120,7 @@ $events_lang = {
       1 => {
         2 =>
           #------------------------------------------
-          # TODO
+          # TODO 未確認 星夜祭直前？
           "\\ignr\\nm[ウィンストン]\\face[Winston2]\\fr\n"\
           "I'm terribly sorry, but it's probably best\n"\
           "not to go in there right now...\n"\
@@ -11219,7 +11217,7 @@ $events_lang = {
       0 => {
         0 =>
           #------------------------------------------
-          # TODO
+          # TODO 未確認
           "\\ignr\\nm[Leeble Architect]\\face[]\n"\
           "Sorry, but we're still repairing the damage\n"\
           "the storm did to this bridge. Come back \n"\
@@ -11473,7 +11471,7 @@ $events_lang = {
       1 => {
         0 =>
           #------------------------------------------
-          # TODO
+          # TODO 未確認
           "\\ignr\\nm[お母さん]\\face[MomSurprised]\\fr\n"\
           "Hm, maybe we should go visit Jacky and\n"\
           "finish that stuff up before returning to the\n"\
@@ -12077,7 +12075,7 @@ $events_lang = {
       0 => {
         0 =>
           #------------------------------------------
-          # TODO
+          # TODO 未確認
           "\\ignr\\nm[鍛冶屋のジャッキー]\\face[Blacksmith]\\fr\n"\
           "I thought that storm would never end!\n"\
           "------------------------------------------\n"\
@@ -13943,7 +13941,7 @@ $events_lang = {
       2 => {
         0 =>
           #------------------------------------------
-          # TODO
+          # TODO 未確認 単独行動時？
           "\\ignr\\nm[お母さん]\\face[MomSurprised]\\fr\n"\
           "Hm... this one's locked, too...\n",
       },
@@ -14991,56 +14989,55 @@ $events_lang = {
       0 => {
         0 =>
           #------------------------------------------
-          "\\ignr\\nm[キザなタマネギ]]\\face[]\n"\
-          "何の用だい？\n",
+          "\\ignr\\nm[エラそうなタマネギ]]\\face[]\n"\
+          "あ？なんだよ。\n",
       },
       1 => {
         1 =>
           #------------------------------------------
-          # TODO
-          "\\ignr\\nm[キザなタマネギ]]\\face[]\n"\
-          "何の用だい？\n"\
+          "\\ignr\\nm[エラそうなタマネギ]]\\face[]\n"\
+          "あ？なんだよ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "Hmm... Actually I'm kind of in the mood for a \n"\
-          "good sandwich. With bacon and avocado.\n"\
+          "そうねぇ…今パンが食べたい気分だわ。\n"\
+          "ベーコンとアボカドを挟んだのがね。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[MomTalking]\\fr\n"\
-          "You think you can make that for me?\n"\
+          "あなたが作ってくれない？\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Incredulous Onion]\\face[]\n"\
-          "A sandwich? A SANDWICH?? I'll\n"\
-          "give you a sandwich!!\n"\
+          "\\ignr\\nm[キレそうなタマネギ]\\face[]\n"\
+          "パン？パンだと？？\n"\
+          "そんなに喰らってみたいかよ！！\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Angry Onion]\\face[]\n"\
-          "A KNUCKLE SANDWICH!\n"\
+          "\\ignr\\nm[キレたタマネギ]\\face[]\n"\
+          "顔面パンチをよォ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "\\iHeh heh... Good thing I didn't ask for\n"\
-          "onion on it.\n"\
+          "\\iふふ…タマネギ入りって言ったら\n"\
+          "もっと怒ってたわね。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyHappy2]\\fr\n"\
-          "\\iMom!!\n",
+          "\\iお母さん！！\n",
         22 =>
           #------------------------------------------
-          "\\ignr\\nm[Still Cooling Off Onion]\\face[]\n"\
-          "Oh so it's YOU again!\n"\
+          "\\ignr\\nm[まだキレてるタマネギ]\\face[]\n"\
+          "あン！？またお前かよ！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-          "I've never seen such lovely green stalks\n"\
-          "before! Do you work out?\n"\
+          "まぁ、あなたの茎って青々として\n"\
+          "素敵ね！やっぱり鍛えてるの？\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[Slightly Flattered Onion]\\face[]\n"\
-          "My stalks? Oh... well... uh... yeah, \n"\
-          "actually. I do.\n"\
+          "\\ignr\\nm[ちょっとデレたタマネギ]\\face[]\n"\
+          "茎？あっ…えっと…そ、そうだ。\n"\
+          "実は鍛えてるんだよ。\n"\
           "------------------------------------------\n"\
-          "\\ignr\\nm[幸福なタマネギ]\\face[]\n"\
-          "Thanks for noticing.\n",
+          "\\ignr\\nm[デレたタマネギ]\\face[]\n"\
+          "あんた、見る目あるな。\n",
         35 =>
           #------------------------------------------
-          "\\ignr\\nm[幸福なタマネギ]\\face[]\n"\
-          "Today is nice. It's a real nice day \n"\
-          "today. So bright and sunny.\n",
+          "\\ignr\\nm[デレたタマネギ]\\face[]\n"\
+          "いい天気だな。そう思わないか？\n"\
+          "気分も明るく晴れやかだよ。\n",
       },
     },
     10 => {
@@ -16095,7 +16092,7 @@ $events_lang = {
       0 => {
         0 =>
           #------------------------------------------
-          # TODO
+          # TODO 単独行動時？
           "\\ignr\\nm[お母さん]\\face[MomSurprised]\\fr\n"\
           "Hm... this one's locked, too...\n",
       },
@@ -16190,7 +16187,7 @@ $events_lang = {
       0 => {
         1 =>
           #------------------------------------------
-          # TODO
+          # TODO 未確認
           "\\ignr\\nm[豚]\\face[]\n"\
           "NO OUTSIDE!!!\n",
       },
@@ -19773,7 +19770,7 @@ $events_lang = {
       0 => {
         18 =>
           #------------------------------------------
-          # TODO
+          # TODO 未確認？モリゾラの洞窟の見落とし？
           "\\ignr\\nm[]\\face[]\n"\
           "The lake has been drained.\n"\
           "------------------------------------------\n"\
@@ -22392,7 +22389,7 @@ $events_lang = {
       0 => {
         0 =>
           #------------------------------------------
-          # TODO
+          # TODO 未確認
           "\\ignr\\nm[]\\face[]\n"\
           "An old book with a silver clasp.\n"\
           "------------------------------------------\n"\
@@ -25136,7 +25133,7 @@ $events_lang = {
       0 => {
         0 =>
           #------------------------------------------
-          # TODO
+          # TODO 未確認 未使用データ？
           "\\ignr\\nm[]\\face[]\n"\
           "\\iOur dear Benny.\n"\
           "Held for a moment,\n"\
@@ -25147,7 +25144,7 @@ $events_lang = {
       0 => {
         0 =>
           #------------------------------------------
-          # TODO
+          # TODO 未確認 未使用データ？
           "\\ignr\\nm[]\\face[]\n"\
           "\\iOur dear Benny.\n"\
           "Held for a moment,\n"\
@@ -26864,7 +26861,7 @@ $events_lang = {
       0 => {
         16 =>
           #------------------------------------------
-          # TODO
+          # TODO 未確認
           "\\ignr\\nm[キサブロウ]\\face[Kisaburo]\\fr\n"\
           "So if there's one thing I must do \n"\
           "before I leave this world...\n"\
@@ -27925,13 +27922,12 @@ $events_lang = {
       1 => {
         2 =>
           #------------------------------------------
-          # TODO
           "\\ignr\\nm[ウィンストン]\\face[WinstonWorried]\\fr\n"\
           "\\iこんなことをする人がいるなんて信じられ\n"\
           "ない…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウィンストン]\\face[Winston]\\fr\n"\
-          "Oh hello... it's nice to see you again.\n",
+          "おっと、やぁ…また会えたね。\n",
         7 => [["なにかあった？", "どろぼうの話って聞いた？", "病院にいる人の話を教えて", "またね"], 4],
         10 =>
           #------------------------------------------
@@ -27941,11 +27937,11 @@ $events_lang = {
           "続けてくれて本当に感謝してる。\n"\
           "------------------------------------------\n"\
           "物資の追加をお願いするのは\n"\
-          "cold breeze coming in from the hole in the \n"\
-          "bathroom wall is getting worse...\n"\
+          "忍びないんだけど、トイレから入る\n"\
+          "風がどんどん冷たくなってきてね…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウィンストン]\\face[WinstonWorried]\\fr\n"\
-          "I wish there was more I could do to help.\n",
+          "僕がもっと手伝えればいいんだけど。\n",
         22 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[Winston]\\fr\n"\
@@ -27956,19 +27952,18 @@ $events_lang = {
         32 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[WinstonWorried]\\fr\n"\
-          "Yes, and it appears that he or she\n"\
-          "has struck again. \n"\
+          "あぁ、また泥棒の被害があったんだ。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[少年]\\face[BoyNeutral]\\fr\n"\
-          "What did they take this time?\n"\
+          "今度は何が盗まれたの？\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウィンストン]\\face[WinstonWorried]\\fr\n"\
-          "Sadly, my wife's wedding band was\n"\
-          "stolen...\n"\
+          "悲しいことに、僕の奥さんの\n"\
+          "結婚指輪なんだ…。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ウィンストン]\\face[WinstonWorriedClosed]\\fr\n"\
-          "I just can't believe they would take \n"\
-          "something like that.\n",
+          "そんなものを盗むなんて、\n"\
+          "ただただ信じられないよ。\n",
         45 =>
           #------------------------------------------
           "\\ignr\\nm[ウィンストン]\\face[Winston]\\fr\n"\
@@ -28554,7 +28549,7 @@ $events_lang = {
           "\"パンキーのシラベリードーナツ\"\n",
         6 =>
           #------------------------------------------
-          # TODO
+          # TODO 未確認 宿屋の見落とし？
           "\\ignr\\nm[]\\face[]\n"\
           "\\e[2]Chef Panky baked those. His\n"\
           "donuts are the BEST.\n",
@@ -31052,7 +31047,7 @@ $events_lang = {
         3 => [["はい", "いいえ"], 2],
         5 =>
           #------------------------------------------
-          # TODO
+          # TODO 未確認
           "The water appears to be cut off.\n",
       },
     },
@@ -31666,7 +31661,7 @@ $events_lang = {
       0 => {
         0 =>
           #------------------------------------------
-          # TODO
+          # TODO 未確認
           "\\ignr\\nm[アルフレッド]\\face[]\n"\
           "Hello there. \n",
       },
@@ -31803,7 +31798,7 @@ $events_lang = {
       0 => {
         0 =>
           #------------------------------------------
-          # TODO
+          # TODO 未確認
           "\\ignr\\nm[シュガーベビー]\\face[Cave Bud]\\fr\n"\
           "Hey.\n",
       },
@@ -32435,7 +32430,7 @@ $events_lang = {
       0 => {
         0 =>
           #------------------------------------------
-          # TODO
+          # TODO 未確認
           "\\ignr\\nm[シュガーベビー]\\face[Cave Bud]\\fr\n"\
           "Hey.\n",
       },
@@ -32727,7 +32722,7 @@ $events_lang = {
       0 => {
         3 =>
           #------------------------------------------
-          # TODO
+          # TODO 未確認
           "\\ignr\\nm[空つぼみ]\\face[Cave Bud]\\fr\n"\
           "Who doesn't like a little dirt in their\n"\
           "tea every now and then?\n",
@@ -33013,7 +33008,7 @@ $events_lang = {
       3 => {
         3 =>
           #------------------------------------------
-          # TODO
+          # TODO 未確認
           "\\ignr\\nm[ネッティー]\\face[]\n"\
           "\\e[14]So it was the Monsieur all along\n"\
           "who was stealing his own food...\n"\
@@ -35257,8 +35252,8 @@ $events_lang = {
       0 => {
         0 =>
           #------------------------------------------
-          "\\ignr\\nm[キザなタマネギ]]\\face[]\n"\
-          "何の用だい？\n",
+          "\\ignr\\nm[エラそうなタマネギ]]\\face[]\n"\
+          "あ？なんだよ。\n",
       },
     },
     56 => {
@@ -38486,7 +38481,7 @@ $events_lang = {
       1 => {
         0 =>
           #------------------------------------------
-          # TODO
+          # TODO 未確認
           "\\ignr\\nm[キサブロウ]\\face[KisaburoAngry]\\fr\n"\
           "Did the boss tell you it was okay to\n"\
           "take a break? Our shift isn't over yet...\n"\
@@ -38898,7 +38893,7 @@ $events_lang = {
       2 => {
         0 =>
           #------------------------------------------
-          # TODO
+          # TODO 未確認 単独行動時？
           "\\ignr\\nm[お母さん]\\face[MomSurprised]\\fr\n"\
           "Hm... this one's locked, too...\n",
       },
@@ -40551,7 +40546,7 @@ $events_lang = {
       0 => {
         0 =>
           #------------------------------------------
-          # TODO
+          # TODO 未確認
           "\\ignr\\nm[]\\face[]\n"\
           "The door is gone.\n",
       },
