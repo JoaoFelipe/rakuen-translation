@@ -131,19 +131,17 @@ $MOM = {
     "今は話せる相手がいない。\n",
   1 =>
     "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-    "Did you notice the envelope on the floor \n"\
-    "in your room? Maybe someone left \n"\
-    "you a letter...\n",
+    "あなたの病室に何か落ちてなかった？\n"\
+    "多分誰かからの手紙じゃないかな…。\n",
   2 =>
     "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-    "Hmm... that's an interesting riddle. \n"\
-    "What smiles back at you, when you \n"\
-    "smile at it? I wonder...\n",
+    "うーん…面白いなぞなぞね。笑いかけると\n"\
+    "笑い返してくれる？もしかして…。\n",
   3 =>
     "\\ignr\\nm[お母さん]\\face[Mom]\\fr\n"\
-    "I wonder if there are any secret doors \n"\
-    "in this hospital that lead to Morizora's \n"\
-    "world! Wouldn't that be something!\n",
+    "もしかしてこの病院には、モリゾラの森へ\n"\
+    "通じる秘密の扉があるのかな！もし本当なら\n"\
+    "すてきね！\n",
 }
 $MOMHINT = {
   1 =>
