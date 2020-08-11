@@ -21941,27 +21941,27 @@ $events_lang = {
           #------------------------------------------
           # TODO 未確認 記述場所的にウーマの部屋だが未使用では？
           "\\ignr\\nm[]\\face[]\n"\
-          "An old book with a silver clasp.\n"\
+          "銀の留め具がついた古い本だ。\n"\
           "------------------------------------------\n"\
-          "Open it?\n",
+          "開いてみる？\n",
         3 => [["はい", "いいえ"], 2],
         10 =>
           #------------------------------------------
           "\\ignr\\nm[]\\face[]\n"\
-          "\\i...But first, the boy would have to gain access\n"\
-          "to a ferry that would take him to Rakuen.\n"\
+          "\\i…しかし、楽園に行く舟に乗り込む資格を\n"\
+          "得なければなりませんでした。\n"\
           "------------------------------------------\n"\
-          "\\iAnd to gain access, he would have to \n"\
-          "perform a special song for Morizora, the \n"\
-          "Guardian of the Forest.\n"\
+          "\\i森の偉大なる守護者、モリゾラに特別な\n"\
+          "歌を聴かせることで、その資格を得ることが\n"\
+          "できるのです。\n"\
           "------------------------------------------\n"\
-          "\\iHow would he learn this song? \n",
+          "\\i少年はその歌をどのようにして学んだので\n"\
+          "しょうか？\n",
         19 =>
           #------------------------------------------
-          "The book is locked. \n"\
+          "本には鍵がかかっている。\n"\
           "------------------------------------------\n"\
-          "There appears to be a small keyhole \n"\
-          "on the side.\n",
+          "横に、小さな鍵穴がついているようだ。\n",
       },
     },
     6 => {
@@ -24627,9 +24627,9 @@ $events_lang = {
           #------------------------------------------
           # TODO 未確認 未使用データ？
           "\\ignr\\nm[]\\face[]\n"\
-          "\\iOur dear Benny.\n"\
-          "Held for a moment,\n"\
-          "Loved for a lifetime.\n",
+          "\\i愛しいベニー。\n"\
+          "腕に抱かれたのは一瞬でも\n"\
+          "生涯を通して愛された。\n",
       },
     },
     8 => {
@@ -24638,9 +24638,9 @@ $events_lang = {
           #------------------------------------------
           # TODO 未確認 未使用データ？
           "\\ignr\\nm[]\\face[]\n"\
-          "\\iOur dear Benny.\n"\
-          "Held for a moment,\n"\
-          "Loved for a lifetime.\n",
+          "\\i愛しいベニー。\n"\
+          "腕に抱かれたのは一瞬でも\n"\
+          "生涯を通して愛された。\n",
       },
     },
   },
@@ -32063,8 +32063,8 @@ $events_lang = {
           #------------------------------------------
           # TODO 未確認
           "\\ignr\\nm[空つぼみ]\\face[Cave Bud]\\fr\n"\
-          "Who doesn't like a little dirt in their\n"\
-          "tea every now and then?\n",
+          "土を入れたお茶が嫌いな人なんているの\n"\
+          "かしら？\n",
       },
     },
     12 => {
@@ -32346,24 +32346,27 @@ $events_lang = {
           #------------------------------------------
           # TODO 未確認
           "\\ignr\\nm[ネッティー]\\face[]\n"\
-          "\\e[14]So it was the Monsieur all along\n"\
-          "who was stealing his own food...\n"\
+          "\\e[14]ムッシューははじめから\n"\
+          "自分の食べ物を盗み食い\n"\
+          "していたなんてね…。\n"\
           "------------------------------------------\n"\
-          "\\e[14]Ahahaha... How \\iamusing.\n"\
+          "\\e[14]うふふ…面白い話だったわ。\n"\
           "------------------------------------------\n"\
-          "\\e[14]Well now that THAT drama is\n"\
-          "finished, I hear we're getting some\n"\
-          "new tea.\n"\
+          "\\e[14]そんなドラマはともかく、\n"\
+          "新しいお茶が飲めるように\n"\
+          "なったんですって。\n"\
           "------------------------------------------\n"\
-          "\\e[14]From that cute little Midnight\n"\
-          "Tea Shop! How wonderful!\n"\
+          "\\e[14]あの可愛らしい真夜中茶屋の\n"\
+          "お茶なんでしょ！ とっても\n"\
+          "素敵じゃない！\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ミネルヴァ]\\face[]\n"\
-          "\\e[15]How \\iquaint.\n"\
+          "\\e[15]それはよかったわね。\n"\
           "------------------------------------------\n"\
           "\\ignr\\nm[ネッティー]\\face[]\n"\
-          "\\e[14]Oh Minnie, stop poo-pooing \n"\
-          "everything... even \\iRupert\\i liked it!\n",
+          "\\e[14]もう、ミニーったら機嫌を\n"\
+          "直しなさいよね…\\iルパート\\i\n"\
+          "みたいな顔になっちゃうわよ！\n",
         24 =>
           #------------------------------------------
           "\\ignr\\nm[ネッティー]\\face[]\n"\
