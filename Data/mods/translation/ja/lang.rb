@@ -9869,7 +9869,7 @@ $events_lang = {
           #------------------------------------------
           # TODO 未確認
           "\\ignr\\nm[トニー]\\face[Tony2]\n"\
-          "What do you want!?\n",
+          "なんの用だ！？\n",
       },
     },
     7 => {
@@ -11282,11 +11282,9 @@ $events_lang = {
       1 => {
         0 =>
           #------------------------------------------
-          # TODO 未確認
           "\\ignr\\nm[お母さん]\\face[MomSurprised]\\fr\n"\
-          "Hm, maybe we should go visit Jacky and\n"\
-          "finish that stuff up before returning to the\n"\
-          "hospital.\n",
+          "病院に戻る前に、ジャッキーのところで\n"\
+          "用事を済ませたほうがいいんじゃないかな。\n",
       },
       3 => {
         1 =>
@@ -31035,7 +31033,7 @@ $events_lang = {
           #------------------------------------------
           # TODO 未確認
           "\\ignr\\nm[アルフレッド]\\face[]\n"\
-          "Hello there. \n",
+          "これはこれは、こんにちは。 \n",
       },
       2 => {
         0 =>
@@ -31167,7 +31165,7 @@ $events_lang = {
           #------------------------------------------
           # TODO 未確認
           "\\ignr\\nm[シュガーベビー]\\face[Cave Bud]\\fr\n"\
-          "Hey.\n",
+          "ヤッホー。\n",
       },
     },
     9 => {
@@ -31777,7 +31775,7 @@ $events_lang = {
           #------------------------------------------
           # TODO 未確認
           "\\ignr\\nm[シュガーベビー]\\face[Cave Bud]\\fr\n"\
-          "Hey.\n",
+          "ヤッホー。\n",
       },
     },
   },
