@@ -1402,14 +1402,13 @@ $events_lang = {
           #------------------------------------------
           # TODO 不明
           "\\ignr\\nm[先生]\\face[]\n"\
-          "Well hello there, it looks like you've \n"\
-          "gotten some of your energy back!\n",
+          "あら、こんにちは。いくらか元気になった\n"\
+          "みたいだね！\n",
         7 =>
           #------------------------------------------
           "\\ignr\\nm[先生]\\face[]\n"\
-          "Even though you feel better, make sure\n"\
-          "not to tire yourself out by running around\n"\
-          "too much.\n",
+          "具合が良いと思っても、あんまり走り回って\n"\
+          "疲れないようにしてね。\n",
       },
       1 => {
         0 =>
@@ -26468,13 +26467,11 @@ $events_lang = {
         0 =>
           #------------------------------------------
           # TODO 未確認
-          "\\ignr\\nm[Surly Leeble]\\face[Leeble]\\fr\n"\
-          "Hey, who said you could just barge\n"\
-          "into this part of the woods? \n"\
+          "\\ignr\\nm[アヤしいリーブル]\\face[Leeble]\\fr\n"\
+          "おい、誰の許しをもらってここまで入ってき\n"\
+          "たんだ？\n"\
           "------------------------------------------\n"\
-          "I suggest you turn right back around and\n"\
-          "go back to wherever it is you came \n"\
-          "from, ya here?\n",
+          "ほら、さっさと元来た場所に帰りなよ。\n",
       },
     },
     8 => {
