@@ -26324,11 +26324,10 @@ $events_lang = {
           #------------------------------------------
           # TODO 未確認
           "\\ignr\\nm[キサブロウ]\\face[Kisaburo]\\fr\n"\
-          "So if there's one thing I must do \n"\
-          "before I leave this world...\n"\
+          "俺にやり残した仕事があるとすれば…\n"\
           "------------------------------------------\n"\
-          "It's to make sure she's taken\n"\
-          "care of.\n",
+          "あいつの面倒を見てくれるやつを見つけて\n"\
+          "やることだ。\n",
       },
     },
     14 => {
