@@ -41,7 +41,6 @@ $events_lang.each{|k1, v1|
         v2.each{|k3, v3|
             eventKey = "#{k1}:#{k2}:#{k3}"
             if !mapEvents.key?(eventKey)
-                p "Pass: #{eventKey}"
                 next
             end
             v3.each{|k4, v4|
