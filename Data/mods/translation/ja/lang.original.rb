@@ -4,7 +4,35 @@
 
 # Override Images. Note that the path here is relative to the language folder
 $override_images_lang = {
-#  "Graphics/Titles/Rakuen1" => "../Ending Credits 8.png"
+    "Graphics/Characters/Wall writing" => "Graphics/Characters/Wall writing.png",
+    "Graphics/Characters/Wall writing 2" => "Graphics/Characters/Wall writing 2.png",
+    "Graphics/Characters/Wall writing 2b" => "Graphics/Characters/Wall writing 2b.png",
+    "Graphics/Characters/Wall writing 3" => "Graphics/Characters/Wall writing 3.png",
+    "Graphics/Gameovers/game over" => "Graphics/Gameovers/game over.png",
+    "Graphics/Pictures/Controls" => "Graphics/Pictures/Controls.png",
+    "Graphics/Pictures/Ending Credits 1" => "Graphics/Pictures/Ending Credits 1.png",
+    "Graphics/Pictures/Ending Credits 2" => "Graphics/Pictures/Ending Credits 2.png",
+    "Graphics/Pictures/Ending Credits 3" => "Graphics/Pictures/Ending Credits 3.png",
+    "Graphics/Pictures/Ending Credits 4" => "Graphics/Pictures/Ending Credits 4.png",
+    "Graphics/Pictures/Ending Credits 5" => "Graphics/Pictures/Ending Credits 5.png",
+    "Graphics/Pictures/Ending Credits 6" => "Graphics/Pictures/Ending Credits 6.png",
+    "Graphics/Pictures/Ending Credits 7" => "Graphics/Pictures/Ending Credits 7.png",
+    "Graphics/Pictures/Ending Credits 8" => "Graphics/Pictures/Ending Credits 8.png",
+    "Graphics/Pictures/Ending Credits 9" => "Graphics/Pictures/Ending Credits 9.png",
+    "Graphics/Pictures/Ending Credits 10" => "Graphics/Pictures/Ending Credits 10.png",
+    "Graphics/Pictures/Ending Credits 11" => "Graphics/Pictures/Ending Credits 11.png",
+    "Graphics/Pictures/Ending Credits 12" => "Graphics/Pictures/Ending Credits 12.png",
+    "Graphics/Pictures/Ending Credits 13" => "Graphics/Pictures/Ending Credits 13.png",
+    "Graphics/Pictures/Ending Credits 14" => "Graphics/Pictures/Ending Credits 14.png",
+    "Graphics/Pictures/Ending Credits 15" => "Graphics/Pictures/Ending Credits 15.png",
+    "Graphics/Pictures/Ending Credits 16" => "Graphics/Pictures/Ending Credits 16.png",
+    "Graphics/Pictures/How to build wings" => "Graphics/Pictures/How to build wings.png",
+    "Graphics/Pictures/Morizora Cave Map 00 - Backing" => "Graphics/Pictures/Morizora Cave Map 00 - Backing.png",
+    "Graphics/Pictures/Morizora Cave Map 00 - Central" => "Graphics/Pictures/Morizora Cave Map 00 - Central.png",
+    "Graphics/Pictures/Morizora Cave Map 00 - Icon" => "Graphics/Pictures/Morizora Cave Map 00 - Icon.png",
+    "Graphics/Pictures/Morizora Cave Map 00 - Lower" => "Graphics/Pictures/Morizora Cave Map 00 - Lower.png",
+    "Graphics/Titles/Rakuen1" => "Graphics/Titles/Rakuen1.png",
+    "Graphics/Titles/Rakuen2" => "Graphics/Titles/Rakuen2.png",
 }
 
 $lyrics_config = {
