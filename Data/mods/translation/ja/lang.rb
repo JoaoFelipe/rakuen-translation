@@ -1,9 +1,9 @@
-load __dir__ + "/lang.original.rb"
+load __FILE__ + "/../lang.original.rb"
 
 mapEvents = {}
 items = {}
 
-File.open(__dir__ + "/dialogues.txt", "r") do |f|
+File.open(__FILE__ + "/../dialogues.txt", "r") do |f|
     f.each_line(){|line|
         eventKey = nil
         if event = line.match(/(\-|\+)\[Map:(\d+:\d+:\d+):\d+\]$/)
@@ -16,9 +16,10 @@ File.open(__dir__ + "/dialogues.txt", "r") do |f|
             isChoice = event[1] == "+"
             eventRows = []
             loop do
+                previousPosition = f.pos
                 f.readline
                 if $_.match(/^[\-\+\_]{5,}/)
-                    f.seek(-$_.bytesize, IO::SEEK_CUR)
+                    f.seek(previousPosition, IO::SEEK_SET)
                     break
                 end
                 eventRows.push(isChoice ? $_.strip : $_)
@@ -43,7 +44,8 @@ $events_lang.each{|k1, v1|
             if !mapEvents.key?(eventKey)
                 next
             end
-            v3.each{|k4, v4|
+            v3.keys.sort.each{|k4|
+                v4 = v3[k4]
                 if v4.instance_of?(Array)
                     choices = mapEvents[eventKey].shift
                     v3[k4] = [choices, v4[1]]
