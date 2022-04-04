@@ -1,9 +1,9 @@
-load __FILE__ + "/../lang.original.rb"
+load File.join(File.dirname(__FILE__), "lang.original.rb")
 
 mapEvents = {}
 items = {}
 
-File.open(__FILE__ + "/../dialogues.txt", "r") do |f|
+File.open(File.join(File.dirname(__FILE__), "dialogues.txt"), "r") do |f|
     f.each_line(){|line|
         eventKey = nil
         if event = line.match(/(\-|\+)\[Map:(\d+:\d+:\d+):\d+\]$/)
