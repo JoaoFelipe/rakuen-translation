@@ -1047,7 +1047,7 @@ def extract_text(language, original, show_code, dirname, base=".")
     require "zlib"
     unless original.nil?
       original_scripts = {}
-      File.open(File.join(original, "data", "Scripts.rxdata"), "r") do |f|
+      File.open(File.join(original, "Data", "Scripts.rxdata"), "r") do |f|
         oscripts = Marshal.load(f)
         oscripts.each_with_index do |script, index|
           original_scripts[index] = script
@@ -1056,7 +1056,7 @@ def extract_text(language, original, show_code, dirname, base=".")
     end
     scripts = []
 
-    File.open(File.join(base, "data", "Scripts.rxdata"), "r") do |f|
+    File.open(File.join(base, "Data", "Scripts.rxdata"), "r") do |f|
       scripts = Marshal.load(f)
       scripts.each do |script|
         if script[1] == "Window_Journal"
@@ -1083,7 +1083,7 @@ def extract_text(language, original, show_code, dirname, base=".")
       require 'differ'
       Differ.format = :color
       original_scripts = {}
-      File.open(File.join(original, "data", "Scripts.rxdata"), "r") do |f|
+      File.open(File.join(original, "Data", "Scripts.rxdata"), "r") do |f|
         oscripts = Marshal.load(f)
         scode = Set.new(scripts) {|x| x[2]}
         ocode = Set.new(oscripts) {|x| x[2]}
