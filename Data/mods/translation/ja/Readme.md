@@ -2,6 +2,12 @@
 
 これは[翻訳MOD](https://github.com/JoaoFelipe/rakuen-translation)を用いて[Rakuen](https://store.steampowered.com/app/559210/Rakuen/)を日本語化するMODです。
 
+## パッチノート
+
+### 2022/04/21:
+
+- キサブロウの病室の掲示板を調べるとエラーが発生する不具合を修正しました。
+
 ## 動作確認済み環境
 
 - Windows 10
