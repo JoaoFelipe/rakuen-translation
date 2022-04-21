@@ -15,13 +15,20 @@
 
 Macは環境が用意できず、動作確認ができていません。詳しくは `トラブルシューティング` の項を参照してください。
 
-## インストール方法
+## 初回インストール方法
 
 1. 次のURLからパッチをダウンロードする: https://github.com/izayoi256/rakuen-translation/archive/ja.zip
 2. パッチファイルを解凍して、`rakuen-translation-ja`の中身をRakuenのインストール先に上書きする (デフォルトは`C:\Program Files (x86)\Steam\steamapps\common\Rakuen` )
 3. `translation_patch.exe` を実行する
 
 これで完了です。ゲームを起動するとタイトル画面に言語メニューが追加されているので、日本語を選択してください。
+
+## アップデート方法
+
+MODを既にインストール済みで、不具合修正等を反映する場合はこちらの手順を行なってください。
+
+1. 次のURLからパッチをダウンロードする: https://github.com/izayoi256/rakuen-translation/archive/ja.zip
+2. パッチファイルを解凍して、`rakuen-translation-ja`の中身をRakuenのインストール先に上書きする (デフォルトは`C:\Program Files (x86)\Steam\steamapps\common\Rakuen` )
 
 ## 文字化け回避
 
