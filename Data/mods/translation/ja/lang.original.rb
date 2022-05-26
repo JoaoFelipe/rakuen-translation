@@ -29,6 +29,7 @@ $override_images_lang = {
     "Graphics/Pictures/Morizora Cave Map 00 - Central" => "Graphics/Pictures/Morizora Cave Map 00 - Central.png",
     "Graphics/Pictures/Morizora Cave Map 00 - Icon" => "Graphics/Pictures/Morizora Cave Map 00 - Icon.png",
     "Graphics/Pictures/Morizora Cave Map 00 - Lower" => "Graphics/Pictures/Morizora Cave Map 00 - Lower.png",
+    "Graphics/Tilesets/Modern house" => "Graphics/Tilesets/Modern house.png",
     "Graphics/Titles/Rakuen1" => "Graphics/Titles/Rakuen1.png",
     "Graphics/Titles/Rakuen2" => "Graphics/Titles/Rakuen2.png",
 }
