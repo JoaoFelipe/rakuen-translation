@@ -26,6 +26,7 @@
 
 $WD_PATH = Dir.getwd
 $EXE_PATH = "#{Dir.getwd}/Data"
+$WD_PATH = Dir.getwd
 
 class Mod_System
 

@@ -8,7 +8,7 @@ This patch adds a mod system to [Rakuen](https://store.steampowered.com/app/5592
 - Korean
 - Portuguese
 - Chinese
-
+- Japanese
 
 ## Default Installation
 
